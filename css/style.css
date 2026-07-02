@@ -1,0 +1,415 @@
+/* ===================================================
+   DESIGN TOKENS
+=================================================== */
+
+:root {
+  --color-background: #fafafa;
+  --color-card: #ffffff;
+
+  --color-text: #1b2430;
+  --color-muted: #6b7280;
+  --color-soft: #9ca3af;
+
+  --color-primary: #53657e;
+  --color-primary-dark: #44536a;
+  --color-border: #eef0f3;
+
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xl: 48px;
+  --space-xxl: 64px;
+
+  --radius-card: 30px;
+
+  --shadow-card: 0 22px 60px rgba(15, 23, 42, 0.08);
+  --shadow-card-hover: 0 30px 80px rgba(15, 23, 42, 0.13);
+}
+
+
+/* ===================================================
+   GLOBAL
+=================================================== */
+
+body {
+  margin: 0;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+.page {
+  min-height: 100vh;
+  padding: var(--space-xxl) 18px;
+}
+
+
+/* ===================================================
+   HOME HERO
+=================================================== */
+
+.hero {
+  margin-bottom: var(--space-xl);
+}
+
+.brand-logo {
+  width: 220px;
+  max-width: 55vw;
+  margin-bottom: var(--space-xs);
+}
+
+.site-title {
+  font-size: clamp(2.8rem, 8vw, 5rem);
+  font-weight: 760;
+  letter-spacing: -0.06em;
+  margin-bottom: var(--space-md);
+}
+
+.site-tagline,
+.site-author,
+.site-since {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--color-muted);
+  margin-bottom: var(--space-xs);
+}
+
+.site-author {
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--color-primary);
+}
+
+.site-since {
+  font-size: 0.9rem;
+  color: var(--color-soft);
+}
+
+
+/* ===================================================
+   HOME ROADBOOK CARD
+=================================================== */
+
+.roadbook-grid {
+  max-width: 540px;
+}
+
+.roadbook-card {
+  display: block;
+  overflow: hidden;
+  border-radius: var(--radius-card);
+  background: var(--color-card);
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-card);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.roadbook-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-card-hover);
+}
+
+.card-image {
+  height: 270px;
+  background:
+    linear-gradient(rgba(27, 36, 48, 0.08), rgba(27, 36, 48, 0.30)),
+    url("../images/roadbooks/balkan-2026/hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-content {
+  padding: 28px;
+}
+
+.card-label {
+  color: var(--color-primary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 1.75rem;
+  font-weight: 740;
+  letter-spacing: -0.03em;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  color: var(--color-muted);
+  margin-bottom: 0;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  background: var(--color-primary);
+  color: white;
+  font-weight: 650;
+  transition: background 0.2s ease;
+}
+
+.roadbook-card:hover .button {
+  background: var(--color-primary-dark);
+}
+
+
+/* ===================================================
+   ROADBOOK PAGE
+=================================================== */
+
+.roadbook-page {
+  min-height: 100vh;
+  background: var(--color-background);
+}
+
+
+/* ===================================================
+   ROADBOOK HERO
+=================================================== */
+
+.roadbook-hero {
+  position: relative;
+  min-height: 440px;
+  overflow: hidden;
+  color: white;
+  background:
+    linear-gradient(rgba(27, 36, 48, 0.18), rgba(27, 36, 48, 0.58)),
+    url("../images/roadbooks/balkan-2026/hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.roadbook-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(1.5px);
+  background: rgba(27, 36, 48, 0.10);
+  z-index: 1;
+}
+
+.roadbook-topbar,
+.roadbook-hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.roadbook-topbar {
+  display: flex;
+  justify-content: center;
+  padding: 24px 18px 0;
+}
+
+.brand-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 14px;
+  border-radius: 999px;
+  color: white;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(14px);
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+.brand-link:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.brand-mark {
+  width: 32px;
+  height: auto;
+  filter: brightness(0) invert(1);
+}
+
+.roadbook-hero-content {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 86px 20px 70px;
+}
+
+.roadbook-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+  opacity: 0.9;
+}
+
+.roadbook-hero h1 {
+  font-size: clamp(2.6rem, 8vw, 5.2rem);
+  font-weight: 780;
+  letter-spacing: -0.06em;
+  margin-bottom: 18px;
+}
+
+.roadbook-intro {
+  max-width: 620px;
+  margin: 0 auto 24px;
+  font-size: 1.08rem;
+  line-height: 1.7;
+  opacity: 0.92;
+}
+
+.roadbook-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.roadbook-stats span {
+  padding: 8px 13px;
+  border-radius: 999px;
+  font-size: 0.88rem;
+  background: rgba(255, 255, 255, 0.17);
+  backdrop-filter: blur(12px);
+}
+
+
+/* ===================================================
+   ROADBOOK MENU
+=================================================== */
+
+.roadbook-menu {
+  max-width: 720px;
+  padding-top: var(--space-xl);
+  padding-bottom: var(--space-xl);
+}
+
+.menu-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  padding: 22px 24px;
+  margin-bottom: 14px;
+  border-radius: 24px;
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  color: inherit;
+  text-decoration: none;
+  box-shadow: 0 14px 38px rgba(15, 23, 42, 0.05);
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 55px rgba(15, 23, 42, 0.09);
+}
+
+.menu-icon {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.menu-card h2 {
+  font-size: 1.25rem;
+  font-weight: 720;
+  letter-spacing: -0.03em;
+  margin-bottom: 4px;
+}
+
+.menu-card p {
+  color: var(--color-muted);
+  margin-bottom: 0;
+}
+
+.menu-arrow {
+  font-size: 1.6rem;
+  color: var(--color-primary);
+}
+
+
+/* ===================================================
+   FOOTER
+=================================================== */
+
+.site-footer {
+  text-align: center;
+  padding: 0 18px var(--space-xl);
+  color: var(--color-soft);
+  font-size: 0.9rem;
+}
+
+.site-footer p {
+  margin-bottom: 6px;
+}
+
+.site-footer a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: var(--color-primary-dark);
+}
+
+
+/* ===================================================
+   RESPONSIVE
+=================================================== */
+
+@media (max-width: 576px) {
+  .page {
+    padding: var(--space-xl) 14px;
+  }
+
+  .brand-logo {
+    width: 180px;
+    max-width: 60vw;
+  }
+
+  .roadbook-card {
+    border-radius: 24px;
+  }
+
+  .card-image {
+    height: 220px;
+  }
+
+  .card-content {
+    padding: 22px;
+  }
+
+  .card-title {
+    font-size: 1.45rem;
+  }
+
+  .roadbook-hero {
+    min-height: 400px;
+  }
+
+  .roadbook-hero-content {
+    padding: 72px 18px 56px;
+  }
+
+  .roadbook-intro {
+    font-size: 1rem;
+  }
+
+  .roadbook-menu {
+    padding-top: var(--space-lg);
+  }
+
+  .menu-card {
+    padding: 20px;
+    border-radius: 22px;
+  }
+}
