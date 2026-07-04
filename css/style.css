@@ -5,6 +5,8 @@
 :root {
   --color-background: #fafafa;
   --color-card: #ffffff;
+  --color-card-soft: #f7f9fb;
+  --color-chip: #f3f5f7;
 
   --color-text: #1b2430;
   --color-muted: #6b7280;
@@ -13,6 +15,8 @@
   --color-primary: #53657e;
   --color-primary-dark: #44536a;
   --color-border: #eef0f3;
+  --color-warning-bg: #fff8e7;
+  --color-warning-border: #f2c94c;
 
   --country-si: #5f8f6a;
   --country-hr: #4f7fa8;
@@ -26,8 +30,13 @@
   --space-xl: 48px;
   --space-xxl: 64px;
 
+  --radius-sm: 14px;
+  --radius-md: 22px;
+  --radius-lg: 26px;
   --radius-card: 30px;
+  --radius-pill: 999px;
 
+  --shadow-soft: 0 14px 38px rgba(15, 23, 42, 0.05);
   --shadow-card: 0 22px 60px rgba(15, 23, 42, 0.08);
   --shadow-card-hover: 0 30px 80px rgba(15, 23, 42, 0.13);
 }
@@ -48,8 +57,13 @@ a {
   color: inherit;
 }
 
-.page {
+.page,
+.roadbook-page {
   min-height: 100vh;
+  background: var(--color-background);
+}
+
+.page {
   padding: var(--space-xxl) 18px;
 }
 
@@ -157,30 +171,21 @@ a {
   display: inline-block;
   margin-top: 20px;
   padding: 12px 18px;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   background: var(--color-primary);
   color: white;
   font-weight: 650;
   transition: background 0.2s ease;
 }
 
-.roadbook-card:hover .button {
+.roadbook-card:hover .button,
+.button:hover {
   background: var(--color-primary-dark);
+  color: white;
 }
 
-
 /* ===================================================
-   ROADBOOK PAGE
-=================================================== */
-
-.roadbook-page {
-  min-height: 100vh;
-  background: var(--color-background);
-}
-
-
-/* ===================================================
-   ROADBOOK HERO
+   HERO / SUBPAGE HERO
 =================================================== */
 
 .roadbook-hero,
@@ -195,12 +200,25 @@ a {
   background-position: center;
 }
 
+.hero-hosts {
+  background:
+    linear-gradient(rgba(27, 36, 48, 0.18), rgba(27, 36, 48, 0.58)),
+    url("../images/roadbooks/balkan-2026/pages/hosts-hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .roadbook-hero {
   min-height: 440px;
 }
 
 .subpage-hero {
   min-height: 320px;
+}
+
+.day-hero {
+  background-size: cover;
+  background-position: center;
 }
 
 .roadbook-hero::after,
@@ -231,7 +249,7 @@ a {
   align-items: center;
   gap: 10px;
   padding: 9px 14px;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   color: white;
   text-decoration: none;
   background: rgba(255, 255, 255, 0.16);
@@ -251,15 +269,17 @@ a {
   filter: brightness(0) invert(1);
 }
 
-.roadbook-hero-content {
+.roadbook-hero-content,
+.subpage-hero-content {
   max-width: 760px;
   margin: 0 auto;
+}
+
+.roadbook-hero-content {
   padding: 86px 20px 70px;
 }
 
 .subpage-hero-content {
-  max-width: 760px;
-  margin: 0 auto;
   padding: 60px 20px 56px;
 }
 
@@ -297,22 +317,11 @@ a {
 
 .roadbook-stats span {
   padding: 8px 13px;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   font-size: 0.88rem;
   background: rgba(255, 255, 255, 0.17);
   backdrop-filter: blur(12px);
 }
-
-
-/* ===================================================
-   DAY HERO
-=================================================== */
-
-.day-hero {
-  background-size: cover;
-  background-position: center;
-}
-
 
 /* ===================================================
    ROADBOOK NAV
@@ -327,19 +336,24 @@ a {
   padding-bottom: var(--space-md);
 }
 
-.roadbook-nav a {
+.roadbook-nav a,
+.day-navigation a {
   flex: 0 0 auto;
-  padding: 9px 14px;
-  border-radius: 999px;
-  background: white;
+  border-radius: var(--radius-pill);
+  background: var(--color-card);
   color: var(--color-muted);
   text-decoration: none;
   border: 1px solid var(--color-border);
+}
+
+.roadbook-nav a {
+  padding: 9px 14px;
   font-size: 0.92rem;
 }
 
 .roadbook-nav a.active,
-.roadbook-nav a:hover {
+.roadbook-nav a:hover,
+.day-navigation a:hover {
   background: var(--color-primary);
   color: white;
 }
@@ -362,12 +376,12 @@ a {
   gap: var(--space-md);
   padding: 22px 24px;
   margin-bottom: 14px;
-  border-radius: 24px;
+  border-radius: var(--space-md);
   background: var(--color-card);
   border: 1px solid var(--color-border);
   color: inherit;
   text-decoration: none;
-  box-shadow: 0 14px 38px rgba(15, 23, 42, 0.05);
+  box-shadow: var(--shadow-soft);
   transition: transform 0.22s ease, box-shadow 0.22s ease;
 }
 
@@ -379,7 +393,7 @@ a {
 .menu-icon {
   display: inline-block;
   font-size: 1.5rem;
-  margin-bottom: 8px;
+  margin-bottom: var(--space-xs);
 }
 
 .menu-card h2 {
@@ -418,12 +432,12 @@ a {
   grid-template-columns: 220px 1fr;
   min-height: 190px;
   overflow: hidden;
-  border-radius: 26px;
+  border-radius: var(--radius-lg);
   background: var(--color-card);
   border: 1px solid var(--color-border);
   color: inherit;
   text-decoration: none;
-  box-shadow: 0 14px 38px rgba(15, 23, 42, 0.05);
+  box-shadow: var(--shadow-soft);
   transition: transform 0.22s ease, box-shadow 0.22s ease;
 }
 
@@ -439,7 +453,7 @@ a {
 }
 
 .day-card-content {
-  padding: 24px;
+  padding: var(--space-md);
 }
 
 .country-badges {
@@ -454,7 +468,7 @@ a {
   align-items: center;
   gap: 6px;
   padding: 5px 9px;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   color: white;
   font-size: 0.76rem;
   font-weight: 650;
@@ -493,13 +507,13 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 16px;
+  margin-top: var(--space-sm);
 }
 
 .day-meta span {
   padding: 6px 10px;
-  border-radius: 999px;
-  background: #f3f5f7;
+  border-radius: var(--radius-pill);
+  background: var(--color-chip);
   color: var(--color-muted);
   font-size: 0.82rem;
 }
@@ -526,18 +540,9 @@ a {
   display: inline-flex;
   align-items: center;
   padding: 10px 14px;
-  border-radius: 999px;
-  background: white;
   color: var(--color-primary);
-  border: 1px solid var(--color-border);
-  text-decoration: none;
   font-size: 0.92rem;
   font-weight: 600;
-}
-
-.day-navigation a:hover {
-  background: var(--color-primary);
-  color: white;
 }
 
 .quick-actions {
@@ -553,8 +558,8 @@ a {
   justify-content: center;
   min-height: 64px;
   padding: 14px;
-  border-radius: 22px;
-  background: white;
+  border-radius: var(--radius-md);
+  background: var(--color-card);
   color: var(--color-text);
   border: 1px solid var(--color-border);
   text-decoration: none;
@@ -567,10 +572,15 @@ a {
   color: white;
 }
 
+
+/* ===================================================
+   ACCORDION
+=================================================== */
+
 .day-accordion {
-  border-radius: 26px;
+  border-radius: var(--radius-lg);
   overflow: hidden;
-  box-shadow: 0 14px 38px rgba(15, 23, 42, 0.05);
+  box-shadow: var(--shadow-soft);
 }
 
 .day-accordion .accordion-item {
@@ -587,13 +597,13 @@ a {
   font-size: 1.05rem;
   font-weight: 720;
   color: var(--color-text);
-  background: white;
+  background: var(--color-card);
   box-shadow: none;
 }
 
 .day-accordion .accordion-button:not(.collapsed) {
   color: var(--color-primary-dark);
-  background: #f7f9fb;
+  background: var(--color-card-soft);
 }
 
 .day-accordion .accordion-button:focus {
@@ -603,7 +613,7 @@ a {
 
 .day-accordion .accordion-body {
   padding: 22px;
-  background: white;
+  background: var(--color-card);
   color: var(--color-muted);
   line-height: 1.7;
 }
@@ -613,11 +623,120 @@ a {
   font-weight: 730;
   color: var(--color-text);
   margin-top: 20px;
-  margin-bottom: 8px;
+  margin-bottom: var(--space-xs);
 }
 
 .day-accordion .accordion-body h3:first-child {
   margin-top: 0;
+}
+
+
+/* ===================================================
+   HOST PAGES
+=================================================== */
+
+.host-summary {
+  background: var(--color-card);
+  border-radius: var(--space-md);
+  overflow: hidden;
+  margin-bottom: 28px;
+  border: 1px solid var(--color-border);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06);
+}
+
+.country-line {
+  border-top: 6px solid transparent;
+}
+
+.country-slovenia {
+  border-top-color: var(--country-si);
+}
+
+.country-croatia {
+  border-top-color: var(--country-hr);
+}
+
+.country-bih {
+  border-top-color: var(--country-ba);
+}
+
+.country-montenegro {
+  border-top-color: var(--country-me);
+}
+
+.host-summary-header {
+  padding: 28px 28px 14px;
+}
+
+.host-summary-header h2 {
+  margin-bottom: var(--space-xs);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.host-summary-header p {
+  color: var(--color-muted);
+  margin-bottom: 0;
+}
+
+.host-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 28px 22px;
+}
+
+.host-badges span {
+  background: var(--color-chip);
+  color: var(--color-primary-dark);
+  padding: 8px 14px;
+  border-radius: var(--radius-pill);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.host-alert {
+  margin: 0 28px 24px;
+  padding: 18px 20px;
+  background: var(--color-warning-bg);
+  border-left: 5px solid var(--color-warning-border);
+  border-radius: 12px;
+}
+
+.host-alert strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.host-alert p {
+  margin: 0;
+  color: var(--color-text);
+}
+
+.host-key-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 18px;
+  padding: 0 28px 28px;
+}
+
+.host-key-info div {
+  background: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-sm);
+}
+
+.host-key-info span {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--color-soft);
+  margin-bottom: 4px;
+}
+
+.host-key-info strong {
+  font-size: 1rem;
+  color: var(--color-text);
 }
 
 
@@ -650,6 +769,25 @@ a {
    RESPONSIVE
 =================================================== */
 
+@media (max-width: 768px) {
+  .host-summary-header {
+    padding: 22px 20px 12px;
+  }
+
+  .host-badges {
+    padding: 0 20px 18px;
+  }
+
+  .host-alert {
+    margin: 0 20px 20px;
+  }
+
+  .host-key-info {
+    padding: 0 20px 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media (max-width: 576px) {
   .page {
     padding: var(--space-xl) 14px;
@@ -661,7 +799,7 @@ a {
   }
 
   .roadbook-card {
-    border-radius: 24px;
+    border-radius: var(--space-md);
   }
 
   .card-image {
@@ -699,7 +837,7 @@ a {
 
   .menu-card {
     padding: 20px;
-    border-radius: 22px;
+    border-radius: var(--radius-md);
   }
 
   .day-card {
@@ -728,5 +866,9 @@ a {
 
   .day-navigation a {
     justify-content: center;
+  }
+
+  .host-key-info {
+    grid-template-columns: 1fr;
   }
 }
