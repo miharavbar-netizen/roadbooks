@@ -872,3 +872,28 @@ a {
     grid-template-columns: 1fr;
   }
 }
+.food-progress {
+  margin-bottom: 24px;
+  padding: 14px 18px;
+  border-radius: 18px;
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+}
+
+.food-check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.food-check input {
+  width: 18px;
+  height: 18px;
+}
+
+.food-check input:checked + span {
+  text-decoration: line-through;
+  color: var(--color-muted);
+}
