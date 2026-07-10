@@ -59,11 +59,15 @@
 
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#lika">
-                            🇭🇷 Lika in Kordun · Rastoke, Slunj, Plitvice
+                        <button class="accordion-button collapsed food-region-button" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#lika">
+                           <span class="food-region-heading">
+                                🇭🇷 Lika in Kordun
+                                 <span class="food-region-places">· Rastoke, Slunj, Plitvice ·</span>
+                                </span>
                         </button>
                     </h2>
-                    <div id="lika" class="accordion-collapse collapse show" data-bs-parent="#foodAccordion">
+                    <div id="lika" class="accordion-collapse collapse" data-bs-parent="#foodAccordion">
                         <div class="accordion-body">
                             <h3>Pokrajina</h3>
                             <p>Lika je visok kraški svet med Velebitom in Plješivico, z dolgimi zimami, kratkimi poletji in skromnimi možnostmi za poljedelstvo. Kordun leži nižje, med gozdovi in rekami Korano, Mrežnico in Slunjčico. Obe pokrajini sta zgodovinsko oblikovali živinoreja, gozdovi, reke in življenje v razmeroma redko poseljenem prostoru.</p>
@@ -122,8 +126,12 @@
 
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#jajce">
-                            🇧🇦 Bosanska Krajina · Jajce
+                        <button class="accordion-button collapsed food-region-button" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#jajce">
+                           <span class="food-region-heading">
+                                🇧🇦 Bosanska Krajina
+                                 <span class="food-region-places">· Jajce ·</span>
+                                </span>
                         </button>
                     </h2>
                     <div id="jajce" class="accordion-collapse collapse" data-bs-parent="#foodAccordion">
@@ -184,8 +192,12 @@
 
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bosna">
-                            🇧🇦 Osrednja Bosna · Travnik, Sarajevo, Višegrad
+                        <button class="accordion-button collapsed food-region-button" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#bosna">
+                           <span class="food-region-heading">
+                                🇧🇦 Osrednja Bosna
+                                 <span class="food-region-places">· Travnik, Sarajevo, Višegrad ·</span>
+                                </span>
                         </button>
                     </h2>
                     <div id="bosna" class="accordion-collapse collapse" data-bs-parent="#foodAccordion">
@@ -274,8 +286,12 @@
 
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#durmitor">
-                            🇲🇪 Durmitor · Žabljak
+                        <button class="accordion-button collapsed food-region-button" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#durmitor">
+                           <span class="food-region-heading">
+                                🇲🇪 Durmitor
+                                 <span class="food-region-places">· Žabljak, Narodni park Durmitor ·</span>
+                                </span>
                         </button>
                     </h2>
                     <div id="durmitor" class="accordion-collapse collapse" data-bs-parent="#foodAccordion">
@@ -348,8 +364,12 @@
 
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#boka">
-                            🇲🇪 Boka Kotorska · Perast, Kotor, Tivat
+                        <button class="accordion-button collapsed food-region-button" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#boka">
+                           <span class="food-region-heading">
+                                🇲🇪 Boka Kotorska
+                                 <span class="food-region-places">· Perast, Kotor, Tivat ·</span>
+                                </span>
                         </button>
                     </h2>
                     <div id="boka" class="accordion-collapse collapse" data-bs-parent="#foodAccordion">
@@ -428,8 +448,12 @@
 
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#hercegovina">
-                            🇧🇦 Hercegovina · Trebinje, Blagaj, Mostar, Stolac
+                         <button class="accordion-button collapsed food-region-button" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#hercegovina">
+                           <span class="food-region-heading">
+                                🇧🇦 Hercegovina
+                                 <span class="food-region-places">· Trebinje, Blagaj, Mostar, Stolac ·</span>
+                                </span>
                         </button>
                     </h2>
                     <div id="hercegovina" class="accordion-collapse collapse" data-bs-parent="#foodAccordion">
@@ -499,8 +523,12 @@
 
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dalmacija">
-                            🇭🇷 Dalmacija · Split
+                        <button class="accordion-button collapsed food-region-button" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#dalmacija">
+                           <span class="food-region-heading">
+                                🇭🇷 Dalmacija
+                                 <span class="food-region-places">· Split, Zadar ·</span>
+                                </span>
                         </button>
                     </h2>
                     <div id="dalmacija" class="accordion-collapse collapse" data-bs-parent="#foodAccordion">
@@ -663,7 +691,31 @@
             });
         });
 
-        updateFoodCount();
+updateFoodCount();
+
+// Smooth scroll to opened accordion
+
+document.querySelectorAll(".accordion-collapse").forEach((accordion) => {
+
+    accordion.addEventListener("shown.bs.collapse", function () {
+
+        setTimeout(() => {
+
+            const y =
+                accordion.previousElementSibling.getBoundingClientRect().top +
+                window.pageYOffset -
+                90;
+
+            window.scrollTo({
+                top: y,
+                behavior: "smooth"
+            });
+
+        }, 120);
+
+    });
+
+});
     </script>
 
 </body>
