@@ -1306,9 +1306,8 @@ a {
   .map-subnav a {
     flex-basis: 100%;
   }
-}
-/* ===================================================
-   MAP CARD DESTINATIONS
+}/* ===================================================
+   MAP OVERVIEW
 =================================================== */
 
 .map-overview-destinations {
@@ -1323,4 +1322,186 @@ a {
   color: var(--color-muted);
   font-size: 0.92rem;
   line-height: 1.7;
+}
+
+.map-route-actions {
+  margin-top: auto;
+}
+
+.map-route-actions .map-overview-action + .map-overview-action {
+  border-top: 1px solid var(--color-border);
+}
+
+.map-overview-action-secondary {
+  color: var(--color-muted);
+  background: #f7f8fa;
+}
+
+.map-overview-action-secondary:hover {
+  color: var(--color-primary-dark);
+  background: #eef1f4;
+}
+
+
+/* ===================================================
+   ROUTES / MAIN STAGES
+=================================================== */
+
+.routes-list {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 28px;
+}
+
+.route-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  background: var(--color-card);
+  box-shadow: var(--shadow-card);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.route-card:hover {
+  transform: translateY(-2px);
+  border-color: #dfe3e8;
+  box-shadow: var(--shadow-card-hover);
+}
+
+.route-card-content {
+  flex: 1;
+  padding: 28px 30px 26px;
+}
+
+
+/* Country badges */
+
+.route-country-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.route-country-badges span {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 11px;
+  border-radius: var(--radius-pill);
+  color: #ffffff;
+  font-size: 0.76rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.route-country-badges .country-si {
+  background: var(--country-si);
+}
+
+.route-country-badges .country-hr {
+  background: var(--country-hr);
+}
+
+.route-country-badges .country-ba {
+  background: var(--country-ba);
+}
+
+.route-country-badges .country-me {
+  background: var(--country-me);
+}
+
+
+/* Route typography */
+
+.route-date {
+  margin: 0 0 5px;
+  color: var(--color-muted);
+  font-size: 0.96rem;
+  font-weight: 500;
+}
+
+.route-card h3 {
+  margin: 0 0 10px;
+  font-size: clamp(1.45rem, 2.4vw, 2rem);
+  line-height: 1.22;
+  letter-spacing: -0.025em;
+}
+
+.route-card-content > p:not(.route-date, .route-destinations) {
+  max-width: 880px;
+  margin: 0 0 16px;
+  color: var(--color-muted);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.route-destinations {
+  margin: 0 0 18px;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+
+/* Route metadata */
+
+.route-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.route-meta span {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 13px;
+  border-radius: var(--radius-pill);
+  background: #f4f5f7;
+  color: var(--color-muted);
+  font-size: 0.88rem;
+  line-height: 1.2;
+}
+
+
+/* Route actions */
+
+.route-card .map-overview-action {
+  min-height: 54px;
+  padding: 15px 30px;
+}
+
+
+/* Traffic notice inside route card */
+
+.route-card .host-alert {
+  max-width: 880px;
+}
+
+
+/* ===================================================
+   ROUTES RESPONSIVE
+=================================================== */
+
+@media (max-width: 767px) {
+  .routes-list {
+    gap: 20px;
+  }
+
+  .route-card-content {
+    padding: 24px 20px 22px;
+  }
+
+  .route-card h3 {
+    font-size: 1.42rem;
+  }
+
+  .route-card .map-overview-action {
+    padding: 14px 20px;
+  }
 }
