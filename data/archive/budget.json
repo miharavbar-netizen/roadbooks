@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0.0",
+  "trip_id": "balkan-roadtrip-2026",
+  "currency": "EUR",
+  "updated_at": "2026-07-12T22:45:00+02:00",
+  "summary": {
+    "known_accommodation_total_eur": 1377.32,
+    "other_costs_status": "draft"
+  },
+  "categories": [
+    {
+      "id": "accommodation",
+      "title": "Nastanitve",
+      "planned_eur": 1377.32,
+      "actual_eur": null,
+      "items": [
+        {
+          "reference_id": "stay-slunj-rastoke",
+          "title": "Slunj/Rastoke",
+          "planned_eur": 158.32
+        },
+        {
+          "reference_id": "stay-jajce",
+          "title": "Jajce",
+          "planned_eur": 66.66
+        },
+        {
+          "reference_id": "stay-sarajevo",
+          "title": "Sarajevo",
+          "planned_eur": 161.0
+        },
+        {
+          "reference_id": "stay-zabljak",
+          "title": "Žabljak",
+          "planned_eur": 336.3
+        },
+        {
+          "reference_id": "stay-perast",
+          "title": "Perast",
+          "planned_eur": 180.0
+        },
+        {
+          "reference_id": "stay-mostar",
+          "title": "Mostar",
+          "planned_eur": 82.04
+        },
+        {
+          "reference_id": "stay-split",
+          "title": "Split",
+          "planned_eur": 393.0
+        }
+      ]
+    },
+    {
+      "id": "fuel",
+      "title": "Gorivo",
+      "planned_eur": null,
+      "actual_eur": null,
+      "items": []
+    },
+    {
+      "id": "tolls-parking",
+      "title": "Cestnine in parkiranje",
+      "planned_eur": null,
+      "actual_eur": null,
+      "items": []
+    },
+    {
+      "id": "tickets",
+      "title": "Vstopnine in ogledi",
+      "planned_eur": null,
+      "actual_eur": null,
+      "items": []
+    },
+    {
+      "id": "activities",
+      "title": "Plačljive aktivnosti",
+      "planned_eur": null,
+      "actual_eur": null,
+      "items": [
+        {
+          "reference_id": "reservation-tara-packrafting",
+          "title": "Packrafting po Tari",
+          "planned_eur": null
+        },
+        {
+          "reference_id": "reservation-boka-boat",
+          "title": "Izlet z ladjo po Boki",
+          "planned_eur": null
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Hrana in pijača",
+      "planned_eur": null,
+      "actual_eur": null,
+      "items": []
+    }
+  ]
+}

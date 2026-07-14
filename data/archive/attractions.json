@@ -1,0 +1,2537 @@
+{
+  "schema_version": "1.0.0",
+  "trip_id": "balkan-roadtrip-2026",
+  "updated_at": "2026-07-12T20:30:00+02:00",
+  "description": "Samostojna baza znamenitosti in postankov, izpeljana iz activities.json.",
+  "attractions": [
+    {
+      "id": "jajce-st-mary",
+      "name": "Cerkev sv. Marije in zvonik sv. Luke",
+      "category": "church",
+      "country": "Bosna in Hercegovina",
+      "city": "Jajce",
+      "short_description": "V tej cerkvi je bil leta 1461 kronan zadnji bosanski kralj Stjepan Tomašević. Po osmanski osvojitvi je bila spremenjena v mošejo, pozneje pa je pogorela.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "jajce-kings-waterfall-avnoj"
+      ]
+    },
+    {
+      "id": "jajce-fortress",
+      "name": "Citadela Jajce",
+      "category": "fortress",
+      "country": "Bosna in Hercegovina",
+      "city": "Jajce",
+      "short_description": "Citadela je bila srce zadnje prestolnice srednjeveške Bosne. Z obzidja se odpre pogled na mesto, slap in dolino obeh rek.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 30,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "jajce-kings-waterfall-avnoj"
+      ]
+    },
+    {
+      "id": "jajce-catacombs",
+      "name": "Katakombe",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "city": "Jajce",
+      "short_description": "Podzemno kapelo in grobnico je v 15. stoletju dal izklesati Hrvoje Vukčić Hrvatinić. Križi, oltar in reliefi so izklesani neposredno v skalo.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 20,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "jajce-kings-waterfall-avnoj"
+      ]
+    },
+    {
+      "id": "jajce-bear-tower",
+      "name": "Medvedji stolp",
+      "category": "fortress",
+      "country": "Bosna in Hercegovina",
+      "city": "Jajce",
+      "short_description": "Mogočen obrambni stolp je varoval dostop do zgornjega mesta in kaže na debelino srednjeveškega obrambnega sistema.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "jajce-kings-waterfall-avnoj"
+      ]
+    },
+    {
+      "id": "jajce-avnoj",
+      "name": "Muzej AVNOJ-a",
+      "category": "museum",
+      "country": "Bosna in Hercegovina",
+      "city": "Jajce",
+      "short_description": "V nekdanji sokolski dvorani je 29. in 30. novembra 1943 potekalo drugo zasedanje AVNOJ-a, na katerem so bile začrtane politične osnove povojne federativne Jugoslavije.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 40,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "jajce-kings-waterfall-avnoj"
+      ]
+    },
+    {
+      "id": "jajce-waterfall",
+      "name": "Plivski slap",
+      "category": "waterfall",
+      "country": "Bosna in Hercegovina",
+      "city": "Jajce",
+      "short_description": "Na sotočju Plive in Vrbasa voda pada približno 22 metrov globoko. Posebnost je lega skoraj v središču zgodovinskega mesta.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 20,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "jajce-kings-waterfall-avnoj"
+      ]
+    },
+    {
+      "id": "jajce-old-town",
+      "name": "Staro mesto Jajce",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "city": "Jajce",
+      "short_description": "Ozke kamnite ulice, stare hiše in vsakdanji utrip povezujejo srednjeveško, osmansko, habsburško in jugoslovansko plast mesta.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 20,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "jajce-kings-waterfall-avnoj"
+      ]
+    },
+    {
+      "id": "sarajevo-bascarsija",
+      "name": "Baščaršija",
+      "category": "square",
+      "country": "Bosna in Hercegovina",
+      "region": "Kanton Sarajevo",
+      "city": "Sarajevo",
+      "google_maps_url": "https://maps.google.com/?q=Bascarsija+Sarajevo",
+      "short_description": "Glavna čaršija se je razvijala od 15. stoletja in je bila razdeljena na obrtniške ulice posameznih cehov. Njena osnovna struktura je kljub požarom, vojnam in prenovam ostala prepoznavna.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": true,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "sarajevo-heritage-walk"
+      ]
+    },
+    {
+      "id": "sarajevo-emperors-mosque",
+      "name": "Careva džamija",
+      "category": "mosque",
+      "country": "Bosna in Hercegovina",
+      "region": "Kanton Sarajevo",
+      "city": "Sarajevo",
+      "google_maps_url": "https://maps.google.com/?q=Careva+džamija+Sarajevo",
+      "short_description": "Mošeja je tesno povezana z nastankom Sarajeva. Prvo stavbo je okoli leta 1462 postavil Isa-beg Ishaković, današnja kamnita mošeja pa izvira iz 16. stoletja.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": true,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "sarajevo-heritage-walk"
+      ]
+    },
+    {
+      "id": "sarajevo-bezistan",
+      "name": "Gazi Husrev-begov bezistan",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "region": "Kanton Sarajevo",
+      "city": "Sarajevo",
+      "google_maps_url": "https://maps.google.com/?q=Gazi+Husrev+Beg+Bezistan",
+      "short_description": "Pokrita tržnica iz 16. stoletja je bila namenjena prodaji dragocenega blaga. Kamniti oboki in majhne odprtine v kupolah ohranjajo prijetno hladno ozračje, prostor pa svojo trgovsko funkcijo opravlja že skoraj pet stoletij.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": true,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "sarajevo-heritage-walk"
+      ]
+    },
+    {
+      "id": "sarajevo-ghb-library",
+      "name": "Gazi Husrev-begova knjižnica",
+      "category": "museum",
+      "country": "Bosna in Hercegovina",
+      "region": "Kanton Sarajevo",
+      "city": "Sarajevo",
+      "google_maps_url": "https://maps.google.com/?q=Gazi+Husrev+Beg+Library",
+      "official_url": "https://ghb.ba",
+      "short_description": "Ena največjih zakladnic pisne dediščine jugovzhodne Evrope hrani več kot sto tisoč knjig, rokopisov in dokumentov v arabščini, turščini, perzijščini in bosanščini v arabici.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 30,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": true,
+        "has_official_url": true,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": true
+      },
+      "source_activity_ids": [
+        "sarajevo-heritage-walk"
+      ]
+    },
+    {
+      "id": "sarajevo-gazi-husrev-mosque",
+      "name": "Gazi Husrev-begova mošeja",
+      "category": "mosque",
+      "country": "Bosna in Hercegovina",
+      "region": "Kanton Sarajevo",
+      "city": "Sarajevo",
+      "google_maps_url": "https://maps.google.com/?q=Gazi+Husrev+Beg+Mosque",
+      "official_url": "https://begovadzamija.ba",
+      "short_description": "Najpomembnejša islamska verska stavba v Bosni in Hercegovini je bila dokončana leta 1531. Zasnoval jo je osmanski glavni arhitekt Adžem Esir Ali, predhodnik Mimarja Sinana. Posebno pozornost namenita šadrvanu, kupoli in minaretu.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 25,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": true,
+        "has_official_url": true,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": true
+      },
+      "source_activity_ids": [
+        "sarajevo-heritage-walk"
+      ]
+    },
+    {
+      "id": "sarajevo-hotel-europe",
+      "name": "Hotel Europe",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "region": "Kanton Sarajevo",
+      "city": "Sarajevo",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Hotel+Europe+Sarajevo",
+      "official_url": "https://www.hoteleuropegroup.ba/hotel-europe/",
+      "short_description": "Hotel, odprt leta 1882 po načrtih Karla Paříka, predstavlja prihod srednjeevropskega hotelirstva in meščanske kulture v Sarajevo. Njegova lega ob ostankih Tašlihana skoraj dobesedno sooči osmanski han in sodobni avstro-ogrski hotel.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": true,
+        "has_official_url": true,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": true
+      },
+      "source_activity_ids": [
+        "sarajevo-heritage-walk"
+      ]
+    },
+    {
+      "id": "holiday-inn",
+      "name": "Hotel Holiday",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "city": "Sarajevo",
+      "outside_only": true,
+      "optional": false,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "sarajevo-war-tour"
+      ]
+    },
+    {
+      "id": "sarajevo-inat-kuca",
+      "name": "Inat kuća",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "region": "Kanton Sarajevo",
+      "city": "Sarajevo",
+      "google_maps_url": "https://maps.google.com/?q=Inat+Kuca+Sarajevo",
+      "short_description": "Po legendi je lastnik hiše ob gradnji Vijećnice zahteval, da jo razstavijo in ponovno sestavijo na drugi strani reke. Postala je simbol sarajevskega inata – trmastega vztrajanja pri svojem.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": true,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "sarajevo-heritage-walk"
+      ]
+    },
+    {
+      "id": "sarajevo-jewish-museum",
+      "name": "Judovski muzej Bosne in Hercegovine",
+      "local_name": "Stari hram / Il Kal Grandi",
+      "category": "museum",
+      "country": "Bosna in Hercegovina",
+      "region": "Kanton Sarajevo",
+      "city": "Sarajevo",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Jewish+Museum+of+Bosnia+and+Herzegovina+Sarajevo",
+      "official_url": "https://www.muzejsarajeva.ba/en/Depandansi/muzej-jevreja-bih/",
+      "short_description": "Muzej je urejen v najstarejši ohranjeni sinagogi v Bosni in Hercegovini iz leta 1581. Predstavlja zgodovino sefardskih Judov, njihov ladino jezik, vsakdanje življenje, kulturne dosežke in tragedijo holokavsta.",
+      "practical_note": "Sarajevska hagada ni stalno razstavljena tukaj, temveč jo hrani Zemaljski muzej Bosne in Hercegovine.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 40,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": true,
+        "has_official_url": true,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": true
+      },
+      "source_activity_ids": [
+        "sarajevo-heritage-walk"
+      ]
+    },
+    {
+      "id": "sarajevo-sacred-heart",
+      "name": "Katedrala Srca Jezusovega",
+      "local_name": "Katedrala Srca Isusova",
+      "category": "church",
+      "country": "Bosna in Hercegovina",
+      "region": "Kanton Sarajevo",
+      "city": "Sarajevo",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sacred+Heart+Cathedral+Sarajevo",
+      "official_url": "https://www.vrhbosanska-nadbiskupija.org/",
+      "short_description": "Največja katoliška cerkev v Bosni in Hercegovini je bila zgrajena med letoma 1884 in 1889 po načrtih Josipa Vancaša. Neogotsko pročelje z dvema približno 43 metrov visokima zvonikoma je eden najbolj prepoznavnih simbolov avstro-ogrskega Sarajeva.",
+      "what_to_notice": [
+        "rozeta",
+        "dvojna zvonika",
+        "kip papeža Janeza Pavla II.",
+        "vitraji"
+      ],
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": true,
+        "has_official_url": true,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": true
+      },
+      "source_activity_ids": [
+        "sarajevo-heritage-walk"
+      ]
+    },
+    {
+      "id": "sarajevo-kazandziluk",
+      "name": "Kazandžiluk",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "region": "Kanton Sarajevo",
+      "city": "Sarajevo",
+      "google_maps_url": "https://maps.google.com/?q=Kazandziluk+Sarajevo",
+      "short_description": "Ulica bakrorezcev že stoletja ohranja tradicionalno obrt izdelovanja kotlov, džezv, pladnjev in okrasnih predmetov. Prisluhnita ritmičnemu zvoku kladiv iz delavnic.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": true,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "sarajevo-heritage-walk"
+      ]
+    },
+    {
+      "id": "sarajevo-kursumlija",
+      "name": "Kuršumlija medresa",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "region": "Kanton Sarajevo",
+      "city": "Sarajevo",
+      "google_maps_url": "https://maps.google.com/?q=Kuršumlija+Madrasa+Sarajevo",
+      "short_description": "Najstarejša islamska šola v Sarajevu je dobila ime po svinčeni strehi. Poleg teologije so poučevali matematiko, astronomijo, logiko, filozofijo, pravo in jezike.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": true,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "sarajevo-heritage-walk"
+      ]
+    },
+    {
+      "id": "sarajevo-latin-bridge",
+      "name": "Latinska ćuprija",
+      "category": "bridge",
+      "country": "Bosna in Hercegovina",
+      "region": "Kanton Sarajevo",
+      "city": "Sarajevo",
+      "google_maps_url": "https://maps.google.com/?q=Latin+Bridge+Sarajevo",
+      "short_description": "Kamniti most je dobil ime po nekdanji katoliški četrti na levem bregu Miljacke. Svetovno znan je postal zaradi atentata leta 1914, hkrati pa ostaja eleganten primer osmanske mostne arhitekture.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": true,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "sarajevo-heritage-walk"
+      ]
+    },
+    {
+      "id": "sarajevo-morica-han",
+      "name": "Morića Han",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "region": "Kanton Sarajevo",
+      "city": "Sarajevo",
+      "google_maps_url": "https://maps.google.com/?q=Morica+Han+Sarajevo",
+      "short_description": "Najbolje ohranjeni sarajevski karavanseraj je bil zgrajen v 16. stoletju. Veliko dvorišče, leseni balkoni in kamnite arkade še danes pričarajo podobo nekdanjega postajališča trgovskih karavan.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": true,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "sarajevo-heritage-walk"
+      ]
+    },
+    {
+      "id": "sarajevo-assassination-museum",
+      "name": "Muzej Sarajeva 1878–1918 in kraj atentata",
+      "category": "museum",
+      "country": "Bosna in Hercegovina",
+      "region": "Kanton Sarajevo",
+      "city": "Sarajevo",
+      "google_maps_url": "https://maps.google.com/?q=Sarajevo+Assassination+Museum",
+      "official_url": "https://www.muzejsarajeva.ba",
+      "short_description": "Na tem mestu je Gavrilo Princip 28. junija 1914 ustrelil nadvojvodo Franca Ferdinanda in njegovo soprogo Sofijo. Atentat je sprožil julijsko krizo, ki je v nekaj tednih prerasla v prvo svetovno vojno.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 45,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": true,
+        "has_official_url": true,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": true
+      },
+      "source_activity_ids": [
+        "sarajevo-heritage-walk"
+      ]
+    },
+    {
+      "id": "siege-front-line",
+      "name": "Nekdanja frontna črta obleganja",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "city": "Sarajevo",
+      "outside_only": true,
+      "optional": false,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "sarajevo-war-tour"
+      ]
+    },
+    {
+      "id": "nermine-come",
+      "name": "Nermine, dođi",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "city": "Sarajevo",
+      "outside_only": true,
+      "optional": false,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "sarajevo-war-tour"
+      ]
+    },
+    {
+      "id": "presidency-bih",
+      "name": "Predsedstvo Bosne in Hercegovine",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "city": "Sarajevo",
+      "outside_only": true,
+      "optional": false,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "sarajevo-war-tour"
+      ]
+    },
+    {
+      "id": "sarajevo-clock-tower",
+      "name": "Sahat-kula",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "region": "Kanton Sarajevo",
+      "city": "Sarajevo",
+      "google_maps_url": "https://maps.google.com/?q=Sahat+Kula+Sarajevo",
+      "short_description": "Stolp prikazuje tradicionalni čas alla turca, pri katerem se dan začne ob sončnem zahodu. Ker se ta vsak dan spreminja, je uro treba redno nastavljati.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": true,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "sarajevo-heritage-walk"
+      ]
+    },
+    {
+      "id": "sarajevo-meeting-cultures",
+      "name": "Sarajevo Meeting of Cultures",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "region": "Kanton Sarajevo",
+      "city": "Sarajevo",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sarajevo+Meeting+of+Cultures",
+      "official_url": "https://smoc.ba/en/home",
+      "short_description": "Talna oznaka na Ferhadiji simbolno označuje prehod med avstro-ogrskim in osmanskim urbanim prostorom. Pogled proti zahodu razkriva srednjeevropske fasade, proti vzhodu pa nizko, orientalsko zasnovo Baščaršije.",
+      "photo_tip": "Naredi dve fotografiji z iste točke: eno proti vzhodu in eno proti zahodu.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": true,
+        "has_official_url": true,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": true
+      },
+      "source_activity_ids": [
+        "sarajevo-heritage-walk"
+      ]
+    },
+    {
+      "id": "sarajevo-rose-war",
+      "name": "Sarajevska roža",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "city": "Sarajevo",
+      "outside_only": true,
+      "optional": false,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "sarajevo-war-tour"
+      ]
+    },
+    {
+      "id": "sarajevo-city-hall",
+      "name": "Sarajevska vijećnica",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "region": "Kanton Sarajevo",
+      "city": "Sarajevo",
+      "google_maps_url": "https://maps.google.com/?q=Sarajevo+City+Hall",
+      "official_url": "https://www.vijecnica.ba",
+      "short_description": "Vijećnica je bila zgrajena med letoma 1892 in 1896 v psevdomavrskem slogu. Leta 1992 je kot Narodna in univerzitetna knjižnica skoraj v celoti pogorela; po obnovi je bila ponovno odprta leta 2014.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 40,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": true,
+        "has_official_url": true,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": true
+      },
+      "source_activity_ids": [
+        "sarajevo-heritage-walk"
+      ]
+    },
+    {
+      "id": "sarajevo-sebilj",
+      "name": "Sebilj",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "region": "Kanton Sarajevo",
+      "city": "Sarajevo",
+      "google_maps_url": "https://maps.google.com/?q=Sebilj+Sarajevo",
+      "short_description": "Leseni javni vodnjak je najbolj prepoznaven simbol Sarajeva. Sedanja podoba iz leta 1891 je delo Aleksandra Witteka. Legenda pravi, da se bo vsak, ki tu popije vodo, vrnil v Sarajevo.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": true,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "sarajevo-heritage-walk"
+      ]
+    },
+    {
+      "id": "sniper-alley",
+      "name": "Sniper Alley",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "city": "Sarajevo",
+      "outside_only": true,
+      "optional": false,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "sarajevo-war-tour"
+      ]
+    },
+    {
+      "id": "murdered-children-memorial",
+      "name": "Spomenik umorjenim otrokom obleganega Sarajeva",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "city": "Sarajevo",
+      "outside_only": true,
+      "optional": false,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "sarajevo-war-tour"
+      ]
+    },
+    {
+      "id": "sarajevo-orthodox-cathedral",
+      "name": "Stolna cerkev Rojstva Presvete Bogorodice",
+      "category": "church",
+      "country": "Bosna in Hercegovina",
+      "region": "Kanton Sarajevo",
+      "city": "Sarajevo",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cathedral+Church+of+the+Nativity+of+the+Theotokos+Sarajevo",
+      "short_description": "Glavna pravoslavna cerkev v Sarajevu je nastala med letoma 1863 in 1872 po načrtih Andreje Damjanova. Njena monumentalna podoba priča o spremembah v poznem Osmanskem cesarstvu in o vidni prisotnosti pravoslavne skupnosti v mestni veduti.",
+      "what_to_notice": [
+        "pet kupol",
+        "zvonik",
+        "ikonostas"
+      ],
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": true,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "sarajevo-heritage-walk"
+      ]
+    },
+    {
+      "id": "sarajevo-taslihan",
+      "name": "Tašlihan",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "region": "Kanton Sarajevo",
+      "city": "Sarajevo",
+      "google_maps_url": "https://maps.google.com/?q=Tašlihan+Sarajevo",
+      "short_description": "Kamniti han je nastal v prvi polovici 16. stoletja kot del zadolžbine Gazi Husrev-bega. Bil je trgovsko-prenočitveni kompleks s skladišči, hlevi in sobami za trgovce; danes so ohranjeni predvsem temelji ob Hotelu Europe.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": true,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "sarajevo-heritage-walk"
+      ]
+    },
+    {
+      "id": "war-acrobats",
+      "name": "War Acrobats",
+      "category": "landmark",
+      "country": "Bosna in Hercegovina",
+      "city": "Sarajevo",
+      "outside_only": true,
+      "optional": false,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "sarajevo-war-tour"
+      ]
+    },
+    {
+      "id": "salona-amphitheatre",
+      "name": "Amfiteater",
+      "category": "landmark",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Amfiteater iz 2. stoletja je sprejel okoli 15.000 gledalcev in gostil gladiatorske igre ter javne spektakle.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 30,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-salona-klis"
+      ]
+    },
+    {
+      "id": "salona-entrance",
+      "name": "Arheološki park Salona",
+      "category": "landmark",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Salona je bila prestolnica rimske province Dalmacije in eno največjih mest vzhodnega Jadrana.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-salona-klis"
+      ]
+    },
+    {
+      "id": "klis-st-vitus",
+      "name": "Cerkev sv. Vida",
+      "category": "church",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Stavba je bila po menjavah oblasti cerkev, mošeja in ponovno cerkev.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-salona-klis"
+      ]
+    },
+    {
+      "id": "salona-forum",
+      "name": "Forum in mestno jedro",
+      "category": "landmark",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Politično, versko in gospodarsko središče mesta.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 20,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-salona-klis"
+      ]
+    },
+    {
+      "id": "plitvice-galovacki-buk",
+      "name": "Galovački buk",
+      "category": "waterfall",
+      "country": "Hrvaška",
+      "region": "Lika",
+      "location_label": "Narodni park Plitviška jezera",
+      "short_description": "Približno 25 metrov visok slap je eden najlepših na Zgornjih jezerih. Posebej impresiven je ob večjem pretoku.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "plitvice-program-h"
+      ]
+    },
+    {
+      "id": "klis-main-gate",
+      "name": "Glavna vrata trdnjave Klis",
+      "category": "gate",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Utrdba je zgrajena v več obrambnih pasovih na strateškem prehodu med Kozjakom in Mosorjem.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-salona-klis"
+      ]
+    },
+    {
+      "id": "trogir-main-square",
+      "name": "Glavni mestni trg",
+      "category": "square",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Na majhnem prostoru se srečajo katedrala, mestna loža, stolp z uro in plemiške palače.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 20,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-trogir-kastela"
+      ]
+    },
+    {
+      "id": "plitvice-supljara",
+      "name": "Jama Šupljara",
+      "category": "cave",
+      "country": "Hrvaška",
+      "region": "Lika",
+      "location_label": "Narodni park Plitviška jezera",
+      "short_description": "Kratka, nekoliko strmejša opcija nad kanjonom. Če sta utrujena ali je pot zaprta, jo lahko brez težav izpustita.",
+      "outside_only": false,
+      "optional": true,
+      "estimated_visit_minutes": 20,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "plitvice-program-h"
+      ]
+    },
+    {
+      "id": "plitvice-kozjak",
+      "name": "Jezero Kozjak",
+      "category": "lake",
+      "country": "Hrvaška",
+      "region": "Lika",
+      "location_label": "Narodni park Plitviška jezera",
+      "short_description": "Kozjak je največje jezero v narodnem parku in naravna meja med Zgornjimi ter Spodnjimi jezeri. Barva vode se spreminja glede na svetlobo, globino in minerale.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "plitvice-program-h"
+      ]
+    },
+    {
+      "id": "trogir-cathedral",
+      "name": "Katedrala sv. Lovrenca",
+      "category": "church",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Največja znamenitost je Radovanov portal iz leta 1240, ena najlepših romanskih umetnin v tem delu Evrope.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 45,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-trogir-kastela"
+      ]
+    },
+    {
+      "id": "kastel-gomilica",
+      "name": "Kaštel Gomilica – Kaštilac",
+      "category": "fortress",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Utrjeni dvorec na majhnem otočku je eden najbolj fotogeničnih prizorov Kaštelanskega zaliva.",
+      "practical_note": "Lokacija je bila uporabljena kot kulisa za Braavos v seriji Game of Thrones.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 45,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-trogir-kastela"
+      ]
+    },
+    {
+      "id": "krka-boardwalks",
+      "name": "Lesene poti",
+      "category": "trail_point",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Lahka krožna pot vodi mimo slapov, tolmunov, mlinov in sredozemske vegetacije.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 60,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-krka"
+      ]
+    },
+    {
+      "id": "plitvice-boardwalks",
+      "name": "Lesene steze Zgornjih jezer",
+      "category": "trail_point",
+      "country": "Hrvaška",
+      "region": "Lika",
+      "location_label": "Narodni park Plitviška jezera",
+      "short_description": "Ozke lesene steze obiskovalcem omogočajo hojo tik nad vodo. Pod gladino so pogosto vidne ribe, potopljena debla in apnenčasto dno.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 45,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "plitvice-program-h"
+      ]
+    },
+    {
+      "id": "salona-manastirine",
+      "name": "Manastirine",
+      "category": "landmark",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Zgodnjekrščanski kompleks je povezan s svetim Dujmom, mučencem iz časa Dioklecijanovega preganjanja kristjanov.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 30,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-salona-klis"
+      ]
+    },
+    {
+      "id": "trogir-streets",
+      "name": "Ozke ulice starega Trogirja",
+      "category": "landmark",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Pravi čar mesta se skriva v nepravilnih ulicah, notranjih dvoriščih in kamnitih balkonih.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 30,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-trogir-kastela"
+      ]
+    },
+    {
+      "id": "plitvice-train-return",
+      "name": "Panoramski prevoz nazaj",
+      "category": "transport",
+      "country": "Hrvaška",
+      "region": "Lika",
+      "location_label": "Narodni park Plitviška jezera",
+      "short_description": "Zaključni panoramski prevoz razbremeni najbolj obiskane poti in omogoči udoben povratek proti Vhodu 2.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 20,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "plitvice-program-h"
+      ]
+    },
+    {
+      "id": "klis-viewpoint",
+      "name": "Panoramski razgled s Klisa",
+      "category": "viewpoint",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Razgled sega čez Split, Kaštelanski zaliv, Marjan in bližnje otoke.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 30,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-salona-klis"
+      ]
+    },
+    {
+      "id": "salona-porta-caesarea",
+      "name": "Porta Caesarea",
+      "category": "gate",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Reprezentančna mestna vrata so povezovala glavno cestno os antične Salone.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-salona-klis"
+      ]
+    },
+    {
+      "id": "krka-skradin-return",
+      "name": "Povratek v Skradin",
+      "category": "transport",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 30,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-krka"
+      ]
+    },
+    {
+      "id": "klis-courtyard",
+      "name": "Prvo obrambno dvorišče",
+      "category": "fortress",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Skladišča, nastanitve in cisterne so omogočale dolga obleganja.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-salona-klis"
+      ]
+    },
+    {
+      "id": "trogir-north-gate",
+      "name": "Severna mestna vrata",
+      "category": "gate",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Vhod v majhno otoško jedro Trogirja, nad katerim stoji kip blaženega Ivana Trogirskega.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-trogir-kastela"
+      ]
+    },
+    {
+      "id": "krka-skradin",
+      "name": "Skradin",
+      "category": "landmark",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Majhno dalmatinsko mestece ob reki je prijetno izhodišče za obisk parka.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 20,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-krka"
+      ]
+    },
+    {
+      "id": "krka-skradinski-buk",
+      "name": "Skradinski buk",
+      "category": "waterfall",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Sistem večjih in manjših slapov tvori približno 800 metrov dolgo lehnjakovo pregrado.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 90,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-krka"
+      ]
+    },
+    {
+      "id": "plitvice-lower-lakes",
+      "name": "Spodnja jezera",
+      "category": "lake",
+      "country": "Hrvaška",
+      "region": "Lika",
+      "location_label": "Narodni park Plitviška jezera",
+      "short_description": "Spodnja jezera ležijo v globokem apnenčastem kanjonu. Lesene poti potekajo tik ob vodi, med strmimi stenami in pod slapovi.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 60,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "plitvice-program-h"
+      ]
+    },
+    {
+      "id": "krka-mills",
+      "name": "Stari mlini",
+      "category": "landmark",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Obnovljeni mlini pričajo o tradicionalni uporabi vodne energije; območje Krke je bilo tudi med pionirji zgodnje elektrifikacije.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 20,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-krka"
+      ]
+    },
+    {
+      "id": "trogir-kamerlengo",
+      "name": "Trdnjava Kamerlengo",
+      "category": "fortress",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Beneška utrdba iz 15. stoletja je varovala pristanišče in ponuja razgled na mesto, marino in Čiovo.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 40,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-trogir-kastela"
+      ]
+    },
+    {
+      "id": "trogir-riva",
+      "name": "Trogirska Riva",
+      "category": "landmark",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Mirnejša dalmatinska promenada z jadrnicami, palmami in kavarnami.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 25,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-trogir-kastela"
+      ]
+    },
+    {
+      "id": "plitvice-great-waterfall",
+      "name": "Veliki slap",
+      "category": "waterfall",
+      "country": "Hrvaška",
+      "region": "Lika",
+      "location_label": "Narodni park Plitviška jezera",
+      "short_description": "Veliki slap je najvišji slap na Hrvaškem. Glavnino vode prinaša potok Plitvica, ki se strmo spusti v kanjon.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 25,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "plitvice-program-h"
+      ]
+    },
+    {
+      "id": "plitvice-entrance-2",
+      "name": "Vhod 2",
+      "category": "visitor_center",
+      "country": "Hrvaška",
+      "region": "Lika",
+      "location_label": "Narodni park Plitviška jezera",
+      "short_description": "Začetek poti vodi skozi bukovo-jelov gozd proti sistemu jezer. Park obsega skoraj 300 km² in je življenjski prostor medveda, volka, risa, vidre in številnih ptic.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "plitvice-program-h"
+      ]
+    },
+    {
+      "id": "plitvice-boat",
+      "name": "Vožnja z električno ladjo",
+      "category": "transport",
+      "country": "Hrvaška",
+      "region": "Lika",
+      "location_label": "Narodni park Plitviška jezera",
+      "short_description": "Vožnja čez Kozjak je del doživetja, ne le prevoz. Omogoča pogled na skoraj neprekinjen pas gozda okoli jezera.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 20,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "plitvice-program-h"
+      ]
+    },
+    {
+      "id": "krka-boat",
+      "name": "Vožnja z ladjo po Krki",
+      "category": "transport",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Počasna vožnja po reki je del doživetja in vodi do območja Skradinskega buka.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 30,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-krka"
+      ]
+    },
+    {
+      "id": "klis-krusic",
+      "name": "Zgodba Petra Kružića",
+      "category": "landmark",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "short_description": "Petar Kružić je skoraj četrt stoletja branil Klis pred osmansko vojsko; trdnjava je padla leta 1537.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "optional-salona-klis"
+      ]
+    },
+    {
+      "id": "plitvice-upper-lakes",
+      "name": "Zgornja jezera",
+      "category": "lake",
+      "country": "Hrvaška",
+      "region": "Lika",
+      "location_label": "Narodni park Plitviška jezera",
+      "short_description": "Dvanajst Zgornjih jezer leži v bolj gozdnatem in položnem delu parka. Pokrajina se neprestano spreminja med gozdom, jezernimi terasami in slapovi.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 75,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "plitvice-program-h"
+      ]
+    },
+    {
+      "id": "split-cellars",
+      "name": "Dioklecijanove podkleti",
+      "category": "landmark",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Split",
+      "short_description": "Podzemni prostori so služili kot konstrukcijska osnova cesarskih apartmajev. Njihov tloris omogoča rekonstrukcijo izgubljenih zgornjih prostorov.",
+      "practical_note": "Del kleti je bil uporabljen kot snemalna kulisa za Meereen v seriji Game of Thrones.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 45,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "split-diocletian-walk"
+      ]
+    },
+    {
+      "id": "split-sphinx",
+      "name": "Egipčanska sfinga",
+      "category": "landmark",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Split",
+      "short_description": "Sfinga iz črnega granita je stara približno 3500 let in je bila v Split pripeljana iz Egipta kot del cesarske dekoracije.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "split-diocletian-walk"
+      ]
+    },
+    {
+      "id": "split-jupiter",
+      "name": "Jupitrov tempelj",
+      "category": "church",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Split",
+      "short_description": "Poganski tempelj vrhovnega rimskega boga je bil v srednjem veku spremenjen v krstilnico sv. Janeza.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 20,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "split-diocletian-walk"
+      ]
+    },
+    {
+      "id": "split-gregory",
+      "name": "Kip Grgurja Ninskega",
+      "category": "landmark",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Split",
+      "short_description": "Monumentalni kip Ivana Meštrovića iz leta 1929 predstavlja škofa, ki se je zavzemal za uporabo domačega jezika in glagolice v bogoslužju.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "split-diocletian-walk"
+      ]
+    },
+    {
+      "id": "split-marulic",
+      "name": "Kip Marka Marulića",
+      "category": "landmark",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Split",
+      "short_description": "Splitčan Marko Marulić velja za očeta hrvaške književnosti in pomembnega evropskega humanista.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "split-diocletian-walk"
+      ]
+    },
+    {
+      "id": "split-pjaca",
+      "name": "Narodni trg – Pjaca",
+      "category": "square",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Split",
+      "short_description": "Glavni srednjeveški trg je politično in gospodarsko vlogo prevzel od antičnega Peristila.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 20,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "split-diocletian-walk"
+      ]
+    },
+    {
+      "id": "split-peristyle",
+      "name": "Peristil",
+      "category": "square",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Split",
+      "short_description": "Reprezentančni trg palače je bil prizorišče cesarskih sprejemov. Egipčanski granitni stebri in stroga simetrija izražajo moč poznega rimskega cesarstva.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 20,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "split-diocletian-walk"
+      ]
+    },
+    {
+      "id": "split-prokurative",
+      "name": "Prokurative",
+      "category": "square",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Split",
+      "short_description": "Trg Republike iz 19. stoletja je zasnovan po beneških zgledih in danes gosti kulturne dogodke.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "split-diocletian-walk"
+      ]
+    },
+    {
+      "id": "split-riva",
+      "name": "Riva",
+      "category": "landmark",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Split",
+      "short_description": "Sodobno mestno zbirališče razkriva južno pročelje palače, nekoč obrnjeno neposredno proti morju.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 20,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "split-diocletian-walk"
+      ]
+    },
+    {
+      "id": "split-cathedral",
+      "name": "Stolnica sv. Dujma",
+      "category": "church",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Split",
+      "short_description": "Nekdanji Dioklecijanov mavzolej je postal krščanska stolnica, posvečena mučencu iz časa cesarjevega preganjanja kristjanov – ena največjih ironij evropske zgodovine.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 40,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "split-diocletian-walk"
+      ]
+    },
+    {
+      "id": "split-vestibule",
+      "name": "Vestibul",
+      "category": "landmark",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Split",
+      "short_description": "Vhodna dvorana v cesarjeve zasebne prostore je danes znana po izjemni akustiki in nastopih dalmatinskih klap.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "split-diocletian-walk"
+      ]
+    },
+    {
+      "id": "split-fruit-square",
+      "name": "Voćni trg",
+      "category": "square",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Split",
+      "short_description": "Trg nekdanje tržnice z Beneškim stolpom in kipom Marka Marulića predstavlja prehod v srednjeveški Split.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "split-diocletian-walk"
+      ]
+    },
+    {
+      "id": "split-golden-gate",
+      "name": "Zlata vrata",
+      "category": "gate",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Split",
+      "short_description": "Glavni severni vhod v palačo je povezoval Dioklecijanovo rezidenco s Salono. Niše nad vrati so nekoč krasili cesarski kipi.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "split-diocletian-walk"
+      ]
+    },
+    {
+      "id": "zadar-st-donatus",
+      "name": "Cerkev sv. Donata",
+      "category": "church",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Zadar",
+      "short_description": "Predromanska krožna cerkev iz 9. stoletja je najprepoznavnejši simbol Zadra in uporablja številne kamnite elemente antičnega foruma.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "zadar-express-walk"
+      ]
+    },
+    {
+      "id": "zadar-cathedral",
+      "name": "Katedrala sv. Stošije",
+      "category": "church",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Zadar",
+      "short_description": "Največja cerkev v Dalmaciji ima eno najlepših romanskih fasad na Hrvaškem.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 20,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "zadar-express-walk"
+      ]
+    },
+    {
+      "id": "zadar-land-gate",
+      "name": "Kopenska vrata",
+      "category": "gate",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Zadar",
+      "short_description": "Renesančna vrata iz leta 1543 po načrtih Michela Sanmichellija so glavni simbol beneškega obrambnega Zadra.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "zadar-express-walk"
+      ]
+    },
+    {
+      "id": "zadar-sea-organ",
+      "name": "Morske orgle",
+      "category": "landmark",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Zadar",
+      "short_description": "Sistem cevi pod kamnitimi stopnicami pretvarja gibanje valov v neponovljivo zvočno kompozicijo. Delo arhitekta Nikole Bašića je bilo odprto leta 2005.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 25,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "zadar-express-walk"
+      ]
+    },
+    {
+      "id": "zadar-peoples-square",
+      "name": "Narodni trg",
+      "category": "square",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Zadar",
+      "short_description": "Od srednjega veka je to upravno in družabno središče mesta.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "zadar-express-walk"
+      ]
+    },
+    {
+      "id": "zadar-ravnice",
+      "name": "Parkirišče Ravnice",
+      "category": "parking",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Zadar",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 5,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "zadar-express-walk"
+      ]
+    },
+    {
+      "id": "zadar-sun-salutation",
+      "name": "Pozdrav Soncu",
+      "category": "landmark",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Zadar",
+      "short_description": "Stekleni krog s sončnimi celicami čez dan zbira energijo, zvečer pa se spremeni v svetlobno instalacijo.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "zadar-express-walk"
+      ]
+    },
+    {
+      "id": "zadar-forum",
+      "name": "Rimski forum",
+      "category": "landmark",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Zadar",
+      "short_description": "Največji rimski forum na vzhodni obali Jadrana je bil politično, gospodarsko in versko središče antičnega Zadra.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "zadar-express-walk"
+      ]
+    },
+    {
+      "id": "zadar-five-wells",
+      "name": "Trg pet bunara",
+      "category": "square",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Zadar",
+      "short_description": "Pet kamnitih vodnjakov je bilo povezano z veliko cisterno, ki je mestu zagotavljala vodo med obleganji.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "zadar-express-walk"
+      ]
+    },
+    {
+      "id": "durmitor-barno",
+      "name": "Barno jezero",
+      "category": "lake",
+      "country": "Črna gora",
+      "region": "Durmitor",
+      "location_label": "Črno jezero",
+      "outside_only": false,
+      "optional": true,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "durmitor-lakes-options"
+      ]
+    },
+    {
+      "id": "durmitor-jablan",
+      "name": "Jablan jezero",
+      "category": "lake",
+      "country": "Črna gora",
+      "region": "Durmitor",
+      "location_label": "Črno jezero",
+      "outside_only": false,
+      "optional": true,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "durmitor-lakes-options"
+      ]
+    },
+    {
+      "id": "durmitor-ring-perast",
+      "name": "Perast",
+      "category": "other",
+      "country": "Črna gora",
+      "region": "Durmitor",
+      "outside_only": false,
+      "optional": false,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "durmitor-ring"
+      ]
+    },
+    {
+      "id": "durmitor-ring-sedlo",
+      "name": "Sedlo",
+      "category": "viewpoint",
+      "country": "Črna gora",
+      "region": "Durmitor",
+      "short_description": "Glavni panoramski postanek na poti.",
+      "outside_only": false,
+      "optional": false,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "durmitor-ring"
+      ]
+    },
+    {
+      "id": "durmitor-zminje",
+      "name": "Zminje jezero",
+      "category": "lake",
+      "country": "Črna gora",
+      "region": "Durmitor",
+      "location_label": "Črno jezero",
+      "short_description": "Mirno, gozdnato jezero, ki ponuja precej več samote.",
+      "outside_only": false,
+      "optional": true,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "durmitor-lakes-options"
+      ]
+    },
+    {
+      "id": "durmitor-black-lake",
+      "name": "Črno jezero",
+      "category": "lake",
+      "country": "Črna gora",
+      "region": "Durmitor",
+      "location_label": "Črno jezero",
+      "short_description": "Največje in najbolj obiskano ledeniško jezero Durmitorja.",
+      "outside_only": false,
+      "optional": false,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "durmitor-lakes-options"
+      ]
+    },
+    {
+      "id": "durmitor-ring-zabljak",
+      "name": "Žabljak",
+      "category": "other",
+      "country": "Črna gora",
+      "region": "Durmitor",
+      "outside_only": false,
+      "optional": false,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "durmitor-ring"
+      ]
+    },
+    {
+      "id": "kotor-lady-remedy",
+      "name": "Cerkev Gospe od Zdravja",
+      "category": "church",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "city": "Kotor",
+      "short_description": "Cerkev iz leta 1518 je nastala kot votivna cerkev in danes ponuja enega najbolj prepoznavnih pogledov na Kotor.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 20,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "kotor-city-walls-hike"
+      ]
+    },
+    {
+      "id": "kotor-st-luke",
+      "name": "Cerkev sv. Luke",
+      "category": "church",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "city": "Kotor",
+      "short_description": "Cerkev iz leta 1195 je redka priča verskega sobivanja, saj sta si jo stoletja delili katoliška in pravoslavna skupnost.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 12,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "kotor-old-town-walk"
+      ]
+    },
+    {
+      "id": "kotor-st-mary",
+      "name": "Cerkev sv. Marije od Reke",
+      "category": "church",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "city": "Kotor",
+      "short_description": "Cerkev je povezana z blaženo Ozano Kotorsko, duhovno zaščitnico mesta.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "kotor-old-town-walk"
+      ]
+    },
+    {
+      "id": "kotor-st-nicholas",
+      "name": "Cerkev sv. Nikolaja",
+      "category": "church",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "city": "Kotor",
+      "short_description": "Glavna pravoslavna cerkev je bila zgrajena med letoma 1902 in 1909 v neobizantinskem slogu.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 15,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "kotor-old-town-walk"
+      ]
+    },
+    {
+      "id": "kotor-sea-gate",
+      "name": "Morska vrata",
+      "category": "gate",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "city": "Kotor",
+      "short_description": "Glavna vrata iz leta 1555 so nastala v beneškem obdobju. Na istem kamnu se srečajo beneški simboli in spomin na osvoboditev mesta leta 1944.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "kotor-old-town-walk"
+      ]
+    },
+    {
+      "id": "kotor-beskuca-palace",
+      "name": "Palača Beskuća",
+      "category": "palace",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "city": "Kotor",
+      "short_description": "Največja posebnost je bogato okrašen gotski portal, verjetno prenesen iz starejše palače.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 8,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "kotor-old-town-walk"
+      ]
+    },
+    {
+      "id": "kotor-bizanti-palace",
+      "name": "Palača Bizanti",
+      "category": "palace",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "city": "Kotor",
+      "short_description": "Palača ene najstarejših kotorskih plemiških družin združuje več gradbenih obdobij in priča o bogastvu pomorskih trgovcev.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 8,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "kotor-old-town-walk"
+      ]
+    },
+    {
+      "id": "kotor-pima-palace",
+      "name": "Palača Pima",
+      "category": "palace",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "city": "Kotor",
+      "short_description": "Renesančno-baročno pročelje z bogatim balkonom in grbom je eno najlepših v mestu.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 8,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "kotor-old-town-walk"
+      ]
+    },
+    {
+      "id": "kotor-maritime-museum",
+      "name": "Pomorski muzej Črne gore",
+      "category": "museum",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "city": "Kotor",
+      "official_url": "https://pomorskimuzej.com/",
+      "short_description": "Muzej v palači Grgurina predstavlja pomorstvo Boke, ladijske modele, navigacijske instrumente in tradicijo Bokeljske mornarice.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 50,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": true,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": true
+      },
+      "source_activity_ids": [
+        "kotor-old-town-walk"
+      ]
+    },
+    {
+      "id": "kotor-first-viewpoint",
+      "name": "Prvo panoramsko razgledišče",
+      "category": "viewpoint",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "city": "Kotor",
+      "short_description": "Po prvih serpentinah se odpre pogled na rdeče strehe Kotorja, pristanišče in zaliv.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "kotor-city-walls-hike"
+      ]
+    },
+    {
+      "id": "kotor-serpentines",
+      "name": "Serpentine nad starim mestom",
+      "category": "trail_point",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "city": "Kotor",
+      "short_description": "Z vsakim ovinkom se razgled razširi, obzidje pa se skoraj zlije s skalnim pobočjem.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 20,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "kotor-city-walls-hike"
+      ]
+    },
+    {
+      "id": "kotor-north-gate",
+      "name": "Severna vrata",
+      "category": "gate",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "city": "Kotor",
+      "short_description": "Rečna vrata iz leta 1540 spominjajo na uspešno obrambo pred osmanskim napadom. Reka Škurda je bila pomemben del obrambnega sistema.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "kotor-old-town-walk"
+      ]
+    },
+    {
+      "id": "kotor-st-tryphon",
+      "name": "Stolnica sv. Tripuna",
+      "category": "church",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "city": "Kotor",
+      "official_url": "https://www.biskupija-kotor.me/",
+      "short_description": "Stolnica, posvečena leta 1166, je ena najstarejših katoliških stolnic na vzhodnem Jadranu. Različna zvonika pričata o več obnovah po potresih.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 35,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": true,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": true
+      },
+      "source_activity_ids": [
+        "kotor-old-town-walk"
+      ]
+    },
+    {
+      "id": "kotor-clock-tower",
+      "name": "Stolpna ura",
+      "category": "landmark",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "city": "Kotor",
+      "short_description": "Stolp iz leta 1602 je po potresu leta 1667 ostal rahlo nagnjen. Pred njim stoji nekdanji steber sramote.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "kotor-old-town-walk"
+      ]
+    },
+    {
+      "id": "kotor-st-john",
+      "name": "Trdnjava sv. Janeza",
+      "category": "fortress",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "city": "Kotor",
+      "short_description": "Ostanki trdnjave na približno 260 metrih nadmorske višine razkrivajo strateško lego Kotorja in ponujajo panoramski pogled na Boko Kotorsko.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 30,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "kotor-city-walls-hike"
+      ]
+    },
+    {
+      "id": "kotor-cat-square",
+      "name": "Trg mačk",
+      "category": "square",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "city": "Kotor",
+      "short_description": "Mačke so postale neuradni simbol Kotorja; nekoč so na ladjah in v skladiščih varovale zaloge pred podganami.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "kotor-old-town-walk"
+      ]
+    },
+    {
+      "id": "kotor-square-arms",
+      "name": "Trg orožja",
+      "category": "square",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "city": "Kotor",
+      "short_description": "Največji trg starega mesta je bil v beneškem času vojaško, upravno in družabno središče.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 10,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "kotor-old-town-walk"
+      ]
+    },
+    {
+      "id": "kotor-walls-entrance",
+      "name": "Vhod na mestno obzidje",
+      "category": "gate",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "city": "Kotor",
+      "short_description": "Utrdbe so nastajale od ilirskih in rimskih začetkov do bizantinskega ter beneškega obdobja. Današnja podoba je predvsem rezultat beneške vojaške arhitekture.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 5,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "kotor-city-walls-hike"
+      ]
+    },
+    {
+      "id": "kotor-karampana",
+      "name": "Vodnjak Karampana",
+      "category": "landmark",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "city": "Kotor",
+      "short_description": "Nekdanji glavni javni vir vode je bil tudi družabno središče in 'največji časopis v Kotorju', kjer so se širile novice.",
+      "outside_only": false,
+      "optional": false,
+      "estimated_visit_minutes": 8,
+      "data_quality": {
+        "has_coordinates": false,
+        "has_google_maps_url": false,
+        "has_official_url": false,
+        "needs_location_enrichment": true,
+        "needs_current_info_check": false
+      },
+      "source_activity_ids": [
+        "kotor-old-town-walk"
+      ]
+    }
+  ]
+}

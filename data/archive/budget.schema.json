@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "currency",
+    "summary",
+    "categories"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "trip_id": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "summary": {
+      "type": "object",
+      "properties": {
+        "known_accommodation_total_eur": {
+          "type": "number",
+          "minimum": 0
+        },
+        "other_costs_status": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "items"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "planned_eur": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "actual_eur": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title"
+              ],
+              "properties": {
+                "reference_id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "planned_eur": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0
+                },
+                "actual_eur": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0
+                },
+                "note": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

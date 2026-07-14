@@ -1,0 +1,753 @@
+{
+  "schema_version": "1.0.0",
+  "trip_id": "balkan-roadtrip-2026",
+  "updated_at": "2026-07-12T22:15:00+02:00",
+  "description": "Osrednje kazalo povezav med dnevi, aktivnostmi, znamenitostmi, praktičnimi lokacijami in tematskim znanjem.",
+  "files": {
+    "days": "days.json",
+    "activities": "activities.json",
+    "attractions": "attractions.json",
+    "places": "places.json",
+    "knowledge": "knowledge.json",
+    "coordinates": "coordinates.json"
+  },
+  "days": [
+    {
+      "day": 2,
+      "title": "Plitviška jezera",
+      "base": "Slunj/Rastoke",
+      "overnight": "Slunj/Rastoke",
+      "activity_ids": [
+        "plitvice-program-h"
+      ],
+      "optional_activity_ids": [],
+      "choose_one_activity_ids": [],
+      "attraction_ids": [
+        "plitvice-boardwalks",
+        "plitvice-boat",
+        "plitvice-entrance-2",
+        "plitvice-galovacki-buk",
+        "plitvice-great-waterfall",
+        "plitvice-kozjak",
+        "plitvice-lower-lakes",
+        "plitvice-supljara",
+        "plitvice-train-return",
+        "plitvice-upper-lakes"
+      ],
+      "place_ids": [
+        "parking-plitvice-entrance-2",
+        "plitvice-entrance-2-info"
+      ],
+      "knowledge_topic_ids": [
+        "karst-and-travertine",
+        "plitvice-dynamic-lakes",
+        "unesco-on-this-trip"
+      ],
+      "missing_references": []
+    },
+    {
+      "day": 3,
+      "title": "Jajce",
+      "base": "Jajce",
+      "overnight": "Jajce",
+      "activity_ids": [
+        "jajce-kings-waterfall-avnoj"
+      ],
+      "optional_activity_ids": [],
+      "choose_one_activity_ids": [],
+      "attraction_ids": [
+        "jajce-avnoj",
+        "jajce-bear-tower",
+        "jajce-catacombs",
+        "jajce-fortress",
+        "jajce-old-town",
+        "jajce-st-mary",
+        "jajce-waterfall"
+      ],
+      "place_ids": [],
+      "knowledge_topic_ids": [
+        "avnoj-and-yugoslavia",
+        "bosnian-kingdom",
+        "fortifications-and-borderlands",
+        "ottoman-urbanism"
+      ],
+      "missing_references": []
+    },
+    {
+      "day": 5,
+      "title": "Sarajevo – zgodovinsko jedro",
+      "base": "Sarajevo",
+      "overnight": "Sarajevo",
+      "activity_ids": [
+        "sarajevo-heritage-walk",
+        "sarajevo-war-tour"
+      ],
+      "optional_activity_ids": [],
+      "choose_one_activity_ids": [],
+      "attraction_ids": [
+        "holiday-inn",
+        "murdered-children-memorial",
+        "nermine-come",
+        "presidency-bih",
+        "sarajevo-assassination-museum",
+        "sarajevo-bascarsija",
+        "sarajevo-bezistan",
+        "sarajevo-city-hall",
+        "sarajevo-clock-tower",
+        "sarajevo-emperors-mosque",
+        "sarajevo-gazi-husrev-mosque",
+        "sarajevo-ghb-library",
+        "sarajevo-hotel-europe",
+        "sarajevo-inat-kuca",
+        "sarajevo-jewish-museum",
+        "sarajevo-kazandziluk",
+        "sarajevo-kursumlija",
+        "sarajevo-latin-bridge",
+        "sarajevo-meeting-cultures",
+        "sarajevo-morica-han",
+        "sarajevo-orthodox-cathedral",
+        "sarajevo-rose-war",
+        "sarajevo-sacred-heart",
+        "sarajevo-sebilj",
+        "sarajevo-taslihan",
+        "siege-front-line",
+        "sniper-alley",
+        "war-acrobats"
+      ],
+      "place_ids": [
+        "sarajevo-war-tour-meeting-point"
+      ],
+      "knowledge_topic_ids": [
+        "austro-hungarian-bosnia",
+        "ottoman-urbanism",
+        "sarajevo-multireligious-city"
+      ],
+      "missing_references": []
+    },
+    {
+      "day": 6,
+      "title": "Sarajevo po navdihu",
+      "base": "Sarajevo",
+      "overnight": "Sarajevo",
+      "activity_ids": [
+        "sarajevo-inspiration-day"
+      ],
+      "optional_activity_ids": [],
+      "choose_one_activity_ids": [],
+      "attraction_ids": [],
+      "place_ids": [],
+      "knowledge_topic_ids": [],
+      "missing_references": []
+    },
+    {
+      "day": 8,
+      "title": "Durmitor",
+      "base": "Žabljak",
+      "overnight": "Žabljak",
+      "activity_ids": [
+        "durmitor-lakes-options"
+      ],
+      "optional_activity_ids": [],
+      "choose_one_activity_ids": [
+        "durmitor-lakes-options"
+      ],
+      "attraction_ids": [
+        "durmitor-barno",
+        "durmitor-black-lake",
+        "durmitor-jablan",
+        "durmitor-zminje"
+      ],
+      "place_ids": [
+        "crno-jezero-trailhead"
+      ],
+      "knowledge_topic_ids": [
+        "durmitor-glacial-landscape",
+        "unesco-on-this-trip"
+      ],
+      "missing_references": []
+    },
+    {
+      "day": 9,
+      "title": "Kanjon Tare",
+      "base": "Žabljak",
+      "overnight": "Žabljak",
+      "activity_ids": [
+        "tara-packrafting"
+      ],
+      "optional_activity_ids": [],
+      "choose_one_activity_ids": [],
+      "attraction_ids": [],
+      "place_ids": [
+        "tara-packrafting-meeting-point"
+      ],
+      "knowledge_topic_ids": [
+        "tara-canyon"
+      ],
+      "missing_references": []
+    },
+    {
+      "day": 10,
+      "title": "Durmitor Ring",
+      "base": null,
+      "overnight": "Perast",
+      "activity_ids": [
+        "durmitor-ring"
+      ],
+      "optional_activity_ids": [],
+      "choose_one_activity_ids": [],
+      "attraction_ids": [
+        "durmitor-ring-perast",
+        "durmitor-ring-sedlo",
+        "durmitor-ring-zabljak"
+      ],
+      "place_ids": [],
+      "knowledge_topic_ids": [
+        "durmitor-glacial-landscape",
+        "unesco-on-this-trip"
+      ],
+      "missing_references": []
+    },
+    {
+      "day": 11,
+      "title": "Perast in Kotor",
+      "base": "Perast",
+      "overnight": "Perast",
+      "activity_ids": [
+        "kotor-city-walls-hike",
+        "kotor-old-town-walk",
+        "boka-boat-trip"
+      ],
+      "optional_activity_ids": [
+        "boka-boat-trip"
+      ],
+      "choose_one_activity_ids": [],
+      "attraction_ids": [
+        "kotor-beskuca-palace",
+        "kotor-bizanti-palace",
+        "kotor-cat-square",
+        "kotor-clock-tower",
+        "kotor-first-viewpoint",
+        "kotor-karampana",
+        "kotor-lady-remedy",
+        "kotor-maritime-museum",
+        "kotor-north-gate",
+        "kotor-pima-palace",
+        "kotor-sea-gate",
+        "kotor-serpentines",
+        "kotor-square-arms",
+        "kotor-st-john",
+        "kotor-st-luke",
+        "kotor-st-mary",
+        "kotor-st-nicholas",
+        "kotor-st-tryphon",
+        "kotor-walls-entrance"
+      ],
+      "place_ids": [
+        "parking-kotor-city"
+      ],
+      "knowledge_topic_ids": [
+        "boka-kotorska-landscape",
+        "fortifications-and-borderlands",
+        "medieval-adriatic-cities",
+        "unesco-on-this-trip",
+        "venetian-adriatic"
+      ],
+      "missing_references": []
+    },
+    {
+      "day": 13,
+      "title": "Split",
+      "base": "Split",
+      "overnight": "Split",
+      "activity_ids": [
+        "split-diocletian-walk"
+      ],
+      "optional_activity_ids": [],
+      "choose_one_activity_ids": [],
+      "attraction_ids": [
+        "split-cathedral",
+        "split-cellars",
+        "split-fruit-square",
+        "split-golden-gate",
+        "split-gregory",
+        "split-jupiter",
+        "split-marulic",
+        "split-peristyle",
+        "split-pjaca",
+        "split-prokurative",
+        "split-riva",
+        "split-sphinx",
+        "split-vestibule"
+      ],
+      "place_ids": [],
+      "knowledge_topic_ids": [
+        "diocletian-and-christianity",
+        "medieval-adriatic-cities",
+        "roman-dalmatia",
+        "unesco-on-this-trip",
+        "venetian-adriatic"
+      ],
+      "missing_references": []
+    },
+    {
+      "day": 15,
+      "title": "Fakultativni izlet",
+      "base": "Split",
+      "overnight": "Split",
+      "activity_ids": [
+        "optional-trogir-kastela",
+        "optional-salona-klis",
+        "optional-krka"
+      ],
+      "optional_activity_ids": [],
+      "choose_one_activity_ids": [
+        "optional-trogir-kastela",
+        "optional-salona-klis",
+        "optional-krka"
+      ],
+      "attraction_ids": [
+        "kastel-gomilica",
+        "klis-courtyard",
+        "klis-krusic",
+        "klis-main-gate",
+        "klis-st-vitus",
+        "klis-viewpoint",
+        "krka-boardwalks",
+        "krka-boat",
+        "krka-mills",
+        "krka-skradin",
+        "krka-skradin-return",
+        "krka-skradinski-buk",
+        "salona-amphitheatre",
+        "salona-entrance",
+        "salona-forum",
+        "salona-manastirine",
+        "salona-porta-caesarea",
+        "trogir-cathedral",
+        "trogir-kamerlengo",
+        "trogir-main-square",
+        "trogir-north-gate",
+        "trogir-riva",
+        "trogir-streets"
+      ],
+      "place_ids": [
+        "skradin-boat-departure"
+      ],
+      "knowledge_topic_ids": [
+        "diocletian-and-christianity",
+        "fortifications-and-borderlands",
+        "karst-and-travertine",
+        "medieval-adriatic-cities",
+        "roman-dalmatia",
+        "unesco-on-this-trip",
+        "venetian-adriatic"
+      ],
+      "missing_references": []
+    },
+    {
+      "day": 16,
+      "title": "Zadar",
+      "base": null,
+      "overnight": "Home",
+      "activity_ids": [
+        "zadar-express-walk"
+      ],
+      "optional_activity_ids": [],
+      "choose_one_activity_ids": [],
+      "attraction_ids": [
+        "zadar-cathedral",
+        "zadar-five-wells",
+        "zadar-forum",
+        "zadar-land-gate",
+        "zadar-peoples-square",
+        "zadar-ravnice",
+        "zadar-sea-organ",
+        "zadar-st-donatus",
+        "zadar-sun-salutation"
+      ],
+      "place_ids": [
+        "parking-zadar-ravnice"
+      ],
+      "knowledge_topic_ids": [
+        "fortifications-and-borderlands",
+        "medieval-adriatic-cities",
+        "roman-dalmatia",
+        "unesco-on-this-trip",
+        "venetian-adriatic"
+      ],
+      "missing_references": []
+    }
+  ],
+  "activity_index": {
+    "boka-boat-trip": {
+      "type": "boat_trip",
+      "status": "draft",
+      "trip_day_refs": [
+        11
+      ],
+      "attraction_ids": [],
+      "place_ids": [],
+      "knowledge_topic_ids": [
+        "boka-kotorska-landscape"
+      ]
+    },
+    "durmitor-lakes-options": {
+      "type": "hike",
+      "status": "ready",
+      "trip_day_refs": [
+        8
+      ],
+      "attraction_ids": [
+        "durmitor-black-lake",
+        "durmitor-zminje",
+        "durmitor-barno",
+        "durmitor-jablan"
+      ],
+      "place_ids": [
+        "crno-jezero-trailhead"
+      ],
+      "knowledge_topic_ids": [
+        "durmitor-glacial-landscape",
+        "unesco-on-this-trip"
+      ]
+    },
+    "durmitor-ring": {
+      "type": "scenic_drive",
+      "status": "draft",
+      "trip_day_refs": [
+        10
+      ],
+      "attraction_ids": [
+        "durmitor-ring-zabljak",
+        "durmitor-ring-sedlo",
+        "durmitor-ring-perast"
+      ],
+      "place_ids": [],
+      "knowledge_topic_ids": [
+        "durmitor-glacial-landscape",
+        "unesco-on-this-trip"
+      ]
+    },
+    "jajce-kings-waterfall-avnoj": {
+      "type": "city_walk",
+      "status": "ready",
+      "trip_day_refs": [
+        3
+      ],
+      "attraction_ids": [
+        "jajce-waterfall",
+        "jajce-avnoj",
+        "jajce-catacombs",
+        "jajce-st-mary",
+        "jajce-bear-tower",
+        "jajce-fortress",
+        "jajce-old-town"
+      ],
+      "place_ids": [],
+      "knowledge_topic_ids": [
+        "avnoj-and-yugoslavia",
+        "bosnian-kingdom",
+        "fortifications-and-borderlands",
+        "ottoman-urbanism"
+      ]
+    },
+    "kotor-city-walls-hike": {
+      "type": "hike",
+      "status": "ready",
+      "trip_day_refs": [
+        11
+      ],
+      "attraction_ids": [
+        "kotor-walls-entrance",
+        "kotor-first-viewpoint",
+        "kotor-lady-remedy",
+        "kotor-serpentines",
+        "kotor-st-john"
+      ],
+      "place_ids": [
+        "parking-kotor-city"
+      ],
+      "knowledge_topic_ids": [
+        "boka-kotorska-landscape",
+        "fortifications-and-borderlands",
+        "unesco-on-this-trip",
+        "venetian-adriatic"
+      ]
+    },
+    "kotor-old-town-walk": {
+      "type": "city_walk",
+      "status": "ready",
+      "trip_day_refs": [
+        11
+      ],
+      "attraction_ids": [
+        "kotor-sea-gate",
+        "kotor-square-arms",
+        "kotor-clock-tower",
+        "kotor-bizanti-palace",
+        "kotor-beskuca-palace",
+        "kotor-pima-palace",
+        "kotor-st-tryphon",
+        "kotor-maritime-museum",
+        "kotor-karampana",
+        "kotor-st-luke",
+        "kotor-st-nicholas",
+        "kotor-cat-square",
+        "kotor-st-mary",
+        "kotor-north-gate"
+      ],
+      "place_ids": [
+        "parking-kotor-city"
+      ],
+      "knowledge_topic_ids": [
+        "boka-kotorska-landscape",
+        "medieval-adriatic-cities",
+        "unesco-on-this-trip",
+        "venetian-adriatic"
+      ]
+    },
+    "optional-krka": {
+      "type": "day_trip",
+      "status": "optional",
+      "trip_day_refs": [
+        15
+      ],
+      "attraction_ids": [
+        "krka-skradin",
+        "krka-boat",
+        "krka-skradinski-buk",
+        "krka-boardwalks",
+        "krka-mills",
+        "krka-skradin-return"
+      ],
+      "place_ids": [
+        "skradin-boat-departure"
+      ],
+      "knowledge_topic_ids": [
+        "karst-and-travertine"
+      ]
+    },
+    "optional-salona-klis": {
+      "type": "day_trip",
+      "status": "optional",
+      "trip_day_refs": [
+        15
+      ],
+      "attraction_ids": [
+        "salona-entrance",
+        "salona-porta-caesarea",
+        "salona-forum",
+        "salona-amphitheatre",
+        "salona-manastirine",
+        "klis-main-gate",
+        "klis-courtyard",
+        "klis-krusic",
+        "klis-st-vitus",
+        "klis-viewpoint"
+      ],
+      "place_ids": [],
+      "knowledge_topic_ids": [
+        "diocletian-and-christianity",
+        "fortifications-and-borderlands",
+        "roman-dalmatia",
+        "venetian-adriatic"
+      ]
+    },
+    "optional-trogir-kastela": {
+      "type": "day_trip",
+      "status": "optional",
+      "trip_day_refs": [
+        15
+      ],
+      "attraction_ids": [
+        "trogir-north-gate",
+        "trogir-main-square",
+        "trogir-cathedral",
+        "trogir-streets",
+        "trogir-kamerlengo",
+        "trogir-riva",
+        "kastel-gomilica"
+      ],
+      "place_ids": [],
+      "knowledge_topic_ids": [
+        "medieval-adriatic-cities",
+        "unesco-on-this-trip",
+        "venetian-adriatic"
+      ]
+    },
+    "plitvice-program-h": {
+      "type": "hike",
+      "status": "ready",
+      "trip_day_refs": [
+        2
+      ],
+      "attraction_ids": [
+        "plitvice-entrance-2",
+        "plitvice-kozjak",
+        "plitvice-boat",
+        "plitvice-boardwalks",
+        "plitvice-upper-lakes",
+        "plitvice-galovacki-buk",
+        "plitvice-lower-lakes",
+        "plitvice-great-waterfall",
+        "plitvice-supljara",
+        "plitvice-train-return"
+      ],
+      "place_ids": [
+        "parking-plitvice-entrance-2",
+        "plitvice-entrance-2-info"
+      ],
+      "knowledge_topic_ids": [
+        "karst-and-travertine",
+        "plitvice-dynamic-lakes",
+        "unesco-on-this-trip"
+      ]
+    },
+    "sarajevo-heritage-walk": {
+      "type": "city_walk",
+      "status": "ready",
+      "trip_day_refs": [
+        5
+      ],
+      "attraction_ids": [
+        "sarajevo-sacred-heart",
+        "sarajevo-orthodox-cathedral",
+        "sarajevo-jewish-museum",
+        "sarajevo-meeting-cultures",
+        "sarajevo-hotel-europe",
+        "sarajevo-taslihan",
+        "sarajevo-bezistan",
+        "sarajevo-gazi-husrev-mosque",
+        "sarajevo-clock-tower",
+        "sarajevo-kursumlija",
+        "sarajevo-ghb-library",
+        "sarajevo-morica-han",
+        "sarajevo-kazandziluk",
+        "sarajevo-sebilj",
+        "sarajevo-bascarsija",
+        "sarajevo-city-hall",
+        "sarajevo-inat-kuca",
+        "sarajevo-emperors-mosque",
+        "sarajevo-latin-bridge",
+        "sarajevo-assassination-museum"
+      ],
+      "place_ids": [],
+      "knowledge_topic_ids": [
+        "austro-hungarian-bosnia",
+        "ottoman-urbanism",
+        "sarajevo-multireligious-city"
+      ]
+    },
+    "sarajevo-inspiration-day": {
+      "type": "inspiration_day",
+      "status": "ready",
+      "trip_day_refs": [
+        6
+      ],
+      "attraction_ids": [],
+      "place_ids": [],
+      "knowledge_topic_ids": []
+    },
+    "sarajevo-war-tour": {
+      "type": "city_walk",
+      "status": "booked",
+      "trip_day_refs": [
+        5,
+        6
+      ],
+      "attraction_ids": [
+        "war-acrobats",
+        "nermine-come",
+        "murdered-children-memorial",
+        "sarajevo-rose-war",
+        "presidency-bih",
+        "sniper-alley",
+        "holiday-inn",
+        "siege-front-line"
+      ],
+      "place_ids": [
+        "sarajevo-war-tour-meeting-point"
+      ],
+      "knowledge_topic_ids": []
+    },
+    "split-diocletian-walk": {
+      "type": "city_walk",
+      "status": "ready",
+      "trip_day_refs": [
+        14
+      ],
+      "attraction_ids": [
+        "split-gregory",
+        "split-golden-gate",
+        "split-sphinx",
+        "split-peristyle",
+        "split-cathedral",
+        "split-jupiter",
+        "split-vestibule",
+        "split-cellars",
+        "split-riva",
+        "split-fruit-square",
+        "split-pjaca",
+        "split-marulic",
+        "split-prokurative"
+      ],
+      "place_ids": [],
+      "knowledge_topic_ids": [
+        "diocletian-and-christianity",
+        "medieval-adriatic-cities",
+        "roman-dalmatia",
+        "unesco-on-this-trip",
+        "venetian-adriatic"
+      ]
+    },
+    "tara-packrafting": {
+      "type": "adventure",
+      "status": "optional",
+      "trip_day_refs": [
+        9
+      ],
+      "attraction_ids": [],
+      "place_ids": [
+        "tara-packrafting-meeting-point"
+      ],
+      "knowledge_topic_ids": [
+        "tara-canyon"
+      ]
+    },
+    "zadar-express-walk": {
+      "type": "city_walk",
+      "status": "ready",
+      "trip_day_refs": [
+        16
+      ],
+      "attraction_ids": [
+        "zadar-ravnice",
+        "zadar-land-gate",
+        "zadar-five-wells",
+        "zadar-peoples-square",
+        "zadar-forum",
+        "zadar-st-donatus",
+        "zadar-cathedral",
+        "zadar-sea-organ",
+        "zadar-sun-salutation"
+      ],
+      "place_ids": [
+        "parking-zadar-ravnice"
+      ],
+      "knowledge_topic_ids": [
+        "fortifications-and-borderlands",
+        "medieval-adriatic-cities",
+        "roman-dalmatia",
+        "unesco-on-this-trip",
+        "venetian-adriatic"
+      ]
+    }
+  },
+  "counts": {
+    "days": 11,
+    "activities": 16,
+    "attractions": 116,
+    "places": 12,
+    "knowledge_topics": 16
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0.0",
+  "trip_id": "balkan-roadtrip-2026",
+  "updated_at": "2026-07-12T22:45:00+02:00",
+  "accommodations": [
+    {
+      "id": "stay-slunj-rastoke",
+      "location": "Slunj/Rastoke",
+      "country": "Hrvaška",
+      "nights": 2,
+      "check_in": "16:00–20:00",
+      "total_price_eur": 158.32,
+      "status": "booked",
+      "trip_days": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "stay-jajce",
+      "location": "Jajce",
+      "country": "Bosna in Hercegovina",
+      "nights": 1,
+      "check_in": "15:00–23:00",
+      "total_price_eur": 66.66,
+      "status": "booked",
+      "trip_days": [
+        3
+      ]
+    },
+    {
+      "id": "stay-sarajevo",
+      "location": "Sarajevo",
+      "country": "Bosna in Hercegovina",
+      "nights": 3,
+      "reception_hours": "09:00–21:00",
+      "total_price_eur": 161.0,
+      "status": "booked",
+      "trip_days": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "stay-zabljak",
+      "location": "Žabljak",
+      "country": "Črna gora",
+      "nights": 3,
+      "total_price_eur": 336.3,
+      "status": "booked",
+      "trip_days": [
+        7,
+        8,
+        9
+      ],
+      "note": "Nastanitev je blizu Črnega jezera."
+    },
+    {
+      "id": "stay-perast",
+      "location": "Perast",
+      "country": "Črna gora",
+      "nights": 2,
+      "total_price_eur": 180.0,
+      "status": "booked",
+      "trip_days": [
+        10,
+        11
+      ]
+    },
+    {
+      "id": "stay-mostar",
+      "location": "Mostar",
+      "country": "Bosna in Hercegovina",
+      "nights": 1,
+      "total_price_eur": 82.04,
+      "status": "booked",
+      "trip_days": [
+        12
+      ]
+    },
+    {
+      "id": "stay-split",
+      "location": "Split",
+      "country": "Hrvaška",
+      "nights": 3,
+      "total_price_eur": 393.0,
+      "status": "booked",
+      "trip_days": [
+        13,
+        14,
+        15
+      ]
+    }
+  ]
+}

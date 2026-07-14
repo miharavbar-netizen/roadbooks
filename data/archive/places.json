@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0.0",
+  "trip_id": "balkan-roadtrip-2026",
+  "updated_at": "2026-07-12T21:00:00+02:00",
+  "description": "Praktične lokacije za roadbook: parkirišča, restavracije, zbirna mesta in druge uporabne točke, ki niso znamenitosti.",
+  "places": [
+    {
+      "id": "parking-zadar-ravnice",
+      "name": "Parkirišče Ravnice",
+      "type": "parking",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Zadar",
+      "status": "ready",
+      "google_maps_url": "https://maps.google.com/?q=Ravnice+Parking+Zadar",
+      "paid": true,
+      "used_in_activity_ids": [
+        "zadar-express-walk"
+      ],
+      "note": "Predlagano izhodišče za kratek ogled Zadra."
+    },
+    {
+      "id": "parking-plitvice-entrance-2",
+      "name": "Parkirišče pri Vhodu 2",
+      "type": "parking",
+      "country": "Hrvaška",
+      "region": "Lika",
+      "location_label": "Narodni park Plitviška jezera",
+      "status": "ready",
+      "paid": true,
+      "used_in_activity_ids": [
+        "plitvice-program-h"
+      ],
+      "note": "Izhodišče za Program H."
+    },
+    {
+      "id": "parking-kotor-city",
+      "name": "Mestno parkirišče Kotor",
+      "type": "parking",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "city": "Kotor",
+      "status": "draft",
+      "paid": true,
+      "used_in_activity_ids": [
+        "kotor-city-walls-hike",
+        "kotor-old-town-walk"
+      ],
+      "note": "Natančno parkirišče in aktualne cene je treba še določiti."
+    },
+    {
+      "id": "sarajevo-war-tour-meeting-point",
+      "name": "Pozorišni trg – Susan Sontag",
+      "type": "meeting_point",
+      "country": "Bosna in Hercegovina",
+      "city": "Sarajevo",
+      "status": "ready",
+      "google_maps_url": "https://maps.google.com/?q=Pozorisni+trg+Susan+Sontag+Sarajevo",
+      "used_in_activity_ids": [
+        "sarajevo-war-tour"
+      ],
+      "note": "Zbirno mesto pri Narodnem gledališču; počakati je treba na strani trga, ne ob reki."
+    },
+    {
+      "id": "restaurant-brajlovic-sarajevo",
+      "name": "Restoran Brajlović",
+      "type": "restaurant",
+      "country": "Bosna in Hercegovina",
+      "city": "Sarajevo",
+      "status": "ready",
+      "cuisine": [
+        "bosanska",
+        "mesne jedi"
+      ],
+      "roadbook_pick": true,
+      "note": "Glavno gastronomsko priporočilo za Sarajevo."
+    },
+    {
+      "id": "restaurant-jajce-pastrmka",
+      "name": "Pastrmka na kraljevski – Jajce",
+      "type": "food_recommendation",
+      "country": "Bosna in Hercegovina",
+      "city": "Jajce",
+      "status": "draft",
+      "cuisine": [
+        "ribe",
+        "lokalna kuhinja"
+      ],
+      "roadbook_pick": true,
+      "note": "Gre za priporočeno jed; konkretna restavracija še ni določena."
+    },
+    {
+      "id": "restaurant-uzgajaliste-ostriga",
+      "name": "Uzgajalište ostriga",
+      "type": "restaurant",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "status": "draft",
+      "cuisine": [
+        "ostrige",
+        "školjke",
+        "morska hrana"
+      ],
+      "roadbook_pick": true,
+      "note": "Roadbook izbor; natančna lokacija, kontakt in odpiralni čas še niso potrjeni."
+    },
+    {
+      "id": "restaurant-nadoveza",
+      "name": "Restoran Nadoveza",
+      "type": "restaurant",
+      "country": "Črna gora",
+      "region": "Boka Kotorska",
+      "status": "draft",
+      "cuisine": [
+        "tradicionalna črnogorska kuhinja"
+      ],
+      "roadbook_pick": true,
+      "note": "Roadbook izbor; praktični podatki še niso potrjeni."
+    },
+    {
+      "id": "plitvice-entrance-2-info",
+      "name": "Vhod 2 – Plitviška jezera",
+      "type": "visitor_center",
+      "country": "Hrvaška",
+      "region": "Lika",
+      "status": "ready",
+      "official_url": "https://np-plitvicka-jezera.hr/",
+      "used_in_activity_ids": [
+        "plitvice-program-h"
+      ],
+      "note": "Glavno izhodišče za Program H."
+    },
+    {
+      "id": "skradin-boat-departure",
+      "name": "Pristanišče za ladjo v Skradinu",
+      "type": "transport_node",
+      "country": "Hrvaška",
+      "region": "Dalmacija",
+      "city": "Skradin",
+      "status": "draft",
+      "used_in_activity_ids": [
+        "optional-krka"
+      ],
+      "official_url": "https://www.npkrka.hr/",
+      "note": "Pred odhodom je treba preveriti aktualni vozni red in režim vstopa."
+    },
+    {
+      "id": "crno-jezero-trailhead",
+      "name": "Izhodišče pri Črnem jezeru",
+      "type": "trailhead",
+      "country": "Črna gora",
+      "region": "Durmitor",
+      "status": "ready",
+      "used_in_activity_ids": [
+        "durmitor-lakes-options"
+      ],
+      "note": "Skupno izhodišče za vse tri pohodniške variante."
+    },
+    {
+      "id": "tara-packrafting-meeting-point",
+      "name": "Packrafting zbirno mesto",
+      "type": "meeting_point",
+      "country": "Črna gora",
+      "region": "Kanjon Tare",
+      "status": "draft",
+      "used_in_activity_ids": [
+        "tara-packrafting"
+      ],
+      "note": "Lokacijo bo določil izbrani ponudnik."
+    }
+  ]
+}

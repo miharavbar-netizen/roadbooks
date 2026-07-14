@@ -1,0 +1,351 @@
+{
+  "schema_version": "1.0.0",
+  "trip_id": "balkan-roadtrip-2026",
+  "updated_at": "2026-07-12T21:30:00+02:00",
+  "description": "Skupna baza zgodovinskih, kulturnih in naravoslovnih tem, ki jih roadbook uporablja v več aktivnostih.",
+  "topics": [
+    {
+      "id": "ottoman-urbanism",
+      "title": "Osmansko mesto in čaršija",
+      "category": "history",
+      "summary": "Osmanska mesta na Balkanu so se pogosto razvijala okoli mošeje, tržnice, hana, bezistana, medrese in javnih vodnjakov. Vera, trgovina, izobraževanje in dobrodelnost so bili povezani v sistem vakufskih ustanov.",
+      "key_points": [
+        "Čaršija je bila gospodarsko in obrtniško središče mesta.",
+        "Hani in karavanseraji so omogočali trgovino in prenočevanje potnikov.",
+        "Bezistani so varovali dragocenejše blago.",
+        "Vakufi so financirali mošeje, šole, knjižnice, vodnjake in druge javne ustanove."
+      ],
+      "used_in_activity_ids": [
+        "sarajevo-heritage-walk",
+        "jajce-kings-waterfall-avnoj"
+      ],
+      "related_attraction_ids": [
+        "sarajevo-bezistan",
+        "sarajevo-gazi-husrev-mosque",
+        "sarajevo-kursumlija",
+        "sarajevo-ghb-library",
+        "sarajevo-morica-han",
+        "sarajevo-bascarsija",
+        "sarajevo-emperors-mosque"
+      ]
+    },
+    {
+      "id": "austro-hungarian-bosnia",
+      "title": "Avstro-ogrska preobrazba Bosne in Hercegovine",
+      "category": "history",
+      "summary": "Po letu 1878 so Sarajevo in druga mesta dobila novo srednjeevropsko urbano plast: reprezentančne javne stavbe, hotele, cerkve, upravne palače, nove ulice in infrastrukturo.",
+      "key_points": [
+        "Arhitektura je pogosto združevala historicizem, neogotiko in psevdomavrski slog.",
+        "Nova oblast ni izbrisala osmanskega mesta, ampak se je nanj plastila.",
+        "Sarajevo Meeting of Cultures simbolno označuje stik obeh urbanih svetov."
+      ],
+      "used_in_activity_ids": [
+        "sarajevo-heritage-walk"
+      ],
+      "related_attraction_ids": [
+        "sarajevo-sacred-heart",
+        "sarajevo-hotel-europe",
+        "sarajevo-city-hall",
+        "sarajevo-meeting-cultures"
+      ]
+    },
+    {
+      "id": "sarajevo-multireligious-city",
+      "title": "Sarajevo kot mesto štirih religij",
+      "category": "culture",
+      "summary": "V zgodovinskem središču Sarajeva so na majhnem prostoru katoliška katedrala, pravoslavna stolnica, stara sinagoga in osrednje mošeje. Ta bližina je ključni del mestne identitete.",
+      "key_points": [
+        "Verska raznolikost je nastajala skozi več stoletij.",
+        "Različne skupnosti so vplivale na trgovino, kulturo, izobraževanje in mestno življenje.",
+        "Bližina verskih objektov ne pomeni odsotnosti konfliktov, temveč dolgo zgodovino sobivanja in menjav oblasti."
+      ],
+      "used_in_activity_ids": [
+        "sarajevo-heritage-walk"
+      ],
+      "related_attraction_ids": [
+        "sarajevo-sacred-heart",
+        "sarajevo-orthodox-cathedral",
+        "sarajevo-jewish-museum",
+        "sarajevo-gazi-husrev-mosque"
+      ]
+    },
+    {
+      "id": "venetian-adriatic",
+      "title": "Beneška dediščina vzhodnega Jadrana",
+      "category": "history",
+      "summary": "Beneška republika je več stoletij oblikovala pristanišča, mestna obzidja, palače, trge in pomorsko kulturo na vzhodni obali Jadrana.",
+      "key_points": [
+        "Krilati lev svetega Marka je najpogostejši simbol beneške oblasti.",
+        "Mestna vrata in utrdbe so bila del širšega obrambnega sistema Jadrana.",
+        "Plemiške palače odražajo bogastvo pomorskih in trgovskih družin.",
+        "Beneška dediščina je posebej vidna v Kotorju, Trogirju, Splitu, Zadru in Kaštelih."
+      ],
+      "used_in_activity_ids": [
+        "kotor-old-town-walk",
+        "kotor-city-walls-hike",
+        "split-diocletian-walk",
+        "zadar-express-walk",
+        "optional-trogir-kastela",
+        "optional-salona-klis"
+      ],
+      "related_attraction_ids": [
+        "kotor-sea-gate",
+        "kotor-square-arms",
+        "kotor-bizanti-palace",
+        "kotor-pima-palace",
+        "zadar-land-gate",
+        "trogir-kamerlengo",
+        "kastel-gomilica"
+      ]
+    },
+    {
+      "id": "roman-dalmatia",
+      "title": "Rimska Dalmacija",
+      "category": "history",
+      "summary": "Rimska provinca Dalmacija je povezovala obalo in notranjost zahodnega Balkana. Salona je bila njeno glavno mesto, Dioklecijanova palača pa ena najpomembnejših poznorimskih rezidenc.",
+      "key_points": [
+        "Salona je bila upravno, trgovsko in versko središče province.",
+        "Dioklecijanova palača je združevala rezidenco, vojaško utrdbo in gospodarsko posestvo.",
+        "Po propadu Salone so se prebivalci zatekli v palačo, iz katere se je razvil Split.",
+        "Zadar je ohranil pomembne ostanke rimskega foruma."
+      ],
+      "used_in_activity_ids": [
+        "split-diocletian-walk",
+        "optional-salona-klis",
+        "zadar-express-walk"
+      ],
+      "related_attraction_ids": [
+        "split-golden-gate",
+        "split-peristyle",
+        "split-cellars",
+        "salona-entrance",
+        "salona-forum",
+        "salona-amphitheatre",
+        "zadar-forum"
+      ]
+    },
+    {
+      "id": "diocletian-and-christianity",
+      "title": "Dioklecijan in zgodnje krščanstvo",
+      "category": "history",
+      "summary": "Dioklecijan je bil eden zadnjih rimskih cesarjev, ki je sistematično preganjal kristjane. Njegov mavzolej je pozneje postal stolnica, posvečena sv. Dujmu, mučencu iz časa njegovega preganjanja.",
+      "key_points": [
+        "Dioklecijanov mavzolej je danes stolnica sv. Dujma.",
+        "Jupitrov tempelj je bil spremenjen v krstilnico.",
+        "Salona je bila pomembno zgodnjekrščansko središče.",
+        "Preobrazba poganskih stavb v krščanske kaže na kontinuiteto prostora in spremembo pomena."
+      ],
+      "used_in_activity_ids": [
+        "split-diocletian-walk",
+        "optional-salona-klis"
+      ],
+      "related_attraction_ids": [
+        "split-cathedral",
+        "split-jupiter",
+        "salona-manastirine"
+      ]
+    },
+    {
+      "id": "bosnian-kingdom",
+      "title": "Srednjeveško Bosansko kraljestvo",
+      "category": "history",
+      "summary": "Jajce je bilo zadnja prestolnica srednjeveške Bosne in kraj kronanja zadnjega bosanskega kralja Stjepana Tomaševića leta 1461.",
+      "key_points": [
+        "Jajce je imelo izjemno obrambno lego med Plivo, Vrbasom in strmimi pobočji.",
+        "Cerkev sv. Marije je povezana s kronanjem zadnjega bosanskega kralja.",
+        "Citadela in mestno obzidje pričata o kraljevskem in vojaškem pomenu mesta.",
+        "Hrvoje Vukčić Hrvatinić je bil eden najmočnejših plemičev svojega časa."
+      ],
+      "used_in_activity_ids": [
+        "jajce-kings-waterfall-avnoj"
+      ],
+      "related_attraction_ids": [
+        "jajce-catacombs",
+        "jajce-st-mary",
+        "jajce-bear-tower",
+        "jajce-fortress"
+      ]
+    },
+    {
+      "id": "avnoj-and-yugoslavia",
+      "title": "AVNOJ in nastanek povojne Jugoslavije",
+      "category": "history",
+      "summary": "Na drugem zasedanju AVNOJ-a v Jajcu 29. in 30. novembra 1943 so bile sprejete ključne politične odločitve o prihodnji federativni Jugoslaviji.",
+      "key_points": [
+        "AVNOJ se je razglasil za najvišji zakonodajni in izvršni organ prihodnje države.",
+        "Ustanovljen je bil Nacionalni komite osvoboditve Jugoslavije.",
+        "Začrtana je bila federativna ureditev republik.",
+        "Jajce je zaradi tega postalo simbolni kraj rojstva druge Jugoslavije."
+      ],
+      "used_in_activity_ids": [
+        "jajce-kings-waterfall-avnoj"
+      ],
+      "related_attraction_ids": [
+        "jajce-avnoj"
+      ]
+    },
+    {
+      "id": "karst-and-travertine",
+      "title": "Kras, apnenec in lehnjak",
+      "category": "nature",
+      "summary": "Voda v kraškem svetu raztaplja apnenec, nato pa se kalcijev karbonat ponovno izloča in gradi lehnjakove pregrade, slapove in jezerca.",
+      "key_points": [
+        "Lehnjak nastaja s pomočjo mikroorganizmov, alg in mahov.",
+        "Naravne pregrade rastejo počasi, a neprestano.",
+        "Plitviška jezera in Krka sta dva izrazita primera aktivnega nastajanja lehnjaka.",
+        "Kraški procesi ustvarjajo tudi jame, ponore in podzemne tokove."
+      ],
+      "used_in_activity_ids": [
+        "plitvice-program-h",
+        "optional-krka"
+      ],
+      "related_attraction_ids": [
+        "plitvice-upper-lakes",
+        "plitvice-lower-lakes",
+        "plitvice-great-waterfall",
+        "krka-skradinski-buk"
+      ]
+    },
+    {
+      "id": "plitvice-dynamic-lakes",
+      "title": "Plitviška jezera kot živ sistem",
+      "category": "nature",
+      "summary": "Plitvice niso statična zbirka slapov, temveč dinamičen sistem jezer in pregrad, ki se zaradi odlaganja lehnjaka stalno spreminja.",
+      "key_points": [
+        "Zgornja jezera so bolj gozdnata in položna.",
+        "Spodnja jezera ležijo v globljem apnenčastem kanjonu.",
+        "Kozjak je največje jezero in naravna ločnica med obema sklopoma.",
+        "Barva vode je odvisna od svetlobe, globine, mineralov in odboja od dna."
+      ],
+      "used_in_activity_ids": [
+        "plitvice-program-h"
+      ],
+      "related_attraction_ids": [
+        "plitvice-kozjak",
+        "plitvice-upper-lakes",
+        "plitvice-lower-lakes",
+        "plitvice-galovacki-buk",
+        "plitvice-great-waterfall"
+      ]
+    },
+    {
+      "id": "durmitor-glacial-landscape",
+      "title": "Ledeniška pokrajina Durmitorja",
+      "category": "nature",
+      "summary": "Durmitor je visokogorska kraška pokrajina, ki so jo oblikovali ledeniki. Njihova dediščina so številna ledeniška jezera, krnice, morene in ostre gorske oblike.",
+      "key_points": [
+        "Črno jezero je največje in najbolj znano ledeniško jezero Durmitorja.",
+        "Zminje, Barno in Jablan jezero so manjša in mirnejša.",
+        "Gozdovi okoli jezer ustvarjajo zelo drugačen značaj od odprtih visokogorskih predelov.",
+        "Stanje poti je močno odvisno od vode, snega in vremena."
+      ],
+      "used_in_activity_ids": [
+        "durmitor-lakes-options",
+        "durmitor-ring"
+      ],
+      "related_attraction_ids": [
+        "durmitor-black-lake",
+        "durmitor-zminje",
+        "durmitor-barno",
+        "durmitor-jablan",
+        "durmitor-ring-sedlo"
+      ]
+    },
+    {
+      "id": "tara-canyon",
+      "title": "Kanjon Tare",
+      "category": "nature",
+      "summary": "Tara teče skozi enega najglobljih evropskih kanjonov in je pomemben del širšega območja Durmitorja. Zaradi čiste vode jo pogosto imenujejo tudi solza Evrope.",
+      "key_points": [
+        "Kanjon dosega izjemne globine in je del UNESCO območja Durmitorja.",
+        "Spomladi je vodostaj višji, poleti pa je reka praviloma mirnejša.",
+        "Rafting in packrafting ponujata različni stopnji samostojnosti in adrenalina.",
+        "Odločitev za aktivnost je smiselno prilagoditi vremenu in vodostaju."
+      ],
+      "used_in_activity_ids": [
+        "tara-packrafting"
+      ],
+      "related_attraction_ids": []
+    },
+    {
+      "id": "boka-kotorska-landscape",
+      "title": "Boka Kotorska kot kulturna krajina",
+      "category": "nature",
+      "summary": "Boka Kotorska ni pravi fjord, temveč potopljena kraška rečna dolina. Njena izjemna vrednost je v povezavi dramatičnega gorskega reliefa, naravnih pristanišč in zgodovinskih mest.",
+      "key_points": [
+        "Kotor leži na strateški točki globoko v zalivu.",
+        "Strma pobočja so omogočila razvoj mogočnega obrambnega sistema.",
+        "Pomorstvo je oblikovalo gospodarstvo, arhitekturo in identiteto območja.",
+        "Perast, Kotor in manjša naselja tvorijo povezano kulturno krajino."
+      ],
+      "used_in_activity_ids": [
+        "kotor-city-walls-hike",
+        "kotor-old-town-walk",
+        "boka-boat-trip"
+      ],
+      "related_attraction_ids": [
+        "kotor-st-john",
+        "kotor-maritime-museum",
+        "kotor-sea-gate"
+      ]
+    },
+    {
+      "id": "medieval-adriatic-cities",
+      "title": "Srednjeveška mesta vzhodnega Jadrana",
+      "category": "culture",
+      "summary": "Kotor, Trogir, Split in Zadar kažejo različne poti razvoja srednjeveških obmorskih mest: od rimske palače in otoškega mesta do beneške utrdbe in pomorskega pristanišča.",
+      "key_points": [
+        "Mestna jedra so pogosto rasla znotraj starejših rimskih ali beneških struktur.",
+        "Cerkev, trg, mestna hiša in pristanišče so bili ključni urbani elementi.",
+        "Ozke ulice in nepravilni tlorisi so posledica postopne rasti.",
+        "Pomorska trgovina je omogočila gradnjo palač, cerkva in utrdb."
+      ],
+      "used_in_activity_ids": [
+        "kotor-old-town-walk",
+        "split-diocletian-walk",
+        "zadar-express-walk",
+        "optional-trogir-kastela"
+      ]
+    },
+    {
+      "id": "fortifications-and-borderlands",
+      "title": "Utrdbe in mejni prehodi",
+      "category": "history",
+      "summary": "Kotor, Klis, Jajce in Zadar so primeri krajev, kjer je naravna lega skupaj z umetnimi utrdbami ustvarila ključne obrambne točke.",
+      "key_points": [
+        "Klis je nadzoroval prehod med obalo in notranjostjo.",
+        "Kotor je združeval morsko pristanišče in gorsko obzidje.",
+        "Jajce je varovala kombinacija rek, pobočij in citadele.",
+        "Zadar je bil pomemben del beneškega obrambnega sistema."
+      ],
+      "used_in_activity_ids": [
+        "kotor-city-walls-hike",
+        "jajce-kings-waterfall-avnoj",
+        "zadar-express-walk",
+        "optional-salona-klis"
+      ]
+    },
+    {
+      "id": "unesco-on-this-trip",
+      "title": "UNESCO dediščina na roadtripu",
+      "category": "heritage",
+      "summary": "Roadtrip vključuje več območij svetovne dediščine: Plitviška jezera, Durmitor, zgodovinsko jedro Splita, naravno in kulturnozgodovinsko regijo Kotor, zgodovinsko jedro Trogirja ter beneška obrambna dela v Zadru.",
+      "key_points": [
+        "UNESCO status ne pomeni, da je vse znotraj območja enako staro ali enako zaščiteno.",
+        "Pri naravni dediščini je poudarek na ekosistemih in procesih.",
+        "Pri kulturni dediščini je pomembna avtentičnost, kontinuiteta in urbanistična celota.",
+        "V Kotorju in Splitu je posebej pomembna povezava med zgodovinskimi strukturami in živim mestom."
+      ],
+      "used_in_activity_ids": [
+        "plitvice-program-h",
+        "durmitor-lakes-options",
+        "durmitor-ring",
+        "kotor-old-town-walk",
+        "kotor-city-walls-hike",
+        "split-diocletian-walk",
+        "zadar-express-walk",
+        "optional-trogir-kastela"
+      ]
+    }
+  ]
+}

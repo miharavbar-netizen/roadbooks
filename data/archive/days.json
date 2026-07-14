@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0.0",
+  "trip_id": "balkan-roadtrip-2026",
+  "days": [
+    {
+      "day": 2,
+      "title": "Plitviška jezera",
+      "base": "Slunj/Rastoke",
+      "activities": [
+        "plitvice-program-h"
+      ],
+      "optional": [
+        "barace-caves"
+      ],
+      "overnight": "Slunj/Rastoke"
+    },
+    {
+      "day": 3,
+      "title": "Jajce",
+      "base": "Jajce",
+      "activities": [
+        "jajce-walk"
+      ],
+      "overnight": "Jajce"
+    },
+    {
+      "day": 5,
+      "title": "Sarajevo – zgodovinsko jedro",
+      "base": "Sarajevo",
+      "activities": [
+        "sarajevo-heritage-walk",
+        "sarajevo-war-tour"
+      ],
+      "overnight": "Sarajevo"
+    },
+    {
+      "day": 6,
+      "title": "Sarajevo po navdihu",
+      "base": "Sarajevo",
+      "activities": [
+        "sarajevo-free-day"
+      ],
+      "overnight": "Sarajevo"
+    },
+    {
+      "day": 8,
+      "title": "Durmitor",
+      "base": "Žabljak",
+      "choose_one": [
+        "durmitor-black-lake-loop",
+        "durmitor-three-lakes",
+        "durmitor-zminje-lake"
+      ],
+      "overnight": "Žabljak"
+    },
+    {
+      "day": 9,
+      "title": "Kanjon Tare",
+      "base": "Žabljak",
+      "activities": [
+        "tara-packrafting"
+      ],
+      "fallback": "prosti čas v Durmitorju",
+      "overnight": "Žabljak"
+    },
+    {
+      "day": 10,
+      "title": "Durmitor Ring",
+      "activities": [
+        "durmitor-ring"
+      ],
+      "overnight": "Perast"
+    },
+    {
+      "day": 11,
+      "title": "Perast in Kotor",
+      "base": "Perast",
+      "activities": [
+        "kotor-city-walls-hike",
+        "kotor-old-town-walk"
+      ],
+      "optional": [
+        "boka-boat-tour"
+      ],
+      "overnight": "Perast"
+    },
+    {
+      "day": 13,
+      "title": "Split",
+      "base": "Split",
+      "activities": [
+        "split-walk"
+      ],
+      "overnight": "Split"
+    },
+    {
+      "day": 15,
+      "title": "Fakultativni izlet",
+      "base": "Split",
+      "choose_one": [
+        "optional-trogir-kastela",
+        "optional-salona-klis",
+        "optional-krka"
+      ],
+      "overnight": "Split"
+    },
+    {
+      "day": 16,
+      "title": "Zadar",
+      "activities": [
+        "zadar-express-walk"
+      ],
+      "overnight": "Home"
+    }
+  ]
+}

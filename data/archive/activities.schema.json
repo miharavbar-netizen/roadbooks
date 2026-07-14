@@ -1,0 +1,733 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/activities.schema.json",
+  "title": "Balkan Roadtrip Activities",
+  "description": "Shema za zbirko samostojnih aktivnosti, ki jih roadbook prikazuje po tipu, kraju ali dnevu.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "activities"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0.0"
+    },
+    "trip_id": {
+      "type": "string",
+      "description": "Neobvezna povezava na konkretno potovanje, npr. balkan-2026."
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "activities": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/activity"
+      }
+    }
+  },
+  "$defs": {
+    "localizedText": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "Besedilo po jezikih, npr. {\"sl\": \"...\", \"en\": \"...\"}."
+        }
+      ]
+    },
+    "coordinates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "lat",
+        "lng"
+      ],
+      "properties": {
+        "lat": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "lng": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "url"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "publisher": {
+          "type": "string"
+        },
+        "official": {
+          "type": "boolean",
+          "default": false
+        },
+        "accessed_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "mapLink": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "google_maps_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "google_my_maps_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "geojson_file": {
+          "type": "string"
+        },
+        "kml_file": {
+          "type": "string"
+        },
+        "gpx_file": {
+          "type": "string"
+        },
+        "static_map_image": {
+          "type": "string"
+        }
+      }
+    },
+    "duration": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "min_minutes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "max_minutes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "walking_minutes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "driving_minutes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "on_water_minutes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "display": {
+          "type": "string"
+        }
+      }
+    },
+    "distance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "total_km": {
+          "type": "number",
+          "minimum": 0
+        },
+        "walking_km": {
+          "type": "number",
+          "minimum": 0
+        },
+        "driving_km": {
+          "type": "number",
+          "minimum": 0
+        },
+        "on_water_km": {
+          "type": "number",
+          "minimum": 0
+        },
+        "display": {
+          "type": "string"
+        }
+      }
+    },
+    "elevation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "gain_m": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "loss_m": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "highest_point_m": {
+          "type": "integer"
+        },
+        "lowest_point_m": {
+          "type": "integer"
+        }
+      }
+    },
+    "arrival": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mode": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "walk",
+              "car",
+              "public_transport",
+              "taxi",
+              "boat",
+              "organized_transfer"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "instructions": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "parking": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "coordinates": {
+              "$ref": "#/$defs/coordinates"
+            },
+            "google_maps_url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "paid": {
+              "type": "boolean"
+            },
+            "note": {
+              "type": "string"
+            }
+          }
+        },
+        "public_transport_note": {
+          "type": "string"
+        }
+      }
+    },
+    "stop": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "order",
+        "title"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-_]*$"
+        },
+        "order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "title": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "local_name": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+            "landmark",
+            "museum",
+            "church",
+            "mosque",
+            "synagogue",
+            "palace",
+            "fortress",
+            "gate",
+            "square",
+            "bridge",
+            "viewpoint",
+            "lake",
+            "waterfall",
+            "cave",
+            "trail_point",
+            "transport",
+            "parking",
+            "visitor_center",
+            "other"
+          ]
+        },
+        "coordinates": {
+          "$ref": "#/$defs/coordinates"
+        },
+        "google_maps_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "visit_minutes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "outside_only": {
+          "type": "boolean"
+        },
+        "optional": {
+          "type": "boolean",
+          "default": false
+        },
+        "guide_text": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "short_text": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "what_to_notice": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/localizedText"
+          }
+        },
+        "photo_tip": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "practical_note": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "opening_hours_note": {
+          "type": "string"
+        },
+        "ticket_note": {
+          "type": "string"
+        },
+        "official_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        }
+      }
+    },
+    "route": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "shape": {
+          "type": "string",
+          "enum": [
+            "loop",
+            "out_and_back",
+            "point_to_point",
+            "multi_stop",
+            "flexible"
+          ]
+        },
+        "start_stop_id": {
+          "type": "string"
+        },
+        "end_stop_id": {
+          "type": "string"
+        },
+        "route_note": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "map": {
+          "$ref": "#/$defs/mapLink"
+        },
+        "stops": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/stop"
+          }
+        }
+      }
+    },
+    "practical": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "best_time_of_day": {
+          "type": "string"
+        },
+        "weather_note": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "surface": {
+          "type": "string"
+        },
+        "shade": {
+          "type": "string",
+          "enum": [
+            "none",
+            "little",
+            "partial",
+            "good",
+            "varied"
+          ]
+        },
+        "accessibility_note": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "equipment": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/localizedText"
+          }
+        },
+        "reservation": {
+          "type": "string",
+          "enum": [
+            "not_needed",
+            "recommended",
+            "required",
+            "decide_later",
+            "unknown"
+          ]
+        },
+        "reservation_note": {
+          "type": "string"
+        },
+        "official_info_url": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "ideaGroup": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "label",
+        "ideas"
+      ],
+      "properties": {
+        "label": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "condition": {
+          "type": "string",
+          "description": "Primer: razgledi, dež, narava, muzeji, počasen dan."
+        },
+        "ideas": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "title"
+            ],
+            "properties": {
+              "title": {
+                "$ref": "#/$defs/localizedText"
+              },
+              "description": {
+                "$ref": "#/$defs/localizedText"
+              },
+              "coordinates": {
+                "$ref": "#/$defs/coordinates"
+              },
+              "google_maps_url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "official_url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "estimated_minutes": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    "activity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "type",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-_]*$"
+        },
+        "title": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "subtitle": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "city_walk",
+            "hike",
+            "scenic_drive",
+            "boat_trip",
+            "adventure",
+            "day_trip",
+            "inspiration_day"
+          ]
+        },
+        "theme": {
+          "type": "string",
+          "enum": [
+            "history",
+            "culture",
+            "architecture",
+            "nature",
+            "mediterranean",
+            "adventure",
+            "relaxation",
+            "mixed"
+          ]
+        },
+        "format": {
+          "type": "string",
+          "enum": [
+            "full_guide",
+            "route_card",
+            "decision_card",
+            "ideas_only"
+          ]
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "ready",
+            "booked",
+            "optional",
+            "archived"
+          ]
+        },
+        "trip_day_refs": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "uniqueItems": true
+        },
+        "country": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "location_label": {
+          "type": "string"
+        },
+        "summary": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "why_choose": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/localizedText"
+          }
+        },
+        "duration": {
+          "$ref": "#/$defs/duration"
+        },
+        "distance": {
+          "$ref": "#/$defs/distance"
+        },
+        "elevation": {
+          "$ref": "#/$defs/elevation"
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": [
+            "very_easy",
+            "easy",
+            "moderate",
+            "demanding",
+            "very_demanding",
+            "not_applicable"
+          ]
+        },
+        "arrival": {
+          "$ref": "#/$defs/arrival"
+        },
+        "route": {
+          "$ref": "#/$defs/route"
+        },
+        "guide_intro": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "guide_outro": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "practical": {
+          "$ref": "#/$defs/practical"
+        },
+        "idea_groups": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ideaGroup"
+          }
+        },
+        "variants": {
+          "type": "array",
+          "description": "Alternativne trase ali izvedbe iste aktivnosti.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "title"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "$ref": "#/$defs/localizedText"
+              },
+              "summary": {
+                "$ref": "#/$defs/localizedText"
+              },
+              "duration": {
+                "$ref": "#/$defs/duration"
+              },
+              "distance": {
+                "$ref": "#/$defs/distance"
+              },
+              "elevation": {
+                "$ref": "#/$defs/elevation"
+              },
+              "difficulty": {
+                "type": "string",
+                "enum": [
+                  "very_easy",
+                  "easy",
+                  "moderate",
+                  "demanding",
+                  "very_demanding",
+                  "not_applicable"
+                ]
+              },
+              "map": {
+                "$ref": "#/$defs/mapLink"
+              },
+              "stop_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        },
+        "last_verified": {
+          "type": "string",
+          "format": "date"
+        },
+        "notes_internal": {
+          "type": "string",
+          "description": "Interna opomba, ki se ne prikaže nujno v roadbooku."
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "inspiration_day"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "idea_groups"
+            ],
+            "properties": {
+              "format": {
+                "const": "ideas_only"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "enum": [
+                  "city_walk",
+                  "hike",
+                  "scenic_drive",
+                  "boat_trip",
+                  "day_trip"
+                ]
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "route"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

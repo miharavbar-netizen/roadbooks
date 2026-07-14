@@ -1,0 +1,208 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/attractions.schema.json",
+  "title": "Roadtrip Attractions",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "attractions"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "trip_id": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "description": {
+      "type": "string"
+    },
+    "attractions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/attraction"
+      }
+    }
+  },
+  "$defs": {
+    "coordinates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "lat",
+        "lng"
+      ],
+      "properties": {
+        "lat": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "lng": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "url"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "publisher": {
+          "type": "string"
+        },
+        "official": {
+          "type": "boolean"
+        },
+        "accessed_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "dataQuality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "has_coordinates",
+        "has_google_maps_url",
+        "has_official_url",
+        "needs_location_enrichment",
+        "needs_current_info_check"
+      ],
+      "properties": {
+        "has_coordinates": {
+          "type": "boolean"
+        },
+        "has_google_maps_url": {
+          "type": "boolean"
+        },
+        "has_official_url": {
+          "type": "boolean"
+        },
+        "needs_location_enrichment": {
+          "type": "boolean"
+        },
+        "needs_current_info_check": {
+          "type": "boolean"
+        }
+      }
+    },
+    "attraction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "category",
+        "source_activity_ids",
+        "data_quality"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-_]*$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "local_name": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "location_label": {
+          "type": "string"
+        },
+        "coordinates": {
+          "$ref": "#/$defs/coordinates"
+        },
+        "google_maps_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "official_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "short_description": {
+          "type": "string"
+        },
+        "what_to_notice": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "photo_tip": {
+          "type": "string"
+        },
+        "practical_note": {
+          "type": "string"
+        },
+        "opening_hours_note": {
+          "type": "string"
+        },
+        "ticket_note": {
+          "type": "string"
+        },
+        "outside_only": {
+          "type": "boolean"
+        },
+        "optional": {
+          "type": "boolean"
+        },
+        "estimated_visit_minutes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        },
+        "source_activity_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "data_quality": {
+          "$ref": "#/$defs/dataQuality"
+        }
+      }
+    }
+  }
+}

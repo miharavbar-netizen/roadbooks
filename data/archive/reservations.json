@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "trip_id": "balkan-roadtrip-2026",
+  "updated_at": "2026-07-12T22:45:00+02:00",
+  "reservations": [
+    {
+      "id": "reservation-sarajevo-genuine-free-tour",
+      "type": "guided_tour",
+      "title": "Sarajevo genuine free tour",
+      "location": "Sarajevo",
+      "status": "booked",
+      "trip_day": 5,
+      "meeting_point": "Narodno pozorište, Pozorišni trg – Susan Sontag",
+      "note": "Rezervirani vodeni ogled; prihod na stran trga ob gledališču, ne ob reki."
+    },
+    {
+      "id": "reservation-plitvice-entry",
+      "type": "entry_ticket",
+      "title": "Narodni park Plitviška jezera",
+      "location": "Vhod 2",
+      "status": "to_book",
+      "trip_day": 2,
+      "note": "Rezervirati termin za Program H in preveriti režim ladje ter panoramskega prevoza."
+    },
+    {
+      "id": "reservation-barace-caves",
+      "type": "guided_visit",
+      "title": "Baraćeve špilje",
+      "location": "Rakovica",
+      "status": "optional",
+      "trip_day": 2,
+      "note": "Popoldanski obisk samo, če ostane dovolj energije in se ujame z urnikom vodenih ogledov."
+    },
+    {
+      "id": "reservation-tara-packrafting",
+      "type": "adventure",
+      "title": "Packrafting po Tari",
+      "location": "Kanjon Tare",
+      "status": "decide_later",
+      "trip_day": 9,
+      "note": "Odločitev 1–3 dni prej glede na vreme, vodostaj in počutje."
+    },
+    {
+      "id": "reservation-boka-boat",
+      "type": "boat_trip",
+      "title": "Izlet z ladjo po Boki Kotorski",
+      "location": "Boka Kotorska",
+      "status": "draft",
+      "trip_day": 11,
+      "note": "Ponudnik in trasa še nista izbrana."
+    }
+  ]
+}

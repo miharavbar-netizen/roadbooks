@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "segments"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "trip_id": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "segments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "day",
+          "from",
+          "to",
+          "mode"
+        ],
+        "properties": {
+          "day": {
+            "type": "integer"
+          },
+          "from": {
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          },
+          "mode": {
+            "type": "string",
+            "enum": [
+              "car",
+              "walk",
+              "boat",
+              "public_transport",
+              "organized_transfer"
+            ]
+          },
+          "via": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "departure_time": {
+            "type": "string"
+          },
+          "distance_km": {
+            "type": "number",
+            "minimum": 0
+          },
+          "estimated_minutes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "optional": {
+            "type": "boolean"
+          },
+          "maps_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

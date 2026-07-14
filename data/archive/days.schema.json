@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "days"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "trip_id": {
+      "type": "string"
+    },
+    "days": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "day",
+          "title"
+        ],
+        "properties": {
+          "day": {
+            "type": "integer"
+          },
+          "title": {
+            "type": "string"
+          },
+          "base": {
+            "type": "string"
+          },
+          "activities": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "optional": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "choose_one": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "fallback": {
+            "type": "string"
+          },
+          "overnight": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

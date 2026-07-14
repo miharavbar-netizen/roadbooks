@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0.0",
+  "trip_id": "balkan-roadtrip-2026",
+  "updated_at": "2026-07-12T22:45:00+02:00",
+  "segments": [
+    {
+      "day": 1,
+      "from": "Sežana",
+      "to": "Slunj/Rastoke",
+      "mode": "car",
+      "via": [
+        "Ogulin"
+      ],
+      "departure_time": "07:00"
+    },
+    {
+      "day": 2,
+      "from": "Slunj/Rastoke",
+      "to": "Plitviška jezera",
+      "mode": "car"
+    },
+    {
+      "day": 2,
+      "from": "Plitviška jezera",
+      "to": "Baraćeve špilje",
+      "mode": "car",
+      "optional": true
+    },
+    {
+      "day": 3,
+      "from": "Slunj/Rastoke",
+      "to": "Jajce",
+      "mode": "car",
+      "via": [
+        "Bihać"
+      ]
+    },
+    {
+      "day": 4,
+      "from": "Jajce",
+      "to": "Sarajevo",
+      "mode": "car",
+      "via": [
+        "Travnik",
+        "Vlašić"
+      ]
+    },
+    {
+      "day": 7,
+      "from": "Sarajevo",
+      "to": "Žabljak",
+      "mode": "car",
+      "via": [
+        "Višegrad"
+      ]
+    },
+    {
+      "day": 10,
+      "from": "Žabljak",
+      "to": "Perast",
+      "mode": "car",
+      "via": [
+        "Durmitor Ring",
+        "Sedlo"
+      ]
+    },
+    {
+      "day": 11,
+      "from": "Perast",
+      "to": "Kotor",
+      "mode": "car",
+      "note": "Zaradi zgodnjega vzpona na obzidje je avto praktičnejši od javnega prevoza."
+    },
+    {
+      "day": 12,
+      "from": "Perast",
+      "to": "Mostar",
+      "mode": "car",
+      "via": [
+        "Trebinje",
+        "Blagaj"
+      ]
+    },
+    {
+      "day": 13,
+      "from": "Mostar",
+      "to": "Split",
+      "mode": "car",
+      "via": [
+        "Stolac",
+        "Narona"
+      ]
+    },
+    {
+      "day": 15,
+      "from": "Split",
+      "to": "Fakultativni izlet",
+      "mode": "car",
+      "optional": true,
+      "note": "Izbira med Salono + Klis, Trogirjem + Kašteli ali NP Krka."
+    },
+    {
+      "day": 16,
+      "from": "Split",
+      "to": "Sežana",
+      "mode": "car",
+      "via": [
+        "Zadar"
+      ]
+    }
+  ]
+}
