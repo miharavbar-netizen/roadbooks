@@ -1,0 +1,371 @@
+{
+  "type": "FeatureCollection",
+  "name": "Sarajevo Heritage Walk",
+  "metadata": {
+    "activity_id": "sarajevo-heritage-walk",
+    "source_file": "Sarajevo Heritage Walk.kml",
+    "feature_count": 20
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "sarajevo-katedrala-srca-jezusovega",
+      "properties": {
+        "id": "sarajevo-katedrala-srca-jezusovega",
+        "order": 1,
+        "name": "Katedrala Srca Jezusovega",
+        "description": "Description: Neogotska stolnica iz leta 1889<br>Latitude: 43.859291<br>Longitude: 18.425394<br>Icon: church<br>Order: 1",
+        "source": "Google My Maps KML export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.425394,
+          43.859291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sarajevo-sarajevo-meeting-of-cultures",
+      "properties": {
+        "id": "sarajevo-sarajevo-meeting-of-cultures",
+        "order": 2,
+        "name": "Sarajevo Meeting of Cultures",
+        "description": "Description: Točka srečanja vzhoda in zahoda<br>Latitude: 43.859306<br>Longitude: 18.427814<br>Icon: landmark<br>Order: 2",
+        "source": "Google My Maps KML export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.427814,
+          43.859306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sarajevo-gazi-husrev-begov-bezistan",
+      "properties": {
+        "id": "sarajevo-gazi-husrev-begov-bezistan",
+        "order": 3,
+        "name": "Gazi Husrev-begov bezistan",
+        "description": "Description: Osmanska pokrita tržnica<br>Latitude: 43.858611<br>Longitude: 18.427889<br>Icon: shopping<br>Order: 3",
+        "source": "Google My Maps KML export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.427889,
+          43.858611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sarajevo-taslihan",
+      "properties": {
+        "id": "sarajevo-taslihan",
+        "order": 4,
+        "name": "Tašlihan",
+        "description": "Description: Ostanki karavanseraja<br>Latitude: 43.858592<br>Longitude: 18.427912<br>Icon: ruins<br>Order: 4",
+        "source": "Google My Maps KML export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.427912,
+          43.858592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sarajevo-hotel-europe",
+      "properties": {
+        "id": "sarajevo-hotel-europe",
+        "order": 5,
+        "name": "Hotel Europe",
+        "description": "Description: Najstarejši hotel v Sarajevu<br>Latitude: 43.858925<br>Longitude: 18.427105<br>Icon: lodging<br>Order: 5",
+        "source": "Google My Maps KML export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.427105,
+          43.858925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sarajevo-gazi-husrev-begova-moseja",
+      "properties": {
+        "id": "sarajevo-gazi-husrev-begova-moseja",
+        "order": 6,
+        "name": "Gazi Husrev-begova mošeja",
+        "description": "Description: Najpomembnejša mošeja v mestu<br>Latitude: 43.859165<br>Longitude: 18.429028<br>Icon: mosque<br>Order: 6",
+        "source": "Google My Maps KML export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.429028,
+          43.859165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sarajevo-sahat-kula",
+      "properties": {
+        "id": "sarajevo-sahat-kula",
+        "order": 7,
+        "name": "Sahat-kula",
+        "description": "Description: Znameniti stolp z uro<br>Latitude: 43.8592<br>Longitude: 18.428518<br>Icon: clock<br>Order: 7",
+        "source": "Google My Maps KML export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.428518,
+          43.8592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sarajevo-kursumlija-medresa",
+      "properties": {
+        "id": "sarajevo-kursumlija-medresa",
+        "order": 8,
+        "name": "Kuršumlija medresa",
+        "description": "Description: Zgodovinska islamska šola<br>Latitude: 43.85959<br>Longitude: 18.42947<br>Icon: school<br>Order: 8",
+        "source": "Google My Maps KML export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.42947,
+          43.85959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sarajevo-gazi-husrev-begova-knjiznica",
+      "properties": {
+        "id": "sarajevo-gazi-husrev-begova-knjiznica",
+        "order": 9,
+        "name": "Gazi Husrev-begova knjižnica",
+        "description": "Description: Zgodovinska knjižnica<br>Latitude: 43.85946<br>Longitude: 18.42973<br>Icon: library<br>Order: 9",
+        "source": "Google My Maps KML export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.42973,
+          43.85946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sarajevo-morica-han",
+      "properties": {
+        "id": "sarajevo-morica-han",
+        "order": 10,
+        "name": "Morića Han",
+        "description": "Description: Edini ohranjeni karavanseraj<br>Latitude: 43.85978<br>Longitude: 18.43015<br>Icon: historic<br>Order: 10",
+        "source": "Google My Maps KML export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.43015,
+          43.85978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sarajevo-kazandziluk",
+      "properties": {
+        "id": "sarajevo-kazandziluk",
+        "order": 11,
+        "name": "Kazandžiluk",
+        "description": "Description: Ulica bakrorezcev<br>Latitude: 43.85964<br>Longitude: 18.43072<br>Icon: shopping<br>Order: 11",
+        "source": "Google My Maps KML export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.43072,
+          43.85964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sarajevo-sebilj",
+      "properties": {
+        "id": "sarajevo-sebilj",
+        "order": 12,
+        "name": "Sebilj",
+        "description": "Description: Simbol Sarajeva<br>Latitude: 43.85953<br>Longitude: 18.4313<br>Icon: monument<br>Order: 12",
+        "source": "Google My Maps KML export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4313,
+          43.85953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sarajevo-bascarsija",
+      "properties": {
+        "id": "sarajevo-bascarsija",
+        "order": 13,
+        "name": "Baščaršija",
+        "description": "Description: Zgodovinsko jedro<br>Latitude: 43.85991<br>Longitude: 18.43154<br>Icon: historic<br>Order: 13",
+        "source": "Google My Maps KML export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.43154,
+          43.85991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sarajevo-vijecnica",
+      "properties": {
+        "id": "sarajevo-vijecnica",
+        "order": 14,
+        "name": "Vijećnica",
+        "description": "Description: Mestna hiša<br>Latitude: 43.859511<br>Longitude: 18.433488<br>Icon: museum<br>Order: 14",
+        "source": "Google My Maps KML export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.433488,
+          43.859511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sarajevo-inat-kuca",
+      "properties": {
+        "id": "sarajevo-inat-kuca",
+        "order": 15,
+        "name": "Inat kuća",
+        "description": "Description: Hiša kljubovanja<br>Latitude: 43.85904<br>Longitude: 18.43406<br>Icon: restaurant<br>Order: 15",
+        "source": "Google My Maps KML export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.43406,
+          43.85904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sarajevo-careva-dzamija",
+      "properties": {
+        "id": "sarajevo-careva-dzamija",
+        "order": 16,
+        "name": "Careva džamija",
+        "description": "Description: Najstarejša mošeja<br>Latitude: 43.8577<br>Longitude: 18.4322<br>Icon: mosque<br>Order: 16",
+        "source": "Google My Maps KML export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4322,
+          43.8577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sarajevo-latinska-cuprija",
+      "properties": {
+        "id": "sarajevo-latinska-cuprija",
+        "order": 17,
+        "name": "Latinska ćuprija",
+        "description": "Description: Most atentata 1914<br>Latitude: 43.85764<br>Longitude: 18.42893<br>Icon: bridge<br>Order: 17",
+        "source": "Google My Maps KML export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.42893,
+          43.85764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sarajevo-stara-pravoslavna-cerkev",
+      "properties": {
+        "id": "sarajevo-stara-pravoslavna-cerkev",
+        "order": 18,
+        "name": "Stara pravoslavna cerkev",
+        "description": "Description: Zgodovinska cerkev<br>Latitude: 43.85978<br>Longitude: 18.42809<br>Icon: church<br>Order: 18",
+        "source": "Google My Maps KML export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.42809,
+          43.85978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sarajevo-judovski-muzej",
+      "properties": {
+        "id": "sarajevo-judovski-muzej",
+        "order": 19,
+        "name": "Judovski muzej",
+        "description": "Description: Stara sinagoga<br>Latitude: 43.85972<br>Longitude: 18.42782<br>Icon: museum<br>Order: 19",
+        "source": "Google My Maps KML export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.42782,
+          43.85972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sarajevo-saborna-pravoslavna-cerkev",
+      "properties": {
+        "id": "sarajevo-saborna-pravoslavna-cerkev",
+        "order": 20,
+        "name": "Saborna pravoslavna cerkev",
+        "description": "Description: Pravoslavna stolnica<br>Latitude: 43.8582<br>Longitude: 18.42516<br>Icon: church<br>Order: 20",
+        "source": "Google My Maps KML export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.42516,
+          43.8582
+        ]
+      }
+    }
+  ]
+}

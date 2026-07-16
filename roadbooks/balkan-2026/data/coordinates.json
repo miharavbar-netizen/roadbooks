@@ -1,0 +1,935 @@
+{
+  "schema_version": "1.0.0",
+  "trip_id": "balkan-roadtrip-2026",
+  "description": "Centralna baza koordinat. Vse druge datoteke naj se sklicujejo na te ID-je.",
+  "locations": [
+    {
+      "id": "jajce-st-mary",
+      "name": "Cerkev sv. Marije in zvonik sv. Luke",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "jajce-fortress",
+      "name": "Citadela Jajce",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "jajce-catacombs",
+      "name": "Katakombe",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "jajce-bear-tower",
+      "name": "Medvedji stolp",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "jajce-avnoj",
+      "name": "Muzej AVNOJ-a",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "jajce-waterfall",
+      "name": "Plivski slap",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "jajce-old-town",
+      "name": "Staro mesto Jajce",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-bascarsija",
+      "name": "Baščaršija",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-emperors-mosque",
+      "name": "Careva džamija",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-bezistan",
+      "name": "Gazi Husrev-begov bezistan",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-ghb-library",
+      "name": "Gazi Husrev-begova knjižnica",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-gazi-husrev-mosque",
+      "name": "Gazi Husrev-begova mošeja",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-hotel-europe",
+      "name": "Hotel Europe",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "holiday-inn",
+      "name": "Hotel Holiday",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-inat-kuca",
+      "name": "Inat kuća",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-jewish-museum",
+      "name": "Judovski muzej Bosne in Hercegovine",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-sacred-heart",
+      "name": "Katedrala Srca Jezusovega",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-kazandziluk",
+      "name": "Kazandžiluk",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-kursumlija",
+      "name": "Kuršumlija medresa",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-latin-bridge",
+      "name": "Latinska ćuprija",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-morica-han",
+      "name": "Morića Han",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-assassination-museum",
+      "name": "Muzej Sarajeva 1878–1918 in kraj atentata",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "siege-front-line",
+      "name": "Nekdanja frontna črta obleganja",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "nermine-come",
+      "name": "Nermine, dođi",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "presidency-bih",
+      "name": "Predsedstvo Bosne in Hercegovine",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-clock-tower",
+      "name": "Sahat-kula",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-meeting-cultures",
+      "name": "Sarajevo Meeting of Cultures",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-rose-war",
+      "name": "Sarajevska roža",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-city-hall",
+      "name": "Sarajevska vijećnica",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-sebilj",
+      "name": "Sebilj",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sniper-alley",
+      "name": "Sniper Alley",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "murdered-children-memorial",
+      "name": "Spomenik umorjenim otrokom obleganega Sarajeva",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-orthodox-cathedral",
+      "name": "Stolna cerkev Rojstva Presvete Bogorodice",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "sarajevo-taslihan",
+      "name": "Tašlihan",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "war-acrobats",
+      "name": "War Acrobats",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "salona-amphitheatre",
+      "name": "Amfiteater",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "salona-entrance",
+      "name": "Arheološki park Salona",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "klis-st-vitus",
+      "name": "Cerkev sv. Vida",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "salona-forum",
+      "name": "Forum in mestno jedro",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "plitvice-galovacki-buk",
+      "name": "Galovački buk",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "klis-main-gate",
+      "name": "Glavna vrata trdnjave Klis",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "trogir-main-square",
+      "name": "Glavni mestni trg",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "plitvice-supljara",
+      "name": "Jama Šupljara",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "plitvice-kozjak",
+      "name": "Jezero Kozjak",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "trogir-cathedral",
+      "name": "Katedrala sv. Lovrenca",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "kastel-gomilica",
+      "name": "Kaštel Gomilica – Kaštilac",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "krka-boardwalks",
+      "name": "Lesene poti",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "plitvice-boardwalks",
+      "name": "Lesene steze Zgornjih jezer",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "salona-manastirine",
+      "name": "Manastirine",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "trogir-streets",
+      "name": "Ozke ulice starega Trogirja",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "plitvice-train-return",
+      "name": "Panoramski prevoz nazaj",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "klis-viewpoint",
+      "name": "Panoramski razgled s Klisa",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "salona-porta-caesarea",
+      "name": "Porta Caesarea",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "krka-skradin-return",
+      "name": "Povratek v Skradin",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "klis-courtyard",
+      "name": "Prvo obrambno dvorišče",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "trogir-north-gate",
+      "name": "Severna mestna vrata",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "krka-skradin",
+      "name": "Skradin",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "krka-skradinski-buk",
+      "name": "Skradinski buk",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "plitvice-lower-lakes",
+      "name": "Spodnja jezera",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "krka-mills",
+      "name": "Stari mlini",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "trogir-kamerlengo",
+      "name": "Trdnjava Kamerlengo",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "trogir-riva",
+      "name": "Trogirska Riva",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "plitvice-great-waterfall",
+      "name": "Veliki slap",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "plitvice-entrance-2",
+      "name": "Vhod 2",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "plitvice-boat",
+      "name": "Vožnja z električno ladjo",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "krka-boat",
+      "name": "Vožnja z ladjo po Krki",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "klis-krusic",
+      "name": "Zgodba Petra Kružića",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "plitvice-upper-lakes",
+      "name": "Zgornja jezera",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "split-cellars",
+      "name": "Dioklecijanove podkleti",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "split-sphinx",
+      "name": "Egipčanska sfinga",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "split-jupiter",
+      "name": "Jupitrov tempelj",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "split-gregory",
+      "name": "Kip Grgurja Ninskega",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "split-marulic",
+      "name": "Kip Marka Marulića",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "split-pjaca",
+      "name": "Narodni trg – Pjaca",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "split-peristyle",
+      "name": "Peristil",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "split-prokurative",
+      "name": "Prokurative",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "split-riva",
+      "name": "Riva",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "split-cathedral",
+      "name": "Stolnica sv. Dujma",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "split-vestibule",
+      "name": "Vestibul",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "split-fruit-square",
+      "name": "Voćni trg",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "split-golden-gate",
+      "name": "Zlata vrata",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "zadar-st-donatus",
+      "name": "Cerkev sv. Donata",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "zadar-cathedral",
+      "name": "Katedrala sv. Stošije",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "zadar-land-gate",
+      "name": "Kopenska vrata",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "zadar-sea-organ",
+      "name": "Morske orgle",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "zadar-peoples-square",
+      "name": "Narodni trg",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "zadar-ravnice",
+      "name": "Parkirišče Ravnice",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "zadar-sun-salutation",
+      "name": "Pozdrav Soncu",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "zadar-forum",
+      "name": "Rimski forum",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "zadar-five-wells",
+      "name": "Trg pet bunara",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "durmitor-barno",
+      "name": "Barno jezero",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "durmitor-jablan",
+      "name": "Jablan jezero",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "durmitor-ring-perast",
+      "name": "Perast",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "durmitor-ring-sedlo",
+      "name": "Sedlo",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "durmitor-zminje",
+      "name": "Zminje jezero",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "durmitor-black-lake",
+      "name": "Črno jezero",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "durmitor-ring-zabljak",
+      "name": "Žabljak",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "kotor-lady-remedy",
+      "name": "Cerkev Gospe od Zdravja",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "kotor-st-luke",
+      "name": "Cerkev sv. Luke",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "kotor-st-mary",
+      "name": "Cerkev sv. Marije od Reke",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "kotor-st-nicholas",
+      "name": "Cerkev sv. Nikolaja",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "kotor-sea-gate",
+      "name": "Morska vrata",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "kotor-beskuca-palace",
+      "name": "Palača Beskuća",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "kotor-bizanti-palace",
+      "name": "Palača Bizanti",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "kotor-pima-palace",
+      "name": "Palača Pima",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "kotor-maritime-museum",
+      "name": "Pomorski muzej Črne gore",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "kotor-first-viewpoint",
+      "name": "Prvo panoramsko razgledišče",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "kotor-serpentines",
+      "name": "Serpentine nad starim mestom",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "kotor-north-gate",
+      "name": "Severna vrata",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "kotor-st-tryphon",
+      "name": "Stolnica sv. Tripuna",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "kotor-clock-tower",
+      "name": "Stolpna ura",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "kotor-st-john",
+      "name": "Trdnjava sv. Janeza",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "kotor-cat-square",
+      "name": "Trg mačk",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "kotor-square-arms",
+      "name": "Trg orožja",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "kotor-walls-entrance",
+      "name": "Vhod na mestno obzidje",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    },
+    {
+      "id": "kotor-karampana",
+      "name": "Vodnjak Karampana",
+      "lat": null,
+      "lng": null,
+      "status": "missing",
+      "source": "to_be_verified"
+    }
+  ]
+}
