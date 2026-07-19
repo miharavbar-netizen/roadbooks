@@ -16,11 +16,15 @@
 
     <link rel="stylesheet"
         href="../../../css/style.css">
+
+    <link rel="stylesheet"
+        href="../../../css/guide.css">
 </head>
 
 <body>
 
-    <main class="roadbook-page guide-page">
+    <main id="top"
+        class="roadbook-page guide-page">
 
         <!-- ===================================================
              HERO
@@ -39,7 +43,7 @@
                     class="brand-link">
 
                     <img src="../../../images/brand/miha-matej-logo.png"
-                        alt="Miha & Matej logo"
+                        alt="Miha &amp; Matej logo"
                         class="brand-mark">
 
                     <span>Popotovanja</span>
@@ -114,14 +118,14 @@
                 <strong>Nalaganje vodiča</strong>
 
                 <p>
-                    Pripravljamo podatke o poti, postajah in zemljevidu.
+                    Pripravljamo podatke o poti in postajah.
                 </p>
 
             </div>
 
             <!-- ===================================================
                  NAPAKA
-                 guide.js ga prikaže samo, če vodiča ni mogoče naložiti
+                 guide.js jo prikaže samo, če vodiča ni mogoče naložiti
             ==================================================== -->
 
             <div id="guideError"
@@ -180,9 +184,9 @@
 
                     </div>
 
-                    <p id="guideIntro"
+                    <div id="guideIntro"
                         class="guide-intro-text">
-                    </p>
+                    </div>
 
                 </section>
 
@@ -200,14 +204,6 @@
 
                     <div id="guideFacts"
                         class="route-meta guide-facts-list">
-
-                        <!-- Primeri, ki jih vstavi guide.js:
-                        <span>⏱ 3–5,5 ure</span>
-                        <span>🚶 približno 4,1 km</span>
-                        <span>● lahka pot</span>
-                        <span>📍 20 postaj</span>
-                        -->
-
                     </div>
 
                 </section>
@@ -233,7 +229,7 @@
                             target="_blank"
                             rel="noopener noreferrer"
                             hidden>
-                            📍 Odpri zemljevid
+                            🗺️ Interaktivni zemljevid
                         </a>
 
                         <a id="guideDayButton"
@@ -248,12 +244,15 @@
                 </section>
 
                 <!-- ===================================================
-                     ZEMLJEVID
-                     Leaflet bo dodan v naslednjem koraku
+                     PREDOGLED ZEMLJEVIDA
+                     guide.js sekcijo prikaže samo, če obstaja
+                     preview_image. Klik na sliko odpre Google My Maps.
                 ==================================================== -->
 
-                <section class="guide-map-section"
-                    aria-labelledby="guideMapTitle">
+                <section id="guideMapSection"
+                    class="guide-map-section"
+                    aria-labelledby="guideMapTitle"
+                    hidden>
 
                     <div class="section-heading">
 
@@ -266,20 +265,13 @@
                         </h2>
 
                         <p>
-                            Izbrane postaje poti so prikazane v zaporedju ogleda.
+                            Klikni na predogled za odprtje zemljevida.
                         </p>
 
                     </div>
 
                     <div id="guideMap"
-                        class="guide-map"
-                        role="region"
-                        aria-label="Interaktivni zemljevid poti">
-
-                        <noscript>
-                            Za prikaz zemljevida mora biti omogočen JavaScript.
-                        </noscript>
-
+                        class="guide-map">
                     </div>
 
                 </section>
@@ -293,11 +285,6 @@
 
                     <div id="guideStopNav"
                         class="guide-stop-nav-list">
-
-                        <!-- guide.js vstavi gumbe:
-                        <a href="#stop-sarajevo-sacred-heart">1</a>
-                        -->
-
                     </div>
 
                 </nav>
@@ -322,17 +309,14 @@
                         </h2>
 
                         <p>
-                            Sledi postajam po vrstnem redu. Posamezno lokacijo
-                            lahko odpreš tudi neposredno v Google Maps.
+                            Odpiraj posamezne postaje po vrstnem redu ali
+                            preskoči neposredno na izbrano lokacijo.
                         </p>
 
                     </div>
 
                     <div id="guideStopsList"
                         class="guide-stops-list">
-
-                        <!-- Kartice postaj samodejno ustvari guide.js. -->
-
                     </div>
 
                 </section>
@@ -349,8 +333,8 @@
 
                         <strong>Zaključek poti</strong>
 
-                        <p id="guideOutro">
-                        </p>
+                        <div id="guideOutro">
+                        </div>
 
                     </div>
 
@@ -379,9 +363,6 @@
 
                     <div id="guidePracticalContent"
                         class="guide-practical-grid">
-
-                        <!-- Vsebino ustvari guide.js. -->
-
                     </div>
 
                 </section>
@@ -409,9 +390,6 @@
 
                     <div id="guideWhyChoose"
                         class="host-alert">
-
-                        <!-- Seznam ustvari guide.js. -->
-
                     </div>
 
                 </section>
@@ -439,9 +417,6 @@
 
                     <div id="guideSources"
                         class="food-links-inline">
-
-                        <!-- Povezave ustvari guide.js. -->
-
                     </div>
 
                 </section>
@@ -451,15 +426,15 @@
                 ==================================================== -->
 
                 <nav class="map-section-navigation"
-                    aria-label="Navigacija po razdelku Zemljevidi">
+                    aria-label="Navigacija na koncu vodiča">
 
                     <a id="guideBackLink"
                         href="../map/walks.html">
                         ← Peš poti
                     </a>
 
-                    <a href="../map.html">
-                        Zemljevidi →
+                    <a href="#top">
+                        ↑ Na vrh
                     </a>
 
                 </nav>
@@ -477,10 +452,6 @@
             <p>
                 Popotovanja · Miha &amp; Matej
             </p>
-
-            <a href="../map.html">
-                Nazaj na Zemljevide
-            </a>
 
         </footer>
 

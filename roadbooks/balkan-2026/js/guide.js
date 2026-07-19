@@ -9,6 +9,8 @@ const GUIDE_CONFIG = {
   geojsonDirectory: "../data/geojson",
   defaultGuideId: "sarajevo-heritage-walk",
 
+  accordionScrollOffset: 112,
+
   heroImages: {
     "sarajevo-heritage-walk":
       "../../../images/roadbooks/balkan-2026/days/hero05.jpg",
@@ -19,14 +21,14 @@ const GUIDE_CONFIG = {
     "plitvice-program-h":
       "../../../images/roadbooks/balkan-2026/days/hero02.jpg",
 
-    "durmitor-lakes-options":
+    "durmitor-hiking-black-lake":
       "../../../images/roadbooks/balkan-2026/days/hero17.jpg",
 
     "kotor-city-walls-hike":
       "../../../images/roadbooks/balkan-2026/days/hero10.jpg",
 
-    "kotor-old-town-walk":
-      "../../../images/roadbooks/balkan-2026/days/hero10.jpg",
+    "mostar-walk":
+      "../../../images/roadbooks/balkan-2026/days/hero13.jpg",
 
     "split-diocletian-walk":
       "../../../images/roadbooks/balkan-2026/days/hero14.jpg",
@@ -34,13 +36,13 @@ const GUIDE_CONFIG = {
     "zadar-express-walk":
       "../../../images/roadbooks/balkan-2026/days/hero18.jpg",
 
-    "durmitor-ring":
+    "durmitor-panorama-zabljak-perast":
       "../../../images/roadbooks/balkan-2026/days/hero08.jpg",
 
-    "tara-packrafting":
+    "tara-river-valley":
       "../../../images/roadbooks/balkan-2026/days/hero09.jpg",
 
-    "boka-boat-trip":
+    "boka-kotorska-boat-trip":
       "../../../images/roadbooks/balkan-2026/days/hero11.jpg",
 
     "optional-salona-klis":
@@ -51,6 +53,7 @@ const GUIDE_CONFIG = {
 
     "optional-krka":
       "../../../images/roadbooks/balkan-2026/days/hero19.jpg"
+      
   }
 };
 
@@ -81,6 +84,7 @@ const elements = {
   externalMapButton: document.getElementById("guideExternalMapButton"),
   dayButton: document.getElementById("guideDayButton"),
 
+  mapSection: document.getElementById("guideMapSection"),
   map: document.getElementById("guideMap"),
 
   stopNav: document.getElementById("guideStopNav"),
@@ -112,7 +116,6 @@ document.addEventListener("DOMContentLoaded", initializeGuide);
 async function initializeGuide() {
   try {
     const guideId = getGuideId();
-
     const activitiesData = await loadJson(GUIDE_CONFIG.activitiesUrl);
 
     if (
@@ -186,13 +189,59 @@ function renderGuide(activity) {
   renderIntroduction(activity);
   renderFacts(activity);
   renderActions(activity);
-  renderMapPlaceholder(activity);
-  renderStops(activity);
+  renderMapPreview(activity);
+  renderGuideBody(activity);
   renderOutro(activity);
   renderPractical(activity);
   renderWhyChoose(activity);
   renderSources(activity);
   renderBackLink(activity);
+}
+
+
+/* ===================================================
+   DISPLAY MODE
+=================================================== */
+
+function renderGuideBody(activity) {
+  const displayMode = getDisplayMode(activity);
+
+  elements.stopsList.replaceChildren();
+  elements.stopNav.replaceChildren();
+
+  switch (displayMode) {
+    case "accordion":
+      renderAccordionGuide(activity);
+      break;
+
+    case "article":
+      renderArticleGuide(activity);
+      break;
+
+    default:
+      renderArticleGuide(activity);
+  }
+}
+
+function getDisplayMode(activity) {
+  if (
+    activity.display === "accordion" ||
+    activity.display === "article"
+  ) {
+    return activity.display;
+  }
+
+  /*
+   * Varnostna privzeta logika za stare zapise:
+   * vodiči s šestimi ali več postajami se prikažejo
+   * kot accordion.
+   */
+
+  const stopCount = activity.route?.stops?.length || 0;
+
+  return stopCount >= 6
+    ? "accordion"
+    : "article";
 }
 
 
@@ -284,9 +333,10 @@ function renderIntroduction(activity) {
     getText(activity.guide_intro);
 
   if (introText) {
-    elements.intro.textContent = introText;
+    renderTextContent(elements.intro, introText);
     elements.intro.hidden = false;
   } else {
+    elements.intro.replaceChildren();
     elements.intro.hidden = true;
   }
 }
@@ -294,15 +344,12 @@ function renderIntroduction(activity) {
 function renderCountryBadges(activity) {
   elements.countryBadges.replaceChildren();
 
-  const country = activity.country;
-
-  if (!country) {
+  if (!activity.country) {
     elements.countryBadges.hidden = true;
     return;
   }
 
-  const countryData = getCountryData(country);
-
+  const countryData = getCountryData(activity.country);
   const badge = document.createElement("span");
 
   badge.className = countryData.className;
@@ -436,11 +483,12 @@ function renderFacts(activity) {
 
 function renderActions(activity) {
   const externalMapUrl =
-    activity.route?.map?.google_my_maps_url ||
-    activity.route?.map?.google_maps_url;
+    activity.route?.map?.open_url;
 
   if (externalMapUrl) {
     elements.externalMapButton.href = externalMapUrl;
+    elements.externalMapButton.textContent =
+      "🗺️ Interaktivni zemljevid";
     elements.externalMapButton.hidden = false;
   } else {
     elements.externalMapButton.hidden = true;
@@ -468,44 +516,93 @@ function renderActions(activity) {
 
 
 /* ===================================================
-   MAP PLACEHOLDER
+   MAP PREVIEW
 =================================================== */
 
-function renderMapPlaceholder(activity) {
-  const geojsonUrl =
-    `${GUIDE_CONFIG.geojsonDirectory}/${activity.id}.geojson`;
-
+function renderMapPreview(activity) {
   elements.map.replaceChildren();
 
+  const mapData = activity.route?.map;
+
+  if (!mapData) {
+    elements.mapSection.hidden = true;
+    return;
+  }
+
+  const previewImage = mapData.preview_image;
+  const externalUrl = mapData.open_url;
+
+  if (!previewImage) {
+    elements.mapSection.hidden = true;
+    return;
+  }
+
+  elements.mapSection.hidden = false;
+  const mapTitle =
+    getText(mapData.title) ||
+    getText(activity.title) ||
+    "Interaktivni zemljevid poti";
+
+  const preview = document.createElement(
+    externalUrl ? "a" : "div"
+  );
+
+  preview.className = "guide-map-preview";
+
+  if (externalUrl) {
+    preview.href = externalUrl;
+    preview.target = "_blank";
+    preview.rel = "noopener noreferrer";
+
+    preview.setAttribute(
+      "aria-label",
+      `Odpri interaktivni zemljevid: ${mapTitle}`
+    );
+  }
+
+  const image = document.createElement("img");
+
+  image.src = previewImage;
+  image.alt = `Predogled poti: ${mapTitle}`;
+  image.loading = "lazy";
+
+  preview.appendChild(image);
+
+  if (externalUrl) {
+    const overlay = document.createElement("span");
+
+    overlay.className = "guide-map-preview-overlay";
+    overlay.textContent = "🗺️ Odpri interaktivni zemljevid";
+
+    preview.appendChild(overlay);
+  }
+
+  elements.map.appendChild(preview);
+}
+
+function renderMapUnavailable() {
   const message = document.createElement("div");
+
   message.className = "host-alert";
 
   const title = document.createElement("strong");
-  title.textContent = "Zemljevid poti";
+  title.textContent = "Zemljevid še ni pripravljen";
 
   const text = document.createElement("p");
   text.textContent =
-    "Interaktivni zemljevid bo v naslednjem koraku " +
-    "naložen iz datoteke GeoJSON.";
+    "Za ta vodič trenutno še ni dodan predogled poti.";
 
-  const fileInfo = document.createElement("p");
-  fileInfo.className = "route-destinations";
-  fileInfo.textContent = geojsonUrl;
-
-  message.append(title, text, fileInfo);
+  message.append(title, text);
   elements.map.appendChild(message);
 }
 
 
 /* ===================================================
-   STOPS
+   ACCORDION GUIDE
 =================================================== */
 
-function renderStops(activity) {
+function renderAccordionGuide(activity) {
   const stops = getOrderedStops(activity);
-
-  elements.stopNav.replaceChildren();
-  elements.stopsList.replaceChildren();
 
   elements.stopCountLabel.textContent =
     `${stops.length} ${pluralizeStops(stops.length)}`;
@@ -515,17 +612,534 @@ function renderStops(activity) {
     return;
   }
 
+  const accordion = document.createElement("div");
+
+  accordion.className =
+    "accordion guide-accordion";
+
+  accordion.id =
+    `guideAccordion-${activity.id}`;
+
   stops.forEach((stop, index) => {
     elements.stopNav.appendChild(
       createStopNavigationLink(stop, index)
     );
 
-    elements.stopsList.appendChild(
-      createStopCard(stop, index, stops.length)
+    accordion.appendChild(
+      createAccordionItem(
+        stop,
+        index,
+        stops.length,
+        accordion.id
+      )
     );
+  });
+
+  elements.stopsList.appendChild(accordion);
+
+  initializeAccordionScrolling(accordion);
+}
+
+function createAccordionItem(
+  stop,
+  index,
+  totalStops,
+  accordionId
+) {
+  const item = document.createElement("article");
+
+  item.className =
+    "accordion-item guide-accordion-item";
+
+  item.id = `stop-${stop.id}`;
+
+  const headingId =
+    `heading-${stop.id}`;
+
+  const collapseId =
+    `collapse-${stop.id}`;
+
+  const heading = document.createElement("h3");
+
+  heading.className = "accordion-header";
+  heading.id = headingId;
+
+  const button = document.createElement("button");
+
+  button.className =
+    "accordion-button collapsed guide-accordion-button";
+
+  button.type = "button";
+
+  button.setAttribute(
+    "data-bs-toggle",
+    "collapse"
+  );
+
+  button.setAttribute(
+    "data-bs-target",
+    `#${collapseId}`
+  );
+
+  button.setAttribute(
+    "aria-expanded",
+    "false"
+  );
+
+  button.setAttribute(
+    "aria-controls",
+    collapseId
+  );
+
+  button.appendChild(
+    createAccordionHeading(stop, index)
+  );
+
+  heading.appendChild(button);
+
+  const collapse = document.createElement("div");
+
+  collapse.id = collapseId;
+  collapse.className = "accordion-collapse collapse";
+
+  collapse.setAttribute(
+    "aria-labelledby",
+    headingId
+  );
+
+  collapse.setAttribute(
+    "data-bs-parent",
+    `#${accordionId}`
+  );
+
+  const body = document.createElement("div");
+
+  body.className =
+    "accordion-body guide-accordion-body";
+
+const quickLinks = createAccordionPills(stop);
+
+if (quickLinks) {
+  body.appendChild(quickLinks);
+}
+
+renderStopBody(body, stop, {
+  includeLocalName: true,
+  includeMetadata: false,
+  includeActions: false
+});
+
+  collapse.appendChild(body);
+  item.append(heading, collapse);
+
+  return item;
+}
+
+function createAccordionHeading(
+  stop,
+  index
+) {
+  const wrapper = document.createElement("span");
+
+  wrapper.className =
+    "guide-accordion-heading-content";
+
+  const number = document.createElement("span");
+
+  number.className =
+    "guide-accordion-number";
+
+  number.textContent = String(index + 1);
+
+  const textWrapper = document.createElement("span");
+
+  textWrapper.className =
+    "guide-accordion-title-wrapper";
+
+  const title = document.createElement("span");
+
+  title.className =
+    "guide-accordion-title";
+
+  title.textContent =
+    getText(stop.title) ||
+    `Postaja ${index + 1}`;
+
+  textWrapper.appendChild(title);
+
+  wrapper.append(number, textWrapper);
+
+  return wrapper;
+}
+
+function initializeAccordionScrolling(accordion) {
+  accordion.addEventListener(
+    "shown.bs.collapse",
+    event => {
+      const accordionItem =
+        event.target.closest(".accordion-item");
+
+      if (!accordionItem) {
+        return;
+      }
+
+      const position =
+        accordionItem.getBoundingClientRect().top +
+        window.scrollY -
+        GUIDE_CONFIG.accordionScrollOffset;
+
+      window.scrollTo({
+        top: position,
+        behavior: "smooth"
+      });
+    }
+  );
+}
+
+
+/* ===================================================
+   ARTICLE GUIDE
+=================================================== */
+
+function renderArticleGuide(activity) {
+  const stops = getOrderedStops(activity);
+
+  elements.stopCountLabel.textContent =
+    stops.length > 0
+      ? `${stops.length} ${pluralizeStops(stops.length)}`
+      : "Potek poti";
+
+  if (stops.length === 0) {
+    renderNoStopsMessage();
+    return;
+  }
+
+  const articleContainer =
+    document.createElement("div");
+
+  articleContainer.className =
+    "guide-article";
+
+  stops.forEach((stop, index) => {
+    elements.stopNav.appendChild(
+      createStopNavigationLink(stop, index)
+    );
+
+    articleContainer.appendChild(
+      createArticleSection(
+        stop,
+        index,
+        stops.length
+      )
+    );
+  });
+
+  elements.stopsList.appendChild(articleContainer);
+}
+
+function createArticleSection(
+  stop,
+  index,
+  totalStops
+) {
+  const section = document.createElement("article");
+
+  section.className =
+    "route-card guide-article-section";
+
+  section.id = `stop-${stop.id}`;
+
+  const content = document.createElement("div");
+
+  content.className =
+    "route-card-content guide-article-content";
+
+  const headingRow = document.createElement("div");
+
+  headingRow.className = "guide-stop-heading";
+
+  const number = document.createElement("span");
+
+  number.className = "guide-stop-number";
+  number.textContent = String(index + 1);
+
+  const headingContent = document.createElement("div");
+
+  const label = document.createElement("p");
+
+  label.className = "route-date";
+  label.textContent =
+    `Del ${index + 1} od ${totalStops}`;
+
+  const heading = document.createElement("h3");
+
+  heading.textContent =
+    getText(stop.title) ||
+    `Del ${index + 1}`;
+
+  headingContent.append(label, heading);
+  headingRow.append(number, headingContent);
+
+  content.appendChild(headingRow);
+
+  renderStopBody(content, stop, {
+    includeLocalName: true,
+    includeMetadata: true
+  });
+
+  section.appendChild(content);
+
+  const actions = createStopActions(stop);
+
+  if (actions) {
+    section.appendChild(actions);
+  }
+
+  return section;
+}
+
+
+/* ===================================================
+   SHARED STOP CONTENT
+=================================================== */
+
+function renderStopBody(
+  container,
+  stop,
+  options = {}
+) {
+  const includeLocalName =
+    options.includeLocalName !== false;
+
+  const includeMetadata =
+    options.includeMetadata !== false;
+
+  const includeActions =
+    options.includeActions !== false;
+
+  if (includeLocalName && stop.local_name) {
+    const localName = document.createElement("p");
+
+    localName.className = "guide-local-name";
+    localName.textContent = stop.local_name;
+
+    container.appendChild(localName);
+  }
+
+  if (includeMetadata) {
+    const metadata = createStopMetadata(stop);
+
+    if (metadata) {
+      container.appendChild(metadata);
+    }
+  }
+
+const shortText = getText(stop.short_text).trim();
+const guideText = getText(stop.guide_text).trim();
+
+const normalizedShortText = normalizeText(shortText);
+const normalizedGuideText = normalizeText(guideText);
+
+const shortTextIsRepeated =
+  shortText &&
+  guideText &&
+  normalizedGuideText.startsWith(normalizedShortText);
+
+if (shortText && !shortTextIsRepeated) {
+  const lead = document.createElement("p");
+
+  lead.className = "guide-stop-lead";
+  lead.textContent = shortText;
+
+  container.appendChild(lead);
+}
+
+if (guideText) {
+  const textContainer = document.createElement("div");
+
+  textContainer.className = "guide-stop-text";
+
+  renderTextContent(textContainer, guideText);
+
+  container.appendChild(textContainer);
+}
+
+  const noticeBlock = createNoticeBlock(
+    "👀 Na kaj bodi pozoren",
+    stop.what_to_notice
+  );
+
+  if (noticeBlock) {
+    container.appendChild(noticeBlock);
+  }
+
+  const photoTip = getText(stop.photo_tip);
+
+  if (photoTip) {
+    container.appendChild(
+      createInfoBox("📷 Foto nasvet", photoTip)
+    );
+  }
+
+  const practicalNote =
+    getText(stop.practical_note);
+
+  if (practicalNote) {
+    container.appendChild(
+      createInfoBox("ℹ️ Praktično", practicalNote)
+    );
+  }
+
+  if (stop.opening_hours_note) {
+    container.appendChild(
+      createInfoBox(
+        "🕓 Odpiralni čas",
+        stop.opening_hours_note
+      )
+    );
+  }
+
+  if (stop.ticket_note) {
+    container.appendChild(
+      createInfoBox(
+        "🎟️ Vstopnina",
+        stop.ticket_note
+      )
+    );
+  }
+
+if (includeActions) {
+  const actions = createStopActions(stop);
+
+  if (actions) {
+    container.appendChild(actions);
+  }
+}
+}
+function renderTextContent(container, text) {
+  container.replaceChildren();
+
+  const paragraphs = String(text)
+    .split(/\n\s*\n/)
+    .map(paragraph => paragraph.trim())
+    .filter(Boolean);
+
+  if (paragraphs.length === 0) {
+    return;
+  }
+
+  paragraphs.forEach(paragraphText => {
+    const paragraph = document.createElement("p");
+    paragraph.textContent = paragraphText;
+    container.appendChild(paragraph);
   });
 }
 
+
+/* ===================================================
+   STOP NAVIGATION
+=================================================== */
+
+function createStopNavigationLink(stop, index) {
+  const link = document.createElement("a");
+
+  link.href = `#stop-${stop.id}`;
+  link.textContent = String(index + 1);
+
+  link.setAttribute(
+    "aria-label",
+    `${index + 1}. ${getText(stop.title)}`
+  );
+
+  link.addEventListener("click", event => {
+    event.preventDefault();
+
+    const target =
+      document.getElementById(`stop-${stop.id}`);
+
+    if (!target) {
+      return;
+    }
+
+    const position =
+      target.getBoundingClientRect().top +
+      window.scrollY -
+      GUIDE_CONFIG.accordionScrollOffset;
+
+    window.scrollTo({
+      top: position,
+      behavior: "smooth"
+    });
+  });
+
+  return link;
+}
+
+
+/* ===================================================
+   STOP HELPERS
+=================================================== */
+function createAccordionPills(stop) {
+  const items = [];
+
+  if (stop.visit_minutes) {
+    items.push({
+      type: "text",
+      label: `${stop.visit_minutes} min`
+    });
+  }
+
+  if (stop.google_maps_url) {
+    items.push({
+      type: "link",
+      label: "📍 GMaps",
+      url: stop.google_maps_url
+    });
+  }
+
+  if (stop.official_url) {
+    items.push({
+      type: "link",
+      label: "🏛️ Web",
+      url: stop.official_url
+    });
+  }
+
+  if (items.length === 0) {
+    return null;
+  }
+
+  const container = document.createElement("div");
+
+  container.className =
+    "guide-accordion-pills";
+
+  items.forEach(itemData => {
+    if (itemData.type === "link") {
+      const link = document.createElement("a");
+
+      link.href = itemData.url;
+      link.className =
+        "guide-accordion-pill guide-accordion-pill-link";
+
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = itemData.label;
+
+      container.appendChild(link);
+      return;
+    }
+
+    const item = document.createElement("span");
+
+    item.className = "guide-accordion-pill";
+    item.textContent = itemData.label;
+
+    container.appendChild(item);
+  });
+
+  return container;
+}
 function getOrderedStops(activity) {
   const stops = activity.route?.stops;
 
@@ -537,109 +1151,6 @@ function getOrderedStops(activity) {
     (first, second) =>
       (first.order || 0) - (second.order || 0)
   );
-}
-
-function createStopNavigationLink(stop, index) {
-  const link = document.createElement("a");
-
-  link.href = `#stop-${stop.id}`;
-  link.textContent = String(index + 1);
-  link.setAttribute(
-    "aria-label",
-    `${index + 1}. ${getText(stop.title)}`
-  );
-
-  return link;
-}
-
-function createStopCard(stop, index, totalStops) {
-  const article = document.createElement("article");
-
-  article.className = "route-card guide-stop-card";
-  article.id = `stop-${stop.id}`;
-
-  const content = document.createElement("div");
-  content.className = "route-card-content";
-
-  const headingRow = document.createElement("div");
-  headingRow.className = "guide-stop-heading";
-
-  const number = document.createElement("span");
-  number.className = "guide-stop-number";
-  number.textContent = String(index + 1);
-
-  const headingContent = document.createElement("div");
-
-  const label = document.createElement("p");
-  label.className = "route-date";
-  label.textContent =
-    `Postaja ${index + 1} od ${totalStops}`;
-
-  const heading = document.createElement("h3");
-  heading.textContent =
-    getText(stop.title) || `Postaja ${index + 1}`;
-
-  headingContent.append(label, heading);
-  headingRow.append(number, headingContent);
-  content.appendChild(headingRow);
-
-  if (stop.local_name) {
-    const localName = document.createElement("p");
-    localName.className = "guide-local-name";
-    localName.textContent = stop.local_name;
-    content.appendChild(localName);
-  }
-
-  const metadata = createStopMetadata(stop);
-
-  if (metadata) {
-    content.appendChild(metadata);
-  }
-
-  const guideText = getText(stop.guide_text);
-
-  if (guideText) {
-    const paragraph = document.createElement("p");
-    paragraph.className = "guide-stop-text";
-    paragraph.textContent = guideText;
-    content.appendChild(paragraph);
-  }
-
-  const noticeBlock = createNoticeBlock(
-    "👀 Na kaj bodi pozoren",
-    stop.what_to_notice
-  );
-
-  if (noticeBlock) {
-    content.appendChild(noticeBlock);
-  }
-
-  const photoTip = getText(stop.photo_tip);
-
-  if (photoTip) {
-    content.appendChild(
-      createInfoBox("📷 Foto nasvet", photoTip)
-    );
-  }
-
-  const practicalNote =
-    getText(stop.practical_note);
-
-  if (practicalNote) {
-    content.appendChild(
-      createInfoBox("ℹ️ Praktično", practicalNote)
-    );
-  }
-
-  const stopActions = createStopActions(stop);
-
-  article.appendChild(content);
-
-  if (stopActions) {
-    article.appendChild(stopActions);
-  }
-
-  return article;
 }
 
 function createStopMetadata(stop) {
@@ -666,7 +1177,9 @@ function createStopMetadata(stop) {
   }
 
   const container = document.createElement("div");
-  container.className = "route-meta guide-stop-meta";
+
+  container.className =
+    "route-meta guide-stop-meta";
 
   items.forEach(text => {
     const item = document.createElement("span");
@@ -699,12 +1212,15 @@ function createStopActions(stop) {
   }
 
   const container = document.createElement("div");
-  container.className = "map-route-actions";
+
+  container.className =
+    "map-route-actions guide-stop-actions";
 
   links.forEach((linkData, index) => {
     const link = document.createElement("a");
 
     link.href = linkData.url;
+
     link.className =
       index === 0
         ? "map-overview-action"
@@ -722,14 +1238,18 @@ function createStopActions(stop) {
 
 function renderNoStopsMessage() {
   const box = document.createElement("div");
+
   box.className = "host-alert";
 
   const title = document.createElement("strong");
-  title.textContent = "Postaje še niso pripravljene";
+
+  title.textContent =
+    "Vsebina vodiča še ni pripravljena";
 
   const text = document.createElement("p");
+
   text.textContent =
-    "Vodič trenutno še nima določenega zaporedja postaj.";
+    "Aktivnost trenutno nima določenih postaj ali poglavij.";
 
   box.append(title, text);
   elements.stopsList.appendChild(box);
@@ -749,7 +1269,7 @@ function renderOutro(activity) {
     return;
   }
 
-  elements.outro.textContent = outroText;
+  renderTextContent(elements.outro, outroText);
   elements.outroSection.hidden = false;
 }
 
@@ -845,18 +1365,25 @@ function renderPractical(activity) {
   });
 
   if (practical.official_info_url) {
-    const linkContainer = document.createElement("div");
+    const linkContainer =
+      document.createElement("div");
+
     linkContainer.className =
       "food-links-inline guide-practical-link";
 
     const link = document.createElement("a");
+
     link.href = practical.official_info_url;
     link.target = "_blank";
     link.rel = "noopener noreferrer";
-    link.textContent = "🏛️ Preveri uradne informacije";
+    link.textContent =
+      "🏛️ Preveri uradne informacije";
 
     linkContainer.appendChild(link);
-    elements.practicalContent.appendChild(linkContainer);
+
+    elements.practicalContent.appendChild(
+      linkContainer
+    );
   }
 
   elements.practicalSection.hidden =
@@ -866,16 +1393,25 @@ function renderPractical(activity) {
 
 function createPracticalCard(block) {
   const card = document.createElement("div");
-  card.className = "host-alert guide-practical-card";
+
+  card.className =
+    "host-alert guide-practical-card";
 
   const title = document.createElement("strong");
+
   title.textContent = block.title;
   card.appendChild(title);
 
   if (block.content) {
-    const paragraph = document.createElement("p");
-    paragraph.textContent = block.content;
-    card.appendChild(paragraph);
+    const textContainer =
+      document.createElement("div");
+
+    renderTextContent(
+      textContainer,
+      block.content
+    );
+
+    card.appendChild(textContainer);
   }
 
   if (Array.isArray(block.list)) {
@@ -955,9 +1491,15 @@ function renderSources(activity) {
     elements.sources.appendChild(link);
 
     if (index < activity.sources.length - 1) {
-      const separator = document.createElement("span");
+      const separator =
+        document.createElement("span");
+
       separator.textContent = " · ";
-      separator.setAttribute("aria-hidden", "true");
+      separator.setAttribute(
+        "aria-hidden",
+        "true"
+      );
+
       elements.sources.appendChild(separator);
     }
   });
@@ -977,11 +1519,17 @@ function renderBackLink(activity) {
   ];
 
   if (walksTypes.includes(activity.type)) {
-    elements.backLink.href = "../map/walks.html";
-    elements.backLink.textContent = "← Peš poti";
+    elements.backLink.href =
+      "../map/walks.html";
+
+    elements.backLink.textContent =
+      "← Peš poti";
   } else {
-    elements.backLink.href = "../map/trips.html";
-    elements.backLink.textContent = "← Izleti";
+    elements.backLink.href =
+      "../map/trips.html";
+
+    elements.backLink.textContent =
+      "← Izleti";
   }
 }
 
@@ -991,14 +1539,20 @@ function renderBackLink(activity) {
 =================================================== */
 
 function createNoticeBlock(titleText, items) {
-  if (!Array.isArray(items) || items.length === 0) {
+  if (
+    !Array.isArray(items) ||
+    items.length === 0
+  ) {
     return null;
   }
 
   const box = document.createElement("div");
-  box.className = "host-alert guide-notice-box";
+
+  box.className =
+    "host-alert guide-notice-box";
 
   const title = document.createElement("strong");
+
   title.textContent = titleText;
 
   const list = document.createElement("ul");
@@ -1019,15 +1573,19 @@ function createNoticeBlock(titleText, items) {
 
 function createInfoBox(titleText, contentText) {
   const box = document.createElement("div");
-  box.className = "host-alert guide-info-box";
+
+  box.className =
+    "host-alert guide-info-box";
 
   const title = document.createElement("strong");
+
   title.textContent = titleText;
 
-  const paragraph = document.createElement("p");
-  paragraph.textContent = contentText;
+  const content = document.createElement("div");
 
-  box.append(title, paragraph);
+  renderTextContent(content, contentText);
+
+  box.append(title, content);
 
   return box;
 }
@@ -1222,7 +1780,6 @@ function pluralizeStops(count) {
 
   return "postaj";
 }
-
 
 /* ===================================================
    ERROR HANDLING
