@@ -854,20 +854,13 @@ function createArticleSection(
   content.className =
     "route-card-content guide-article-content";
 
-  const headingRow = document.createElement("div");
+  const headingBlock = document.createElement("div");
 
-  headingRow.className = "guide-stop-heading";
-
-  const number = document.createElement("span");
-
-  number.className = "guide-stop-number";
-  number.textContent = String(index + 1);
-
-  const headingContent = document.createElement("div");
+  headingBlock.className = "guide-stop-heading";
 
   const label = document.createElement("p");
 
-  label.className = "route-date";
+  label.className = "route-date guide-stop-progress";
   label.textContent =
     `Del ${index + 1} od ${totalStops}`;
 
@@ -877,14 +870,13 @@ function createArticleSection(
     getText(stop.title) ||
     `Del ${index + 1}`;
 
-  headingContent.append(label, heading);
-  headingRow.append(number, headingContent);
-
-  content.appendChild(headingRow);
+  headingBlock.append(label, heading);
+  content.appendChild(headingBlock);
 
   renderStopBody(content, stop, {
-    includeLocalName: true,
-    includeMetadata: true
+    includeLocalName: false,
+    includeMetadata: true,
+    includeActions: false
   });
 
   section.appendChild(content);
@@ -1156,12 +1148,10 @@ function getOrderedStops(activity) {
 function createStopMetadata(stop) {
   const items = [];
 
-  if (stop.visit_minutes) {
-    items.push(`⏱ ${stop.visit_minutes} min`);
-  }
-
-  if (stop.category) {
-    items.push(formatStopCategory(stop.category));
+    if (stop.category) {
+    items.push(
+      `${getStopCategoryIcon(stop.category)} ${formatStopCategory(stop.category)}`
+    );
   }
 
   if (stop.optional) {
@@ -1717,6 +1707,31 @@ function formatActivityType(type) {
   };
 
   return labels[type] || "Vodič";
+}
+function getStopCategoryIcon(category) {
+  const icons = {
+    landmark: "📍",
+    museum: "🏛️",
+    church: "⛪",
+    mosque: "🕌",
+    synagogue: "🕍",
+    palace: "🏛️",
+    fortress: "🏰",
+    gate: "🚪",
+    square: "◼️",
+    bridge: "🌉",
+    viewpoint: "👀",
+    lake: "💧",
+    waterfall: "💦",
+    cave: "🪨",
+    trail_point: "🥾",
+    transport: "🚌",
+    parking: "🅿️",
+    visitor_center: "ℹ️",
+    other: "📌"
+  };
+
+  return icons[category] || "📌";
 }
 
 function formatStopCategory(category) {

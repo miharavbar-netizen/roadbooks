@@ -308,3 +308,206 @@
         font-size: 0.9rem;
     }
 }
+/* ===================================================
+   ARTICLE GUIDE – STOP CARDS
+=================================================== */
+
+.guide-article {
+  display: grid;
+  gap: 28px;
+}
+
+.guide-article-section {
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-card);
+  box-shadow: var(--shadow-soft);
+}
+
+.guide-article-content {
+  padding: 32px 36px 30px;
+}
+
+.guide-stop-heading {
+  margin-bottom: 22px;
+}
+
+.guide-stop-progress {
+  margin: 0 0 8px;
+  color: var(--color-primary);
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.guide-stop-heading h3 {
+  margin: 0;
+  color: var(--color-text);
+  font-size: clamp(1.65rem, 3vw, 2.15rem);
+  font-weight: 750;
+  line-height: 1.18;
+  letter-spacing: -0.025em;
+}
+
+/* ===================================================
+   STOP METADATA
+=================================================== */
+
+.guide-stop-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 22px;
+}
+
+.guide-stop-meta span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 7px 12px;
+  border-radius: var(--radius-pill);
+  background: var(--color-chip);
+  color: var(--color-muted);
+  font-size: 0.84rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+/* ===================================================
+   STOP TEXT
+=================================================== */
+
+.guide-stop-lead {
+  max-width: 760px;
+  margin: 0 0 22px;
+  color: var(--color-text);
+  font-size: 1.08rem;
+  font-weight: 650;
+  line-height: 1.65;
+}
+
+.guide-stop-text {
+  max-width: 780px;
+  color: var(--color-text);
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.guide-stop-text p {
+  margin: 0 0 18px;
+}
+
+.guide-stop-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* ===================================================
+   STOP INFO BOXES
+=================================================== */
+
+.guide-article-content .guide-notice-box,
+.guide-article-content .guide-info-box {
+  max-width: 780px;
+  margin-top: 24px;
+}
+
+.guide-article-content .guide-notice-box strong,
+.guide-article-content .guide-info-box strong {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--color-text);
+}
+
+.guide-article-content .guide-notice-box ul {
+  margin-bottom: 0;
+  padding-left: 1.25rem;
+}
+
+.guide-article-content .guide-notice-box li + li {
+  margin-top: 7px;
+}
+
+/* ===================================================
+   STOP ACTIONS
+=================================================== */
+
+.guide-article-section > .guide-stop-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+  padding: 18px 36px;
+  border-top: 1px solid var(--color-border);
+  background: var(--color-card-soft);
+}
+
+.guide-stop-actions .map-overview-action {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 9px 14px;
+  border-radius: var(--radius-pill);
+  color: var(--color-primary-dark);
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.guide-stop-actions .map-overview-action:hover,
+.guide-stop-actions .map-overview-action:focus-visible {
+  transform: translateY(-1px);
+  background: var(--color-chip);
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+
+.guide-stop-actions .map-overview-action-secondary {
+  color: var(--color-muted);
+}
+
+/* ===================================================
+   ARTICLE GUIDE – MOBILE
+=================================================== */
+
+@media (max-width: 576px) {
+  .guide-article {
+    gap: 20px;
+  }
+
+  .guide-article-content {
+    padding: 24px 20px;
+  }
+
+  .guide-stop-heading {
+    margin-bottom: 18px;
+  }
+
+  .guide-stop-heading h3 {
+    font-size: 1.55rem;
+  }
+
+  .guide-stop-lead {
+    font-size: 1.02rem;
+  }
+
+  .guide-stop-text {
+    font-size: 0.97rem;
+    line-height: 1.72;
+  }
+
+  .guide-article-section > .guide-stop-actions {
+    padding: 14px 20px;
+  }
+
+  .guide-stop-actions .map-overview-action {
+    width: 100%;
+    justify-content: center;
+  }
+}

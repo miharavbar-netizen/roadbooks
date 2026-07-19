@@ -899,6 +899,659 @@
       "content_source": "RoadtripBalkan2026.docx"
     },
     {
+    "id": "mostar-walk",
+    "title": "Mostar",
+    "subtitle": "Sprehod po mestu, kjer most povezuje več kot le dva bregova",
+    "type": "city_walk",
+    "theme": "history",
+    "status": "ready",
+    "trip_day_refs": [
+        12
+    ],
+    "country": "Bosna in Hercegovina",
+    "region": "Hercegovina",
+    "city": "Mostar",
+    "summary": "Približno štiri kilometre dolg sprehod skozi osmansko jedro, versko in obrtniško dediščino, vojne sledi ter sodobno ulično umetnost Mostarja.",
+    "why_choose": [
+        "Za celovit prvi stik z najpomembnejšimi znamenitostmi Mostarja."
+    ],
+    "duration": {
+        "min_minutes": 150,
+        "max_minutes": 210,
+        "walking_minutes": 60,
+        "display": "2,5–3,5 ure brez daljših postankov"
+    },
+    "distance": {
+        "total_km": 4.0,
+        "walking_km": 4.0,
+        "display": "približno 4 km"
+    },
+    "difficulty": "easy",
+    "arrival": {
+        "mode": [
+            "walk"
+        ],
+        "instructions": "Sprehod se začne na vzhodnem bregu Neretve pri razgledni točki na Stari most in se zaključi med murali v sodobnem delu Mostarja."
+    },
+    "route": {
+        "shape": "point_to_point",
+        "start_stop_id": "mostar-stari-most-photopoint",
+        "end_stop_id": "mostar-street-art",
+        "route_note": "Vrstni red trinajstih postaj je usklajen s pripravljenim zemljevidom My Maps. Posamezni murali so označeni na zemljevidu, v vodiču pa so združeni v eno zaključno postajo Mostar Street Art.",
+        "map": {
+          "provider": "google_my_maps",
+          "title": "Mostar – od Starega mostu do muralov",
+          "preview_image": "../../../images/roadbooks/balkan-2026/maps/mostar-walk.jpg",
+          "embed_url": "https://www.google.com/maps/d/u/0/embed?mid=1Bv29-bW7v-WgKdqs_HdW87LluZftnvA&ehbc=2E312F",
+          "open_url": "https://www.google.com/maps/d/u/0/viewer?mid=1Bv29-bW7v-WgKdqs_HdW87LluZftnvA"
+        },
+        "stops": [
+            {
+                "id": "mostar-stari-most-photopoint",
+                "order": 1,
+                "title": "Pogled na Stari most",
+                "category": "viewpoint",
+                "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mostar+Old+Bridge+Photopoint",
+                "visit_minutes": 15,
+                "guide_text": "To je eden najlepših razgledov na Stari most in po mojem mnenju najboljši kraj za začetek sprehoda po Mostarju. S tega mesta se odpre pogled na znameniti kamniti lok, ki že več kot štiri stoletja povezuje oba bregova Neretve. Čeprav je danes eden najbolj fotografiranih simbolov Bosne in Hercegovine, je bil most zgrajen predvsem kot pomembna prometna povezava med vzhodnim in zahodnim delom mesta.\n\nPrvotni leseni most je v 16. stoletju nadomestil kamniti most, ki ga je po naročilu sultana Sulejmana Veličastnega zasnoval osmanski arhitekt Hajrudin, učenec velikega mojstra Sinana. Ob dokončanju leta 1566 je veljal za eno največjih gradbenih mojstrovin svojega časa. Njegov elegantni kamniti lok, dolg skoraj 29 metrov, se dviga približno 20 metrov nad reko Neretvo in je stoletja navduševal popotnike iz vse Evrope.\n\nDanes je ta razgled ena najbolj priljubljenih fotografskih točk v mestu. Od tu lahko lepo opazujete tudi značilna kamnita stolpa Halebija in Tara, ki sta nekoč varovala vhod na most, ter življenje ob reki, kjer se domačini in obiskovalci zbirajo na prodnatih plažah pod mostom.\n\nČe imate srečo, boste morda že ob prihodu doživeli eno najbolj znamenitih mostarskih tradicij – skok z vrha Starega mostu v ledeno Neretvo. Ta običaj naj bi bil star skoraj toliko kot most sam, danes pa ga nadaljujejo člani Kluba skakalcev Mostari. Poleti obiskovalci pogosto zberejo prostovoljne prispevke, nato pa eden izmed izkušenih skakalcev skoči z več kot dvajsetih metrov višine v reko, ki tudi sredi poletja le redko preseže 15 °C.",
+                "official_references": [
+                    "UNESCO – Old Bridge Area of the Old City of Mostar",
+                    "Klub skakalcev Mostari"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Pogled na Stari most",
+                    "local_name": null,
+                    "visit_minutes": 15,
+                    "short_text": "To je eden najlepših razgledov na Stari most in po mojem mnenju najboljši kraj za začetek sprehoda po Mostarju. S tega mesta se odpre pogled na znameniti kamniti lok, ki že več kot štiri stoletja povezuje oba bregova Neretve. Čeprav je danes eden najbolj fo…",
+                    "guide_text": "To je eden najlepših razgledov na Stari most in po mojem mnenju najboljši kraj za začetek sprehoda po Mostarju. S tega mesta se odpre pogled na znameniti kamniti lok, ki že več kot štiri stoletja povezuje oba bregova Neretve. Čeprav je danes eden najbolj fotografiranih simbolov Bosne in Hercegovine, je bil most zgrajen predvsem kot pomembna prometna povezava med vzhodnim in zahodnim delom mesta.\n\nPrvotni leseni most je v 16. stoletju nadomestil kamniti most, ki ga je po naročilu sultana Sulejmana Veličastnega zasnoval osmanski arhitekt Hajrudin, učenec velikega mojstra Sinana. Ob dokončanju leta 1566 je veljal za eno največjih gradbenih mojstrovin svojega časa. Njegov elegantni kamniti lok, dolg skoraj 29 metrov, se dviga približno 20 metrov nad reko Neretvo in je stoletja navduševal popotnike iz vse Evrope.\n\nDanes je ta razgled ena najbolj priljubljenih fotografskih točk v mestu. Od tu lahko lepo opazujete tudi značilna kamnita stolpa Halebija in Tara, ki sta nekoč varovala vhod na most, ter življenje ob reki, kjer se domačini in obiskovalci zbirajo na prodnatih plažah pod mostom.\n\nČe imate srečo, boste morda že ob prihodu doživeli eno najbolj znamenitih mostarskih tradicij – skok z vrha Starega mostu v ledeno Neretvo. Ta običaj naj bi bil star skoraj toliko kot most sam, danes pa ga nadaljujejo člani Kluba skakalcev Mostari. Poleti obiskovalci pogosto zberejo prostovoljne prispevke, nato pa eden izmed izkušenih skakalcev skoči z več kot dvajsetih metrov višine v reko, ki tudi sredi poletja le redko preseže 15 °C.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "Stari most meri približno 29 metrov v dolžino in skoraj 20 metrov v višino.",
+                        "Med vojno leta 1993 je bil porušen, leta 2004 pa ponovno zgrajen z uporabo tradicionalnih gradbenih tehnik in kamna iz istega kamnoloma kot v 16. stoletju.",
+                        "Leta 2005 je bil skupaj s starim mestnim jedrom uvrščen na UNESCO-v seznam svetovne dediščine."
+                    ],
+                    "photo_tip": "Če želite most fotografirati brez večjih množic, pridite zgodaj dopoldne ali proti večeru. V poznih popoldanskih urah sonce osvetli zahodno stran mostu in ustvari čudovite odseve na gladini Neretve.",
+                    "practical_note": null,
+                    "route_to_next": "Od razgledne točke se po ulici spustita proti Krivi ćupriji. Do mostu je le nekaj minut hoje.",
+                    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mostar+Old+Bridge+Photopoint",
+                    "official_url": "https://whc.unesco.org/en/list/946",
+                    "official_references": [
+                        "UNESCO – Old Bridge Area of the Old City of Mostar",
+                        "Klub skakalcev Mostari"
+                    ]
+                },
+                "official_url": "https://whc.unesco.org/en/list/946",
+                "what_to_notice": [
+                    "Stari most meri približno 29 metrov v dolžino in skoraj 20 metrov v višino.",
+                    "Med vojno leta 1993 je bil porušen, leta 2004 pa ponovno zgrajen z uporabo tradicionalnih gradbenih tehnik in kamna iz istega kamnoloma kot v 16. stoletju.",
+                    "Leta 2005 je bil skupaj s starim mestnim jedrom uvrščen na UNESCO-v seznam svetovne dediščine."
+                ],
+                "photo_tip": "Če želite most fotografirati brez večjih množic, pridite zgodaj dopoldne ali proti večeru. V poznih popoldanskih urah sonce osvetli zahodno stran mostu in ustvari čudovite odseve na gladini Neretve."
+            },
+            {
+                "id": "mostar-kriva-cuprija",
+                "order": 2,
+                "title": "Kriva ćuprija",
+                "category": "bridge",
+                "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kriva+%C4%87uprija+Mostar",
+                "visit_minutes": 15,
+                "guide_text": "Le nekaj minut hoje od Starega mostu stoji njegov manjši, a izjemno slikovit sorodnik – Kriva ćuprija. Ta kamniti most je bil zgrajen okoli leta 1558 in velja za enega najstarejših ohranjenih mostov osmanskega Mostarja. Po izročilu naj bi služil kot nekakšen preizkus gradbenih rešitev pred gradnjo Starega mostu, čeprav za to ni trdnih zgodovinskih dokazov.\n\nMost prečka majhen potok Radobolja, ki se le nekaj deset metrov nižje izliva v Neretvo. Zaradi elegantnega kamnitega loka in mirnejšega okolja velja za eno najbolj romantičnih točk starega mesta. Okoli njega so številne tradicionalne kamnite hiše, manjše galerije in prijetne kavarne, zato je vzdušje precej bolj umirjeno kot ob Starem mostu.\n\nKriva ćuprija je bila med hudimi poplavami leta 2000 močno poškodovana in se je delno porušila. Obnovljena je bila z uporabo izvirnega kamna in tradicionalnih tehnik, zato danes znova predstavlja pomemben del zgodovinske podobe Mostarja.",
+                "official_references": [
+                    "UNESCO – Old Bridge Area of the Old City of Mostar"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Kriva ćuprija",
+                    "local_name": null,
+                    "visit_minutes": 15,
+                    "short_text": "Le nekaj minut hoje od Starega mostu stoji njegov manjši, a izjemno slikovit sorodnik – Kriva ćuprija. Ta kamniti most je bil zgrajen okoli leta 1558 in velja za enega najstarejših ohranjenih mostov osmanskega Mostarja. Po izročilu naj bi služil kot nekakše…",
+                    "guide_text": "Le nekaj minut hoje od Starega mostu stoji njegov manjši, a izjemno slikovit sorodnik – Kriva ćuprija. Ta kamniti most je bil zgrajen okoli leta 1558 in velja za enega najstarejših ohranjenih mostov osmanskega Mostarja. Po izročilu naj bi služil kot nekakšen preizkus gradbenih rešitev pred gradnjo Starega mostu, čeprav za to ni trdnih zgodovinskih dokazov.\n\nMost prečka majhen potok Radobolja, ki se le nekaj deset metrov nižje izliva v Neretvo. Zaradi elegantnega kamnitega loka in mirnejšega okolja velja za eno najbolj romantičnih točk starega mesta. Okoli njega so številne tradicionalne kamnite hiše, manjše galerije in prijetne kavarne, zato je vzdušje precej bolj umirjeno kot ob Starem mostu.\n\nKriva ćuprija je bila med hudimi poplavami leta 2000 močno poškodovana in se je delno porušila. Obnovljena je bila z uporabo izvirnega kamna in tradicionalnih tehnik, zato danes znova predstavlja pomemben del zgodovinske podobe Mostarja.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "Kriva ćuprija je starejša od Starega mostu.",
+                        "Most prečka potok Radobolja, ki se kmalu zatem izlije v Neretvo.",
+                        "Zaradi mirnejšega okolja je ena najbolj priljubljenih lokacij za poročno fotografiranje v Mostarju."
+                    ],
+                    "photo_tip": "S kamnitega nabrežja pod mostom se odpre eden najlepših pogledov na Krivo ćuprijo in stare kamnite hiše ob potoku. V zgodnjih večernih urah je svetloba tukaj še posebej prijetna za fotografiranje.",
+                    "practical_note": null,
+                    "route_to_next": "Od Krive ćuprije nadaljujta po tlakovanih ulicah starega mesta proti Ulici Onešćukova.",
+                    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kriva+%C4%87uprija+Mostar",
+                    "official_url": "https://whc.unesco.org/en/list/946",
+                    "official_references": [
+                        "UNESCO – Old Bridge Area of the Old City of Mostar"
+                    ]
+                },
+                "official_url": "https://whc.unesco.org/en/list/946",
+                "what_to_notice": [
+                    "Kriva ćuprija je starejša od Starega mostu.",
+                    "Most prečka potok Radobolja, ki se kmalu zatem izlije v Neretvo.",
+                    "Zaradi mirnejšega okolja je ena najbolj priljubljenih lokacij za poročno fotografiranje v Mostarju."
+                ],
+                "photo_tip": "S kamnitega nabrežja pod mostom se odpre eden najlepših pogledov na Krivo ćuprijo in stare kamnite hiše ob potoku. V zgodnjih večernih urah je svetloba tukaj še posebej prijetna za fotografiranje."
+            },
+            {
+                "id": "mostar-onescukova",
+                "order": 3,
+                "title": "Ulica Onešćukova",
+                "category": "landmark",
+                "google_maps_url": "https://www.google.com/maps/search/?api=1&query=One%C5%A1%C4%87ukova+ulica+Mostar",
+                "visit_minutes": 15,
+                "guide_text": "Ko zapustite območje Krive ćuprije, vas pot vodi po Ulici Onešćukova, glavni peš povezavi skozi staro mestno jedro Mostarja. Čeprav danes deluje predvsem kot živahna turistična ulica, je bila stoletja ena najpomembnejših mestnih prometnic, po kateri so se trgovci, obrtniki in popotniki odpravljali proti Staremu mostu in naprej proti Dubrovniku, Splitu ter notranjosti Balkana.\n\nIme nosi po Mujagi Komadini Onešćuku, enem izmed pomembnih mostarskih meščanov, danes pa predstavlja prijeten prehod med mirnejšim delom starega mesta in živahnim bazarjem Kujundžiluk. Ob poti boste opazili številne hiše iz osmanskega obdobja, manjše umetniške galerije, rokodelske trgovine ter dvorišča, ki se skrivajo za visokimi kamnitimi zidovi.\n\nPosebnost ulice je prav njena atmosfera. Življenje tukaj poteka počasneje kot ob Starem mostu, zato je odlična priložnost, da si ogledate tradicionalno arhitekturo brez večjih gneč in opazujete vsakdanje življenje domačinov.",
+                "official_references": [
+                    "Turistična skupnost Mostarja"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Ulica Onešćukova",
+                    "local_name": null,
+                    "visit_minutes": 15,
+                    "short_text": "Ko zapustite območje Krive ćuprije, vas pot vodi po Ulici Onešćukova, glavni peš povezavi skozi staro mestno jedro Mostarja. Čeprav danes deluje predvsem kot živahna turistična ulica, je bila stoletja ena najpomembnejših mestnih prometnic, po kateri so se t…",
+                    "guide_text": "Ko zapustite območje Krive ćuprije, vas pot vodi po Ulici Onešćukova, glavni peš povezavi skozi staro mestno jedro Mostarja. Čeprav danes deluje predvsem kot živahna turistična ulica, je bila stoletja ena najpomembnejših mestnih prometnic, po kateri so se trgovci, obrtniki in popotniki odpravljali proti Staremu mostu in naprej proti Dubrovniku, Splitu ter notranjosti Balkana.\n\nIme nosi po Mujagi Komadini Onešćuku, enem izmed pomembnih mostarskih meščanov, danes pa predstavlja prijeten prehod med mirnejšim delom starega mesta in živahnim bazarjem Kujundžiluk. Ob poti boste opazili številne hiše iz osmanskega obdobja, manjše umetniške galerije, rokodelske trgovine ter dvorišča, ki se skrivajo za visokimi kamnitimi zidovi.\n\nPosebnost ulice je prav njena atmosfera. Življenje tukaj poteka počasneje kot ob Starem mostu, zato je odlična priložnost, da si ogledate tradicionalno arhitekturo brez večjih gneč in opazujete vsakdanje življenje domačinov.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "Ulica sledi eni najstarejših prometnih osi zgodovinskega Mostarja.",
+                        "Številne hiše ob njej so bile po vojni skrbno obnovljene po zgodovinskih načrtih.",
+                        "V manjših trgovinah še danes delujejo rokodelci, ki izdelujejo bakrene izdelke, nakit in tradicionalne spominke."
+                    ],
+                    "photo_tip": null,
+                    "practical_note": "Ne hitite proti Staremu mostu. Prav v tej ulici se skriva nekaj najlepših manjših dvorišč, galerij in lokalnih obrti, ki jih večina obiskovalcev spregleda.",
+                    "route_to_next": "Po Onešćukovi nadaljujta proti območju starega hamama, kjer je urejena razstava vojne fotografije.",
+                    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=One%C5%A1%C4%87ukova+ulica+Mostar",
+                    "official_url": "https://visitmostar.ba",
+                    "official_references": [
+                        "Turistična skupnost Mostarja"
+                    ]
+                },
+                "official_url": "https://visitmostar.ba",
+                "what_to_notice": [
+                    "Ulica sledi eni najstarejših prometnih osi zgodovinskega Mostarja.",
+                    "Številne hiše ob njej so bile po vojni skrbno obnovljene po zgodovinskih načrtih.",
+                    "V manjših trgovinah še danes delujejo rokodelci, ki izdelujejo bakrene izdelke, nakit in tradicionalne spominke."
+                ],
+                "practical_note": "Ne hitite proti Staremu mostu. Prav v tej ulici se skriva nekaj najlepših manjših dvorišč, galerij in lokalnih obrti, ki jih večina obiskovalcev spregleda."
+            },
+            {
+                "id": "mostar-war-photo-exhibition",
+                "order": 4,
+                "title": "Muzej vojne fotografije (War Photo Exhibition)",
+                "category": "museum",
+                "google_maps_url": "https://www.google.com/maps/search/?api=1&query=War+Photo+Exhibition+Mostar",
+                "visit_minutes": 30,
+                "guide_text": "Na prvi pogled gre za majhen muzej, ki ga marsikateri obiskovalec spregleda. V resnici pa predstavlja eno najbolj pretresljivih postaj celotnega ogleda Mostarja.\n\nRazstava je urejena v nekdanjem hamamu iz osmanskega obdobja in skozi objektiv vojnih fotografov prikazuje življenje Mostarja med obleganjem v letih 1992–1995. Namesto političnih razlag obiskovalca nagovori z močnimi podobami vsakdanjega življenja: porušenimi ulicami, družinami, ki so skušale ohraniti normalnost sredi vojne, ter ljudmi, ki so kljub nevarnosti vztrajali v svojem mestu.\n\nFotografije prikazujejo tudi uničenje Starega mostu novembra 1993 – dogodek, ki je pretresel ves svet in postal simbol uničevanja kulturne dediščine med vojno.\n\nRazstava obiskovalcu pomaga razumeti, zakaj imajo številne stavbe v Mostarju še danes vidne poškodbe in zakaj je obnova mesta trajala desetletja. Prav zato je ta postanek pomemben uvod v nadaljnji ogled starega mesta.",
+                "official_references": [
+                    "War Photo Exhibition Mostar",
+                    "UNESCO – Old Bridge Area of the Old City of Mostar"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Muzej vojne fotografije (War Photo Exhibition)",
+                    "local_name": null,
+                    "visit_minutes": 30,
+                    "short_text": "Na prvi pogled gre za majhen muzej, ki ga marsikateri obiskovalec spregleda. V resnici pa predstavlja eno najbolj pretresljivih postaj celotnega ogleda Mostarja.",
+                    "guide_text": "Na prvi pogled gre za majhen muzej, ki ga marsikateri obiskovalec spregleda. V resnici pa predstavlja eno najbolj pretresljivih postaj celotnega ogleda Mostarja.\n\nRazstava je urejena v nekdanjem hamamu iz osmanskega obdobja in skozi objektiv vojnih fotografov prikazuje življenje Mostarja med obleganjem v letih 1992–1995. Namesto političnih razlag obiskovalca nagovori z močnimi podobami vsakdanjega življenja: porušenimi ulicami, družinami, ki so skušale ohraniti normalnost sredi vojne, ter ljudmi, ki so kljub nevarnosti vztrajali v svojem mestu.\n\nFotografije prikazujejo tudi uničenje Starega mostu novembra 1993 – dogodek, ki je pretresel ves svet in postal simbol uničevanja kulturne dediščine med vojno.\n\nRazstava obiskovalcu pomaga razumeti, zakaj imajo številne stavbe v Mostarju še danes vidne poškodbe in zakaj je obnova mesta trajala desetletja. Prav zato je ta postanek pomemben uvod v nadaljnji ogled starega mesta.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "Razstava gostuje v zgodovinskem hamamu iz osmanskega obdobja.",
+                        "Velik del fotografij so posneli mednarodno priznani vojni fotografi.",
+                        "Posebno mesto ima dokumentacija rušenja Starega mostu leta 1993."
+                    ],
+                    "photo_tip": null,
+                    "practical_note": "Za ogled si vzemite vsaj 20 do 30 minut. Čeprav razstava ni velika, njene fotografije zahtevajo čas in mirno opazovanje.",
+                    "route_to_next": "Po ogledu nadaljujta proti Neretvi in zgodovinski obrtniški četrti Tabhana.",
+                    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=War+Photo+Exhibition+Mostar",
+                    "official_url": "https://warphoto.ba",
+                    "official_references": [
+                        "War Photo Exhibition Mostar",
+                        "UNESCO – Old Bridge Area of the Old City of Mostar"
+                    ]
+                },
+                "official_url": "https://warphoto.ba",
+                "what_to_notice": [
+                    "Razstava gostuje v zgodovinskem hamamu iz osmanskega obdobja.",
+                    "Velik del fotografij so posneli mednarodno priznani vojni fotografi.",
+                    "Posebno mesto ima dokumentacija rušenja Starega mostu leta 1993."
+                ],
+                "practical_note": "Za ogled si vzemite vsaj 20 do 30 minut. Čeprav razstava ni velika, njene fotografije zahtevajo čas in mirno opazovanje."
+            },
+            {
+                "id": "mostar-tabhana",
+                "order": 5,
+                "title": "Tabhana",
+                "category": "landmark",
+                "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Tabhana+Mostar",
+                "visit_minutes": 15,
+                "guide_text": "Ko se približate Neretvi, prispete v zgodovinsko četrt Tabhana, eno najstarejših obrtniških območij Mostarja. Ime izhaja iz turške besede tabakhane, ki pomeni usnjarno. Prav tukaj so stoletja delovali strojarji in usnjarji, ki so izkoriščali obilico vode iz Neretve in bližnjega potoka Radobolja.\n\nV osmanskem obdobju je bila Tabhana živahno gospodarsko središče. Delavnice so izdelovale kakovostno usnje, sedla, pasove, torbe in druge izdelke, ki so jih prodajali po vsej Hercegovini in Dalmaciji. Zaradi bližine vode je bilo območje idealno za postopke obdelave kož, ki so zahtevali stalno izpiranje.\n\nDanes je Tabhana precej mirnejša. Kamnite hiše, ozke uličice in manjši vrtovi ustvarjajo prijetno vzdušje, ki močno kontrastira živahnemu bazarju le nekaj deset metrov stran. To je eden najlepših kotičkov Mostarja za kratek predah in opazovanje življenja ob reki.\n\nOd tod se odpirajo tudi čudoviti pogledi proti Staremu mostu z nekoliko drugačne perspektive, zato številni fotografi prav tukaj naredijo svoje najljubše posnetke.",
+                "official_references": [
+                    "UNESCO – Old Bridge Area of the Old City of Mostar"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Tabhana",
+                    "local_name": null,
+                    "visit_minutes": 15,
+                    "short_text": "Ko se približate Neretvi, prispete v zgodovinsko četrt Tabhana, eno najstarejših obrtniških območij Mostarja. Ime izhaja iz turške besede tabakhane, ki pomeni usnjarno. Prav tukaj so stoletja delovali strojarji in usnjarji, ki so izkoriščali obilico vode iz…",
+                    "guide_text": "Ko se približate Neretvi, prispete v zgodovinsko četrt Tabhana, eno najstarejših obrtniških območij Mostarja. Ime izhaja iz turške besede tabakhane, ki pomeni usnjarno. Prav tukaj so stoletja delovali strojarji in usnjarji, ki so izkoriščali obilico vode iz Neretve in bližnjega potoka Radobolja.\n\nV osmanskem obdobju je bila Tabhana živahno gospodarsko središče. Delavnice so izdelovale kakovostno usnje, sedla, pasove, torbe in druge izdelke, ki so jih prodajali po vsej Hercegovini in Dalmaciji. Zaradi bližine vode je bilo območje idealno za postopke obdelave kož, ki so zahtevali stalno izpiranje.\n\nDanes je Tabhana precej mirnejša. Kamnite hiše, ozke uličice in manjši vrtovi ustvarjajo prijetno vzdušje, ki močno kontrastira živahnemu bazarju le nekaj deset metrov stran. To je eden najlepših kotičkov Mostarja za kratek predah in opazovanje življenja ob reki.\n\nOd tod se odpirajo tudi čudoviti pogledi proti Staremu mostu z nekoliko drugačne perspektive, zato številni fotografi prav tukaj naredijo svoje najljubše posnetke.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "Tabhana je bila več stoletij središče usnjarske obrti v Mostarju.",
+                        "Četrt je dobila ime po osmanskih strojarjih usnja.",
+                        "Zaradi bližine Radobolje in Neretve je bila idealna za razvoj obrti, ki je potrebovala veliko vode."
+                    ],
+                    "photo_tip": null,
+                    "practical_note": "To je eden redkih nekoliko mirnejših delov starega jedra. Če želite za trenutek pobegniti gneči okoli Starega mostu, je Tabhana odličen kraj za kratek postanek ali fotografiranje.",
+                    "route_to_next": "Iz Tabhane se vrnita proti glavnemu prehodu čez Neretvo in se povzpnita na Stari most.",
+                    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Tabhana+Mostar",
+                    "official_url": "https://whc.unesco.org/en/list/946",
+                    "official_references": [
+                        "UNESCO – Old Bridge Area of the Old City of Mostar"
+                    ]
+                },
+                "official_url": "https://whc.unesco.org/en/list/946",
+                "what_to_notice": [
+                    "Tabhana je bila več stoletij središče usnjarske obrti v Mostarju.",
+                    "Četrt je dobila ime po osmanskih strojarjih usnja.",
+                    "Zaradi bližine Radobolje in Neretve je bila idealna za razvoj obrti, ki je potrebovala veliko vode."
+                ],
+                "practical_note": "To je eden redkih nekoliko mirnejših delov starega jedra. Če želite za trenutek pobegniti gneči okoli Starega mostu, je Tabhana odličen kraj za kratek postanek ali fotografiranje."
+            },
+            {
+                "id": "mostar-stari-most",
+                "order": 6,
+                "title": "Stari most",
+                "category": "bridge",
+                "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Stari+most+Mostar",
+                "visit_minutes": 30,
+                "guide_text": "Le malo je mostov na svetu, ki bi tako močno zaznamovali identiteto svojega mesta kot Stari most v Mostarju. Že več kot štiri stoletja predstavlja simbol povezovanja, trgovine in sobivanja različnih kultur. Njegov eleganten kamniti lok se dviga skoraj dvajset metrov nad smaragdno zeleno Neretvo in je danes ena najbolj prepoznavnih podob Bosne in Hercegovine.\n\nMost je bil zgrajen med letoma 1557 in 1566 po naročilu sultana Sulejmana Veličastnega. Zasnoval ga je arhitekt Mimar Hajrudin, učenec slovitega osmanskega mojstra Sinana. Ob dokončanju je veljal za izjemen gradbeni dosežek, saj je en sam kamniti lok premostil skoraj trideset metrov široko strugo Neretve. Takšna konstrukcija je bila za svoj čas prava inženirska mojstrovina.\n\nPo legendi naj bi se Hajrudin bal, da se bo most ob odstranitvi lesenega opaža porušil. Pripoved pravi, da je tik pred zaključkom gradnje pripravil celo lasten pogreb, saj je pričakoval sultanovo kazen, če most ne bi zdržal. Seveda je most obstal in naslednjih 427 let kljuboval času, poplavam in potresom.\n\nŽal ni preživel vojne v Bosni in Hercegovini. 9. novembra 1993 je bil po večdnevnem obstreljevanju porušen in se zrušil v Neretvo. Posnetki njegovega padca so obkrožili svet ter postali eden najmočnejših simbolov uničevanja kulturne dediščine med vojno.\n\nObnova se je začela po koncu spopadov pod vodstvom mednarodne skupnosti in UNESCO-a. Potapljači so iz Neretve dvignili številne originalne kamnite bloke, manjkajoče dele pa so izdelali iz kamna tenelija, pridobljenega v istem kamnolomu kot v 16. stoletju. Pri obnovi so uporabljali tradicionalne gradbene tehnike, da bi bil most čim bolj zvest izvirniku.\n\nPonovno odprtje 23. julija 2004 je pomenilo mnogo več kot zgolj obnovo spomenika. Postalo je simbol sprave, sodelovanja in ponovnega povezovanja ljudi na obeh bregovih Neretve. Leto pozneje je UNESCO celotno staro mestno jedro skupaj s Stari mostom uvrstil na seznam svetovne dediščine.\n\nDanes je most središče življenja starega mesta. Vsak dan ga prečkajo domačini in obiskovalci, pod njim pa odmeva ena najbolj znanih mostarskih tradicij – skoki v Neretvo.\n\nMostarski skakalci\n\nSkakanje s Starega mostu je ena najstarejših živih tradicij v mestu. Pisni viri omenjajo skoke že v 17. stoletju, domačini pa verjamejo, da so mladi Mostarci svojo pogumnost dokazovali že kmalu po dokončanju mostu.\n\nDanes za tradicijo skrbi Klub skakalcev Mostari. Skakalci se zberejo na vrhu mostu, obiskovalcem predstavijo svojo zgodbo in pogosto zbirajo prostovoljne prispevke. Ko ocenijo, da je trenutek pravi, eden izmed njih skoči približno dvajset metrov globoko v ledeno Neretvo, katere temperatura tudi poleti pogosto ne preseže petnajstih stopinj.\n\nVsako leto konec julija Mostar gosti tudi tradicionalno tekmovanje v skokih s Starega mostu, ki privabi tekmovalce in obiskovalce z vsega sveta.\n\nStolpa Tara in Halebija\n\nNa obeh straneh mostu stojita kamnita stolpa Tara in Halebija, ki sta nekoč varovala vhod na most in nadzorovala trgovske poti skozi mesto. Danes je v stolpu Tara urejen manjši muzej, posvečen zgodovini gradnje in obnove Starega mostu.\n\nČe bo muzej odprt, priporočava kratek obisk, saj makete in zgodovinske fotografije lepo dopolnijo zgodbo, ki jo pripoveduje sam most.",
+                "official_references": [
+                    "UNESCO – Old Bridge Area of the Old City of Mostar",
+                    "Muzej Starega mostu (Tara Tower Museum)",
+                    "Klub skakalcev Mostari"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Stari most",
+                    "local_name": null,
+                    "visit_minutes": 30,
+                    "short_text": "Le malo je mostov na svetu, ki bi tako močno zaznamovali identiteto svojega mesta kot Stari most v Mostarju. Že več kot štiri stoletja predstavlja simbol povezovanja, trgovine in sobivanja različnih kultur. Njegov eleganten kamniti lok se dviga skoraj dvajs…",
+                    "guide_text": "Le malo je mostov na svetu, ki bi tako močno zaznamovali identiteto svojega mesta kot Stari most v Mostarju. Že več kot štiri stoletja predstavlja simbol povezovanja, trgovine in sobivanja različnih kultur. Njegov eleganten kamniti lok se dviga skoraj dvajset metrov nad smaragdno zeleno Neretvo in je danes ena najbolj prepoznavnih podob Bosne in Hercegovine.\n\nMost je bil zgrajen med letoma 1557 in 1566 po naročilu sultana Sulejmana Veličastnega. Zasnoval ga je arhitekt Mimar Hajrudin, učenec slovitega osmanskega mojstra Sinana. Ob dokončanju je veljal za izjemen gradbeni dosežek, saj je en sam kamniti lok premostil skoraj trideset metrov široko strugo Neretve. Takšna konstrukcija je bila za svoj čas prava inženirska mojstrovina.\n\nPo legendi naj bi se Hajrudin bal, da se bo most ob odstranitvi lesenega opaža porušil. Pripoved pravi, da je tik pred zaključkom gradnje pripravil celo lasten pogreb, saj je pričakoval sultanovo kazen, če most ne bi zdržal. Seveda je most obstal in naslednjih 427 let kljuboval času, poplavam in potresom.\n\nŽal ni preživel vojne v Bosni in Hercegovini. 9. novembra 1993 je bil po večdnevnem obstreljevanju porušen in se zrušil v Neretvo. Posnetki njegovega padca so obkrožili svet ter postali eden najmočnejših simbolov uničevanja kulturne dediščine med vojno.\n\nObnova se je začela po koncu spopadov pod vodstvom mednarodne skupnosti in UNESCO-a. Potapljači so iz Neretve dvignili številne originalne kamnite bloke, manjkajoče dele pa so izdelali iz kamna tenelija, pridobljenega v istem kamnolomu kot v 16. stoletju. Pri obnovi so uporabljali tradicionalne gradbene tehnike, da bi bil most čim bolj zvest izvirniku.\n\nPonovno odprtje 23. julija 2004 je pomenilo mnogo več kot zgolj obnovo spomenika. Postalo je simbol sprave, sodelovanja in ponovnega povezovanja ljudi na obeh bregovih Neretve. Leto pozneje je UNESCO celotno staro mestno jedro skupaj s Stari mostom uvrstil na seznam svetovne dediščine.\n\nDanes je most središče življenja starega mesta. Vsak dan ga prečkajo domačini in obiskovalci, pod njim pa odmeva ena najbolj znanih mostarskih tradicij – skoki v Neretvo.\n\nMostarski skakalci\n\nSkakanje s Starega mostu je ena najstarejših živih tradicij v mestu. Pisni viri omenjajo skoke že v 17. stoletju, domačini pa verjamejo, da so mladi Mostarci svojo pogumnost dokazovali že kmalu po dokončanju mostu.\n\nDanes za tradicijo skrbi Klub skakalcev Mostari. Skakalci se zberejo na vrhu mostu, obiskovalcem predstavijo svojo zgodbo in pogosto zbirajo prostovoljne prispevke. Ko ocenijo, da je trenutek pravi, eden izmed njih skoči približno dvajset metrov globoko v ledeno Neretvo, katere temperatura tudi poleti pogosto ne preseže petnajstih stopinj.\n\nVsako leto konec julija Mostar gosti tudi tradicionalno tekmovanje v skokih s Starega mostu, ki privabi tekmovalce in obiskovalce z vsega sveta.\n\nStolpa Tara in Halebija\n\nNa obeh straneh mostu stojita kamnita stolpa Tara in Halebija, ki sta nekoč varovala vhod na most in nadzorovala trgovske poti skozi mesto. Danes je v stolpu Tara urejen manjši muzej, posvečen zgodovini gradnje in obnove Starega mostu.\n\nČe bo muzej odprt, priporočava kratek obisk, saj makete in zgodovinske fotografije lepo dopolnijo zgodbo, ki jo pripoveduje sam most.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "Stari most je dolg približno 29 metrov, širok okoli 4 metre, njegov lok pa se dviga skoraj 20 metrov nad Neretvo.",
+                        "Med obnovo so iz reke dvignili številne originalne kamnite bloke in jih ponovno uporabili.",
+                        "UNESCO ga je leta 2005 uvrstil na seznam svetovne dediščine kot simbol sprave in medkulturnega dialoga.",
+                        "Tradicija skokov z mostu velja za eno najstarejših športnih tradicij v Bosni in Hercegovini."
+                    ],
+                    "photo_tip": null,
+                    "practical_note": "Most je pogosto zelo spolzek, saj je tlakovan z gladkimi kamnitimi ploščami, ki jih je skozi stoletja zgladilo na milijone korakov. Če je deževalo ali je kamen moker, hodite previdno in nosite obutev z dobrim oprijemom.\n\nČe želite opazovati skoke z mostu, se ustavite na vzhodni obali pod mostom ali na eni od prodnatih plaž ob Neretvi, od koder je pogled najlepši.",
+                    "route_to_next": "Po prečkanju Starega mostu vstopita neposredno v Kujundžiluk.",
+                    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Stari+most+Mostar",
+                    "official_url": "https://whc.unesco.org/en/list/946",
+                    "official_references": [
+                        "UNESCO – Old Bridge Area of the Old City of Mostar",
+                        "Muzej Starega mostu (Tara Tower Museum)",
+                        "Klub skakalcev Mostari"
+                    ]
+                },
+                "official_url": "https://whc.unesco.org/en/list/946",
+                "what_to_notice": [
+                    "Stari most je dolg približno 29 metrov, širok okoli 4 metre, njegov lok pa se dviga skoraj 20 metrov nad Neretvo.",
+                    "Med obnovo so iz reke dvignili številne originalne kamnite bloke in jih ponovno uporabili.",
+                    "UNESCO ga je leta 2005 uvrstil na seznam svetovne dediščine kot simbol sprave in medkulturnega dialoga.",
+                    "Tradicija skokov z mostu velja za eno najstarejših športnih tradicij v Bosni in Hercegovini."
+                ],
+                "practical_note": "Most je pogosto zelo spolzek, saj je tlakovan z gladkimi kamnitimi ploščami, ki jih je skozi stoletja zgladilo na milijone korakov. Če je deževalo ali je kamen moker, hodite previdno in nosite obutev z dobrim oprijemom.\n\nČe želite opazovati skoke z mostu, se ustavite na vzhodni obali pod mostom ali na eni od prodnatih plaž ob Neretvi, od koder je pogled najlepši."
+            },
+            {
+                "id": "mostar-kujundziluk",
+                "order": 7,
+                "title": "Kujundžiluk",
+                "category": "landmark",
+                "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kujund%C5%BEiluk+Mostar",
+                "visit_minutes": 20,
+                "guide_text": "Ko prečkate Stari most, stopite v Kujundžiluk, najstarejšo in najbolj živahno trgovsko ulico Mostarja. Njeno ime izhaja iz turške besede kujundžija, ki pomeni zlatar ali mojster za obdelavo plemenitih kovin. Prav tukaj so stoletja delovali zlatarji, bakrorezci, orožarji, usnjarji in številni drugi obrtniki, katerih izdelki so bili znani daleč preko meja Hercegovine.\n\nDanes je Kujundžiluk srce starega mesta. Ozka tlakovana ulica je polna tradicionalnih trgovinic, kjer še vedno nastajajo bakrene džezve, ročno gravirani pladnji, nakit, keramika in drugi izdelki, izdelani po starih obrtniških tehnikah. Čeprav je danes precej bolj turistična kot nekoč, številne delavnice še vedno ohranjajo pristno rokodelsko tradicijo.\n\nMed sprehodom bodite pozorni na značilne bakrene predmete, ki visijo pred trgovinami. Med najbolj prepoznavnimi spominki so ročno izdelane kavne garniture za pripravo bosanske kave, okrašeni pladnji in tradicionalni bakreni vrči. Mnogi obrtniki vam bodo z veseljem pokazali tudi postopek graviranja kovine, ki se v Mostarju prenaša iz roda v rod.\n\nKujundžiluk ni le nakupovalna ulica, ampak prostor, kjer se najbolje začuti utrip starega Mostarja. Zvok kladiv, vonj po sveže pripravljeni bosanski kavi, kamnite hiše in živahni pogovori ustvarjajo vzdušje, ki obiskovalca za trenutek prestavi nekaj stoletij nazaj.",
+                "official_references": [
+                    "Turistična skupnost Mostarja",
+                    "UNESCO – Old Bridge Area of the Old City of Mostar"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Kujundžiluk",
+                    "local_name": null,
+                    "visit_minutes": 20,
+                    "short_text": "Ko prečkate Stari most, stopite v Kujundžiluk, najstarejšo in najbolj živahno trgovsko ulico Mostarja. Njeno ime izhaja iz turške besede kujundžija, ki pomeni zlatar ali mojster za obdelavo plemenitih kovin. Prav tukaj so stoletja delovali zlatarji, bakrore…",
+                    "guide_text": "Ko prečkate Stari most, stopite v Kujundžiluk, najstarejšo in najbolj živahno trgovsko ulico Mostarja. Njeno ime izhaja iz turške besede kujundžija, ki pomeni zlatar ali mojster za obdelavo plemenitih kovin. Prav tukaj so stoletja delovali zlatarji, bakrorezci, orožarji, usnjarji in številni drugi obrtniki, katerih izdelki so bili znani daleč preko meja Hercegovine.\n\nDanes je Kujundžiluk srce starega mesta. Ozka tlakovana ulica je polna tradicionalnih trgovinic, kjer še vedno nastajajo bakrene džezve, ročno gravirani pladnji, nakit, keramika in drugi izdelki, izdelani po starih obrtniških tehnikah. Čeprav je danes precej bolj turistična kot nekoč, številne delavnice še vedno ohranjajo pristno rokodelsko tradicijo.\n\nMed sprehodom bodite pozorni na značilne bakrene predmete, ki visijo pred trgovinami. Med najbolj prepoznavnimi spominki so ročno izdelane kavne garniture za pripravo bosanske kave, okrašeni pladnji in tradicionalni bakreni vrči. Mnogi obrtniki vam bodo z veseljem pokazali tudi postopek graviranja kovine, ki se v Mostarju prenaša iz roda v rod.\n\nKujundžiluk ni le nakupovalna ulica, ampak prostor, kjer se najbolje začuti utrip starega Mostarja. Zvok kladiv, vonj po sveže pripravljeni bosanski kavi, kamnite hiše in živahni pogovori ustvarjajo vzdušje, ki obiskovalca za trenutek prestavi nekaj stoletij nazaj.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "Kujundžiluk je bil že v 16. stoletju glavno trgovsko središče Mostarja.",
+                        "Ime ulice izhaja iz turške besede za zlatarja oziroma mojstra plemenitih kovin.",
+                        "Številne obrtniške delavnice še danes uporabljajo tradicionalne tehnike izdelave bakrenih izdelkov."
+                    ],
+                    "photo_tip": null,
+                    "practical_note": "Če želite kupiti kakovosten spominek, izberite izdelke, ki nastajajo v delavnicah pred vašimi očmi. Ročno gravirani bakreni izdelki so eden najbolj značilnih spominkov iz Mostarja in pomemben del njegove obrtniške dediščine.",
+                    "route_to_next": "Po Kujundžiluku nadaljujta ob vzhodnem bregu proti Koski Mehmed-pašini džamiji.",
+                    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kujund%C5%BEiluk+Mostar",
+                    "official_url": "https://visitmostar.ba",
+                    "official_references": [
+                        "Turistična skupnost Mostarja",
+                        "UNESCO – Old Bridge Area of the Old City of Mostar"
+                    ]
+                },
+                "official_url": "https://visitmostar.ba",
+                "what_to_notice": [
+                    "Kujundžiluk je bil že v 16. stoletju glavno trgovsko središče Mostarja.",
+                    "Ime ulice izhaja iz turške besede za zlatarja oziroma mojstra plemenitih kovin.",
+                    "Številne obrtniške delavnice še danes uporabljajo tradicionalne tehnike izdelave bakrenih izdelkov."
+                ],
+                "practical_note": "Če želite kupiti kakovosten spominek, izberite izdelke, ki nastajajo v delavnicah pred vašimi očmi. Ročno gravirani bakreni izdelki so eden najbolj značilnih spominkov iz Mostarja in pomemben del njegove obrtniške dediščine."
+            },
+            {
+                "id": "mostar-koski-mehmed-pasa",
+                "order": 8,
+                "title": "Koski Mehmed-pašina džamija",
+                "category": "mosque",
+                "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Koski+Mehmed+Pasha+Mosque+Mostar",
+                "visit_minutes": 30,
+                "guide_text": "Le nekaj korakov od Starega mostu stoji Koski Mehmed-pašina džamija, ena najlepših in najbolje ohranjenih osmanskih mošej v Bosni in Hercegovini. Zgrajena je bila leta 1618 po naročilu mostarskega dobrotnika Koski Mehmed-paše in predstavlja vrhunski primer klasične osmanske arhitekture.\n\nČeprav je nekoliko manjša od znamenite Karađoz-begove džamije, velja med obiskovalci za najbolj priljubljeno predvsem zaradi izjemnega razgleda z njenega minareta. Po ozkem spiralnem stopnišču se povzpnete skoraj trideset metrov visoko, od koder se odpre eden najlepših pogledov na Stari most, Neretvo in staro mestno jedro.\n\nNotranjost džamije odlikujejo bogato okrašeni kaligrafski napisi, geometrijski vzorci in barvito poslikan mihrab, ki lepo ponazarjajo umetnost osmanskega obdobja. V prijetnem dvorišču se nahaja tudi manjši vrt z vodnjakom za obredno umivanje ter senca stoletnih dreves, ki ponuja prijeten oddih od poletne vročine.\n\nMed vojno je bila džamija poškodovana, vendar so jo po koncu spopadov skrbno obnovili. Danes je poleg verskega objekta tudi eden najpomembnejših kulturnih spomenikov Mostarja in priljubljena razgledna točka.",
+                "official_references": [
+                    "Turistična skupnost Mostarja",
+                    "UNESCO – Old Bridge Area of the Old City of Mostar"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Koski Mehmed-pašina džamija",
+                    "local_name": null,
+                    "visit_minutes": 30,
+                    "short_text": "Le nekaj korakov od Starega mostu stoji Koski Mehmed-pašina džamija, ena najlepših in najbolje ohranjenih osmanskih mošej v Bosni in Hercegovini. Zgrajena je bila leta 1618 po naročilu mostarskega dobrotnika Koski Mehmed-paše in predstavlja vrhunski primer…",
+                    "guide_text": "Le nekaj korakov od Starega mostu stoji Koski Mehmed-pašina džamija, ena najlepših in najbolje ohranjenih osmanskih mošej v Bosni in Hercegovini. Zgrajena je bila leta 1618 po naročilu mostarskega dobrotnika Koski Mehmed-paše in predstavlja vrhunski primer klasične osmanske arhitekture.\n\nČeprav je nekoliko manjša od znamenite Karađoz-begove džamije, velja med obiskovalci za najbolj priljubljeno predvsem zaradi izjemnega razgleda z njenega minareta. Po ozkem spiralnem stopnišču se povzpnete skoraj trideset metrov visoko, od koder se odpre eden najlepših pogledov na Stari most, Neretvo in staro mestno jedro.\n\nNotranjost džamije odlikujejo bogato okrašeni kaligrafski napisi, geometrijski vzorci in barvito poslikan mihrab, ki lepo ponazarjajo umetnost osmanskega obdobja. V prijetnem dvorišču se nahaja tudi manjši vrt z vodnjakom za obredno umivanje ter senca stoletnih dreves, ki ponuja prijeten oddih od poletne vročine.\n\nMed vojno je bila džamija poškodovana, vendar so jo po koncu spopadov skrbno obnovili. Danes je poleg verskega objekta tudi eden najpomembnejših kulturnih spomenikov Mostarja in priljubljena razgledna točka.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "Džamija je bila dokončana leta 1618.",
+                        "Minaret meri približno 28 metrov.",
+                        "Z razgledne ploščadi se odpre eden najbolj znanih pogledov na Stari most.",
+                        "Dvorišče džamije je med redkimi zelenimi oazami v starem mestnem jedru."
+                    ],
+                    "photo_tip": null,
+                    "practical_note": "Če se odločite za vzpon na minaret, računajte na zelo ozko spiralno stopnišče, kjer se obiskovalci pogosto srečujejo v obe smeri. Priporočljiv je obisk pozno popoldne, ko je svetloba najlepša za fotografiranje Starega mostu.\n\nPri vstopu je potrebno spoštovati pravila oblačenja – ramena in kolena naj bodo pokrita, pred vstopom pa se sezujte.",
+                    "route_to_next": "Od džamije nadaljujta proti severu po vzhodni strani Neretve do Parka Alekse Šantića.",
+                    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Koski+Mehmed+Pasha+Mosque+Mostar",
+                    "official_url": "https://visitmostar.ba",
+                    "official_references": [
+                        "Turistična skupnost Mostarja",
+                        "UNESCO – Old Bridge Area of the Old City of Mostar"
+                    ]
+                },
+                "official_url": "https://visitmostar.ba",
+                "what_to_notice": [
+                    "Džamija je bila dokončana leta 1618.",
+                    "Minaret meri približno 28 metrov.",
+                    "Z razgledne ploščadi se odpre eden najbolj znanih pogledov na Stari most.",
+                    "Dvorišče džamije je med redkimi zelenimi oazami v starem mestnem jedru."
+                ],
+                "practical_note": "Če se odločite za vzpon na minaret, računajte na zelo ozko spiralno stopnišče, kjer se obiskovalci pogosto srečujejo v obe smeri. Priporočljiv je obisk pozno popoldne, ko je svetloba najlepša za fotografiranje Starega mostu.\n\nPri vstopu je potrebno spoštovati pravila oblačenja – ramena in kolena naj bodo pokrita, pred vstopom pa se sezujte."
+            },
+            {
+                "id": "mostar-park-alekse-santica",
+                "order": 9,
+                "title": "Park Alekse Šantića",
+                "category": "landmark",
+                "google_maps_url": "https://www.google.com/maps/search/?api=1&query=8RP8%2BCJ8+Mar%C5%A1ala+Tita+Mostar",
+                "visit_minutes": 15,
+                "guide_text": "Le nekaj minut hoje od Starega mostu, ob vzhodnem bregu Neretve, se nahaja Park Alekse Šantića, prijetna zelena oaza sredi mesta, poimenovana po enem največjih hercegovskih pesnikov.\n\nAleksa Šantić (1868–1924) je skoraj vse življenje preživel v Mostarju in velja za enega najpomembnejših književnikov Bosne in Hercegovine. Njegove pesmi opevajo Hercegovino, Neretvo, ljubezen in življenje navadnih ljudi, hkrati pa odražajo večkulturni značaj Mostarja, kjer so stoletja skupaj živeli muslimani, katoličani, pravoslavci in Judi.\n\nNjegovo najbolj znano delo je pesem Emina, navdihnjena z resnično Mostarčanko Emino Sefić. Pesem je sčasoma prerasla v eno najbolj znanih sevdalink in še danes velja za simbol Mostarja.\n\nPark predstavlja prijeten kontrast živahnim ulicam starega mestnega jedra. Visoka drevesa nudijo senco tudi v najbolj vročih poletnih dneh, številne klopi pa vabijo h kratkemu postanku. Domačini park pogosto uporabljajo kot prostor za druženje, zato tukaj lahko za nekaj trenutkov začutite bolj vsakdanji utrip mesta.\n\nOd tod se Mostar začne počasi spreminjati. Kamnite hiše in ozke osmanske ulice postopoma zamenjajo širše avenije in sodobnejše stavbe. Prav ta prehod lepo ponazarja razvoj mesta skozi različna zgodovinska obdobja.",
+                "official_references": [
+                    "Turistična skupnost Mostarja"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Park Alekse Šantića",
+                    "local_name": null,
+                    "visit_minutes": 15,
+                    "short_text": "Le nekaj minut hoje od Starega mostu, ob vzhodnem bregu Neretve, se nahaja Park Alekse Šantića, prijetna zelena oaza sredi mesta, poimenovana po enem največjih hercegovskih pesnikov.",
+                    "guide_text": "Le nekaj minut hoje od Starega mostu, ob vzhodnem bregu Neretve, se nahaja Park Alekse Šantića, prijetna zelena oaza sredi mesta, poimenovana po enem največjih hercegovskih pesnikov.\n\nAleksa Šantić (1868–1924) je skoraj vse življenje preživel v Mostarju in velja za enega najpomembnejših književnikov Bosne in Hercegovine. Njegove pesmi opevajo Hercegovino, Neretvo, ljubezen in življenje navadnih ljudi, hkrati pa odražajo večkulturni značaj Mostarja, kjer so stoletja skupaj živeli muslimani, katoličani, pravoslavci in Judi.\n\nNjegovo najbolj znano delo je pesem Emina, navdihnjena z resnično Mostarčanko Emino Sefić. Pesem je sčasoma prerasla v eno najbolj znanih sevdalink in še danes velja za simbol Mostarja.\n\nPark predstavlja prijeten kontrast živahnim ulicam starega mestnega jedra. Visoka drevesa nudijo senco tudi v najbolj vročih poletnih dneh, številne klopi pa vabijo h kratkemu postanku. Domačini park pogosto uporabljajo kot prostor za druženje, zato tukaj lahko za nekaj trenutkov začutite bolj vsakdanji utrip mesta.\n\nOd tod se Mostar začne počasi spreminjati. Kamnite hiše in ozke osmanske ulice postopoma zamenjajo širše avenije in sodobnejše stavbe. Prav ta prehod lepo ponazarja razvoj mesta skozi različna zgodovinska obdobja.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "Park je poimenovan po pesniku Aleksi Šantiću, enem največjih književnikov Hercegovine.",
+                        "Njegova pesem Emina je postala ena najbolj znanih sevdalink na Balkanu.",
+                        "Park leži na vzhodnem bregu Neretve in predstavlja naravni prehod med starim mestnim jedrom in sodobnim Mostarjem."
+                    ],
+                    "photo_tip": null,
+                    "practical_note": "Če ste si za ogled starega mesta vzeli dovolj časa, je to odličen kraj za krajši počitek v senci pred nadaljevanjem poti proti Lučkemu mostu in sodobnemu delu Mostarja.",
+                    "route_to_next": "Iz parka nadaljujta po Maršala Tita proti Lučkemu mostu.",
+                    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=8RP8%2BCJ8+Mar%C5%A1ala+Tita+Mostar",
+                    "official_url": "https://visitmostar.ba",
+                    "official_references": [
+                        "Turistična skupnost Mostarja"
+                    ]
+                },
+                "official_url": "https://visitmostar.ba",
+                "what_to_notice": [
+                    "Park je poimenovan po pesniku Aleksi Šantiću, enem največjih književnikov Hercegovine.",
+                    "Njegova pesem Emina je postala ena najbolj znanih sevdalink na Balkanu.",
+                    "Park leži na vzhodnem bregu Neretve in predstavlja naravni prehod med starim mestnim jedrom in sodobnim Mostarjem."
+                ],
+                "practical_note": "Če ste si za ogled starega mesta vzeli dovolj časa, je to odličen kraj za krajši počitek v senci pred nadaljevanjem poti proti Lučkemu mostu in sodobnemu delu Mostarja."
+            },
+            {
+                "id": "mostar-lucki-most",
+                "order": 10,
+                "title": "Lučki most",
+                "category": "bridge",
+                "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Lu%C4%8Dki+most+Mostar",
+                "visit_minutes": 10,
+                "guide_text": "Lučki most je danes eden glavnih mostov, ki povezuje vzhodni in zahodni del mesta. Čeprav po zgodovinskem pomenu ne more tekmovati s Starim mostom, ponuja eno najlepših panoram Mostarja in je odlična razgledna točka za opazovanje starega mestnega jedra.\n\nOd tu se lepo vidi kontrast med dvema obrazoma mesta. Na eni strani dominira silhueta Starega mostu, minaretov in kamnitih hiš osmanskega Mostarja, na drugi strani pa sodobnejše mestne četrti, široke avenije in stavbe, ki so nastale v času Avstro-Ogrske ter kasnejše Jugoslavije.\n\nMed vojno je bilo območje okoli Lučkega mostu ena od pomembnih frontnih črt. Številne stavbe v okolici še danes nosijo vidne posledice obstreljevanja, čeprav je večina že obnovljena. Prav zaradi tega most simbolično povezuje tudi preteklost in sedanjost mesta.\n\nTo je odlična točka, da se za trenutek ustavite in pogledate nazaj proti Staremu mostu. Od tod lahko lepo razumete, kako se je Mostar skozi stoletja razvijal ob obeh bregovih Neretve.",
+                "official_references": [
+                    "Turistična skupnost Mostarja"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Lučki most",
+                    "local_name": null,
+                    "visit_minutes": 10,
+                    "short_text": "Lučki most je danes eden glavnih mostov, ki povezuje vzhodni in zahodni del mesta. Čeprav po zgodovinskem pomenu ne more tekmovati s Starim mostom, ponuja eno najlepših panoram Mostarja in je odlična razgledna točka za opazovanje starega mestnega jedra.",
+                    "guide_text": "Lučki most je danes eden glavnih mostov, ki povezuje vzhodni in zahodni del mesta. Čeprav po zgodovinskem pomenu ne more tekmovati s Starim mostom, ponuja eno najlepših panoram Mostarja in je odlična razgledna točka za opazovanje starega mestnega jedra.\n\nOd tu se lepo vidi kontrast med dvema obrazoma mesta. Na eni strani dominira silhueta Starega mostu, minaretov in kamnitih hiš osmanskega Mostarja, na drugi strani pa sodobnejše mestne četrti, široke avenije in stavbe, ki so nastale v času Avstro-Ogrske ter kasnejše Jugoslavije.\n\nMed vojno je bilo območje okoli Lučkega mostu ena od pomembnih frontnih črt. Številne stavbe v okolici še danes nosijo vidne posledice obstreljevanja, čeprav je večina že obnovljena. Prav zaradi tega most simbolično povezuje tudi preteklost in sedanjost mesta.\n\nTo je odlična točka, da se za trenutek ustavite in pogledate nazaj proti Staremu mostu. Od tod lahko lepo razumete, kako se je Mostar skozi stoletja razvijal ob obeh bregovih Neretve.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "Lučki most je pomembna prometna povezava med vzhodnim in zahodnim Mostarjem.",
+                        "Z mostu se odpre eden najlepših pogledov na silhueto starega mesta.",
+                        "V njegovi bližini se začne območje sodobne ulične umetnosti."
+                    ],
+                    "photo_tip": "Če fotografirate ob sončnem zahodu, se od tu odpre čudovit pogled proti Staremu mostu in minaretom, osvetljenim z mehko večerno svetlobo.",
+                    "practical_note": null,
+                    "route_to_next": "Prečkajte Lučki most. Frančiškanska cerkev sv. Petra in Pavla stoji tik ob nadaljevanju poti na zahodnem bregu.",
+                    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Lu%C4%8Dki+most+Mostar",
+                    "official_url": "https://visitmostar.ba",
+                    "official_references": [
+                        "Turistična skupnost Mostarja"
+                    ]
+                },
+                "official_url": "https://visitmostar.ba",
+                "what_to_notice": [
+                    "Lučki most je pomembna prometna povezava med vzhodnim in zahodnim Mostarjem.",
+                    "Z mostu se odpre eden najlepših pogledov na silhueto starega mesta.",
+                    "V njegovi bližini se začne območje sodobne ulične umetnosti."
+                ],
+                "photo_tip": "Če fotografirate ob sončnem zahodu, se od tu odpre čudovit pogled proti Staremu mostu in minaretom, osvetljenim z mehko večerno svetlobo."
+            },
+            {
+                "id": "mostar-franciskanska-cerkev",
+                "order": 11,
+                "title": "Frančiškanska cerkev sv. Petra in Pavla",
+                "category": "church",
+                "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Franciscan+Church+of+Saints+Peter+and+Paul+Mostar",
+                "visit_minutes": 20,
+                "guide_text": "Ko prečkate Lučki most, vas že od daleč pritegne visok zvonik Frančiškanske cerkve sv. Petra in Pavla, ki s svojimi 107 metri velja za enega najvišjih cerkvenih zvonikov v Bosni in Hercegovini. Skupaj s Stari mostom in minareti predstavlja eno najbolj prepoznavnih silhuet Mostarja.\n\nFrančiškani so v Hercegovini navzoči že od 13. stoletja in so skozi zgodovino odigrali pomembno vlogo pri ohranjanju katoliške vere, izobraževanja in kulturne dediščine. Današnja cerkev je bila zgrajena v drugi polovici 19. stoletja, med vojno v devetdesetih letih pa je bila močno poškodovana. Po koncu spopadov so jo temeljito obnovili in ji dodali sodoben zvonik, ki je postal nov simbol zahodnega dela mesta.\n\nNotranjost cerkve je precej sodobnejša od zunanjosti. Prevladujejo svetli prostori, preprosta oprema in umirjeno vzdušje, ki ponuja prijeten odmik od živahnih mestnih ulic. Ob cerkvi deluje tudi frančiškanski samostan, ki že desetletja pomembno prispeva k verskemu, kulturnemu in humanitarnemu življenju Mostarja.\n\nFrančiškanska cerkev lepo ponazarja večkulturno podobo mesta. Le nekaj minut hoje stran stojijo mošeje, pravoslavna cerkev in ostanki sinagoge – opomin, da je Mostar stoletja rasel kot mesto različnih kultur in veroizpovedi.",
+                "official_references": [
+                    "Hercegovačka franjevačka provincija",
+                    "Turistična skupnost Mostarja"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Frančiškanska cerkev sv. Petra in Pavla",
+                    "local_name": null,
+                    "visit_minutes": 20,
+                    "short_text": "Ko prečkate Lučki most, vas že od daleč pritegne visok zvonik Frančiškanske cerkve sv. Petra in Pavla, ki s svojimi 107 metri velja za enega najvišjih cerkvenih zvonikov v Bosni in Hercegovini. Skupaj s Stari mostom in minareti predstavlja eno najbolj prepo…",
+                    "guide_text": "Ko prečkate Lučki most, vas že od daleč pritegne visok zvonik Frančiškanske cerkve sv. Petra in Pavla, ki s svojimi 107 metri velja za enega najvišjih cerkvenih zvonikov v Bosni in Hercegovini. Skupaj s Stari mostom in minareti predstavlja eno najbolj prepoznavnih silhuet Mostarja.\n\nFrančiškani so v Hercegovini navzoči že od 13. stoletja in so skozi zgodovino odigrali pomembno vlogo pri ohranjanju katoliške vere, izobraževanja in kulturne dediščine. Današnja cerkev je bila zgrajena v drugi polovici 19. stoletja, med vojno v devetdesetih letih pa je bila močno poškodovana. Po koncu spopadov so jo temeljito obnovili in ji dodali sodoben zvonik, ki je postal nov simbol zahodnega dela mesta.\n\nNotranjost cerkve je precej sodobnejša od zunanjosti. Prevladujejo svetli prostori, preprosta oprema in umirjeno vzdušje, ki ponuja prijeten odmik od živahnih mestnih ulic. Ob cerkvi deluje tudi frančiškanski samostan, ki že desetletja pomembno prispeva k verskemu, kulturnemu in humanitarnemu življenju Mostarja.\n\nFrančiškanska cerkev lepo ponazarja večkulturno podobo mesta. Le nekaj minut hoje stran stojijo mošeje, pravoslavna cerkev in ostanki sinagoge – opomin, da je Mostar stoletja rasel kot mesto različnih kultur in veroizpovedi.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "Zvonik meri približno 107 metrov in je eden najvišjih v Bosni in Hercegovini.",
+                        "Cerkev je bila med vojno močno poškodovana, današnja podoba pa je rezultat povojne obnove.",
+                        "Frančiškani v Hercegovini delujejo že več kot sedem stoletij."
+                    ],
+                    "photo_tip": null,
+                    "practical_note": "Če je cerkev odprta, si vzemite nekaj minut za ogled notranjosti. Mirno vzdušje ponuja lep kontrast živahnemu staremu mestnemu jedru, hkrati pa lepo dopolnjuje zgodbo o verski raznolikosti Mostarja.",
+                    "route_to_next": "Od cerkve nadaljujta proti severozahodu do nekdanje Staklene banke oziroma Snajperskega stolpa.",
+                    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Franciscan+Church+of+Saints+Peter+and+Paul+Mostar",
+                    "official_url": "https://www.framostar.ba",
+                    "official_references": [
+                        "Hercegovačka franjevačka provincija",
+                        "Turistična skupnost Mostarja"
+                    ]
+                },
+                "official_url": "https://www.framostar.ba",
+                "what_to_notice": [
+                    "Zvonik meri približno 107 metrov in je eden najvišjih v Bosni in Hercegovini.",
+                    "Cerkev je bila med vojno močno poškodovana, današnja podoba pa je rezultat povojne obnove.",
+                    "Frančiškani v Hercegovini delujejo že več kot sedem stoletij."
+                ],
+                "practical_note": "Če je cerkev odprta, si vzemite nekaj minut za ogled notranjosti. Mirno vzdušje ponuja lep kontrast živahnemu staremu mestnemu jedru, hkrati pa lepo dopolnjuje zgodbo o verski raznolikosti Mostarja."
+            },
+            {
+                "id": "mostar-staklena-banka",
+                "order": 12,
+                "title": "Staklena banka (Sniper Tower)",
+                "category": "landmark",
+                "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sniper+Tower+Mostar",
+                "visit_minutes": 15,
+                "guide_text": "Le nekaj sto metrov naprej stoji ena najbolj prepoznavnih vojnih stavb Mostarja – Staklena banka, ki jo številni poznajo tudi pod imenom Sniper Tower.\n\nStavba je bila zgrajena v sedemdesetih letih kot sodoben poslovni objekt Ljubljanske banke. Zaradi steklene fasade je hitro dobila ime Staklena banka in postala simbol tedaj razvijajočega se Mostarja.\n\nMed vojno v Bosni in Hercegovini pa je dobila povsem drugačno vlogo. Zaradi svoje višine in strateške lege ob nekdanji frontni črti so jo zasedli ostrostrelci, zato se je med domačini uveljavilo ime Sniper Tower. Iz zgornjih nadstropij so nadzorovali okoliške ulice, zato je bilo gibanje po tem delu mesta izjemno nevarno.\n\nPo vojni je stavba desetletja ostala prazna. Razbita okna, sledovi granat in poškodovana betonska konstrukcija so postali eden najbolj pretresljivih opominov na vojno, ki je zaznamovala Mostar. Dolga leta je veljala za simbol razdeljenega mesta, kjer so brazgotine preteklosti ostale vidne še dolgo po koncu spopadov.\n\nPrav območje okoli Staklene banke pa je kasneje postalo eno od središč sodobne mostarske ulične umetnosti. Med zapuščenimi stavbami in praznimi zidovi so umetniki našli prostor za ustvarjanje muralov, ki danes pripovedujejo povsem drugačno zgodbo – zgodbo o miru, ustvarjalnosti in novem začetku.",
+                "official_references": [
+                    "Turistična skupnost Mostarja"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Staklena banka (Sniper Tower)",
+                    "local_name": null,
+                    "visit_minutes": 15,
+                    "short_text": "Le nekaj sto metrov naprej stoji ena najbolj prepoznavnih vojnih stavb Mostarja – Staklena banka, ki jo številni poznajo tudi pod imenom Sniper Tower.",
+                    "guide_text": "Le nekaj sto metrov naprej stoji ena najbolj prepoznavnih vojnih stavb Mostarja – Staklena banka, ki jo številni poznajo tudi pod imenom Sniper Tower.\n\nStavba je bila zgrajena v sedemdesetih letih kot sodoben poslovni objekt Ljubljanske banke. Zaradi steklene fasade je hitro dobila ime Staklena banka in postala simbol tedaj razvijajočega se Mostarja.\n\nMed vojno v Bosni in Hercegovini pa je dobila povsem drugačno vlogo. Zaradi svoje višine in strateške lege ob nekdanji frontni črti so jo zasedli ostrostrelci, zato se je med domačini uveljavilo ime Sniper Tower. Iz zgornjih nadstropij so nadzorovali okoliške ulice, zato je bilo gibanje po tem delu mesta izjemno nevarno.\n\nPo vojni je stavba desetletja ostala prazna. Razbita okna, sledovi granat in poškodovana betonska konstrukcija so postali eden najbolj pretresljivih opominov na vojno, ki je zaznamovala Mostar. Dolga leta je veljala za simbol razdeljenega mesta, kjer so brazgotine preteklosti ostale vidne še dolgo po koncu spopadov.\n\nPrav območje okoli Staklene banke pa je kasneje postalo eno od središč sodobne mostarske ulične umetnosti. Med zapuščenimi stavbami in praznimi zidovi so umetniki našli prostor za ustvarjanje muralov, ki danes pripovedujejo povsem drugačno zgodbo – zgodbo o miru, ustvarjalnosti in novem začetku.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "Stavba je bila prvotno zgrajena kot poslovna stavba Ljubljanske banke.",
+                        "Med vojno je zaradi svoje lege služila kot ostrostrelski položaj.",
+                        "Še danes velja za enega najbolj prepoznavnih simbolov vojnega Mostarja."
+                    ],
+                    "photo_tip": null,
+                    "practical_note": "Čeprav je stavba zanimiva za fotografiranje, upoštevajte morebitne varnostne ograje in opozorila. V notranjost ne vstopajte, saj objekt ni urejen za obiskovalce.",
+                    "route_to_next": "Okolica Staklene banke je že del območja z največjo koncentracijo muralov. Nadaljujta po označenih točkah na zemljevidu.",
+                    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sniper+Tower+Mostar",
+                    "official_url": "https://visitmostar.ba",
+                    "official_references": [
+                        "Turistična skupnost Mostarja"
+                    ]
+                },
+                "official_url": "https://visitmostar.ba",
+                "what_to_notice": [
+                    "Stavba je bila prvotno zgrajena kot poslovna stavba Ljubljanske banke.",
+                    "Med vojno je zaradi svoje lege služila kot ostrostrelski položaj.",
+                    "Še danes velja za enega najbolj prepoznavnih simbolov vojnega Mostarja."
+                ],
+                "practical_note": "Čeprav je stavba zanimiva za fotografiranje, upoštevajte morebitne varnostne ograje in opozorila. V notranjost ne vstopajte, saj objekt ni urejen za obiskovalce."
+            },
+            {
+                "id": "mostar-street-art",
+                "order": 13,
+                "title": "Mostar Street Art",
+                "category": "landmark",
+                "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mostar+Street+Art",
+                "visit_minutes": 30,
+                "guide_text": "Če je Staklena banka simbol vojnega Mostarja, so murali okoli nje simbol njegovega ponovnega rojstva.\n\nOd leta 2012 v mestu poteka Mostar Street Arts Festival, ki je zapuščene fasade, prazne zidove in poškodovane stavbe postopoma spremenil v eno največjih galerij ulične umetnosti na prostem v Bosni in Hercegovini. Festival vsako leto gosti umetnike iz številnih držav, ki s svojimi deli mestu dodajajo nove zgodbe in poglede na njegovo preteklost ter prihodnost.\n\nNajveč muralov se nahaja prav v širši okolici Staklene banke, Parka Alekse Šantića in vzdolž avenije Maršala Tita. Na zemljevidu tega vodiča je označenih več najzanimivejših del, zato se med sprehodom večkrat ozrite tudi proč od glavnih ulic. Številni največji murali krasijo stranske fasade, dvorišča in manj opazne stavbe.\n\nMotivi so zelo raznoliki. Nekateri prikazujejo znane osebnosti Mostarja, drugi opozarjajo na pomen miru, dialoga in strpnosti, tretji pa so povsem sodobna umetniška dela brez neposredne zgodovinske tematike. Prav ta raznolikost daje mestu poseben značaj – Mostar ni le mesto zgodovine, temveč tudi mesto ustvarjalnosti.\n\nUlična umetnost tukaj ni nastala zgolj zaradi lepšega videza mesta. Marsikateri mural stoji na stavbi, ki je bila med vojno močno poškodovana. Namesto da bi te zidove skrili, so jih umetniki spremenili v platna, na katerih nastajajo nove zgodbe. Tako nekdanje brazgotine postajajo prostor dialoga in skupnega spomina.\n\nS tem se tudi zaključi naš sprehod. Če je Stari most simbol povezovanja bregov Neretve, so murali simbol povezovanja ljudi in pogledov v prihodnost. Mostar tako obiskovalca ne navduši le s svojo bogato zgodovino, temveč tudi z energijo mesta, ki se kljub težki preteklosti nenehno obnavlja.",
+                "official_references": [
+                    "Mostar Street Arts Festival",
+                    "Turistična skupnost Mostarja"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Mostar Street Art",
+                    "local_name": null,
+                    "visit_minutes": 30,
+                    "short_text": "Če je Staklena banka simbol vojnega Mostarja, so murali okoli nje simbol njegovega ponovnega rojstva.",
+                    "guide_text": "Če je Staklena banka simbol vojnega Mostarja, so murali okoli nje simbol njegovega ponovnega rojstva.\n\nOd leta 2012 v mestu poteka Mostar Street Arts Festival, ki je zapuščene fasade, prazne zidove in poškodovane stavbe postopoma spremenil v eno največjih galerij ulične umetnosti na prostem v Bosni in Hercegovini. Festival vsako leto gosti umetnike iz številnih držav, ki s svojimi deli mestu dodajajo nove zgodbe in poglede na njegovo preteklost ter prihodnost.\n\nNajveč muralov se nahaja prav v širši okolici Staklene banke, Parka Alekse Šantića in vzdolž avenije Maršala Tita. Na zemljevidu tega vodiča je označenih več najzanimivejših del, zato se med sprehodom večkrat ozrite tudi proč od glavnih ulic. Številni največji murali krasijo stranske fasade, dvorišča in manj opazne stavbe.\n\nMotivi so zelo raznoliki. Nekateri prikazujejo znane osebnosti Mostarja, drugi opozarjajo na pomen miru, dialoga in strpnosti, tretji pa so povsem sodobna umetniška dela brez neposredne zgodovinske tematike. Prav ta raznolikost daje mestu poseben značaj – Mostar ni le mesto zgodovine, temveč tudi mesto ustvarjalnosti.\n\nUlična umetnost tukaj ni nastala zgolj zaradi lepšega videza mesta. Marsikateri mural stoji na stavbi, ki je bila med vojno močno poškodovana. Namesto da bi te zidove skrili, so jih umetniki spremenili v platna, na katerih nastajajo nove zgodbe. Tako nekdanje brazgotine postajajo prostor dialoga in skupnega spomina.\n\nS tem se tudi zaključi naš sprehod. Če je Stari most simbol povezovanja bregov Neretve, so murali simbol povezovanja ljudi in pogledov v prihodnost. Mostar tako obiskovalca ne navduši le s svojo bogato zgodovino, temveč tudi z energijo mesta, ki se kljub težki preteklosti nenehno obnavlja.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "Mostar Street Arts Festival poteka od leta 2012.",
+                        "Danes je v mestu več deset velikih muralov domačih in mednarodnih umetnikov.",
+                        "Številni murali stojijo prav na stavbah, ki nosijo vidne posledice vojne.",
+                        "Mostar velja za eno najpomembnejših središč ulične umetnosti v Bosni in Hercegovini."
+                    ],
+                    "photo_tip": null,
+                    "practical_note": "Na zemljevidu vodiča je označenih več muralov, vendar jih ne poskušajte obiskati vseh po vrstnem redu. Najlepše je, da se po tem delu mesta preprosto sprehodite in jih odkrivate sproti – prav element presenečenja je eden največjih čarov mostarske ulične umetnosti.",
+                    "route_to_next": null,
+                    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mostar+Street+Art",
+                    "official_url": "https://streetartcities.com/cities/mostar",
+                    "official_references": [
+                        "Mostar Street Arts Festival",
+                        "Turistična skupnost Mostarja"
+                    ]
+                },
+                "official_url": "https://streetartcities.com/cities/mostar",
+                "what_to_notice": [
+                    "Mostar Street Arts Festival poteka od leta 2012.",
+                    "Danes je v mestu več deset velikih muralov domačih in mednarodnih umetnikov.",
+                    "Številni murali stojijo prav na stavbah, ki nosijo vidne posledice vojne.",
+                    "Mostar velja za eno najpomembnejših središč ulične umetnosti v Bosni in Hercegovini."
+                ],
+                "practical_note": "Na zemljevidu vodiča je označenih več muralov, vendar jih ne poskušajte obiskati vseh po vrstnem redu. Najlepše je, da se po tem delu mesta preprosto sprehodite in jih odkrivate sproti – prav element presenečenja je eden največjih čarov mostarske ulične umetnosti."
+            }
+        ]
+    },
+    "guide_intro": "Mostar je eno najbolj prepoznavnih mest Bosne in Hercegovine ter eno redkih evropskih mest, kjer se na tako majhnem prostoru prepletajo osmanska, srednjeevropska in sodobna zgodovina. Razvil se je ob smaragdno zeleni reki Neretvi kot pomembno trgovsko in obrtniško središče na poti med notranjostjo Balkana in Jadranom. Njegovo ime izvira iz besede mostari – varuhi mostu, ki so nekoč skrbeli za varnost prehoda čez reko. Prav most je bil razlog za nastanek mesta in je skozi stoletja postal njegov najmočnejši simbol.\n\nSrce starega mesta predstavlja Stari most, mojstrovina osmanskega gradbeništva iz 16. stoletja, ki je več kot štiri stoletja povezoval oba bregova Neretve. Med vojno v Bosni in Hercegovini je bil novembra 1993 porušen, njegova ponovna izgradnja leta 2004 pa je postala eden najpomembnejših mednarodnih projektov obnove kulturne dediščine. Leto pozneje je bilo staro mestno jedro Mostarja skupaj z obnovljenim mostom uvrščeno na UNESCO-v seznam svetovne dediščine kot simbol sprave, sodelovanja in sobivanja različnih kultur ter verskih skupnosti.\n\nDanašnji Mostar pa ni zgolj mesto slavnega mostu. Sprehod po njegovih ulicah razkrije živahen bazar Kujundžiluk, kamnite uličice, stare obrtniške delavnice, mošeje, cerkve in hiše, ki pripovedujejo zgodbo o večstoletnem razvoju mesta. Le nekaj ulic stran pa so še vedno vidne posledice vojne – stavbe z luknjami od granat in krogel, zapuščeni nebotičniki ter spomeniki, ki opominjajo na eno najtežjih obdobij v sodobni zgodovini Balkana.\n\nPrav iz teh brazgotin se je rodila nova podoba Mostarja. Od leta 2012 mesto gosti mednarodni festival ulične umetnosti, ki je nekdanje vojne ruševine spremenil v platna za umetnike z vsega sveta. Danes velja Mostar za eno najzanimivejših središč muralov in sodobne ulične umetnosti v jugovzhodni Evropi, kjer umetnost ne zakriva preteklosti, temveč jo dopolnjuje z novimi zgodbami in pogledi v prihodnost.\n\nNajin sprehod se začne na vzhodnem bregu Neretve z enim najlepših razgledov na Stari most, od tam pa vodi skozi staro mestno jedro, obrtniške četrti, verske spomenike in mostove, ki so skozi stoletja oblikovali življenje ob reki. V drugem delu poti zapustiva območje starega mesta in odkrijeva še sodobni Mostar – mesto muralov, ustvarjalnosti in novih začetkov.",
+    "guide_outro": "V približno štirih kilometrih hoje sta odkrila Mostar, mesto, kjer se na obeh bregovih Neretve prepletajo osmanska, avstro-ogrska in sodobna dediščina. Pot vaju je vodila od razgleda na Stari most skozi ozke ulice starega bazarja, mimo mošej, obrtniških delavnic in zgodovinskih trgov do sodobnega dela mesta, kjer vojne brazgotine danes dopolnjuje živahna ulična umetnost. Mostar ni le mesto enega mostu – je mesto zgodb, ki govorijo o sobivanju, razdeljenosti, obnovi in upanju.",
+    "practical": {
+        "best_time_of_day": "Dopoldne ali pozno popoldne. V poletnih mesecih se izognita največji vročini med 12. in 16. uro.",
+        "shade": "varied",
+        "shade_note": "V starem mestnem jedru je nekaj ozkih ulic prijetno senčnih, odprti deli ob Neretvi in v sodobnem delu mesta pa so večinoma na soncu.",
+        "equipment": [
+            "udobni pohodni ali športni čevlji; kamniti tlak je lahko spolzek",
+            "voda",
+            "pokrivalo in zaščita pred soncem",
+            "primerna oblačila za obisk verskih objektov"
+        ],
+        "warnings": [
+            "Kamnite plošče na Starem mostu in v starem mestnem jedru so lahko zelo spolzke, zlasti po dežju.",
+            "Odpiralni časi muzejev in verskih objektov se lahko spreminjajo.",
+            "Čas skokov s Starega mostu ni vnaprej določen in je odvisen od zbranih obiskovalcev ter odločitve skakalcev."
+        ]
+    },
+    "sources": [
+        {
+            "title": "Visit Mostar",
+            "url": "https://visitmostar.ba",
+            "official": true,
+            "publisher": "Turistička zajednica Grada Mostara"
+        },
+        {
+            "title": "UNESCO – Old Bridge Area of the Old City of Mostar",
+            "url": "https://whc.unesco.org/en/list/946",
+            "official": true,
+            "publisher": "UNESCO World Heritage Centre"
+        },
+        {
+            "title": "Mostar Street Arts Festival",
+            "url": "https://streetartcities.com/cities/mostar",
+            "official": true,
+            "publisher": "Street Arts Festival Mostar"
+        },
+        {
+            "title": "Hercegovačka franjevačka provincija",
+            "url": "https://franjevci.info/",
+            "official": true,
+            "publisher": "Hercegovačka franjevačka provincija"
+        }
+    ],
+    "last_verified": "2026-07-19",
+    "content_version": "1.0",
+    "display": "accordion"
+},
+    {
       "id": "jajce-kings-waterfall-avnoj",
       "title": "Jajce – mesto kraljev, slapov in AVNOJ-a",
       "subtitle": "Kratek samostojni sprehod po zgodovinskem mestu",
@@ -2338,209 +2991,449 @@
       "guide_outro": "Po ogledu Morskih orgel in Pozdrava Soncu priporočava kosilo v enem izmed lokalov ob obali ali v starem mestnem jedru, nato pa se po isti poti ali skozi mestne ulice vrnita do parkirišča.\n\nTa krajši sprehod lepo povzema zgodbo Zadra.\n\nOd rimskega foruma in predromanske cerkve sv. Donata, preko beneških utrdb do sodobnih arhitekturnih ikon – mesto je skozi stoletja večkrat izgubilo svojo podobo, a nikoli svoje identitete.\n\nPrav zato Zadar ni le prijeten postanek na poti domov, ampak mesto, kjer se zgodovina in sodobna ustvarjalnost srečata na izjemno naraven način."
     },
     {
-      "id": "plitvice-program-h",
-      "title": "Plitviška jezera – Program H",
-      "subtitle": "Sprehod skozi največji naravni biser Hrvaške",
-      "type": "hike",
-      "theme": "nature",
-      "status": "ready",
-      "trip_day_refs": [
+    "id": "plitvice-program-h",
+    "title": "Plitviška jezera",
+    "subtitle": "Program H - Celovit ogled Zgornjih in Spodnjih jezer",
+    "type": "hike",
+    "theme": "nature",
+    "status": "ready",
+    "trip_day_refs": [
         2
-      ],
-      "country": "Hrvaška",
-      "region": "Lika",
-      "location_label": "Narodni park Plitviška jezera",
-      "summary": "Celovit ogled Zgornjih in Spodnjih jezer po Programu H z električno ladjo, lesenimi stezami, Velikim slapom in panoramskim vozilom.",
-      "why_choose": [
-        "Za prvi celovit obisk Plitvic.",
-        "Za razumevanje nastajanja lehnjaka in živega vodnega sistema.",
-        "Za najbolj uravnoteženo kombinacijo hoje, ladje in panoramskega prevoza."
-      ],
-      "duration": {
-        "min_minutes": 300,
+    ],
+    "country": "Hrvaška",
+    "region": "Lika",
+    "location_label": "Narodni park Plitviška jezera",
+    "summary": "Krožni Program H od Vhoda 2 skozi Zgornja jezera, čez Kozjak in Spodnja jezera do Velikega slapu ter nazaj s panoramskim vozilom.",
+    "why_choose": [
+        "Za celovit prvi obisk celotnega glavnega jezerskega območja.",
+        "Za logično krožno traso od Zgornjih do Spodnjih jezer.",
+        "Za kombinacijo hoje, električne ladje in dveh panoramskih prevozov."
+    ],
+    "duration": {
+        "min_minutes": 240,
         "max_minutes": 360,
         "walking_minutes": 210,
-        "display": "5–6 ur"
-      },
-      "distance": {
-        "total_km": 9.0,
-        "walking_km": 9.0,
-        "display": "približno 9 km"
-      },
-      "elevation": {
+        "display": "4–6 ur"
+    },
+    "distance": {
+        "total_km": 8.9,
+        "walking_km": 8.9,
+        "display": "približno 8,9 km"
+    },
+    "elevation": {
         "gain_m": 250
-      },
-      "difficulty": "moderate",
-      "arrival": {
+    },
+    "difficulty": "moderate",
+    "arrival": {
         "mode": [
-          "car"
+            "car"
         ],
-        "instructions": "Prihod zgodaj zjutraj na Vhod 2.",
+        "instructions": "Prihod čim bolj zgodaj na Vhod 2, kjer se začne uradni Program H.",
         "parking": {
-          "name": "Parkirišče pri Vhodu 2",
-          "paid": true,
-          "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Plitvice+Lakes+Entrance+2"
+            "name": "Parkirišče pri Vhodu 2",
+            "paid": true,
+            "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Plitvice+Lakes+Entrance+2"
         }
-      },
-      "route": {
-        "shape": "point_to_point",
+    },
+    "route": {
+        "shape": "loop",
         "start_stop_id": "plitvice-entrance-2",
         "end_stop_id": "plitvice-train-return",
-        "route_note": "Program H se začne pri Vhodu 2, nadaljuje skozi Zgornja jezera, vključuje električno ladjo čez Kozjak, Spodnja jezera in Veliki slap ter se zaključi s panoramskim vozilom.",
+        "route_note": "Program H se začne pri Vhodu 2. Od postaje St2 se s panoramskim vozilom odpeljeta do St3, peš prehodita Zgornja jezera do P2, se z električno ladjo prepeljeta do P3, nadaljujeta skozi Spodnja jezera do Velikega slapu, se povzpneta na vzhodni rob kanjona in se od St1 s panoramskim vozilom vrneta do St2.",
         "map": {
-          "provider": "google_maps",
-          "title": "Narodni park Plitviška jezera – Vhod 2",
-          "open_url": "https://www.google.com/maps/search/?api=1&query=Plitvice+Lakes+Entrance+2"
+            "provider": "official_map",
+            "title": "Program H – uradna trasa",
+            "preview_image": "../../../images/roadbooks/balkan-2026/maps/Program-H-01.webp",
+            "open_url": "https://maps.app.goo.gl/e4f2UtvcYxdyTYv16"
         },
         "stops": [
-          {
-            "id": "plitvice-entrance-2",
-            "order": 1,
-            "title": "Vhod 2",
-            "category": "visitor_center",
-            "guide_text": "1. Vhod 2\n\n📍 Ulaz 2\n\nTo je mirnejši vhod v park in odlična izbira za obiskovalce, ki želijo začeti pri zgornjih jezerih.\n\nPo opravljenem vstopu se pot hitro spusti proti največjemu jezeru v parku.\n\nNa poti opazita, kako gost je okoliški gozd.\n\nTo niso le lepa drevesa.\n\nVelik del narodnega parka sestavljajo naravni bukovo-jelovi gozdovi, ki predstavljajo življenjski prostor številnim živalim.\n\nMed njimi živijo:\n\nrjavi medved,\n\nvolk,\n\nris,\n\nvidra,\n\nštevilne vrste netopirjev,\n\nveč kot 160 vrst ptic.\n\nVečine verjetno ne bosta videla.\n\nIn prav to je dober znak.\n\nNarava tukaj še vedno ostaja precej divja.",
-            "display": "article_section",
-            "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Plitvice+Lakes+Entrance+2"
-          },
-          {
-            "id": "plitvice-kozjak",
-            "order": 2,
-            "title": "Jezero Kozjak",
-            "category": "lake",
-            "guide_text": "2. Jezero Kozjak\n\nPo nekaj minutah hoje prideta do največjega jezera v narodnem parku.\n\nKozjak je dolg več kot dva kilometra in predstavlja naravno ločnico med zgornjimi in spodnjimi jezeri.\n\nIme izvira iz stare ljudske legende.\n\nPripoved pravi, da je med osmanskim napadom skupina koz skušala prečkati zaledenelo jezero.\n\nLed se je pod njimi udrl in živali so utonile.\n\nOd tod naj bi izviralo ime Kozjak.\n\nDanes po jezeru plujejo električne ladje.\n\nMotorjev skoraj ni slišati.\n\nTo je namenoma.\n\nV narodnem parku skušajo čim bolj zmanjšati hrup in vpliv na okolje.\n\nPred vkrcanjem si vzemita nekaj minut.\n\nPoglejta barvo vode.\n\nNa soncu se spreminja od temno zelene do skoraj turkizne.\n\nBarva ni posledica alg.\n\nNastaja zaradi izjemno čiste vode, mineralov in odboja svetlobe od apnenčastega dna.",
-            "display": "article_section"
-          },
-          {
-            "id": "plitvice-boat",
-            "order": 3,
-            "title": "Vožnja z električno ladjo",
-            "category": "transport",
-            "guide_text": "3. Vožnja z ladjo\n\nVožnja čez Kozjak traja približno petnajst minut.\n\nTo ni le prevoz.\n\nJe priložnost, da si park ogledava z druge perspektive.\n\nSredi jezera se lepo vidi, kako gosto gozdovi obdajajo vodo.\n\nNa številnih mestih sploh ni mogoče določiti, kje se konča gozd in začne jezero.\n\nČe bo mirno vreme, se bodo drevesa skoraj popolnoma zrcalila na gladini.\n\nTo je eden najlepših trenutkov celotnega obiska.\n\nLadja pristane na vzhodni obali.\n\nTam se začne najbolj slikovit del zgornjih jezer.\n\nPo izkrcanju z ladje se začne najbolj umirjen del narodnega parka.\n\nTukaj ni visokih pečin in mogočnih slapov.\n\nNamesto tega vas spremlja neprestano šumenje vode, ki se preliva iz enega jezera v drugo.\n\nPrav tukaj najbolje razumemo, da Plitvice niso posamezni slapovi, temveč povezan vodni sistem.\n\nVsako jezero se preliva v naslednje.\n\nVsak slap ustvarja novo jezero.\n\nVsako jezero pa sčasoma ustvari nov slap.",
-            "display": "article_section"
-          },
-          {
-            "id": "plitvice-boardwalks",
-            "order": 4,
-            "title": "Lesene steze in turkizna voda",
-            "category": "trail_point",
-            "guide_text": "4. Lesene steze\n\nPrva stvar, ki jo večina obiskovalcev opazi, so ozke lesene steze.\n\nZdi se, kot da plavajo tik nad gladino.\n\nNamenoma so zgrajene brez visokih ograj in velikih posegov v naravo.\n\nNjihova naloga ni spreminjati pokrajine, ampak obiskovalcem omogočiti, da jo doživijo od blizu.\n\nMed hojo se večkrat ustavita.\n\nPoglejta pod noge.\n\nVoda je marsikje tako bistra, da lahko brez težav opazita ribe, potopljena debla in celo kamnito dno več metrov pod površjem.\n\nNa Plitvicah je prepovedano hraniti ribe, metati kovance v jezera ali hoditi izven označenih poti.\n\nŽe majhne spremembe lahko vplivajo na občutljivo nastajanje lehnjaka.\n\nKaj pomeni turkizna barva?\n\nEna najpogostejših zmot je, da so jezera modra zaradi alg.\n\nResnica je precej zanimivejša.\n\nVoda je izjemno čista in vsebuje veliko raztopljenega kalcijevega karbonata.\n\nKo sončna svetloba prodre skozi vodo, se različni deli svetlobnega spektra različno odbijajo.\n\nOdvisno od globine, vremena in položaja sonca se zato voda spreminja od:\n\nsmaragdno zelene,\n\nturkizne,\n\nmodre,\n\npa vse do skoraj srebrne.\n\nZato ista jezera nikoli niso videti popolnoma enako.",
-            "display": "article_section"
-          },
-          {
-            "id": "plitvice-upper-lakes",
-            "order": 5,
-            "title": "Gornja jezera",
-            "category": "lake",
-            "guide_text": "5. Gornja jezera\n\nZgornjih dvanajst jezer leži na položnejšem delu parka.\n\nMed njimi so:\n\nProšćansko jezero,\n\nCiginovac,\n\nOkrugljak,\n\nBatinovac,\n\nVeliko jezero,\n\nMalo jezero,\n\nVir,\n\nGalovac,\n\nMilino jezero,\n\nGradinsko jezero,\n\nBurgeti,\n\nKozjak.\n\nVečine imen si verjetno ne bosta zapomnila.\n\nIn to niti ni pomembno.\n\nVeliko pomembnejši je občutek, kako se pokrajina neprestano spreminja.\n\nNa enem mestu hodita skozi gost gozd.\n\nNekaj minut kasneje se odpre pogled na slap.\n\nNato ponovno vstopita med drevesa.\n\nCeloten park deluje kot ena velika naravna kompozicija.",
-            "display": "article_section"
-          },
-          {
-            "id": "plitvice-galovacki-buk",
-            "order": 6,
-            "title": "Galovački buk",
-            "category": "waterfall",
-            "guide_text": "6. Galovački buk\n\nČe obstaja slap, ki najbolje predstavlja zgornja jezera, je to Galovački buk.\n\nVisok je približno 25 metrov in velja za enega najlepših slapov tega dela narodnega parka.\n\nPosebej lep je spomladi in zgodaj poleti, ko se po taljenju snega pretok vode močno poveča.\n\nLesena pot obiskovalce pripelje skoraj tik pod slap.\n\nTo je eden najboljših trenutkov za fotografiranje.\n\nVendar priporočava še nekaj drugega.\n\nZa nekaj minut se preprosto ustavita.\n\nPoslušajta zvok vode.\n\nNa Plitvicah namreč ni popolne tišine.\n\nVedno je prisotno nežno šumenje slapov.\n\nPrav ta zvok daje narodnemu parku poseben občutek miru.\n\nFotografiranje\n\nVeliko obiskovalcev naredi isto napako.\n\nFotografirajo vsak slap.\n\nPosledica je na stotine skoraj enakih fotografij.\n\nPoskusita drugače.\n\nNamesto posameznega slapu ujemita:\n\nodseve dreves na vodi;\n\nlesene poti;\n\npodrobnosti mahu;\n\nribo pod gladino;\n\nsvetlobo med drevesi.\n\nTakšne fotografije pogosto veliko bolje ujamejo vzdušje Plitvic.",
-            "display": "article_section"
-          },
-          {
-            "id": "plitvice-life-in-water",
-            "order": 7,
-            "title": "Življenje v vodi",
-            "category": "other",
-            "guide_text": "7. Življenje v vodi\n\nČe pozorno pogledata pod gladino, bosta skoraj zagotovo opazila velike ribe.\n\nNajpogosteje gre za potočne postrvi.\n\nZanimivo je, da se rib skoraj ne bojijo ljudi.\n\nRazlog je preprost.\n\nŽe desetletja jih nihče ne lovi.\n\nKer obiskovalci ne predstavljajo nevarnosti, so se nanje navadile.\n\nČeprav se zdijo zelo mirne, ostajajo pomemben del občutljivega ekosistema.\n\nNjihova prisotnost je tudi eden najboljših pokazateljev izjemne kakovosti vode.",
-            "display": "article_section"
-          },
-          {
-            "id": "plitvice-transition",
-            "order": 8,
-            "title": "Pot proti spodnjim jezerom",
-            "category": "trail_point",
-            "guide_text": "Po ogledu zgornjih jezer se pot začne počasi spuščati.\n\nPokrajina se začne spreminjati.\n\nGozd postaja redkejši.\n\nPojavljajo se prve apnenčaste pečine.\n\nSlapovi postajajo višji.\n\nPred vama je najbolj dramatičen del narodnega parka.\n\nTam se voda ne preliva več nežno iz jezera v jezero.\n\nTam se začnejo mogočni slapovi spodnjih jezer.\n\nKratek odmor\n\nPred nadaljevanjem priporočava krajši počitek.\n\nPopijta nekaj vode.\n\nPojesta manjši prigrizek.\n\nNajlepši razgledi šele prihajajo.\n\nNaslednji del poti vodi skozi ozko apnenčasto sotesko, kjer se nahajajo najbolj znane razgledne točke celotnega narodnega parka.\n\nKo zapustita zgornja jezera, se pokrajina začne spreminjati.\n\nDo zdaj sta hodila skozi gozdove in med številnimi manjšimi slapovi.\n\nSedaj vstopata v povsem drugačen svet.\n\nApnenčaste stene postajajo višje.\n\nPot se vije skozi ozko sotesko, voda pa si svojo pot utira med strmimi skalami.\n\nTo je najstarejši geološki del narodnega parka.\n\nPrav tukaj nastanejo najbolj prepoznavni razgledi s fotografij Plitviških jezer.",
-            "display": "article_section"
-          },
-          {
-            "id": "plitvice-lower-lakes",
-            "order": 9,
-            "title": "Spodnja jezera",
-            "category": "lake",
-            "guide_text": "8. Spodnja jezera\n\nZa razliko od zgornjih jezer so spodnja nastala v globokem apnenčastem kanjonu.\n\nVoda je skozi tisočletja izdolbla strme stene, med katerimi danes ležijo jezera:\n\nMilanovac,\n\nGavanovac,\n\nKaluđerovac,\n\nNovakovića Brod.\n\nLesene poti so speljane tik ob vodi, na nekaterih mestih pa skoraj pod slapovi.\n\nPrav zato je ta del poti med najbolj priljubljenimi v narodnem parku.\n\nČe bosta prišla zgodaj dopoldne, bosta imela precej več možnosti, da ga doživita v miru.",
-            "display": "article_section"
-          },
-          {
-            "id": "plitvice-canyon-view",
-            "order": 10,
-            "title": "Razgled na kanjon",
-            "category": "viewpoint",
-            "guide_text": "9. Razgled na kanjon\n\nNa enem izmed ovinkov se odpre eden najbolj znanih pogledov na Plitvice.\n\nOd tod se lepo vidi zaporedje jezer, slapov in lesenih poti, ki se vijejo med njimi.\n\nTo je kraj, kjer se večina obiskovalcev za nekaj minut ustavi.\n\nČeprav je skušnjava velika, da bi takoj segla po fotoaparatu, priporočava nekaj drugega.\n\nNajprej si razgled preprosto oglejta.\n\nFotografijo lahko naredita nekaj trenutkov kasneje.\n\nNajlepši spomini pogosto ostanejo tisti, ki jih najprej doživimo brez zaslona.\n\nSte vedeli?\n\n💧 Vsaka naravna pregrada, po kateri danes teče voda, še vedno raste.\n\nČeprav gre le za nekaj milimetrov na leto, se slapovi skozi stoletja počasi spreminjajo.\n\nTo pomeni, da bodo Plitvička jezera čez nekaj sto let videti drugače kot danes.\n\nNarava tukaj še vedno ustvarja.",
-            "display": "article_section"
-          },
-          {
-            "id": "plitvice-great-waterfall",
-            "order": 11,
-            "title": "Veliki slap",
-            "category": "waterfall",
-            "guide_text": "10. Veliki slap (Veliki Slap)\n\n📍 Višina: približno 78 metrov\n\nPred vama je najvišji slap na Hrvaškem.\n\nVeliki slap je postal simbol Plitviških jezer in je pogosto prva podoba, ki jo povezujemo z narodnim parkom.\n\nMarsikdo misli, da ga napaja reka Korana.\n\nV resnici glavnino vode prinaša potok Plitvica, ki se tik pred slapom strmo spusti v kanjon.\n\nV času obilnega deževja ali spomladanskega taljenja snega je pretok izjemen.\n\nPoleti je vode nekoliko manj, vendar slap ostaja osrednja znamenitost parka.\n\nLesena pot obiskovalce pripelje povsem blizu.\n\nČe je pretok večji, lahko v zraku začutita drobne kapljice vode.\n\nTo je eden redkih krajev, kjer je moč vode mogoče doživeti skoraj z vseh čutov.\n\nFotografiranje Velikega slapu\n\nNajlepše fotografije običajno nastanejo nekoliko stran od samega vznožja.\n\nČe se povzpneta na razgledno točko nad kanjonom, se odpre pogled na celoten slap skupaj z okoliškimi pečinami.\n\nPrav od tam je posnetih največ fotografij, ki jih poznamo iz razglednic.",
-            "display": "article_section",
-            "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veliki+Slap+Plitvice"
-          },
-          {
-            "id": "plitvice-supljara",
-            "order": 12,
-            "title": "Jama Šupljara",
-            "category": "cave",
-            "guide_text": "11. Jama Šupljara\n\nČe bo odprta in vključena v izbrano traso, priporočava kratek vzpon do jame Šupljara.\n\nGre za naravno kraško jamo nad kanjonom, ki ponuja lep razgled na spodnja jezera.\n\nIme izhaja iz besede »šuplje« – votlo.\n\nVzpon ni dolg, vendar je nekoliko bolj strm kot preostali del poti.\n\nČe bosta po več urah hoje že utrujena, jo lahko brez slabe vesti izpustita.\n\nGlavni poudarek ogleda ostajajo jezera.",
-            "display": "article_section"
-          },
-          {
-            "id": "plitvice-train-return",
-            "order": 13,
-            "title": "Panoramski električni vlakec",
-            "category": "transport",
-            "guide_text": "12. Panoramski električni vlakec\n\nPo ogledu spodnjih jezer se pot zaključi pri panoramskem električnem vlakcu.\n\nNjegova naloga ni le prevoz obiskovalcev.\n\nOmogoča tudi razbremenitev najbolj obiskanih poti in zmanjšuje potrebo po vožnji avtomobilov znotraj narodnega parka.\n\nMed vožnjo skozi gozd se za trenutek ozrita nazaj.\n\nTežko je verjeti, da sta v nekaj urah prehodila pokrajino, ki se je oblikovala skozi tisoče let in se še danes spreminja.",
-            "display": "article_section"
-          }
+            {
+                "id": "plitvice-entrance-2",
+                "order": 1,
+                "title": "Vhod 2 – začetek Programa H",
+                "local_name": "Ulaz 2",
+                "category": "visitor_center",
+                "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Plitvice+Lakes+Entrance+2",
+                "visit_minutes": 15,
+                "guide_text": "Program H se začne pri južnem vhodu v narodni park. Po preverjanju vstopnic sledita oznakam za Program H in postaji panoramskega vozila St2. Ker je pot dolga skoraj devet kilometrov, je priporočljiv čim zgodnejši prihod, zlasti v poletni sezoni.\n\nPlitviška jezera sestavlja šestnajst večjih jezer, ki jih povezujejo slapovi in lehnjakove pregrade. Park ni le slikovita zbirka jezer, temveč živ vodni sistem, ki se zaradi odlaganja lehnjaka še vedno spreminja. Program H omogoča ogled celotnega glavnega jezerskega območja: najprej Zgornjih jezer, nato jezera Kozjak, Spodnjih jezer in Velikega slapu.",
+                "what_to_notice": [
+                    "oznake za Program H in postajo panoramskega vozila St2",
+                    "bukovo-jelov gozd ob začetku poti",
+                    "informacijske table z aktualnim režimom ladij in panoramskih vozil"
+                ],
+                "practical_note": "Vstopnice kupita vnaprej za Vhod 2 in izbrani čas prihoda. Pred odhodom preverita morebitne spremembe voznega reda ali zapore posameznih odsekov.",
+                "route_to_next": "Od Vhoda 2 sledita oznakam do postaje St2 in se s panoramskim vozilom odpeljita do postaje St3.",
+                "official_url": "https://np-plitvicka-jezera.hr/",
+                "official_references": [
+                    "Narodni park Plitviška jezera"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Vhod 2 – začetek Programa H",
+                    "local_name": "Ulaz 2",
+                    "visit_minutes": 15,
+                    "short_text": "Program H se začne pri južnem vhodu v narodni park. Po preverjanju vstopnic sledita oznakam za Program H in postaji panoramskega vozila St2. Ker je pot dolga skoraj devet kilometrov, je priporočljiv čim zgodnejši prihod, zlasti v poletni sezoni.",
+                    "guide_text": "Program H se začne pri južnem vhodu v narodni park. Po preverjanju vstopnic sledita oznakam za Program H in postaji panoramskega vozila St2. Ker je pot dolga skoraj devet kilometrov, je priporočljiv čim zgodnejši prihod, zlasti v poletni sezoni.\n\nPlitviška jezera sestavlja šestnajst večjih jezer, ki jih povezujejo slapovi in lehnjakove pregrade. Park ni le slikovita zbirka jezer, temveč živ vodni sistem, ki se zaradi odlaganja lehnjaka še vedno spreminja. Program H omogoča ogled celotnega glavnega jezerskega območja: najprej Zgornjih jezer, nato jezera Kozjak, Spodnjih jezer in Velikega slapu.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "oznake za Program H in postajo panoramskega vozila St2",
+                        "bukovo-jelov gozd ob začetku poti",
+                        "informacijske table z aktualnim režimom ladij in panoramskih vozil"
+                    ],
+                    "photo_tip": null,
+                    "practical_note": "Vstopnice kupita vnaprej za Vhod 2 in izbrani čas prihoda. Pred odhodom preverita morebitne spremembe voznega reda ali zapore posameznih odsekov.",
+                    "route_to_next": "Od Vhoda 2 sledita oznakam do postaje St2 in se s panoramskim vozilom odpeljita do postaje St3.",
+                    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Plitvice+Lakes+Entrance+2",
+                    "official_url": "https://np-plitvicka-jezera.hr/",
+                    "official_references": [
+                        "Narodni park Plitviška jezera"
+                    ]
+                }
+            },
+            {
+                "id": "plitvice-panoramic-st2-st3",
+                "order": 2,
+                "title": "Panoramsko vozilo do Zgornjih jezer",
+                "category": "transport",
+                "visit_minutes": 20,
+                "guide_text": "Prvi del Programa H poteka s panoramskim vozilom od postaje St2 do St3. Vožnja prihrani začetni vzpon in vaju pripelje do najvišjega dela uradne trase, od koder se nato večinoma spuščata skozi sistem Zgornjih jezer.\n\nPanoramsko vozilo je vključeno v vstopnico. Čas čakanja je odvisen od obiska, zato je zgodnji prihod pomemben tudi zaradi bolj tekočega začetka poti.",
+                "what_to_notice": [
+                    "prehod iz območja vhoda v mirnejši gozdnati del parka",
+                    "postajo St3 kot začetek pešpoti ob Zgornjih jezerih"
+                ],
+                "practical_note": "Ob izstopu na St3 preverita oznake za Program H in smer proti Zgornjim jezerom ter pristanišču P2.",
+                "route_to_next": "Na postaji St3 začnita pešpot skozi Zgornja jezera v smeri pristanišča P2.",
+                "official_url": "https://np-plitvicka-jezera.hr/",
+                "official_references": [
+                    "Narodni park Plitviška jezera – programi ogleda"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Panoramsko vozilo do Zgornjih jezer",
+                    "local_name": null,
+                    "visit_minutes": 20,
+                    "short_text": "Prvi del Programa H poteka s panoramskim vozilom od postaje St2 do St3. Vožnja prihrani začetni vzpon in vaju pripelje do najvišjega dela uradne trase, od koder se nato večinoma spuščata skozi sistem Zgornjih jezer.",
+                    "guide_text": "Prvi del Programa H poteka s panoramskim vozilom od postaje St2 do St3. Vožnja prihrani začetni vzpon in vaju pripelje do najvišjega dela uradne trase, od koder se nato večinoma spuščata skozi sistem Zgornjih jezer.\n\nPanoramsko vozilo je vključeno v vstopnico. Čas čakanja je odvisen od obiska, zato je zgodnji prihod pomemben tudi zaradi bolj tekočega začetka poti.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "prehod iz območja vhoda v mirnejši gozdnati del parka",
+                        "postajo St3 kot začetek pešpoti ob Zgornjih jezerih"
+                    ],
+                    "photo_tip": null,
+                    "practical_note": "Ob izstopu na St3 preverita oznake za Program H in smer proti Zgornjim jezerom ter pristanišču P2.",
+                    "route_to_next": "Na postaji St3 začnita pešpot skozi Zgornja jezera v smeri pristanišča P2.",
+                    "google_maps_url": null,
+                    "official_url": "https://np-plitvicka-jezera.hr/",
+                    "official_references": [
+                        "Narodni park Plitviška jezera – programi ogleda"
+                    ]
+                }
+            },
+            {
+                "id": "plitvice-upper-lakes",
+                "order": 3,
+                "title": "Zgornja jezera",
+                "local_name": "Gornja jezera",
+                "category": "lake",
+                "visit_minutes": 120,
+                "guide_text": "Zgornjih dvanajst jezer leži v širši, gozdnati dolini na dolomitni podlagi. Pot se od Prošćanskega jezera postopoma spušča mimo manjših jezer, slapov in lehnjakovih pregrad proti Kozjaku. Ta del parka je bolj umirjen in zelen kot Spodnja jezera; namesto visokih sten ga zaznamujejo gozd, razgibana obala in številna prelivanja vode.\n\nNa poti se izmenjujejo gozdne steze, lesene brvi in krajši vzponi. Med pomembnejšimi prizori so Prošćansko jezero, Ciginovac, Okrugljak, Galovac, Gradinsko jezero in več slikovitih slapov. Imen vseh jezer si ni treba zapomniti; pomembneje je opazovati, kako se voda iz enega bazena prek lehnjakovih pragov preliva v naslednjega.\n\nLehnjak nastaja, ko se iz vode izloča kalcijev karbonat in se odlaga na mahovih, algah ter drugih površinah. Pregrade rastejo počasi, vendar neprestano, zato se smer vode, oblika slapov in robovi jezer skozi čas spreminjajo.",
+                "what_to_notice": [
+                    "razliko med večjimi mirnimi jezeri in drobnimi slapnimi prehodi",
+                    "lehnjakove pregrade, poraščene z mahom",
+                    "bistro vodo, v kateri so pogosto vidne ribe in potopljena debla",
+                    "Galovački buk in druge slapove ob poti"
+                ],
+                "photo_tip": "Poleg slapov fotografirajta tudi odseve gozda, lesene brvi in podrobnosti lehnjaka. Na ozkih poteh se zaradi fotografiranja ne ustavljajta na mestih, kjer ovirata druge obiskovalce.",
+                "practical_note": "To je najdaljši peš odsek Programa H. Na označenih počivališčih si privoščita kratek odmor, vendar ostanita na uradni poti in ne stopajta na lehnjakove pregrade.",
+                "route_to_next": "Pešpot skozi Zgornja jezera se zaključi pri pristanišču P2 ob jezeru Kozjak.",
+                "official_url": "https://np-plitvicka-jezera.hr/",
+                "official_references": [
+                    "Narodni park Plitviška jezera",
+                    "UNESCO – Plitvice Lakes National Park"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Zgornja jezera",
+                    "local_name": "Gornja jezera",
+                    "visit_minutes": 120,
+                    "short_text": "Zgornjih dvanajst jezer leži v širši, gozdnati dolini na dolomitni podlagi. Pot se od Prošćanskega jezera postopoma spušča mimo manjših jezer, slapov in lehnjakovih pregrad proti Kozjaku. Ta del parka je bolj umirjen in zelen kot Spodnja jezera; namesto visokih sten ga zaznamu…",
+                    "guide_text": "Zgornjih dvanajst jezer leži v širši, gozdnati dolini na dolomitni podlagi. Pot se od Prošćanskega jezera postopoma spušča mimo manjših jezer, slapov in lehnjakovih pregrad proti Kozjaku. Ta del parka je bolj umirjen in zelen kot Spodnja jezera; namesto visokih sten ga zaznamujejo gozd, razgibana obala in številna prelivanja vode.\n\nNa poti se izmenjujejo gozdne steze, lesene brvi in krajši vzponi. Med pomembnejšimi prizori so Prošćansko jezero, Ciginovac, Okrugljak, Galovac, Gradinsko jezero in več slikovitih slapov. Imen vseh jezer si ni treba zapomniti; pomembneje je opazovati, kako se voda iz enega bazena prek lehnjakovih pragov preliva v naslednjega.\n\nLehnjak nastaja, ko se iz vode izloča kalcijev karbonat in se odlaga na mahovih, algah ter drugih površinah. Pregrade rastejo počasi, vendar neprestano, zato se smer vode, oblika slapov in robovi jezer skozi čas spreminjajo.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "razliko med večjimi mirnimi jezeri in drobnimi slapnimi prehodi",
+                        "lehnjakove pregrade, poraščene z mahom",
+                        "bistro vodo, v kateri so pogosto vidne ribe in potopljena debla",
+                        "Galovački buk in druge slapove ob poti"
+                    ],
+                    "photo_tip": "Poleg slapov fotografirajta tudi odseve gozda, lesene brvi in podrobnosti lehnjaka. Na ozkih poteh se zaradi fotografiranja ne ustavljajta na mestih, kjer ovirata druge obiskovalce.",
+                    "practical_note": "To je najdaljši peš odsek Programa H. Na označenih počivališčih si privoščita kratek odmor, vendar ostanita na uradni poti in ne stopajta na lehnjakove pregrade.",
+                    "route_to_next": "Pešpot skozi Zgornja jezera se zaključi pri pristanišču P2 ob jezeru Kozjak.",
+                    "google_maps_url": null,
+                    "official_url": "https://np-plitvicka-jezera.hr/",
+                    "official_references": [
+                        "Narodni park Plitviška jezera",
+                        "UNESCO – Plitvice Lakes National Park"
+                    ]
+                }
+            },
+            {
+                "id": "plitvice-kozjak-boat",
+                "order": 4,
+                "title": "Jezero Kozjak in vožnja z električno ladjo",
+                "category": "transport",
+                "visit_minutes": 35,
+                "guide_text": "Kozjak je največje jezero v narodnem parku in naravna ločnica med Zgornjimi ter Spodnjimi jezeri. Na pristanišču P2 se vkrcata na električno ladjo, ki vaju prepelje do pristanišča P3 na vzhodni obali.\n\nVožnja čez jezero omogoča kratek počitek po najdaljšem peš odseku in odpre širši pogled na gozdnato okolico. Ladijski prevoz je vključen v vstopnico, vendar se lahko ob večjem obisku pri P2 ustvari čakalna vrsta.",
+                "what_to_notice": [
+                    "velikost Kozjaka v primerjavi z manjšimi Zgornjimi jezeri",
+                    "spreminjanje barve vode glede na globino, svetlobo in vreme",
+                    "pogled na gozdnate bregove z gladine jezera"
+                ],
+                "practical_note": "Pri P2 upoštevajta navodila osebja in se postavita v pravilno vrsto za P3. Voda, sanitarije ali gostinska ponudba niso zagotovljeni na vsakem delu trase, zato zaloge dopolnita, kjer je mogoče.",
+                "route_to_next": "Po pristanku na P3 nadaljujta peš po oznakah Programa H proti Spodnjim jezerom.",
+                "official_url": "https://np-plitvicka-jezera.hr/",
+                "official_references": [
+                    "Narodni park Plitviška jezera – prevoz z električnimi ladjami"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Jezero Kozjak in vožnja z električno ladjo",
+                    "local_name": null,
+                    "visit_minutes": 35,
+                    "short_text": "Kozjak je največje jezero v narodnem parku in naravna ločnica med Zgornjimi ter Spodnjimi jezeri. Na pristanišču P2 se vkrcata na električno ladjo, ki vaju prepelje do pristanišča P3 na vzhodni obali.",
+                    "guide_text": "Kozjak je največje jezero v narodnem parku in naravna ločnica med Zgornjimi ter Spodnjimi jezeri. Na pristanišču P2 se vkrcata na električno ladjo, ki vaju prepelje do pristanišča P3 na vzhodni obali.\n\nVožnja čez jezero omogoča kratek počitek po najdaljšem peš odseku in odpre širši pogled na gozdnato okolico. Ladijski prevoz je vključen v vstopnico, vendar se lahko ob večjem obisku pri P2 ustvari čakalna vrsta.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "velikost Kozjaka v primerjavi z manjšimi Zgornjimi jezeri",
+                        "spreminjanje barve vode glede na globino, svetlobo in vreme",
+                        "pogled na gozdnate bregove z gladine jezera"
+                    ],
+                    "photo_tip": null,
+                    "practical_note": "Pri P2 upoštevajta navodila osebja in se postavita v pravilno vrsto za P3. Voda, sanitarije ali gostinska ponudba niso zagotovljeni na vsakem delu trase, zato zaloge dopolnita, kjer je mogoče.",
+                    "route_to_next": "Po pristanku na P3 nadaljujta peš po oznakah Programa H proti Spodnjim jezerom.",
+                    "google_maps_url": null,
+                    "official_url": "https://np-plitvicka-jezera.hr/",
+                    "official_references": [
+                        "Narodni park Plitviška jezera – prevoz z električnimi ladjami"
+                    ]
+                }
+            },
+            {
+                "id": "plitvice-lower-lakes",
+                "order": 5,
+                "title": "Spodnja jezera",
+                "local_name": "Donja jezera",
+                "category": "lake",
+                "visit_minutes": 75,
+                "guide_text": "Spodnja jezera ležijo v ozkem apnenčastem kanjonu in imajo bolj dramatičen značaj kot Zgornja. Program H vodi ob jezerih Milanovac, Gavanovac, Kaluđerovac in Novakovića Brod, po lesenih brveh tik nad vodo ter mimo slapov, ki se spuščajo med strmimi stenami.\n\nTu je najbolje vidna razlika med obema deloma parka: Zgornja jezera so širša in obdana z gozdom, Spodnja pa so ujeta med visoke apnenčaste stene. Zaradi ozkih brvi in velikega števila obiskovalcev je ta del pogosto počasnejši, zato ohranita miren tempo in ne prehitevajta na izpostavljenih odsekih.",
+                "what_to_notice": [
+                    "visoke apnenčaste stene kanjona",
+                    "zaporedje jezer Milanovac, Gavanovac, Kaluđerovac in Novakovića Brod",
+                    "lesene brvi, speljane neposredno ob vodi in slapovih",
+                    "razliko v obliki pokrajine med Zgornjimi in Spodnjimi jezeri"
+                ],
+                "practical_note": "Brvi so ozke, večinoma brez ograje in po dežju lahko spolzke. Hodita po desni, ne ustavljajta se sredi poti in upoštevajta morebitno enosmerno ureditev.",
+                "route_to_next": "Na koncu kanjona sledita oznakam za Veliki slap.",
+                "official_url": "https://np-plitvicka-jezera.hr/",
+                "official_references": [
+                    "Narodni park Plitviška jezera",
+                    "UNESCO – Plitvice Lakes National Park"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Spodnja jezera",
+                    "local_name": "Donja jezera",
+                    "visit_minutes": 75,
+                    "short_text": "Spodnja jezera ležijo v ozkem apnenčastem kanjonu in imajo bolj dramatičen značaj kot Zgornja. Program H vodi ob jezerih Milanovac, Gavanovac, Kaluđerovac in Novakovića Brod, po lesenih brveh tik nad vodo ter mimo slapov, ki se spuščajo med strmimi stenami.",
+                    "guide_text": "Spodnja jezera ležijo v ozkem apnenčastem kanjonu in imajo bolj dramatičen značaj kot Zgornja. Program H vodi ob jezerih Milanovac, Gavanovac, Kaluđerovac in Novakovića Brod, po lesenih brveh tik nad vodo ter mimo slapov, ki se spuščajo med strmimi stenami.\n\nTu je najbolje vidna razlika med obema deloma parka: Zgornja jezera so širša in obdana z gozdom, Spodnja pa so ujeta med visoke apnenčaste stene. Zaradi ozkih brvi in velikega števila obiskovalcev je ta del pogosto počasnejši, zato ohranita miren tempo in ne prehitevajta na izpostavljenih odsekih.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "visoke apnenčaste stene kanjona",
+                        "zaporedje jezer Milanovac, Gavanovac, Kaluđerovac in Novakovića Brod",
+                        "lesene brvi, speljane neposredno ob vodi in slapovih",
+                        "razliko v obliki pokrajine med Zgornjimi in Spodnjimi jezeri"
+                    ],
+                    "photo_tip": null,
+                    "practical_note": "Brvi so ozke, večinoma brez ograje in po dežju lahko spolzke. Hodita po desni, ne ustavljajta se sredi poti in upoštevajta morebitno enosmerno ureditev.",
+                    "route_to_next": "Na koncu kanjona sledita oznakam za Veliki slap.",
+                    "google_maps_url": null,
+                    "official_url": "https://np-plitvicka-jezera.hr/",
+                    "official_references": [
+                        "Narodni park Plitviška jezera",
+                        "UNESCO – Plitvice Lakes National Park"
+                    ]
+                }
+            },
+            {
+                "id": "plitvice-great-waterfall",
+                "order": 6,
+                "title": "Veliki slap",
+                "local_name": "Veliki slap",
+                "category": "waterfall",
+                "visit_minutes": 25,
+                "guide_text": "Veliki slap je najvišji slap na Hrvaškem. Voda potoka Plitvica se z roba kanjona spusti približno 78 metrov in se nato pridruži jezerskemu sistemu. Za razliko od večine slapov v parku ne nastaja s prelivanjem vode iz enega jezera v drugo, temveč ga napaja ločen površinski tok.\n\nMoč slapu je izrazito odvisna od padavin in letnega časa. Spomladi ter po močnem dežju je širši in glasnejši, v sušnem poletju pa je pretok manjši. Dostopna pot se konča na razglednem prostoru ob vznožju, od koder se lepo vidijo slap, skalna stena in zaključek kanjona.",
+                "what_to_notice": [
+                    "strm padec potoka Plitvica v kanjon",
+                    "razliko med Velikim slapom in lehnjakovimi slapovi med jezeri",
+                    "skalno steno nad vznožjem slapu"
+                ],
+                "photo_tip": "Za celoten slap je uporabnejši nekoliko širši kader. Ob močnejšem pretoku računajta na vodne kapljice in zaščitita telefon ali fotoaparat.",
+                "practical_note": "Območje pri slapu je pogosto najbolj obremenjen del parka. Po ogledu se vrnita po isti dostopni poti do glavnega razcepa Programa H.",
+                "route_to_next": "Od razcepa nadaljujta navzgor po vzhodni strani kanjona proti panoramskim razgledom in postaji St1.",
+                "official_url": "https://np-plitvicka-jezera.hr/",
+                "official_references": [
+                    "Narodni park Plitviška jezera – Veliki slap"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Veliki slap",
+                    "local_name": "Veliki slap",
+                    "visit_minutes": 25,
+                    "short_text": "Veliki slap je najvišji slap na Hrvaškem. Voda potoka Plitvica se z roba kanjona spusti približno 78 metrov in se nato pridruži jezerskemu sistemu. Za razliko od večine slapov v parku ne nastaja s prelivanjem vode iz enega jezera v drugo, temveč ga napaja ločen površinski tok.",
+                    "guide_text": "Veliki slap je najvišji slap na Hrvaškem. Voda potoka Plitvica se z roba kanjona spusti približno 78 metrov in se nato pridruži jezerskemu sistemu. Za razliko od večine slapov v parku ne nastaja s prelivanjem vode iz enega jezera v drugo, temveč ga napaja ločen površinski tok.\n\nMoč slapu je izrazito odvisna od padavin in letnega časa. Spomladi ter po močnem dežju je širši in glasnejši, v sušnem poletju pa je pretok manjši. Dostopna pot se konča na razglednem prostoru ob vznožju, od koder se lepo vidijo slap, skalna stena in zaključek kanjona.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "strm padec potoka Plitvica v kanjon",
+                        "razliko med Velikim slapom in lehnjakovimi slapovi med jezeri",
+                        "skalno steno nad vznožjem slapu"
+                    ],
+                    "photo_tip": "Za celoten slap je uporabnejši nekoliko širši kader. Ob močnejšem pretoku računajta na vodne kapljice in zaščitita telefon ali fotoaparat.",
+                    "practical_note": "Območje pri slapu je pogosto najbolj obremenjen del parka. Po ogledu se vrnita po isti dostopni poti do glavnega razcepa Programa H.",
+                    "route_to_next": "Od razcepa nadaljujta navzgor po vzhodni strani kanjona proti panoramskim razgledom in postaji St1.",
+                    "google_maps_url": null,
+                    "official_url": "https://np-plitvicka-jezera.hr/",
+                    "official_references": [
+                        "Narodni park Plitviška jezera – Veliki slap"
+                    ]
+                }
+            },
+            {
+                "id": "plitvice-canyon-rim",
+                "order": 7,
+                "title": "Razgledna pot nad kanjonom",
+                "category": "viewpoint",
+                "visit_minutes": 35,
+                "guide_text": "Po obisku Velikega slapu se Program H povzpne na vzhodni rob kanjona. Ta odsek zahteva nekaj več vzpona, vendar ponuja najcelovitejše panoramske poglede na Spodnja jezera, slapove in lesene poti, po katerih sta pravkar hodila.\n\nZ višine se jasno vidi zgradba celotnega sistema: podolgovata jezera med apnenčastimi stenami, bele črte slapov in ozke brvi ob vodi. To je tudi najboljši prostor za razumevanje, kako je voda izoblikovala kanjon in kako se posamezna jezera povezujejo v enoten tok.",
+                "what_to_notice": [
+                    "pogled na zaporedje Spodnjih jezer",
+                    "lesene poti v dnu kanjona",
+                    "lehnjakove pregrade med posameznimi jezeri",
+                    "kontrast med modro-zeleno vodo in belimi apnenčastimi stenami"
+                ],
+                "photo_tip": "Najboljši panoramski posnetki Programa H nastanejo prav na tem odseku. Uporabita širši kader in v kompozicijo vključita več jezer oziroma potek kanjona.",
+                "practical_note": "Vzpon je kratek, vendar po več urah hoje opazen. V vročini hodita počasneje in se na robu kanjona ne približujta nezaščitenim mestom zunaj označene poti.",
+                "route_to_next": "Po zgornji poti nadaljujta do postaje panoramskega vozila St1.",
+                "official_url": "https://np-plitvicka-jezera.hr/",
+                "official_references": [
+                    "Narodni park Plitviška jezera – Program H"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Razgledna pot nad kanjonom",
+                    "local_name": null,
+                    "visit_minutes": 35,
+                    "short_text": "Po obisku Velikega slapu se Program H povzpne na vzhodni rob kanjona. Ta odsek zahteva nekaj več vzpona, vendar ponuja najcelovitejše panoramske poglede na Spodnja jezera, slapove in lesene poti, po katerih sta pravkar hodila.",
+                    "guide_text": "Po obisku Velikega slapu se Program H povzpne na vzhodni rob kanjona. Ta odsek zahteva nekaj več vzpona, vendar ponuja najcelovitejše panoramske poglede na Spodnja jezera, slapove in lesene poti, po katerih sta pravkar hodila.\n\nZ višine se jasno vidi zgradba celotnega sistema: podolgovata jezera med apnenčastimi stenami, bele črte slapov in ozke brvi ob vodi. To je tudi najboljši prostor za razumevanje, kako je voda izoblikovala kanjon in kako se posamezna jezera povezujejo v enoten tok.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "pogled na zaporedje Spodnjih jezer",
+                        "lesene poti v dnu kanjona",
+                        "lehnjakove pregrade med posameznimi jezeri",
+                        "kontrast med modro-zeleno vodo in belimi apnenčastimi stenami"
+                    ],
+                    "photo_tip": "Najboljši panoramski posnetki Programa H nastanejo prav na tem odseku. Uporabita širši kader in v kompozicijo vključita več jezer oziroma potek kanjona.",
+                    "practical_note": "Vzpon je kratek, vendar po več urah hoje opazen. V vročini hodita počasneje in se na robu kanjona ne približujta nezaščitenim mestom zunaj označene poti.",
+                    "route_to_next": "Po zgornji poti nadaljujta do postaje panoramskega vozila St1.",
+                    "google_maps_url": null,
+                    "official_url": "https://np-plitvicka-jezera.hr/",
+                    "official_references": [
+                        "Narodni park Plitviška jezera – Program H"
+                    ]
+                }
+            },
+            {
+                "id": "plitvice-train-return",
+                "order": 8,
+                "title": "Povratek s panoramskim vozilom",
+                "category": "transport",
+                "visit_minutes": 25,
+                "guide_text": "Pri postaji St1 se peš del Programa H konča. Panoramsko vozilo vaju odpelje nazaj do postaje St2 pri Vhodu 2, s čimer se krožna trasa zaključi na izhodišču.\n\nPred odhodom preverita smer vozila in morebitni čas čakanja. Od St2 se nato po kratki poti vrneta do Vhoda 2 in parkirišča.",
+                "what_to_notice": [
+                    "zadnje poglede proti gozdnatemu območju parka",
+                    "oznako St2 za izstop pri Vhodu 2"
+                ],
+                "practical_note": "Panoramska vozila imajo sezonski vozni red in lahko prenehajo voziti pred zaprtjem parka. Ogled načrtujta tako, da do St1 prideta dovolj zgodaj.",
+                "route_to_next": null,
+                "official_url": "https://np-plitvicka-jezera.hr/",
+                "official_references": [
+                    "Narodni park Plitviška jezera – panoramska vozila"
+                ],
+                "display": "accordion_item",
+                "accordion": {
+                    "title": "Povratek s panoramskim vozilom",
+                    "local_name": null,
+                    "visit_minutes": 25,
+                    "short_text": "Pri postaji St1 se peš del Programa H konča. Panoramsko vozilo vaju odpelje nazaj do postaje St2 pri Vhodu 2, s čimer se krožna trasa zaključi na izhodišču.",
+                    "guide_text": "Pri postaji St1 se peš del Programa H konča. Panoramsko vozilo vaju odpelje nazaj do postaje St2 pri Vhodu 2, s čimer se krožna trasa zaključi na izhodišču.\n\nPred odhodom preverita smer vozila in morebitni čas čakanja. Od St2 se nato po kratki poti vrneta do Vhoda 2 in parkirišča.",
+                    "fact_box": null,
+                    "what_to_notice": [
+                        "zadnje poglede proti gozdnatemu območju parka",
+                        "oznako St2 za izstop pri Vhodu 2"
+                    ],
+                    "photo_tip": null,
+                    "practical_note": "Panoramska vozila imajo sezonski vozni red in lahko prenehajo voziti pred zaprtjem parka. Ogled načrtujta tako, da do St1 prideta dovolj zgodaj.",
+                    "route_to_next": null,
+                    "google_maps_url": null,
+                    "official_url": "https://np-plitvicka-jezera.hr/",
+                    "official_references": [
+                        "Narodni park Plitviška jezera – panoramska vozila"
+                    ]
+                }
+            }
         ]
-      },
-      "guide_intro": "Sprehod skozi največji naravni biser Hrvaške\n\nČe bi morala izbrati samo en naravni kraj na celotnem potovanju, bi bile to verjetno Plitviške jezera.\n\nNe zato, ker imajo največji slap ali najvišje gore.\n\nNjihova posebnost je nekaj precej redkejšega.\n\nPokrajina se tukaj dobesedno neprestano spreminja.\n\nSlapovi, po katerih danes hodiva, pred nekaj stoletji niso obstajali.\n\nNekateri bodo čez nekaj sto let videti povsem drugače.\n\nNarava tukaj še vedno gradi.\n\nPrav zaradi tega so Plitviška jezera eden najlepših primerov aktivnega nastajanja lehnjaka na svetu in so bila leta 1979 uvrščena na Unescov seznam svetovne dediščine.\n\nPreden stopiva na lesene steze, se splača razumeti, kaj pravzaprav opazujeva.\n\nVečina slapov na svetu nastane tam, kjer reka naleti na tršo kamnino.\n\nNa Plitvicah pa slapove ustvarja voda sama.\n\nKo voda teče čez apnenčasto podlago, raztaplja kalcijev karbonat.\n\nMahovi, alge in bakterije ta raztopljeni apnenec počasi izločajo nazaj v naravo.\n\nTako nastaja lehnjak.\n\nVsako leto ga nastane le nekaj milimetrov.\n\nToda skozi stoletja zrastejo naravne pregrade.\n\nZa njimi nastanejo nova jezera.\n\nKo voda najde novo pot, nastanejo novi slapovi.\n\nTo pomeni, da pokrajina, po kateri hodiva, ni stara tisoče let.\n\nŠe vedno nastaja.\n\nPrav to dela Plitvice tako edinstvene.\n\nNarodni park meri skoraj 300 km².\n\nObsega:\n\n16 velikih jezer,\n\nveč kot 90 slapov,\n\nštevilne manjše izvire,\n\nobsežne bukove in jelove gozdove.\n\nNajvišje ležeče jezero je približno 636 metrov nad morjem.\n\nNajnižje približno 503 metre.\n\nSkupna višinska razlika med zgornjimi in spodnjimi jezeri znaša več kot 130 metrov.\n\nZa prvi obisk je najbolj primerna uradna Program H, ki velja za najbolj uravnoteženo traso skozi park.\n\nZačne se pri Vhodu 2.\n\nNajprej bova obiskala zgornja jezera.\n\nNato se z električno ladjo odpeljala čez Kozjak.\n\nSledil bo ogled spodnjih jezer in Velikega slapu.\n\nNa koncu naju panoramski vlakec odpelje nazaj do izhodišča.\n\nSkupna dolžina poti znaša približno 9 kilometrov, vendar zaradi ladje in vlaka hoja ni pretirano naporna.\n\nZa celoten ogled si vzemita vsaj pet ur.\n\nNe hitita.\n\nTo ni kraj, kjer bi bilo pomembno prehoditi čim več.\n\nVeliko lepše ga je doživeti počasi.",
-      "guide_outro": "Plitviška jezera niso največji narodni park na Hrvaškem.\n\nNimajo najvišjih gora.\n\nNimajo najdaljših rek.\n\nNjihova posebnost je nekaj precej redkejšega.\n\nSo eden najlepših primerov sveta, kjer narava še vedno ustvarja pred našimi očmi.\n\nVsak slap, vsaka lehnjakova pregrada in vsako jezero pripovedujejo zgodbo o vodi, ki že tisočletja oblikuje pokrajino.\n\nMorda prav zato obisk Plitvic ni le sprehod med slapovi.\n\nJe priložnost, da za nekaj ur upočasnimo korak in opazujemo naravne procese, ki jih v vsakdanjem življenju skoraj nikoli ne opazimo.\n\nPovzetek poti\n\nPriporočena trasa: Program H (Vhod 2)\n\nDolžina poti: približno 8,9 km\n\nČas hoje: približno 3 do 4 ure\n\nSkupni čas obiska: 5 do 6 ur\n\nVključuje:\n\nelektrično ladjo po jezeru Kozjak,\n\npanoramski električni vlakec,\n\nZgornja jezera,\n\nSpodnja jezera,\n\nVeliki slap.",
-      "practical": {
-        "best_time_of_day": "Čim zgodnejši jutranji prihod.",
-        "weather_note": "Na lesenih poteh je lahko mokro in spolzko; poleti je park najbolj prijeten zjutraj.",
-        "surface": "gozdne poti, lesene steze, stopnice in urejene panoramske poti",
+    },
+    "guide_intro": "Plitviška jezera so najstarejši in največji narodni park na Hrvaškem ter ena najbolj prepoznavnih naravnih znamenitosti Evrope. Šestnajst večjih jezer povezujejo slapovi in lehnjakove pregrade, ki zaradi stalnega odlaganja kalcijevega karbonata še vedno rastejo in spreminjajo tok vode. Prav ta dinamičen naravni proces je bil eden ključnih razlogov, da je bil park leta 1979 uvrščen na Unescov seznam svetovne dediščine.\n\nZa prvi celovit obisk je izbran uradni Program H. Krožna trasa se začne pri Vhodu 2, od koder se s panoramskim vozilom odpeljeta do Zgornjih jezer. Sledi najdaljši peš odsek skozi gozdnati del parka, vožnja z električno ladjo čez jezero Kozjak, sprehod skozi kanjon Spodnjih jezer in obisk Velikega slapu. Po vzponu na vzhodni rob kanjona se s panoramskim vozilom vrneta do izhodišča.\n\nPot je dolga približno 8,9 kilometra in po uradnih podatkih traja od štiri do šest ur. Tehnično ni zahtevna, vendar vključuje dolgotrajno hojo, stopnice, ozke lesene brvi in krajši vzpon iz kanjona. Najlepše jo je doživeti brez hitenja, z dovolj časa za čakanje na prevoz in postanke ob razgledih.",
+    "guide_outro": "V približno devetih kilometrih sta prehodila celotno glavno jezersko območje Plitvic: od gozdnatih Zgornjih jezer prek Kozjaka do ozkega kanjona Spodnjih jezer in Velikega slapu. Program H dobro pokaže, da Plitvice niso le zbirka posameznih slapov, temveč povezan in še vedno spreminjajoč se vodni sistem. Panoramski razgledi nad kanjonom na koncu poti celotno pokrajino povežejo v razumljivo celoto.",
+    "practical": {
+        "best_time_of_day": "Čim zgodnejši prihod, po možnosti ob odprtju Vhoda 2.",
+        "weather_note": "Vreme se lahko hitro spremeni. Lesene brvi so po dežju spolzke, poleti pa so odprti odseki in vzpon iz kanjona vroči.",
+        "surface": "gozdne poti, lesene brvi, stopnice in urejene panoramske poti",
         "shade": "varied",
+        "shade_note": "Zgornja jezera so večinoma gozdnata, Spodnja jezera in rob kanjona pa imajo več sončnih odsekov.",
         "equipment": [
-          "udobna športna obutev",
-          "voda",
-          "zaščita pred soncem",
-          "lahek prigrizek"
+            "udobna športna ali pohodniška obutev z dobrim oprijemom",
+            "voda",
+            "lahek prigrizek",
+            "zaščita pred soncem in pokrivalo",
+            "lahka zaščita pred dežjem"
         ],
         "warnings": [
-          "Ne hranita rib in ne zapuščajta označenih poti.",
-          "Vozni red ladij in panoramskih vozil se lahko spremeni.",
-          "Za celoten ogled si rezervirajta dovolj časa in ne hitita."
+            "Ne zapuščajta označenih poti in ne stopajta na lehnjakove pregrade.",
+            "Ne hranita rib, ne mečita kovancev v vodo in ne trgajta rastlin.",
+            "Na ozkih lesenih brveh ne prehitevajta in se ne ustavljajta na prometnih mestih.",
+            "Vozni red ladij in panoramskih vozil ter dostopnost posameznih poti se lahko spremenita."
         ],
         "reservation": "recommended",
-        "reservation_note": "V visoki sezoni je smiseln vnaprejšnji nakup vstopnic za izbrani čas prihoda.",
+        "reservation_note": "V visoki sezoni vnaprej kupita vstopnici za Vhod 2 in izbrani čas prihoda.",
         "official_info_url": "https://np-plitvicka-jezera.hr/"
-      },
-      "sources": [
+    },
+    "sources": [
         {
-          "title": "Narodni park Plitviška jezera",
-          "url": "https://np-plitvicka-jezera.hr/",
-          "official": true,
-          "publisher": "NP Plitviška jezera"
+            "title": "Narodni park Plitviška jezera",
+            "url": "https://np-plitvicka-jezera.hr/",
+            "official": true,
+            "publisher": "Javna ustanova Narodni park Plitvička jezera"
         },
         {
-          "title": "UNESCO – Plitvice Lakes National Park",
-          "url": "https://whc.unesco.org/en/list/98/",
-          "official": true,
-          "publisher": "UNESCO"
+            "title": "UNESCO – Plitvice Lakes National Park",
+            "url": "https://whc.unesco.org/en/list/98/",
+            "official": true,
+            "publisher": "UNESCO World Heritage Centre"
         }
-      ],
-      "last_verified": "2026-07-18",
-      "content_version": "final-2026-07-18",
-      "display": "article",
-      "content_source": "RoadtripBalkan2026.docx"
+    ],
+    "last_verified": "2026-07-19",
+    "content_version": "2.0",
+    "display": "accordion",
+    "content_source": "Prenovljeno besedilo za Program H"
     },
     {
       "id": "optional-salona-klis",
@@ -2887,139 +3780,151 @@
       "display": "article",
       "content_source": "RoadtripBalkan2026.docx"
     },
-    {
-      "id": "optional-krka",
-      "title": "Narodni park Krka",
-      "subtitle": "Dan ob slapovih, reki in kraški pokrajini Dalmacije",
-      "type": "day_trip",
-      "theme": "nature",
-      "status": "ready",
-      "trip_day_refs": [
-        15
-      ],
-      "country": "Hrvaška",
-      "region": "Dalmacija",
-      "location_label": "Narodni park Krka in Skradin",
-      "summary": "Sproščen naravoslovni izlet iz Splita z ladjo iz Skradina, krožno potjo ob Skradinskem buku in sprehodom po mestu.",
-      "why_choose": [
-        "Za sproščen zadnji dan ob vodi.",
-        "Za lahek sprehod brez zahtevnejših vzponov.",
-        "Za kombinacijo ladje, slapov, kulturne krajine in dalmatinskega mesteca."
-      ],
-      "duration": {
-        "min_minutes": 300,
-        "max_minutes": 420,
-        "driving_minutes": 120,
-        "display": "5–7 ur"
-      },
-      "distance": {
-        "walking_km": 4.0,
-        "display": "približno 3–5 km hoje"
-      },
-      "difficulty": "easy",
-      "arrival": {
-        "mode": [
-          "car",
-          "boat"
-        ],
-        "instructions": "Vožnja iz Splita do Skradina, nato uradna ladja narodnega parka do Skradinskega buka."
-      },
-      "route": {
-        "shape": "out_and_back",
-        "start_stop_id": "krka-skradin-arrival",
-        "end_stop_id": "krka-practical-choice",
-        "route_note": "Za avtomobilski del uporabita Google Maps do Skradina. Ritem obiska je odvisen od voznega reda uradnih ladij narodnega parka.",
-        "map": {
-          "provider": "google_maps",
-          "title": "Split – Skradin – Split",
-          "open_url": "https://www.google.com/maps/dir/?api=1&origin=Split%2C+Croatia&destination=Skradin%2C+Croatia&travelmode=driving"
-        },
-        "stops": [
-          {
-            "id": "krka-skradin-arrival",
-            "order": 1,
-            "title": "Prihod v Skradin",
-            "category": "transport",
-            "guide_text": "📍 Google Maps: Skradin\n\nNajlepši način za obisk narodnega parka je skozi mestece Skradin.\n\nŽe samo mesto je vredno kratkega sprehoda.\n\nOzke kamnite ulice, manjše pristanišče in kavarne ustvarjajo prijetno dalmatinsko vzdušje.\n\nIz Skradina vozijo uradne ladje Narodnega parka Krka do območja Skradinskega buka.\n\nSama vožnja je del doživetja.\n\nPo reki se počasi približujeta enemu najlepših slapov Hrvaške.",
-            "display": "article_section",
-            "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Skradin"
-          },
-          {
-            "id": "krka-skradinski-buk",
-            "order": 2,
-            "title": "Skradinski buk",
-            "category": "waterfall",
-            "guide_text": "1. Skradinski buk\n\n📍 Google Maps: Skradinski buk\n\nBesedilo za vodenje\n\nPred vama je najbolj znan slap Narodnega parka Krka.\n\nV resnici ne gre za en slap.\n\nSkradinski buk sestavlja več kot deset večjih in številni manjši slapovi, ki skupaj tvorijo približno 800 metrov dolgo lehnjakovo pregrado.\n\nVoda se preliva preko številnih naravnih teras in ustvarja enega najbolj slikovitih krajev na Hrvaškem.\n\nČeprav višinska razlika ni velika, je širina slapov izjemna.\n\nPrav zato delujejo tako mogočno.\n\nLesene poti\n\nPo območju vodijo krožne lesene steze.\n\nPot je lahka in primerna za vsakogar.\n\nMed hojo se odpirajo pogledi na:\n\nslapove,\n\ntolmune,\n\nstare mline,\n\nbogato sredozemsko vegetacijo.\n\nPriporočava počasno hojo.\n\nKrka ni kraj, kjer bi bilo treba hiteti.\n\nVoda in lehnjak\n\nTako kot na Plitvicah tudi tukaj slapove ustvarja lehnjak.\n\nRazlika je predvsem v okolju.\n\nKrka teče skozi toplejše podnebje, zato so ob reki značilne tudi številne sredozemske rastline.\n\nTo daje pokrajini povsem drugačen značaj.",
-            "display": "article_section",
-            "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Skradinski+buk"
-          },
-          {
-            "id": "krka-old-mills",
-            "order": 3,
-            "title": "Stari mlini in pionirska elektrifikacija",
-            "category": "landmark",
-            "guide_text": "2. Stari mlini\n\nOb poti stoji več obnovljenih mlinov.\n\nNekoč so bili pomemben del življenja domačinov.\n\nReka Krka ni poganjala le mlinskih kamnov.\n\nNapajala je tudi prve manjše hidroelektrarne.\n\nPrav na Krki je bila konec 19. stoletja zgrajena ena prvih hidroelektrarn v Evropi, ki je oskrbovala Šibenik z električno energijo.\n\nTo je bil za svoj čas izjemen tehnološki dosežek.\n\nSte vedeli?\n\nLeta 1895 je hidroelektrarna Jaruga začela oskrbovati Šibenik z električno energijo le dva dni po odprtju znamenite elektrarne na Niagarskih slapovih.\n\nZaradi tega se Krka pogosto omenja kot eno od pionirskih območij elektrifikacije v Evropi.\n\nFotografiranje\n\nNajlepše fotografije običajno nastanejo:\n\n📷 z lesenih mostičkov,\n\n📷 z razgledne ploščadi nad slapovi,\n\n📷 ob jutranji ali pozno popoldanski svetlobi.",
-            "display": "article_section"
-          },
-          {
-            "id": "krka-skradin-town",
-            "order": 4,
-            "title": "Skradin",
-            "category": "other",
-            "guide_text": "3. Skradin\n\nPo vrnitvi z ladjo priporočava kratek sprehod po Skradinu.\n\nTo majhno mesto že stoletja živi skupaj z reko Krko.\n\nDanes je znano po:\n\nmarini,\n\nprijetni promenadi,\n\nkamnitih ulicah,\n\nsproščenem dalmatinskem vzdušju.\n\nTo je lep kraj za pozno kosilo ali sladoled pred povratkom v Split.",
-            "display": "article_section",
-            "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Skradin"
-          },
-          {
-            "id": "krka-practical-choice",
-            "order": 5,
-            "title": "Praktični nasveti in razlogi za izbiro",
-            "category": "other",
-            "guide_text": "Praktični nasveti\n\n🥾 Pot je nezahtevna, vendar priporočava športno obutev.\n\n💧 Poleti je zelo vroče, zato imejta s seboj dovolj vode.\n\n🛥️ Pred odhodom preverita vozni red ladij iz Skradina, saj je od njega odvisen ritem celotnega obiska.\n\n🚫 Kopanje pri Skradinskem buku danes ni več dovoljeno, zato obisk načrtujta predvsem kot sprehod in doživljanje narave.\n\nUradne informacije\n\nNarodni park Krka: https://www.npkrka.hr/\n\nTuristična skupnost Skradin: https://www.skradin.hr/\n\nZakaj izbrati ta izlet?\n\n✔ Če si po aktivnih dneh želita sproščenega ritma.\n\n✔ Če vaju najbolj privlači narava.\n\n✔ Če želita dan preživeti ob vodi, brez zahtevnih vzponov.\n\n✔ Če vama ustreza kombinacija krajšega sprehoda, vožnje z ladjo in dalmatinskega mesteca.\n\nNa ta način zadnji dan potovanja postane miren zaključek balkanske pustolovščine – z zvokom reke, šumenjem slapov in počasnim sprehodom skozi eno najlepših kraških pokrajin Hrvaške.",
-            "display": "article_section"
-          }
-        ]
-      },
-      "guide_intro": "Dan ob slapovih, reki in kraški pokrajini Dalmacije\n\n🌿 Tema dneva: narava in sproščeno raziskovanje\n\n🚗 Vožnja iz Splita: približno 1 ura\n\n🚶 Skupna hoja: 3–5 km (odvisno od izbrane poti)\n\n⏱️ Trajanje: 5–7 ur\n\n⭐ Glavne znamenitosti\n\nSkradinski buk,\n\nlesene sprehajalne poti,\n\nreka Krka,\n\nrazgledne točke,\n\nSkradin (po želji).\n\nNarodna parka Krka in Plitviška jezera pogosto primerjajo med seboj.\n\nNa prvi pogled sta si podobna.\n\nOba zaznamujejo slapovi, turkizna voda in lehnjakove pregrade.\n\nToda njun značaj je precej drugačen.\n\nPlitvice so zaprta gorska dolina ledeniških jezer.\n\nKrka pa je sredozemska reka, ki počasi teče proti morju.\n\nČe so Plitvice kraj tišine in gozdov, je Krka bolj odprta, sončna in mediteranska.\n\nDanašnji izlet ni namenjen dolgim pohodom.\n\nJe dan za počasno raziskovanje narave.\n\n📍 Google Maps: Skradin\n\nNajlepši način za obisk narodnega parka je skozi mestece Skradin.\n\nŽe samo mesto je vredno kratkega sprehoda.\n\nOzke kamnite ulice, manjše pristanišče in kavarne ustvarjajo prijetno dalmatinsko vzdušje.\n\nIz Skradina vozijo uradne ladje Narodnega parka Krka do območja Skradinskega buka.\n\nSama vožnja je del doživetja.\n\nPo reki se počasi približujeta enemu najlepših slapov Hrvaške.",
-      "guide_outro": "Krka ni tekmica Plitvic.\n\nVsak park pripoveduje svojo zgodbo.\n\nPlitvice navdušujejo z ledeniškimi jezeri, gostimi gozdovi in divjino.\n\nKrka pa z reko, slapovi, mlini in mediteransko pokrajino.\n\nČe si po dveh tednih potovanja zaželita bolj sproščen dan brez veliko vožnje in zahtevnejših pohodov, je ta izlet odlična izbira.\n\n⏱️ Skupni čas: 5–7 ur\n\n🚗 Vožnja iz Splita: približno 1 ura v eno smer\n\n🚶 Skupna hoja: približno 3–5 km\n\n⭐ Najlepši trenutek: prihod z ladjo do Skradinskega buka\n\n📷 Najlepši fotografiji:\n\npanoramski pogled na slapove,\n\nleseni mostički nad vodo.",
-      "practical": {
-        "best_time_of_day": "Zgodnejši prihod v Skradin zaradi ladij in poletne vročine.",
-        "weather_note": "Poleti je zelo vroče; lesene poti so večinoma nezahtevne.",
-        "surface": "lesene steze, urejene poti in mestni tlak",
-        "shade": "varied",
-        "equipment": [
-          "športna obutev",
-          "voda",
-          "zaščita pred soncem",
-          "pokrivalo"
-        ],
-        "warnings": [
-          "Pred odhodom preverita vozni red ladij iz Skradina.",
-          "Kopanje pri Skradinskem buku ni dovoljeno."
-        ],
-        "reservation": "recommended",
-        "reservation_note": "Vstopnice in aktualni režim obiska preverita na uradni strani parka.",
-        "official_info_url": "https://www.npkrka.hr/"
-      },
-      "sources": [
-        {
-          "title": "Narodni park Krka",
-          "url": "https://www.npkrka.hr/",
-          "official": true,
-          "publisher": "NP Krka"
-        },
-        {
-          "title": "Skradin",
-          "url": "https://www.skradin.hr/",
-          "official": true,
-          "publisher": "Grad Skradin"
-        }
-      ],
-      "last_verified": "2026-07-18",
-      "content_version": "final-2026-07-18",
-      "display": "article",
-      "content_source": "RoadtripBalkan2026.docx"
+{
+  "id": "optional-krka",
+  "title": "Narodni park Krka",
+  "subtitle": "Dan ob slapovih, reki in kraški pokrajini Dalmacije",
+  "type": "day_trip",
+  "theme": "nature",
+  "status": "ready",
+  "trip_day_refs": [
+    15
+  ],
+  "country": "Hrvaška",
+  "region": "Dalmacija",
+  "location_label": "Narodni park Krka in Skradin",
+  "summary": "Sproščen naravoslovni izlet iz Splita z obiskom Skradinskega buka, krožno potjo ob slapovih in spoznavanjem kulturne dediščine reke Krke.",
+  "why_choose": [
+    "Za kratek, a celovit ogled najlepšega dela Narodnega parka Krka.",
+    "Za razumevanje povezave med naravo, zgodovino in izkoriščanjem vodne energije.",
+    "Za sproščen sprehod, primeren za obiskovalce vseh starosti."
+  ],
+  "duration": {
+    "min_minutes": 300,
+    "max_minutes": 420,
+    "driving_minutes": 120,
+    "display": "5–7 ur"
+  },
+  "distance": {
+    "walking_km": 4.0,
+    "display": "približno 3–5 km hoje"
+  },
+  "difficulty": "easy",
+  "arrival": {
+    "mode": [
+      "car",
+      "boat"
+    ],
+    "instructions": "Do narodnega parka se lahko odpravita skozi vhod Lozovac, od koder do Skradinskega buka vozijo avtobusi parka, ali iz Skradina z uradno ladjo. Pred obiskom preverita sezonski vozni red."
+  },
+  "route": {
+    "shape": "loop",
+    "start_stop_id": "krka-park-entrance",
+    "end_stop_id": "krka-viewpoint",
+    "route_note": "Ogled poteka po krožni učni poti okoli Skradinskega buka. Ritem obiska je odvisen od izbranega vhoda ter voznega reda uradnih avtobusov oziroma ladij.",
+    "map": {
+      "provider": "google_maps",
+      "title": "Lozovac Entrance",
+      "open_url": "https://maps.app.goo.gl/Qg7b5QnW7o3wWm4z8"
     },
+    "stops": [
+      {
+        "id": "krka-park-entrance",
+        "order": 1,
+        "title": "Vhod v narodni park",
+        "category": "transport",
+        "display": "article_section",
+        "guide_text": "Obisk se začne pri vhodu, kjer preverita vstopnici in sledita oznakam za Skradinski buk. Če prihajata iz Lozovca, vaju do začetka poti pripelje avtobus narodnega parka, iz Skradina pa ladja po reki Krki."
+      },
+      {
+        "id": "krka-skradinski-buk",
+        "order": 2,
+        "title": "Skradinski buk",
+        "category": "waterfall",
+        "display": "article_section",
+        "guide_text": "Skradinski buk je največji in najbolj znan slap v narodnem parku. Sestavlja ga niz sedemnajstih slapnih pragov, ki se raztezajo na približno 800 metrih dolžine in ustvarjajo eno največjih lehnjakovih pregrad v Evropi.\n\nPretok vode se skozi leto močno spreminja, vendar slap ostaja osrednja znamenitost parka v vseh letnih časih.",
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Skradinski+buk"
+      },
+      {
+        "id": "krka-bridges",
+        "order": 3,
+        "title": "Leseni mostički",
+        "category": "landmark",
+        "display": "article_section",
+        "guide_text": "Krožna pot vodi po lesenih mostičkih tik nad reko in manjšimi slapovi. Zaradi bližine vode lahko dobro opazujeta nastajanje lehnjaka, vodne rastline in številne ribe, ki živijo v izjemno čisti reki.\n\nTo je najlepši del poti za počasno opazovanje narave."
+      },
+      {
+        "id": "krka-mills",
+        "order": 4,
+        "title": "Mlini in etnografska zbirka",
+        "category": "heritage",
+        "display": "article_section",
+        "guide_text": "Ob slapu stoji več obnovljenih vodnih mlinov, ki prikazujejo življenje ob reki v preteklosti. V njih so predstavljena tradicionalna orodja, način mletja žita ter nekdanje obrti, povezane z izkoriščanjem vodne energije.\n\nTa del lepo pokaže, da Krka ni le naravna znamenitost, temveč tudi pomemben del kulturne dediščine Dalmacije."
+      },
+      {
+        "id": "krka-jaruga",
+        "order": 5,
+        "title": "Hidroelektrarna Jaruga",
+        "category": "heritage",
+        "display": "article_section",
+        "guide_text": "V bližini Skradinskega buka stoji hidroelektrarna Jaruga, ena najstarejših hidroelektrarn v Evropi. Zgrajena je bila leta 1895, le nekaj dni po znameniti elektrarni na Niagarskih slapovih, in velja za pomemben mejnik v zgodovini proizvodnje električne energije.\n\nKrka tako združuje naravno lepoto in pomembno tehniško dediščino."
+      },
+      {
+        "id": "krka-viewpoint",
+        "order": 6,
+        "title": "Razgled na slapove",
+        "category": "viewpoint",
+        "display": "article_section",
+        "guide_text": "Pred zaključkom krožne poti se še enkrat odpre pogled na celoten sistem Skradinskega buka. Od tu se lepo vidi, kako reka preko številnih lehnjakovih pragov ustvarja široko kaskado slapov.\n\nTo je eden najboljših razgledov za zaključne fotografije obiska."
+      }
+    ]
+  },
+  "guide_intro": "Narodni park Krka varuje spodnji tok reke Krke med Kninom in Skradinom. Park slovi po slikovitih lehnjakovih slapovih, smaragdno zeleni reki in bogati kulturni dediščini. Današnji obisk je osredotočen na območje Skradinskega buka, kjer lahka krožna pot vodi mimo slapov, lesenih mostičkov, zgodovinskih mlinov in hidroelektrarne Jaruga.",
+  "guide_outro": "V kratkem krožnem sprehodu sta spoznala najbolj znamenit del Narodnega parka Krka. Pot vaju je vodila ob največjem slapu parka, preko lesenih mostičkov, mimo zgodovinskih mlinov in ene najstarejših hidroelektrarn v Evropi. Če Plitviška jezera navdušujejo z obsežnim sistemom jezer in slapov, Krka očara z mogočno reko, širokimi kaskadami ter prepletom naravne in kulturne dediščine.",
+  "practical": {
+    "best_time_of_day": "Dopoldne ali pozno popoldne, ko je obisk manjši.",
+    "shade": "Del poti poteka skozi gozd, del po odprtih lesenih mostičkih.",
+    "surface": "Lesene brvi, makadamske in urejene sprehajalne poti.",
+    "equipment": [
+      "udobna športna obutev",
+      "voda",
+      "zaščita pred soncem",
+      "fotoaparat ali telefon"
+    ],
+    "warnings": [
+      "Lesene poti so lahko spolzke.",
+      "Kopanje pri Skradinskem buku ni več dovoljeno.",
+      "V poletnih mesecih kupita vstopnice vnaprej.",
+      "Odhodi avtobusov in ladij so odvisni od sezone."
+    ],
+    "official_info_url": "https://www.np-krka.hr/"
+  },
+  "sources": [
+    {
+      "title": "Nacionalni park Krka",
+      "url": "https://www.np-krka.hr/",
+      "official": true,
+      "publisher": "Javna ustanova Nacionalni park Krka"
+    },
+    {
+      "title": "Skradin",
+      "url": "https://www.skradin.hr/",
+      "official": true,
+      "publisher": "Grad Skradin"
+    },
+    {
+      "title": "UNESCO – Katedrala sv. Jakoba v Šibeniku",
+      "url": "https://whc.unesco.org/en/list/963",
+      "official": true,
+      "publisher": "UNESCO World Heritage Centre",
+      "note": "Uporabno, če obisk nadaljujeta v Šibeniku."
+    }
+  ],
+  "last_verified": "2026-07-19",
+  "content_version": "final-2026-07-19",
+  "display": "article",
+  "content_source": "Prenovljen vodič za Narodni park Krka"
+},
     {
       "id": "durmitor-panorama-zabljak-perast",
       "title": "Durmitor panorama",
@@ -3060,7 +3965,7 @@
           "title": "Žabljak – Sedlo – Trsa – Pivsko jezero – Perast",
           "preview_image": "../../../images/roadbooks/balkan-2026/maps/durmitor-ring.jpg",
           "embed_url": "https://www.google.com/maps/d/u/0/embed?mid=1bUZsSz3qvHZlSdKbzo1z_Ung0Qrheiw&ehbc=2E312F",
-          "open_url": "https://www.google.com/maps/place/Panoramic+view/@42.8298353,17.648917,9z/data=!4m58!1m51!4m50!1m6!1m1!2sVista+Montis+-+Entire+Place!2m2!1d19.1286182!2d43.1664124!4e1!1m6!1m2!1s0x134d3d9cbb54baab:0x56e8fa2d5c1683ce!2sMountain+pass+Sedlo,+33X2%2B94P,+Durmitor+National+Park,+Po%C5%A1%C4%87enski+Kraj,+%C4%8Crna+gora!2m2!1d19.0503263!2d43.0984582!1m6!1m2!1s0x134d23929e244d5b:0xfd7c23e6a3fc94bd!2sTrsa,+%C4%8Crna+gora!2m2!1d18.9427947!2d43.1899725!1m6!1m2!1s0x134d1f15c390a29d:0xa36158c5ece49300!2sPiva+Lake+Viewpoint,+E762,+Piva,+%C4%8Crna+gora!2m2!1d18.8221588!2d43.1003349!1m6!1m2!1s0x134dabcc3cee1d59:0xe7771e1a52ccf53a!2sSlano+Jezero+Viewpoint,+QR6G%2BRC3,+Ponikvica,+%C4%8Crna+gora!2m2!1d18.8260362!2d42.7620232!1m6!1m2!1s0x134c37007f4bb1d5:0xaa22382913a1b16f!2sViewpoint+Boka+Kotorska,+GM7F%2BMX8,+Strp,+%C4%8Crna+gora!2m2!1d18.6749618!2d42.5141599!1m6!1m2!1s0x134c36bd9472366b:0x3c1672751072e2bb!2sBluemarine+Perast+Rooms+%26+Apartments,+148+Ul.+Marka+Martinovi%C4%87a,+Perast+85336,+%C4%8Crna+gora!2m2!1d18.6965224!2d42.4879701!3e0!3m5!1s0x134c37007f44f101:0xe881a52b0ab2f7!8m2!3d42.5145877!4d18.6747522!16s%2Fg%2F11yj36cyw4?entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D"
+          "open_url": "https://maps.app.goo.gl/yUWESfgYFZNKRyyK6"
         },
         "stops": [
           {
