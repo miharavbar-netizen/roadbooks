@@ -1,0 +1,155 @@
+{
+  "id": "day12",
+  "day": 12,
+  "date": "2026-08-12",
+
+  "title": "Iz Boke Kotorske v srce Hercegovine",
+  "subtitle": "Perast → Trebinje → Blagaj → Mostar",
+
+  "hero_image": "../../images/roadbooks/balkan-2026/days/hero12.jpg",
+
+  "countries": [
+    "me",
+    "ba"
+  ],
+
+  "quick_links": {
+    "google_maps": "https://...",
+    "host": "../host/mostar.html",
+    "weather": {
+      "location": "Mostar",
+      "lat": 43.3438,
+      "lon": 17.8078
+    }
+  },
+
+  "intro": "Po dveh dneh ob Boki Kotorski zapustiva Črno goro in se odpraviva proti Hercegovini. Pot naju vodi skozi Trebinje, Blagaj in Mostar, kjer bova preživela večer ter naslednjo noč.",
+  
+  "drive": {
+    "from": "Perast",
+    "to": "Mostar",
+    "distance_km": 180,
+    "drive_time": "4 h",
+    "countries": 2,
+    "border_crossings": 1,
+    "departure_recommendation": "08:00",
+    "note": "Poleti so možni zastoji na meji in pri Mostarju."
+  },
+
+  "program": [
+
+    {
+      "type": "checkout",
+      "icon": "🏨",
+      "title": "Check-out",
+      "text": "Zapustiva nastanitev in prevzameva avto.",
+      "link": {
+        "type": "host",
+        "label": "Bluemarine Rooms & Apartments",
+        "url": "../host/perast.html"
+      }
+    },
+
+    {
+      "type": "drive",
+      "icon": "🚗",
+      "title": "Vožnja skozi Boko Kotorsko",
+      "text": "Jutranja vožnja proti mejnemu prehodu."
+    },
+
+    {
+      "type": "stop",
+      "icon": "☕",
+      "title": "Trebinje",
+      "text": "Kratek postanek za sprehod in jutranjo kavo."
+    },
+
+    {
+      "type": "stop",
+      "icon": "📍",
+      "title": "Blagaj",
+      "text": "Izvir Bune in znamenita derviška tekija.",
+      "duration": "1 h"
+    },
+
+    {
+      "type": "activity",
+      "icon": "🚶",
+      "title": "Mostar Heritage Walk",
+      "text": "Popoldanski ogled starega mestnega jedra.",
+      "link": {
+        "type": "activity",
+        "label": "Odpri vodič",
+        "url": "../activities/mostar.html"
+      }
+    },
+
+    {
+      "type": "meal",
+      "icon": "🍽",
+      "title": "Kosilo",
+      "text": "Tradicionalna hercegovska kuhinja.",
+      "link": {
+        "type": "food",
+        "label": "Priporočila",
+        "url": "../food.html#mostar"
+      }
+    },
+
+    {
+      "type": "checkin",
+      "icon": "🏨",
+      "title": "Pansion Villa Nur",
+      "text": "Prihod in prijava v nastanitev.",
+      "link": {
+        "type": "host",
+        "label": "Odpri kartico gostitelja",
+        "url": "../host/mostar.html"
+      }
+    }
+
+  ],
+
+  "stay": {
+    "name": "Pansion Villa Nur",
+    "text": "Prihod in prijava v nastanitev v neposredni bližini starega mestnega jedra.",
+    "url": "../host/mostar.html"
+  },
+
+  "food": {
+
+    "breakfast": {
+      "place": "Perast",
+      "text": "Zajtrk ob Boki Kotorski.",
+      "link": "../food.html#perast"
+    },
+
+    "coffee": {
+      "place": "Trebinje",
+      "text": "Kava pod platanami."
+    },
+
+    "lunch": {
+      "place": "Mostar",
+      "text": "Kosilo po ogledu starega mesta.",
+      "link": "../food.html#mostar"
+    },
+
+    "dinner": {
+      "place": "Mostar",
+      "text": "Večer ob Neretvi."
+    }
+
+  },
+
+  "practical": [
+    "Danes prečkava mejo med Črno goro in Bosno in Hercegovino.",
+    "Na meji imej pripravljene osebne dokumente.",
+    "Za ogled Mostarja je priporočljivo parkirati pred starim mestom.",
+    "Do nastanitve vodi ozka tlakovana ulica."
+  ],
+
+  "journal": {
+    "enabled": true
+  }
+}
