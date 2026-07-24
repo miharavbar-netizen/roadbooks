@@ -501,7 +501,7 @@ function renderActions(activity) {
     const firstDay = activity.trip_day_refs[0];
 
     elements.dayButton.href =
-      `../days.html#day-${firstDay}`;
+      `templates/day.html?id=day${firstDay}`;
 
     elements.dayButton.textContent =
       activity.trip_day_refs.length === 1

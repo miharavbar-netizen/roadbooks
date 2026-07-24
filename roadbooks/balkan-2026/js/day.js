@@ -10,7 +10,7 @@
         hero: document.getElementById("day-hero"),
         kicker: document.getElementById("day-kicker"),
         title: document.getElementById("day-title"),
-        intro: document.getElementById("day-intro"),
+        subtitle: document.getElementById("day-subtitle"),
 
         loading: document.getElementById("day-loading"),
         error: document.getElementById("day-error"),
@@ -26,8 +26,12 @@
         accommodationLink: document.getElementById("accommodation-link"),
         weatherLink: document.getElementById("weather-link"),
 
-        driveSection: document.getElementById("drive-section"),
-        driveContent: document.getElementById("drive-content"),
+        summary: document.getElementById("day-summary"),
+        countryBadges: document.getElementById("day-country-badges"),
+        summaryIntro: document.getElementById("day-summary-intro"),
+        summaryBadges: document.getElementById("day-summary-badges"),
+        summaryNotice: document.getElementById("day-summary-notice"),
+        summaryCards: document.getElementById("day-summary-cards"),
 
         itinerarySection: document.getElementById("itinerary-section"),
         itineraryContent: document.getElementById("itinerary-content"),
@@ -82,17 +86,32 @@
             showError(error);
         }
     }
+   function resolveInternalPath(path) {
+    if (!path) return "#";
 
+    // Zunanje povezave
+    if (/^https?:\/\//i.test(path)) return path;
+
+    // Že absolutna pot
+    if (path.startsWith("/")) return path;
+
+    // Odstrani morebitni podvojeni začetek
+    path = path.replace(/^roadbooks\/balkan-2026\//, "");
+
+    return "../" + path;
+}
     function validateTemplate() {
         const requiredElements = [
             "hero",
             "kicker",
             "title",
-            "intro",
+            "subtitle",
             "loading",
             "error",
             "errorMessage",
-            "content"
+            "content",
+            "summary",
+            "summaryIntro"
         ];
 
         const missingElements = requiredElements.filter(
@@ -175,13 +194,7 @@
             );
         }
 
-        return (
-            days.find(
-                (item) => item.id === "day12"
-            ) ||
-            days[0] ||
-            null
-        );
+        return days[0] || null;
     }
 
     function renderDay(day, days) {
@@ -189,7 +202,7 @@
         renderHero(day);
         renderNavigation(day, days);
         renderQuickLinks(day.quick_links);
-        renderDrive(day.drive);
+        renderSummary(day);
         renderProgram(day.program);
         renderStay(day.stay);
         renderFood(day.food);
@@ -198,13 +211,17 @@
     }
 
     function renderMetadata(day) {
+        const summary = day.summary || {};
+
         const pageTitle =
             `Dan ${day.day} · ${day.title} | Balkan Roadbook 2026`;
 
         const description =
+            summary.intro ||
             day.intro ||
             day.subtitle ||
-            day.title;
+            day.title ||
+            "Dnevni program Balkan Roadbooka 2026.";
 
         document.title = pageTitle;
 
@@ -216,7 +233,7 @@
         if (elements.pageDescription) {
             elements.pageDescription.setAttribute(
                 "content",
-                description
+                stripHtml(description)
             );
         }
     }
@@ -228,8 +245,8 @@
         elements.title.textContent =
             day.title || `Dan ${day.day}`;
 
-        elements.intro.textContent =
-            day.intro || "";
+        elements.subtitle.textContent =
+            day.subtitle || "";
 
         if (day.hero_image) {
             const heroImage =
@@ -241,6 +258,8 @@
                     rgba(0, 0, 0, 0.45)
                 ),
                 url("${heroImage}")`;
+        } else {
+            elements.hero.style.backgroundImage = "";
         }
     }
 
@@ -255,19 +274,15 @@
             );
         }
 
-        if (day.subtitle) {
-            parts.push(
-                day.subtitle
-            );
-        }
-
         return parts.join(" · ");
     }
 
     function renderNavigation(day, days) {
         if (
             !elements.previousLink ||
-            !elements.nextLink
+            !elements.previousLabel ||
+            !elements.nextLink ||
+            !elements.nextLabel
         ) {
             return;
         }
@@ -323,7 +338,7 @@
 
             link.setAttribute(
                 "aria-label",
-                `${directionLabel}: dan ${targetDay.day}, ${targetDay.title}`
+                `${directionLabel}: dan ${targetDay.day}, ${targetDay.title || ""}`
             );
 
             return;
@@ -356,6 +371,8 @@
             `${filename}?id=${encodeURIComponent(day.id)}`
         );
     }
+    console.log("HOST JSON:", quickLinks.host);
+    console.log("HOST RESOLVED:", resolveInternalPath(quickLinks.host));
 
     function renderQuickLinks(quickLinks = {}) {
         setExternalQuickLink(
@@ -364,20 +381,17 @@
             "Google Maps"
         );
 
-        if (
-            elements.accommodationLink &&
-            isUsableUrl(quickLinks.host)
-        ) {
-            elements.accommodationLink.href =
-                quickLinks.host;
+        if (elements.accommodationLink) {
+            if (isUsableUrl(quickLinks.host)) {
+                elements.accommodationLink.href =
+                    resolveInternalPath(quickLinks.host);
 
-            elements.accommodationLink.hidden =
-                false;
-        } else if (
-            elements.accommodationLink
-        ) {
-            elements.accommodationLink.hidden =
-                true;
+                elements.accommodationLink.hidden =
+                    false;
+            } else {
+                elements.accommodationLink.hidden =
+                    true;
+            }
         }
 
         const weatherUrl =
@@ -411,6 +425,7 @@
             );
         } else {
             element.hidden = true;
+            element.removeAttribute("href");
         }
     }
 
@@ -450,123 +465,365 @@
 
         return "";
     }
+        function renderSummary(day) {
+        if (!elements.summary) {
+            return;
+        }
 
-    function renderDrive(drive) {
+        const summary =
+            day.summary &&
+            typeof day.summary === "object"
+                ? day.summary
+                : {};
+
+        const countries =
+            Array.isArray(day.countries)
+                ? day.countries.filter(Boolean)
+                : [];
+
+        const badges =
+            Array.isArray(summary.badges)
+                ? summary.badges.filter(
+                    (item) =>
+                        item &&
+                        (
+                            item.icon ||
+                            item.text
+                        )
+                )
+                : [];
+
+        const cards =
+            Array.isArray(summary.cards)
+                ? summary.cards
+                    .filter(
+                        (card) =>
+                            card &&
+                            (
+                                card.label ||
+                                card.value
+                            )
+                    )
+                    .slice(0, 4)
+                : [];
+
+        const intro =
+            summary.intro ||
+            day.intro ||
+            "";
+
+        const hasNotice =
+            summary.notice &&
+            typeof summary.notice === "object" &&
+            (
+                summary.notice.title ||
+                summary.notice.text
+            );
+
+        const hasSummaryContent =
+            countries.length > 0 ||
+            Boolean(intro) ||
+            badges.length > 0 ||
+            Boolean(hasNotice) ||
+            cards.length > 0;
+
+        if (!hasSummaryContent) {
+            elements.summary.hidden = true;
+            return;
+        }
+
+        setSummaryCountryClass(countries);
+        renderCountryBadges(countries);
+        renderSummaryIntro(intro);
+        renderSummaryBadges(badges);
+        renderSummaryNotice(summary.notice);
+        renderSummaryCards(cards);
+
+        elements.summary.hidden = false;
+    }
+
+    function setSummaryCountryClass(countries) {
+        if (!elements.summary) {
+            return;
+        }
+
+        const supportedCountries = [
+            "si",
+            "hr",
+            "ba",
+            "me"
+        ];
+
+        supportedCountries.forEach(
+            (countryCode) => {
+                elements.summary.classList.remove(
+                    `country-${countryCode}`
+                );
+            }
+        );
+
+        const primaryCountry =
+            countries.find(
+                (countryCode) =>
+                    supportedCountries.includes(
+                        String(countryCode).toLowerCase()
+                    )
+            );
+
+        if (primaryCountry) {
+            elements.summary.classList.add(
+                `country-${String(primaryCountry).toLowerCase()}`
+            );
+        }
+    }
+
+    function renderCountryBadges(countries) {
+        if (!elements.countryBadges) {
+            return;
+        }
+
+        const countryNames = {
+            si: "SI Slovenija",
+            hr: "HR Hrvaška",
+            ba: "BA Bosna in Hercegovina",
+            me: "ME Črna gora"
+        };
+
+        if (countries.length === 0) {
+            elements.countryBadges.innerHTML = "";
+            elements.countryBadges.hidden = true;
+            return;
+        }
+
+        elements.countryBadges.innerHTML =
+            countries
+                .map((countryCode) => {
+                    const normalizedCode =
+                        String(countryCode).toLowerCase();
+
+                    const label =
+                        countryNames[normalizedCode] ||
+                        String(countryCode).toUpperCase();
+
+                    return `
+                        <span class="country-${escapeClassName(normalizedCode)}">
+                            ${escapeHtml(label)}
+                        </span>
+                    `;
+                })
+                .join("");
+
+        elements.countryBadges.hidden = false;
+    }
+
+    function renderSummaryIntro(intro) {
+        if (!elements.summaryIntro) {
+            return;
+        }
+
+        const cleanIntro =
+            typeof intro === "string"
+                ? intro.trim()
+                : "";
+
+        if (!cleanIntro) {
+            elements.summaryIntro.innerHTML = "";
+            elements.summaryIntro.hidden = true;
+            return;
+        }
+
+        elements.summaryIntro.innerHTML =
+            formatParagraphs(cleanIntro);
+
+        elements.summaryIntro.hidden = false;
+    }
+
+    function renderSummaryBadges(badges) {
+        if (!elements.summaryBadges) {
+            return;
+        }
+
+        if (badges.length === 0) {
+            elements.summaryBadges.innerHTML = "";
+            elements.summaryBadges.hidden = true;
+            return;
+        }
+
+        elements.summaryBadges.innerHTML =
+            badges
+                .map((badge) => {
+                    const icon =
+                        badge.icon
+                            ? `
+                                <span
+                                    class="host-badge-icon"
+                                    aria-hidden="true">
+                                    ${escapeHtml(badge.icon)}
+                                </span>
+                            `
+                            : "";
+
+                    const text =
+                        badge.text
+                            ? `
+                                <span class="host-badge-text">
+                                    ${escapeHtml(badge.text)}
+                                </span>
+                            `
+                            : "";
+
+                    return `
+                        <span class="host-badge">
+                            ${icon}
+                            ${text}
+                        </span>
+                    `;
+                })
+                .join("");
+
+        elements.summaryBadges.hidden = false;
+    }
+
+    function renderSummaryNotice(notice) {
+        if (!elements.summaryNotice) {
+            return;
+        }
+
         if (
-            !drive ||
-            !elements.driveSection ||
-            !elements.driveContent
+            !notice ||
+            typeof notice !== "object" ||
+            (
+                !notice.title &&
+                !notice.text
+            )
         ) {
-            hideSection(
-                elements.driveSection
+            elements.summaryNotice.innerHTML = "";
+            elements.summaryNotice.hidden = true;
+            elements.summaryNotice.classList.remove(
+                "host-alert--warning",
+                "host-alert--tip",
+                "host-alert--info"
             );
 
             return;
         }
 
-        const facts = [];
+        const noticeType =
+            ["warning", "tip", "info"].includes(
+                String(notice.type).toLowerCase()
+            )
+                ? String(notice.type).toLowerCase()
+                : "info";
 
-        if (
-            drive.from ||
-            drive.to
-        ) {
-            facts.push({
-                label: "Pot",
-                value: [
-                    drive.from,
-                    drive.to
-                ]
-                    .filter(Boolean)
-                    .join(" → ")
-            });
-        }
+        const defaultTitles = {
+            warning: "Dobro je vedeti",
+            tip: "Najin namig",
+            info: "Pomembno"
+        };
 
-        if (
-            drive.distance_km !== undefined
-        ) {
-            facts.push({
-                label: "Razdalja",
-                value: `${drive.distance_km} km`
-            });
-        }
+        const defaultIcons = {
+            warning: "⚠️",
+            tip: "💡",
+            info: "ℹ️"
+        };
 
-        if (drive.drive_time) {
-            facts.push({
-                label: "Vožnja",
-                value: drive.drive_time
-            });
-        }
+        const title =
+            notice.title ||
+            defaultTitles[noticeType];
 
-        if (
-            drive.departure_recommendation
-        ) {
-            facts.push({
-                label: "Priporočeni odhod",
-                value:
-                    drive.departure_recommendation
-            });
-        }
+        const icon =
+            notice.icon ||
+            defaultIcons[noticeType];
 
-        if (
-            drive.countries !== undefined
-        ) {
-            facts.push({
-                label: "Države",
-                value: String(
-                    drive.countries
-                )
-            });
-        }
-
-        if (
-            drive.border_crossings !== undefined
-        ) {
-            facts.push({
-                label: "Mejni prehodi",
-                value: String(
-                    drive.border_crossings
-                )
-            });
-        }
-
-        const factsHtml =
-            facts.length > 0
+        const titleHtml =
+            title
                 ? `
-                    <dl class="day-facts">
-                        ${facts
-                            .map(
-                                (fact) => `
-                                    <div class="day-fact">
-                                        <dt>${escapeHtml(
-                                            fact.label
-                                        )}</dt>
-                                        <dd>${escapeHtml(
-                                            fact.value
-                                        )}</dd>
-                                    </div>
-                                `
-                            )
-                            .join("")}
-                    </dl>
+                    <strong>
+                        <span aria-hidden="true">
+                            ${escapeHtml(icon)}
+                        </span>
+                        ${escapeHtml(title)}
+                    </strong>
                 `
                 : "";
 
-        const noteHtml =
-            drive.note
-                ? `
-                    <div class="day-note">
-                        <strong>Dobro je vedeti:</strong>
-                        ${escapeHtml(drive.note)}
-                    </div>
-                `
+        const textHtml =
+            notice.text
+                ? formatParagraphs(
+                    String(notice.text)
+                )
                 : "";
 
-        elements.driveContent.innerHTML =
-            factsHtml + noteHtml;
-
-        showSection(
-            elements.driveSection
+        elements.summaryNotice.classList.remove(
+            "host-alert--warning",
+            "host-alert--tip",
+            "host-alert--info"
         );
+
+        elements.summaryNotice.classList.add(
+            `host-alert--${noticeType}`
+        );
+
+        elements.summaryNotice.innerHTML =
+            titleHtml + textHtml;
+
+        elements.summaryNotice.hidden = false;
+    }
+
+    function renderSummaryCards(cards) {
+        if (!elements.summaryCards) {
+            return;
+        }
+
+        if (cards.length === 0) {
+            elements.summaryCards.innerHTML = "";
+            elements.summaryCards.hidden = true;
+            return;
+        }
+
+        elements.summaryCards.innerHTML =
+            cards
+                .map((card) => {
+                    const icon =
+                        card.icon
+                            ? `
+                                <span
+                                    class="host-key-info-icon"
+                                    aria-hidden="true">
+                                    ${escapeHtml(card.icon)}
+                                </span>
+                            `
+                            : "";
+
+                    const label =
+                        card.label
+                            ? `
+                                <span>
+                                    ${escapeHtml(card.label)}
+                                </span>
+                            `
+                            : "";
+
+                    const value =
+                        card.value
+                            ? `
+                                <strong>
+                                    ${escapeHtml(card.value)}
+                                </strong>
+                            `
+                            : "";
+
+                    return `
+                        <div>
+                            ${icon}
+                            ${label}
+                            ${value}
+                        </div>
+                    `;
+                })
+                .join("");
+
+        elements.summaryCards.hidden = false;
     }
 
     function renderProgram(program) {
@@ -597,6 +854,13 @@
     }
 
     function renderProgramCard(item) {
+        if (
+            !item ||
+            typeof item !== "object"
+        ) {
+            return "";
+        }
+
         const title =
             item.title || "Postanek";
 
@@ -622,25 +886,29 @@
 
         const text =
             item.text
-                ? `
-                    <p>
-                        ${escapeHtml(item.text)}
-                    </p>
-                `
-                : "";
-
-        const link =
-            item.link &&
-            isUsableUrl(item.link.url)
-                ? renderActionLink(
-                    item.link.url,
-                    item.link.label ||
-                        defaultLinkLabel(
-                            item.link.type
-                        ),
-                    item.link.type
+                ? formatParagraphs(
+                    String(item.text)
                 )
                 : "";
+
+        const links =
+        renderInlineLinks(
+        item.links,
+        item.link,
+        item.link &&
+        typeof item.link === "object"
+            ? (
+                item.link.label ||
+                defaultLinkLabel(
+                    item.link.type
+                )
+            )
+            : "Odpri povezavo",
+        item.link &&
+        typeof item.link === "object"
+            ? item.link.type
+            : item.type
+    );
 
         const typeClass =
             escapeClassName(
@@ -664,16 +932,31 @@
                 </div>
 
                 ${text}
-                ${link}
+                ${links}
             </article>
         `;
     }
-        function renderStay(stay) {
+
+    function renderStay(stay) {
         if (
             !stay ||
+            typeof stay !== "object" ||
             !elements.staySection ||
             !elements.stayContent
         ) {
+            hideSection(
+                elements.staySection
+            );
+
+            return;
+        }
+
+        const hasContent =
+            stay.name ||
+            stay.text ||
+            isUsableUrl(stay.url);
+
+        if (!hasContent) {
             hideSection(
                 elements.staySection
             );
@@ -686,18 +969,17 @@
 
         const text =
             stay.text
-                ? `
-                    <p>
-                        ${escapeHtml(stay.text)}
-                    </p>
-                `
+                ? formatParagraphs(
+                    String(stay.text)
+                )
                 : "";
 
         const link =
             isUsableUrl(stay.url)
                 ? renderActionLink(
-                    stay.url,
-                    "Odpri kartico gostitelja",
+                    resolveInternalPath(stay.url),
+                    stay.link_label ||
+                        "Odpri kartico gostitelja",
                     "host"
                 )
                 : "";
@@ -717,8 +999,7 @@
             elements.staySection
         );
     }
-
-    function renderFood(food) {
+        function renderFood(food) {
         if (
             !food ||
             typeof food !== "object" ||
@@ -767,6 +1048,14 @@
             (key) => food[key]
         );
 
+        if (keys.length === 0) {
+            hideSection(
+                elements.foodSection
+            );
+
+            return;
+        }
+
         elements.foodContent.innerHTML = `
             <div class="food-list">
                 ${keys
@@ -798,16 +1087,21 @@
                 <article class="food-item">
                     <h3>
                         <span aria-hidden="true">
-                            ${icon}
+                            ${escapeHtml(icon)}
                         </span>
                         ${escapeHtml(label)}
                     </h3>
 
-                    <p>
-                        ${escapeHtml(item)}
-                    </p>
+                    ${formatParagraphs(item)}
                 </article>
             `;
+        }
+
+        if (
+            !item ||
+            typeof item !== "object"
+        ) {
+            return "";
         }
 
         const place =
@@ -821,34 +1115,32 @@
 
         const text =
             item.text
-                ? `
-                    <p>
-                        ${escapeHtml(item.text)}
-                    </p>
-                `
-                : "";
-
-        const link =
-            isUsableUrl(item.link)
-                ? renderActionLink(
-                    item.link,
-                    "Odpri priporočila",
-                    "food"
+                ? formatParagraphs(
+                    String(item.text)
                 )
                 : "";
+
+        const links =
+        renderInlineLinks(
+        item.links,
+        item.link,
+        item.link_label ||
+            "Odpri priporočila",
+        "food"
+    );
 
         return `
             <article class="food-item">
                 <h3>
                     <span aria-hidden="true">
-                        ${icon}
+                        ${escapeHtml(icon)}
                     </span>
                     ${escapeHtml(label)}
                 </h3>
 
                 ${place}
                 ${text}
-                ${link}
+                ${links}
             </article>
         `;
     }
@@ -867,9 +1159,24 @@
             return;
         }
 
+        const usableItems =
+            practical.filter(
+                (item) =>
+                    typeof item === "string" &&
+                    item.trim()
+            );
+
+        if (usableItems.length === 0) {
+            hideSection(
+                elements.practicalSection
+            );
+
+            return;
+        }
+
         elements.practicalContent.innerHTML = `
             <ul class="practical-list">
-                ${practical
+                ${usableItems
                     .map(
                         (item) => `
                             <li>
@@ -898,22 +1205,22 @@
             journal &&
             journal.enabled === false
         ) {
-            elements.notesSection.hidden =
-                true;
+            hideSection(
+                elements.notesSection
+            );
 
             return;
         }
 
-        if (
+        const text =
             journal &&
-            typeof journal.text === "string" &&
-            journal.text.trim()
-        ) {
-            elements.notesContent.innerHTML = `
-                <p>
-                    ${escapeHtml(journal.text)}
-                </p>
-            `;
+            typeof journal.text === "string"
+                ? journal.text.trim()
+                : "";
+
+        if (text) {
+            elements.notesContent.innerHTML =
+                formatParagraphs(text);
         } else {
             elements.notesContent.innerHTML = `
                 <p>
@@ -922,10 +1229,121 @@
             `;
         }
 
-        elements.notesSection.hidden =
-            false;
+        showSection(
+            elements.notesSection
+        );
+    }
+    function renderInlineLinks(
+    links,
+    legacyLink = null,
+    fallbackLabel = "Odpri povezavo",
+    fallbackType = "default"
+) {
+    const normalizedLinks = [];
+
+    if (Array.isArray(links)) {
+        links.forEach((link) => {
+            if (
+                link &&
+                typeof link === "object" &&
+                isUsableUrl(link.url)
+            ) {
+                normalizedLinks.push(link);
+            }
+        });
     }
 
+    // Podpora staremu zapisu:
+    // "link": "food.html"
+    if (
+        typeof legacyLink === "string" &&
+        isUsableUrl(legacyLink)
+    ) {
+        normalizedLinks.push({
+            url: legacyLink,
+            label: fallbackLabel,
+            type: fallbackType
+        });
+    }
+
+    // Podpora staremu zapisu:
+    // "link": { "url": "...", "label": "...", "type": "..." }
+    if (
+        legacyLink &&
+        typeof legacyLink === "object" &&
+        isUsableUrl(legacyLink.url)
+    ) {
+        normalizedLinks.push(legacyLink);
+    }
+
+    if (normalizedLinks.length === 0) {
+        return "";
+    }
+
+    // Prepreči podvojene povezave z enakim URL-jem.
+    const uniqueLinks = normalizedLinks.filter(
+        (link, index, allLinks) =>
+            allLinks.findIndex(
+                (candidate) =>
+                    candidate.url === link.url
+            ) === index
+    );
+
+    return `
+        <div class="food-links-inline">
+            ${uniqueLinks
+                .map((link) => {
+                    const resolvedUrl =
+                        resolveInternalPath(link.url);
+
+                    const isExternal =
+                        /^https?:\/\//i.test(resolvedUrl);
+
+                    const externalAttributes =
+                        isExternal
+                            ? `
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            `
+                            : "";
+
+                    const icon =
+                        link.icon
+                            ? `
+                                <span
+                                    class="food-link-inline-icon"
+                                    aria-hidden="true">
+                                    ${escapeHtml(link.icon)}
+                                </span>
+                            `
+                            : "";
+
+                    const label =
+                        link.label ||
+                        fallbackLabel;
+
+                    const typeClass =
+                        escapeClassName(
+                            link.type ||
+                            fallbackType
+                        );
+
+                    return `
+                        <a
+                            class="food-link-inline food-link-inline--${typeClass}"
+                            href="${escapeAttribute(resolvedUrl)}"
+                            ${externalAttributes}>
+                            ${icon}
+                            <span>
+                                ${escapeHtml(label)}
+                            </span>
+                        </a>
+                    `;
+                })
+                .join("")}
+        </div>
+    `;
+}
     function renderActionLink(
         url,
         label,
@@ -1028,6 +1446,43 @@
         ).format(date);
     }
 
+    function formatParagraphs(value) {
+        if (
+            typeof value !== "string" ||
+            !value.trim()
+        ) {
+            return "";
+        }
+
+        return value
+            .trim()
+            .split(/\n\s*\n/)
+            .map(
+                (paragraph) => `
+                    <p>
+                        ${escapeHtml(
+                            paragraph.replace(
+                                /\s*\n\s*/g,
+                                " "
+                            )
+                        )}
+                    </p>
+                `
+            )
+            .join("");
+    }
+
+    function stripHtml(value) {
+        if (typeof value !== "string") {
+            return "";
+        }
+
+        return value
+            .replace(/<[^>]*>/g, " ")
+            .replace(/\s+/g, " ")
+            .trim();
+    }
+
     function humanizeKey(key) {
         return String(key)
             .replace(
@@ -1074,7 +1529,7 @@
     }
 
     function escapeHtml(value) {
-        return String(value)
+        return String(value ?? "")
             .replace(
                 /&/g,
                 "&amp;"

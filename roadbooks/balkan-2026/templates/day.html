@@ -16,6 +16,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../css/day.css">
 </head>
 
 <body>
@@ -37,10 +38,8 @@
 
             <section class="subpage-hero-content text-center">
                 <p id="day-kicker" class="roadbook-kicker"></p>
-
                 <h1 id="day-title"></h1>
-
-                <p id="day-intro" class="roadbook-intro"></p>
+                <p id="day-subtitle" class="roadbook-subtitle"></p>
             </section>
 
         </header>
@@ -117,42 +116,57 @@
                         🌤 Vreme
                     </a>
                 </div>
+        
+ <!-- POVZETEK DNEVA -->
+<article id="day-summary" class="host-summary country-line" hidden>
 
+    <!-- DRŽAVE -->
+    <div
+        id="day-country-badges"
+        class="route-country-badges"
+        hidden>
+    </div>
+
+    <!-- UVOD DNEVA -->
+    <div class="host-summary-header">
+    <h2 id="day-summary-title"></h2>
+    <div id="day-summary-intro"></div>
+    </div>
+
+    <!-- GLAVNE ZNAČKE DNEVA -->
+    <div
+        id="day-summary-badges"
+        class="host-badges"
+        hidden>
+    </div>
+
+    <!-- OPOZORILO ALI NAMIG -->
+    <div
+        id="day-summary-notice"
+        class="host-alert"
+        hidden>
+    </div>
+
+    <!-- GLAVNE KARTICE DNEVA -->
+    <div
+        id="day-summary-cards"
+        class="host-key-info"
+        hidden>
+    </div>
+
+</article>
                 <!-- DNEVNI PROGRAM -->
                 <div class="accordion day-accordion" id="day-accordion">
-
-                    <!-- VOŽNJA -->
-                    <section id="drive-section" class="accordion-item" hidden>
-                        <h2 class="accordion-header">
-                            <button
-                                class="accordion-button"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#drive"
-                                aria-expanded="true"
-                                aria-controls="drive">
-                                Vožnja
-                            </button>
-                        </h2>
-
-                        <div
-                            id="drive"
-                            class="accordion-collapse collapse show"
-                            data-bs-parent="#day-accordion">
-
-                            <div id="drive-content" class="accordion-body"></div>
-                        </div>
-                    </section>
 
                     <!-- PROGRAM IN POSTANKI -->
                     <section id="itinerary-section" class="accordion-item" hidden>
                         <h2 class="accordion-header">
                             <button
-                                class="accordion-button collapsed"
+                                class="accordion-button"
                                 type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#itinerary"
-                                aria-expanded="false"
+                                aria-expanded="true"
                                 aria-controls="itinerary">
                                 Program dneva
                             </button>
@@ -160,9 +174,8 @@
 
                         <div
                             id="itinerary"
-                            class="accordion-collapse collapse"
+                            class="accordion-collapse collapse show"
                             data-bs-parent="#day-accordion">
-
                             <div id="itinerary-content" class="accordion-body"></div>
                         </div>
                     </section>
