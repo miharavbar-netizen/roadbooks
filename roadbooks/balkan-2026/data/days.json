@@ -1967,6 +1967,21 @@
       "text": "Stolac velja za eno najstarejših neprekinjeno naseljenih mest v Bosni in Hercegovini. Sprehodita se skozi staro mestno jedro, obiščita ostanke srednjeveškega Vidoškega gradu ter se sprehodita ob reki Bregavi, ki mestu daje poseben mediteranski značaj."
     },
     {
+  "icon": "💦",
+  "title": "Slapovi Kravica — fakultativno",
+  "duration": "po želji",
+  "type": "optional",
+  "text": "Če bo dovolj časa, lahko po Stocu narediva še ovinek do slapov Kravica na reki Trebižat. Kratek postanek za pogled na slapove, fotografije ali zadnjo osvežitev v Hercegovini pred nadaljevanjem proti meji in Naroni.",
+  "links": [
+    {
+      "url": "https://maps.app.goo.gl/9rJZ7fdF5mZdhPe6A",
+      "label": "Slapovi Kravica · Google Maps",
+      "type": "map",
+      "icon": "📍"
+    }
+  ]
+},
+    {
   "type": "drive",
   "icon": "🇭🇷",
   "title": "Prehod meje",
