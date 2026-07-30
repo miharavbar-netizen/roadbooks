@@ -10,7 +10,7 @@
  * balkan-2026-v1 → balkan-2026-v2
  */
 
-const CACHE_VERSION = "balkan-2026-v2";
+const CACHE_VERSION = "balkan-2026-v3";
 
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
@@ -93,7 +93,7 @@ const DAY_HERO_ASSETS = Array.from(
 
 
 /* ===================================================
-   SLIKE GOSTITELJEV
+   SLIKE GOSTITELJEV, ZEMLJEVIDI, VODNIKI
 =================================================== */
 
 const HOST_IMAGE_ASSETS = [
@@ -103,7 +103,21 @@ const HOST_IMAGE_ASSETS = [
   "../../images/roadbooks/balkan-2026/host/zabljak.jpg",
   "../../images/roadbooks/balkan-2026/host/perast.jpg",
   "../../images/roadbooks/balkan-2026/host/mostar.jpg",
-  "../../images/roadbooks/balkan-2026/host/split.jpg"
+  "../../images/roadbooks/balkan-2026/host/split.jpg",
+  "../../images/roadbooks/balkan-2026/pages/food-hero.jpg",
+  "../../images/roadbooks/balkan-2026/pages/hosts-hero.jpg",
+  "../../images/roadbooks/balkan-2026/pages/practical-hero.jpg",
+  "../../images/roadbooks/balkan-2026/pages/routes-card.jpg",
+  "../../images/roadbooks/balkan-2026/pages/trips-card.jpg",
+  "../../images/roadbooks/balkan-2026/pages/walks-card.jpg",
+  "../../images/roadbooks/balkan-2026/maps/mostar-walk.jpg",
+  "../../images/roadbooks/balkan-2026/maps/durmitor-ring.jpg",
+  "../../images/roadbooks/balkan-2026/maps/jajce-kings-waterfall-avnoj.jpg",
+  "../../images/roadbooks/balkan-2026/maps/kotor-old-town-walk.jpg",
+  "../../images/roadbooks/balkan-2026/maps/split-diocletian-walk.jpg",
+  "../../images/roadbooks/balkan-2026/maps/sarajevo-heritage-walk.jpg",
+  "../../images/roadbooks/balkan-2026/maps/zadar-express-walk.jpg",
+  "../../images/roadbooks/balkan-2026/maps/Program-H-01.webp",
 ];
 
 
