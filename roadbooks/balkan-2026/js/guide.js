@@ -83,6 +83,7 @@ const elements = {
   startButton: document.getElementById("guideStartButton"),
   externalMapButton: document.getElementById("guideExternalMapButton"),
   dayButton: document.getElementById("guideDayButton"),
+  daysNavLink: document.getElementById("guideDaysNavLink"),
 
   mapSection: document.getElementById("guideMapSection"),
   map: document.getElementById("guideMap"),
@@ -482,6 +483,7 @@ function renderFacts(activity) {
 =================================================== */
 
 function renderActions(activity) {
+
   const externalMapUrl =
     activity.route?.map?.open_url;
 
@@ -498,20 +500,36 @@ function renderActions(activity) {
     Array.isArray(activity.trip_day_refs) &&
     activity.trip_day_refs.length > 0
   ) {
-    const firstDay = activity.trip_day_refs[0];
 
-    elements.dayButton.href =
-      `templates/day.html?id=day${firstDay}`;
+    const firstDay =
+      String(activity.trip_day_refs[0]).padStart(2, "0");
+
+    const dayUrl =
+      `day.html?id=day${firstDay}`;
+
+    elements.dayButton.href = dayUrl;
 
     elements.dayButton.textContent =
       activity.trip_day_refs.length === 1
-        ? `📅 Dan ${firstDay}`
+        ? `📅 Dan ${Number(firstDay)}`
         : `📅 Dnevi ${activity.trip_day_refs.join(", ")}`;
 
     elements.dayButton.hidden = false;
+
+    if (elements.daysNavLink) {
+      elements.daysNavLink.href = dayUrl;
+    }
+
   } else {
+
     elements.dayButton.hidden = true;
+
+    if (elements.daysNavLink) {
+      elements.daysNavLink.href = "../days.html";
+    }
+
   }
+
 }
 
 

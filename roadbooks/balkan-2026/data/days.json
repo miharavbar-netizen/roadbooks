@@ -1,2523 +1,2404 @@
 [
-{
-  "id": "day01",
-  "day": 1,
-  "date": "2026-08-01",
-  "title": "Na pot po Balkanu",
-  "subtitle": "Od kraške pokrajine preko Gorskega kotarja do pravljičnih Rastok",
-  "countries": ["SI", "HR"],
-  "hero_image": "../../../images/roadbooks/balkan-2026/days/hero01.jpg",
-
-  "quick_links": {
-  "google_maps": "https://maps.app.goo.gl/GV4KQpP3SEBY9tUn7",
-  "host": "host/rastoke.html",
-  "weather": {
-    "location": "Slunj",
-    "lat": 45.114241,
-    "lon": 15.583938
-  }
-},
-
-  "summary": {
-    "intro": "Po mesecih načrtovanja je končno napočil dan odhoda. Pred nama je približno 280 kilometrov vožnje do prvih slapov in mlinov, ki bodo odprli balkansko dogodivščino. Dan ni namenjen hitenju, ampak umirjenemu začetku poti – z jutranjim odhodom iz Sežane, obiskom kolegice na Primskovem, krajšim postankom v Ogulinu in večernim raziskovanjem slikovitih Rastok.",
-
-    "badges": [
-      {
-        "icon": "🚗",
-        "text": "Roadtrip se začne"
-      },
-      {
-        "icon": "🕖",
-        "text": "Štart 7.00"
-      },
-      {
-        "icon": "🏰",
-        "text": "Frankopani"
-      },
-      {
-        "icon": "💧",
-        "text": "Rastoke"
-      }
+  {
+    "id": "day01",
+    "day": 1,
+    "date": "2026-08-01",
+    "title": "Na pot po Balkanu",
+    "subtitle": "Od kraške pokrajine preko Gorskega kotarja do pravljičnih Rastok",
+    "countries": [
+      "SI",
+      "HR"
     ],
-
-    "notice": {
-      "type": "tip",
-      "title": "Najin namig",
-      "text": "V Rastoke je priporočljivo prispeti dovolj zgodaj, da ostane čas za sproščen sprehod skozi vas. Večerna svetloba med slapovi in lesenimi mostovi je ena najlepših za fotografiranje."
-    },
-
-    "cards": [
-      {
-        "icon": "🛣️",
-        "label": "Razdalja",
-        "value": "280 km"
-      },
-      {
-        "icon": "🕒",
-        "label": "Čas vožnje",
-        "value": "3–4 ure"
-      },
-      {
-        "icon": "🛏️",
-        "label": "Nočitev",
-        "value": "Guesthouse Pod rastočkim krovom"
-      },
-      {
-        "icon": "🕓",
-        "label": "Check-in",
-        "value": "16.00–20.00"
-      }
-    ]
-  },
-
-  "program": [
-    {
-      "type": "drive",
-      "icon": "🚗",
-      "title": "Odhod iz Sežane",
-      "duration": "7.00",
-      "text": "Začetek balkanske dogodivščine. Pred odhodom še enkrat preveri dokumente, rezervacije, gotovino, napolnjenost telefonov in fotoaparatov ter poskrbi, da bo vse potrebno pri roki."
-    },
-    {
-      "type": "stop",
-      "icon": "☕",
-      "title": "Postanek na Primskovem",
-      "text": "Kratek obisk kolegice in prijeten odmor od vožnje."
-    },
-    {
-      "type": "photo",
-      "icon": "📷",
-      "title": "Žužemberk (po želji)",
-      "text": "Če bo čas dopuščal, se lahko na poti ustavita pri gradu Žužemberk. Grad stoji na mogočni skali nad reko Krko in predstavlja lepo priložnost za kratek fotografski postanek."
-    },
-    {
-      "type": "visit",
-      "icon": "🏰",
-      "title": "Ogulin – mesto Frankopanov in pravljic",
-      "text": "Ogulin leži ob vznožju gore Klek, ki je po ljudskem izročilu dom čarovnic in velikanov. Prav tukaj je odraščala Ivana Brlić-Mažuranić, ena najpomembnejših hrvaških pisateljic in avtorica znamenitih Prič iz davnine. Nad mestom stoji renesančni grad Frankopanov iz začetka 16. stoletja, zgrajen kot obramba pred Osmanskim cesarstvom. Frankopani so bili ena najvplivnejših hrvaških plemiških rodbin, grad pa danes gosti domoznanski muzej. Ob njem se nahaja tudi znameniti Đulin ponor, kjer reka Dobra izgine v podzemlje."
-    },
-    {
-      "type": "arrival",
-      "icon": "🛏️",
-      "title": "Prihod v Rastoke",
-      "text": "Po prijavi v nastanitev pustita avtomobil pri Guesthouse Pod rastočkim krovom in se peš odpravita raziskovat vas."
-    },
-    {
-      "type": "walk",
-      "icon": "💧",
-      "title": "Sprehod skozi Rastoke",
-      "text": "Rastoke veljajo za eno najlepših zgodovinskih vodnih naselij na Hrvaškem. Tukaj se reka Slunjčica v številnih slapovih izliva v Korano in ustvarja mrežo lesenih mostov, otočkov in brzic, med katerimi že stoletja stojijo mlini ter hiše. Zaradi številnih slapov jih pogosto imenujejo tudi 'male Plitvice', vendar imajo povsem svoj miren značaj. Sprehod med slapovi in starimi mlini je najlepši v večernih urah, ko se večina dnevnih obiskovalcev že odpravi domov."
-    },
-    {
-      "type": "evening",
-      "icon": "🌅",
-      "title": "Večer ob reki",
-      "text": "Večerjo lahko uživata kar v Guesthouse Pod rastočkim krovom, nato pa dan zaključita z mirnim sprehodom ob šumenju vode."
-    }
-  ],
-
-  "stay": {
-    "name": "Guesthouse Pod rastočkim krovom",
-    "text": "Prijetna nastanitev tik ob vodi in odlično izhodišče za večerni ter jutranji ogled Rastok.",
-    "url": "host/rastoke.html",
-    "link_label": "Odpri kartico nastanitve"
-  },
-
-  "food": {
-    "breakfast": {
-      "place": "Doma",
-      "text": "Pred odhodom si privoščita miren zajtrk."
-    },
-    "coffee": {
-      "place": "Avto",
-      "text": "Prigrizki in pijača za pot."
-    },
-    "lunch": {
-      "place": "Ogulin",
-      "text": "Kosilo med ogledom mesta."
-    },
-    "dinner": {
-      "place": "Guesthouse Pod rastočkim krovom",
-      "text": "Večerja na terasi ob reki brez dodatne vožnje."
-    }
-  },
-
-  "practical": [
-    "Odhod iz Sežane najkasneje ob 7.00.",
-    "Navigacija: https://maps.app.goo.gl/GV4KQpP3SEBY9tUn7",
-    "Check-in je mogoč med 16.00 in 20.00.",
-    "Avtomobil po prihodu pustita pri nastanitvi in Rastoke raziščita peš.",
-    "Za večerni sprehod ob vodi priporočava lahko jopico.",
-    "Naslednji dan sledi zgodnji odhod proti Plitviškim jezerom."
-  ],
-
-  "journal": {
-    "enabled": true,
-    "text": ""
-  }
-},
-{
-  "id": "day02",
-  "day": 2,
-  "date": "2026-08-02",
-  "title": "Dan med slapovi in podzemljem",
-  "subtitle": "Plitviška jezera in Baraćeve špilje – dve mojstrovini kraške narave",
-  "countries": ["HR"],
-  "hero_image": "../../../images/roadbooks/balkan-2026/days/hero02.jpg",
-
-  "quick_links": {
-    "google_maps": "https://maps.app.goo.gl/F3MxGFQSDohvtg7M6",
-    "host": "host/rastoke.html",
-    "weather": {
-      "location": "Plitvička Jezera",
-      "lat": 44.8806,
-      "lon": 15.6160
-    }
-  },
-
-  "summary": {
-    "intro": "Drugi dan je namenjen raziskovanju enega najbolj znamenitih narodnih parkov v Evropi in manj znanega kraškega bisera v njegovi bližini. Dopoldne bosta raziskovala Plitviška jezera po eni najlepših krožnih poti, popoldne pa se podala še v Baraćeve špilje, kjer se pod površjem skriva povsem drugačen svet kapnikov, podzemnih dvoran in ostankov jamskega medveda.",
-
-    "badges": [
-      {
-        "icon": "🌊",
-        "text": "Plitviška jezera"
-      },
-      {
-        "icon": "🥾",
-        "text": "Program H"
-      },
-      {
-        "icon": "🦇",
-        "text": "Baraćeve špilje"
-      },
-      {
-        "icon": "💧",
-        "text": "Rastoke"
-      }
-    ],
-
-    "notice": {
-      "type": "tip",
-      "title": "Najin namig",
-      "text": "Na Plitviška jezera se odpravita zgodaj zjutraj, ko je park še mirnejši in svetloba najlepša za fotografiranje. Baraćeve špilje si oglejta popoldne – zadnji vodeni ogled je približno 30 minut pred zaprtjem."
-    },
-
-    "cards": [
-      {
-        "icon": "🚶",
-        "label": "Dolžina poti",
-        "value": "8,9 km"
-      },
-      {
-        "icon": "🕒",
-        "label": "Čas hoje",
-        "value": "4–6 ur"
-      },
-      {
-        "icon": "🦇",
-        "label": "Ogled jame",
-        "value": "45–60 min"
-      },
-      {
-        "icon": "🛏️",
-        "label": "Nočitev",
-        "value": "Guesthouse Pod rastočkim krovom"
-      }
-    ]
-  },
-
-  "program": [
-    {
-      "type": "drive",
-      "icon": "🚗",
-      "title": "Odhod proti Plitviškim jezerom",
-      "text": "Po zajtrku se odpeljita proti Narodnemu parku Plitviška jezera. Vožnja iz Rastok traja približno 35 minut, zato priporočava zgodnji odhod."
-    },
-    {
-      "type": "activity",
-      "icon": "🌊",
-      "title": "Plitviška jezera – Program H",
-      "duration": "4–6 ur",
-      "text": "Program H velja za eno najlepših krožnih poti po narodnem parku. Z Vhoda 2 vodi skozi Zgornja jezera, čez jezero Kozjak in naprej do Spodnjih jezer ter Velikega slapu, povratek pa poteka s panoramskim vozilom.",
-      "link": {
-        "type": "activity",
-        "label": "Odpri vodič Programa H",
-        "url": "templates/guide.html?guide=plitvice-program-h"
+    "hero_image": "../../../images/roadbooks/balkan-2026/days/hero01.jpg",
+    "quick_links": {
+      "google_maps": "https://maps.app.goo.gl/GV4KQpP3SEBY9tUn7",
+      "host": "host/rastoke.html",
+      "weather": {
+        "location": "Slunj",
+        "lat": 45.114241,
+        "lon": 15.583938
       }
     },
-    {
-      "type": "visit",
-      "icon": "🦇",
-      "title": "Baraćeve špilje",
-      "text": "Le približno 20 minut vožnje od Plitvic leži eden najlepših kraških biserov osrednje Hrvaške. Obisk poteka z vodnikom in traja približno eno uro. V jami je vse leto okoli 9 °C, zato priporočava lažji pulover ali vetrovko.",
-      "links": [
-      {
-        "icon": "📍",
-        "label": "Google Maps",
-        "url": "https://maps.app.goo.gl/ZP9TzkX9q3KBrhoZ8"
-      },
-      {
-        "icon": "🌐",
-        "label": "Uradna spletna stran",
-        "url": "https://baraceve-spilje.hr/posjeti-spilju/"
-      }
-      ]
-  },
-    {
-      "type": "drive",
-      "icon": "🚗",
-      "title": "Povratek v Rastoke",
-      "text": "Po ogledu Baraćevih špilj sledi kratka vožnja nazaj v Slunj."
-    },
-    {
-      "type": "evening",
-      "icon": "🌅",
-      "title": "Večer ob vodi",
-      "text": "Večer izkoristita za sproščen sprehod med slapovi Rastok ali večerjo ob reki Korani."
-    }
-  ],
-
-  "stay": {
-    "name": "Guesthouse Pod rastočkim krovom",
-    "text": "Druga noč v prijetni nastanitvi ob vodi.",
-    "url": "host/rastoke.html",
-    "link_label": "Odpri kartico nastanitve"
-  },
-
-  "food": {
-    "breakfast": {
-      "place": "Guesthouse Pod rastočkim krovom",
-      "text": "Zajtrk pred odhodom na Plitviška jezera."
-    },
-    "lunch": {
-      "place": "Plitviška jezera",
-      "text": "Kosilo v eni izmed restavracij ob Vhodu 2 ali znotraj narodnega parka."
-    },
-    "dinner": {
-      "place": "Rastoke",
-      "text": "Večerja ob reki ali v nastanitvi."
-    }
-  },
-
-  "practical": [
-    "Na Plitviška jezera se odpravi zgodaj zjutraj.",
-    "Program H traja približno 4–6 ur.",
-    "Obuj udobno pohodniško obutev.",
-    "Vzemi dovolj vode in zaščito pred soncem.",
-    "V Baraćevih špiljah je temperatura okoli 9 °C.",
-    "Zadnji vodeni ogled je približno 30 minut pred zaprtjem."
-  ],
-
-  "journal": {
-    "enabled": true,
-    "text": ""
-  }
-},
-{
-  "id": "day03",
-  "day": 3,
-  "date": "2026-08-03",
-  "title": "Ob smaragdni Uni do kraljevskega mesta",
-  "subtitle": "Bihać, reka Una in prihod v zgodovinsko Jajce",
-  "countries": ["HR", "BA"],
-  "hero_image": "../../../images/roadbooks/balkan-2026/days/hero03.jpg",
-
-  "quick_links": {
-    "google_maps": "https://maps.app.goo.gl/qPeJuR7WgAPWBdq66",
-    "host": "host/jajce.html",
-    "weather": {
-      "location": "Jajce",
-      "lat": 44.3422,
-      "lon": 17.2708
-    }
-  },
-
-  "summary": {
-    "intro": "Danes zapustita Hrvaško in prvič vstopita v Bosno in Hercegovino. Po prehodu meje sledi postanek v Bihaću ob smaragdni reki Uni, nato pa vožnja proti enemu najlepših zgodovinskih mest v državi – kraljevskemu Jajcu.",
-
-    "badges": [
-      {
-        "icon": "🇧🇦",
-        "text": "Bosna in Hercegovina"
-      },
-      {
-        "icon": "💚",
-        "text": "Reka Una"
-      },
-      {
-        "icon": "👑",
-        "text": "Kraljevsko mesto"
-      },
-      {
-        "icon": "🌊",
-        "text": "Slapovi Plive"
-      }
-    ],
-
-    "notice": {
-      "type": "tip",
-      "title": "Najin namig",
-      "text": "Iz Rastok odpotujta najkasneje ob 9.00. Iz Bihaća priporočava odhod najkasneje ob 11.00, da bosta pravočasno prispela na kosilo ob Plivskih jezerih in nato na prijavo v nastanitev."
-    },
-
-    "cards": [
-      {
-        "icon": "🛣️",
-        "label": "Razdalja",
-        "value": "208 km"
-      },
-      {
-        "icon": "🕒",
-        "label": "Vožnja",
-        "value": "3 h 20 min"
-      },
-      {
-        "icon": "🛏️",
-        "label": "Nočitev",
-        "value": "Apartma Jelena"
-      },
-      {
-        "icon": "🕓",
-        "label": "Check-in",
-        "value": "15.00–23.00"
-      }
-    ]
-  },
-
-  "program": [
-    {
-      "type": "departure",
-      "icon": "🚗",
-      "title": "Odhod iz Rastok",
-      "duration": "9.00",
-      "text": "Po zajtrku zapustita Rastoke in se odpravita proti Bosni in Hercegovini."
-    },
-    {
-      "type": "visit",
-      "icon": "💚",
-      "title": "Bihać",
-      "text": "Bihać leži ob smaragdni reki Uni in je že stoletja pomembno mesto na stičišču kultur. V srednjem veku je bil ena najpomembnejših utrdb Ogrskega kraljestva, pozneje pa je imel pomembno vlogo v času Osmanskega cesarstva. Danes je prijetno mesto za kratek sprehod ob Uni, ogled Kapetanove kule, mestnega jedra in mostov, ki povezujejo oba bregova reke.",
-      "links": [
+    "summary": {
+      "intro": "Po mesecih načrtovanja je končno napočil dan odhoda. Pred nama je približno 280 kilometrov vožnje do prvih slapov in mlinov, ki bodo odprli balkansko dogodivščino. Dan ni namenjen hitenju, ampak umirjenemu začetku poti – z jutranjim odhodom iz Sežane, obiskom kolegice na Primskovem, krajšim postankom v Ogulinu in večernim raziskovanjem slikovitih Rastok.",
+      "badges": [
         {
-          "icon": "📍",
-          "label": "Google Maps",
-          "url": "https://maps.app.goo.gl/qPeJuR7WgAPWBdq66"
-        }
-      ]
-    },
-    {
-      "type": "drive",
-      "icon": "🚗",
-      "title": "Vožnja proti Jajcu",
-      "duration": "približno 2 uri",
-      "text": "Iz Bihaća krenita najkasneje ob 11.00, da ostane dovolj časa za kosilo in popoldanski ogled Jajca."
-    },
-    {
-      "type": "food",
-      "icon": "🐟",
-      "title": "Kosilo ob Plivskih jezerih",
-      "text": "Če bo odprta, priporočava Konobo Slapovi tik ob Plivskih jezerih. Njihova specialiteta je pastrmka na kraljevski način.",
-      "links": [
-        {
-          "icon": "📍",
-          "label": "Konoba Slapovi",
-          "url": "https://maps.app.goo.gl/ZtGJgiJMxzQMwBVX9"
-        }
-      ]
-    },
-    {
-      "type": "arrival",
-      "icon": "🛏️",
-      "title": "Prihod v Jajce",
-      "text": "Po kosilu sledi prijava v nastanitev Jelena. Check-in je mogoč med 15.00 in 23.00."
-    },
-    {
-      "type": "activity",
-      "icon": "👑",
-      "title": "Popoldanski ogled Jajca",
-      "text": "Jajce je eno najpomembnejših zgodovinskih mest Bosne in Hercegovine. Tukaj so kronali zadnje bosanske kralje, danes pa mesto navdušuje z mogočnim slapom, srednjeveško trdnjavo in bogato zgodovino.",
-      "link": {
-        "type": "activity",
-        "label": "Odpri vodič po Jajcu",
-        "url": "templates/guide.html?guide=jajce-kings-waterfall-avnoj"
-      }
-    }
-  ],
-
-  "stay": {
-    "name": "Apartma Jelena",
-    "text": "Nastanitev v neposredni bližini starega mestnega jedra Jajca.",
-    "url": "host/jajce.html",
-    "link_label": "Odpri kartico nastanitve"
-  },
-
-  "food": {
-    "breakfast": {
-      "place": "Rastoke",
-      "text": "Zajtrk pred odhodom proti Bosni in Hercegovini."
-    },
-    "lunch": {
-      "place": "Konoba Slapovi",
-      "text": "Roadbook priporočilo je pastrmka na kraljevski način, pripravljena iz sveže postrvi iz Plive."
-    },
-    "story": {
-      "title": "Food Story: Pastrmka na kraljevski način",
-      "text": "Jajce je bilo stoletja sedež bosanskih kraljev. Lokalna jed 'pastrmka na kraljevski način' združuje postrv iz Plive, tradicionalno pripravo s kajmakom ter zgodovino kraljevskega mesta."
-    },
-    "recommendations": [
-      {
-        "name": "Konoba Slapovi",
-        "search": "pastrmka na kraljevski način",
-        "status": "⭐ Roadbook izbor",
-        "map": "https://maps.app.goo.gl/ZtGJgiJMxzQMwBVX9"
-      }
-    ],
-    "dinner": {
-      "place": "Jajce",
-      "text": "Večerja v starem mestnem jedru."
-    }
-  },
-
-  "practical": [
-    "Odhod iz Rastok najkasneje ob 9.00.",
-    "Iz Bihaća krenita najkasneje ob 11.00.",
-    "V Bosni in Hercegovini velja konvertibilna marka (BAM).",
-    "Check-in v nastanitev je mogoč med 15.00 in 23.00."
-  ],
-
-  "journal": {
-    "enabled": true,
-    "text": ""
-  }
-},
-{
-  "id": "day04",
-  "day": 4,
-  "date": "2026-08-04",
-  "title": "Od vezirskega mesta do Sarajeva",
-  "subtitle": "Travnik, Vlašić in prvi večer na Baščaršiji",
-  "countries": ["BA"],
-  "hero_image": "../../../images/roadbooks/balkan-2026/days/hero04.jpg",
-
-  "quick_links": {
-    "google_maps": "https://maps.app.goo.gl/vXzPJV4n7tXVrfiD7",
-    "host": "host/sarajevo.html",
-    "weather": {
-      "location": "Vlašić",
-      "lat": 44.3138,
-      "lon": 17.5707
-    }
-  },
-
-  "summary": {
-    "intro": "Po jutranjem odhodu iz Jajca se odpravita proti Travniku, nekdanjemu sedežu bosanskih vezirjev. Pot nato vodi čez planino Vlašić z lepimi razgledi, dan pa se zaključi v Sarajevu, kjer bosta prvi večer namenila sproščenemu raziskovanju Baščaršije.",
-
-    "badges": [
-      {
-        "icon": "🏰",
-        "text": "Travnik"
-      },
-      {
-        "icon": "⛰️",
-        "text": "Vlašić"
-      },
-      {
-        "icon": "🕌",
-        "text": "Sarajevo"
-      },
-      {
-        "icon": "🌆",
-        "text": "Baščaršija"
-      }
-    ],
-
-    "notice": {
-      "type": "tip",
-      "title": "Najin namig",
-      "text": "Če bo zajtrk v Jajcu bolj obilen, lahko kosilo prestavita na Vlašić ali pa si privoščita piknik iz nahrbtnika z razgledom na bosanske planine."
-    },
-
-    "cards": [
-      {
-        "icon": "🛣️",
-        "label": "Razdalja",
-        "value": "198 km"
-      },
-      {
-        "icon": "🕒",
-        "label": "Vožnja",
-        "value": "3 h 35 min"
-      },
-      {
-        "icon": "🛏️",
-        "label": "Nočitev",
-        "value": "Sarajevo"
-      },
-      {
-        "icon": "🕓",
-        "label": "Check-in",
-        "value": "14.00–22.00"
-      }
-    ]
-  },
-
-  "program": [
-    {
-      "type": "departure",
-      "icon": "🚗",
-      "title": "Odhod iz Jajca",
-      "duration": "najkasneje ob 10.00",
-      "text": "Po zajtrku in odjavi iz nastanitve se odpravita proti Travniku."
-    },
-    {
-      "type": "visit",
-      "icon": "🏰",
-      "title": "Travnik",
-      "duration": "približno 2 uri",
-      "text": "Travnik je bil skoraj 150 let sedež osmanskih vezirjev v Bosni. Mesto slovi po mogočni trdnjavi, slikovitem starem jedru, številnih mošejah in modrem izviru Plave vode. Sprehod skozi staro mestno jedro lepo pokaže preplet osmanske in srednjeevropske zgodovine.",
-      "links": [
-        {
-          "icon": "📍",
-          "label": "Google Maps",
-          "url": "https://maps.app.goo.gl/vXzPJV4n7tXVrfiD7"
-        }
-      ]
-    },
-    {
-      "type": "drive",
-      "icon": "⛰️",
-      "title": "Planina Vlašić",
-      "duration": "približno 1 ura",
-      "text": "Po asfaltirani cesti se lahko povzpneta do razglednih točk na planini Vlašić. Planota je znana po pašnikih, planinskih kočah in znamenitem vlašičkem siru. Že krajši postanek ponuja čudovite razglede na osrednjo Bosno.",
-      "links": [
-        {
-          "icon": "🌐",
-          "label": "Več o Vlašiću",
-          "url": "https://en.wikipedia.org/wiki/Vla%C5%A1i%C4%87_(Bosnia_and_Herzegovina)"
-        }
-      ]
-    },
-    {
-      "type": "arrival",
-      "icon": "🛏️",
-      "title": "Prihod v Sarajevo",
-      "text": "Po prihodu sledi prijava v nastanitev. Apartma je odlično izhodišče za raziskovanje starega mestnega jedra."
-    },
-    {
-      "type": "walk",
-      "icon": "🕌",
-      "title": "Večerni sprehod po Baščaršiji",
-      "text": "Prvi večer je namenjen sproščenemu spoznavanju Sarajeva. Sprehodita se med kamnitimi ulicami Baščaršije, obiščita Sebilj in uživajta v večernem utripu enega najbolj živahnih zgodovinskih jeder na Balkanu."
-    }
-  ],
-
-  "stay": {
-    "name": "Apartma Sarajevo",
-    "text": "Tri noči v središču Sarajeva.",
-    "url": "host/sarajevo.html",
-    "link_label": "Odpri kartico nastanitve"
-  },
-
-  "food": {
-    "breakfast": {
-      "place": "Jajce",
-      "text": "Zajtrk pred odhodom."
-    },
-    "lunch": {
-      "place": "Travnik ali Vlašić",
-      "text": "Kosilo v Travniku ali, če bo zajtrk dovolj obilen, piknik oziroma prigrizek na Vlašiću."
-    },
-    "dinner": {
-      "place": "Baščaršija",
-      "text": "Za večerjo izberita eno izmed priporočil v Roadbook vodiču po kulinariki Sarajeva.",
-      "links": [
-        {
-          "icon": "🍽️",
-          "label": "Roadbook Food Guide",
-          "url": "food.html"
-        }
-      ]
-    }
-  },
-
-  "practical": [
-    "Check-out v Jajcu med 8.00 in 10.00.",
-    "Odhod najkasneje ob 10.00.",
-    "Na Vlašiću je lahko občutno hladneje kot v dolini.",
-    "Check-in v Sarajevu je mogoč med 14.00 in 22.00."
-  ],
-
-  "journal": {
-    "enabled": true,
-    "text": ""
-  }
-},
-{
-  "id": "day05",
-  "day": 5,
-  "date": "2026-08-05",
-  "title": "Sarajevo – zgodovina in plasti mesta",
-  "subtitle": "Dan za raziskovanje Baščaršije, zgodovinskih četrti in zgodb sodobnega Sarajeva",
-  "countries": ["BA"],
-  "hero_image": "../../../images/roadbooks/balkan-2026/days/hero05.jpg",
-
-  "quick_links": {
-    "host": "host/sarajevo.html",
-    "weather": {
-      "location": "Sarajevo",
-      "lat": 43.8563,
-      "lon": 18.4131
-    }
-  },
-
-  "summary": {
-    "intro": "Današnji dan je namenjen počasnemu raziskovanju Sarajeva. Sprehod skozi staro mestno jedro razkriva več kot pet stoletij zgodovine, opoldne pa se pridružita vodenemu ogledu, ki pokaže tudi manj znane zgodbe mesta in njegove nedavne preteklosti.",
-
-    "badges": [
-      {
-        "icon": "🚶",
-        "text": "Heritage Walk"
-      },
-      {
-        "icon": "🎙️",
-        "text": "GuruWalk"
-      },
-      {
-        "icon": "🕌",
-        "text": "Baščaršija"
-      },
-      {
-        "icon": "🏛️",
-        "text": "Sarajevo"
-      }
-    ],
-
-    "notice": {
-      "type": "important",
-      "title": "Rezerviran ogled",
-      "text": "Ob 12.30 imata rezerviran ogled »War Scars & Sarajevo Today Free Tour with Neno & Merima«. Na zbirno mesto pridita vsaj 10–15 minut prej."
-    },
-
-    "cards": [
-      {
-        "icon": "🚶",
-        "label": "Ogled",
-        "value": "Cel dan peš"
-      },
-      {
-        "icon": "🕧",
-        "label": "GuruWalk",
-        "value": "12.30"
-      },
-      {
-        "icon": "🛏️",
-        "label": "Nočitev",
-        "value": "Sarajevo"
-      },
-      {
-        "icon": "📍",
-        "label": "Zbirno mesto",
-        "value": "Narodno pozorište"
-      }
-    ]
-  },
-
-  "program": [
-    {
-      "type": "activity",
-      "icon": "🚶",
-      "title": "Sarajevo Heritage Walk",
-      "text": "Dan začnita z raziskovanjem Sarajeva po Roadbook vodiču. Pot vodi skozi najpomembnejše zgodovinske točke mesta – od Baščaršije in Sebilja do mest, kjer se stikajo različna obdobja, kulture in vere.",
-      "link": {
-        "type": "activity",
-        "label": "Odpri vodič po Sarajevu",
-        "url": "templates/guide.html?guide=sarajevo-heritage-walk"
-      }
-    },
-    {
-      "type": "tour",
-      "icon": "🎙️",
-      "title": "War Scars & Sarajevo Today Free Tour",
-      "duration": "12.30",
-      "text": "Vodeni ogled z lokalnima vodnikoma Nenom in Merimo predstavi Sarajevo skozi zgodbe obleganja, povojne obnove in današnjega življenja. To je eden najbolje ocenjenih brezplačnih ogledov mesta.",
-      "links": [
-        {
-          "icon": "📍",
-          "label": "Meeting point",
-          "url": "https://maps.app.goo.gl/RA34A7fDzUB1RfHK7"
+          "icon": "🚗",
+          "text": "Roadtrip se začne"
         },
         {
-          "icon": "🌐",
-          "label": "GuruWalk rezervacija",
-          "url": "https://www.guruwalk.com/users/bookings?utm_source=mktauto&utm_medium=email&utm_campaign=booking_confirmed"
-        }
-      ]
-    },
-    {
-      "type": "walk",
-      "icon": "🌆",
-      "title": "Popoldne in večer v Sarajevu",
-      "text": "Po ogledu si vzemita čas za raziskovanje ulic Baščaršije, obisk trgovinic, pokušino lokalnih dobrot ali sproščeno posedanje ob bosanski kavi."
-    }
-  ],
-
-  "stay": {
-    "name": "Apartma Sarajevo",
-    "text": "Druga noč v Sarajevu.",
-    "url": "host/sarajevo.html",
-    "link_label": "Odpri kartico nastanitve"
-  },
-
-  "food": {
-    "breakfast": {
-      "place": "Slastičarna Egipat",
-      "text": "Če ne bosta zajtrkovala v apartmaju, priporočava obisk Slastičarne Egipat, znane po tradicionalnih sladicah, kot je tufahija.",
-      "links": [
-        {
-          "icon": "🍰",
-          "label": "Google Maps",
-          "url": "https://maps.google.com/?q=Slastičarna+Egipat+Sarajevo"
-        }
-      ]
-    },
-    "lunch": {
-      "place": "Baščaršija",
-      "text": "Na poti priporočava burek ali drugo pito v eni izmed tradicionalnih sarajevskih buregdžinic."
-    },
-    "dinner": {
-      "place": "Sarajevo",
-      "text": "Za večerjo izberita eno izmed priporočil v Roadbook vodiču po kulinariki Sarajeva.",
-      "links": [
-        {
-          "icon": "🍽️",
-          "label": "Roadbook Food Guide",
-          "url": "food.html"
-        }
-      ]
-    }
-  },
-
-  "practical": [
-    "Do zbirnega mesta pridita 10–15 minut pred začetkom ogleda.",
-    "Celoten dan poteka peš.",
-    "V poletnih mesecih imejta s seboj dovolj vode in zaščito pred soncem."
-  ],
-
-  "journal": {
-    "enabled": true,
-    "text": ""
-  }
-},
-{
-  "id": "day06",
-  "day": 6,
-  "date": "2026-08-06",
-  "title": "Mestni utrip in narava",
-  "subtitle": "Sproščen dan za razglede, zelenje in sodobni ritem Sarajeva",
-  "countries": ["BA"],
-  "hero_image": "../../../images/roadbooks/balkan-2026/days/hero06.jpg",
-
-  "quick_links": {
-    "host": "host/sarajevo.html",
-    "weather": {
-      "location": "Sarajevo",
-      "lat": 43.8563,
-      "lon": 18.4131
-    }
-  },
-
-  "summary": {
-    "intro": "Zadnji cel dan v Sarajevu je namenoma manj načrtovan. Izberita eno večjo dopoldansko aktivnost, nato pa dan nadaljujta počasi – z galerijami, sprehodom po mestu, kavo, sladicami in zadnjim sarajevskim večerom.",
-
-    "badges": [
-      {
-        "icon": "🚠",
-        "text": "Trebević"
-      },
-      {
-        "icon": "🌿",
-        "text": "Vrelo Bosne"
-      },
-      {
-        "icon": "☕",
-        "text": "Kavna kultura"
-      },
-      {
-        "icon": "🛍️",
-        "text": "Počasen mestni dan"
-      }
-    ],
-
-    "notice": {
-      "type": "tip",
-      "title": "Dan brez strogega načrta",
-      "text": "Trebević in Vrelo Bosne sta dve različni možnosti za dopoldne. Izberita glede na vreme in razpoloženje; ni treba vključiti obeh."
-    },
-
-    "cards": [
-      {
-        "icon": "🗓️",
-        "label": "Ritem",
-        "value": "Sproščeno"
-      },
-      {
-        "icon": "🌄",
-        "label": "Glavna izbira",
-        "value": "Trebević ali Vrelo Bosne"
-      },
-      {
-        "icon": "🚶",
-        "label": "Popoldne",
-        "value": "Mesto in galerije"
-      },
-      {
-        "icon": "🛏️",
-        "label": "Nočitev",
-        "value": "Sarajevo"
-      }
-    ]
-  },
-
-  "program": [
-    {
-      "type": "activity",
-      "icon": "🚠",
-      "title": "Možnost 1: Trebević",
-      "text": "Z žičnico se povzpnita nad Sarajevo in si oglejta mesto z drugačne perspektive. Trebević združuje naravo, razglede in olimpijsko zgodovino. Od zgornje postaje se lahko sprehodita do zapuščene bob steze, enega najbolj prepoznavnih ostankov zimskih olimpijskih iger leta 1984.",
-      "links": [
-        {
-          "icon": "📍",
-          "label": "Google Maps",
-          "url": "https://maps.google.com/?q=Sarajevo+Cable+Car"
-        }
-      ]
-    },
-    {
-      "type": "activity",
-      "icon": "🌿",
-      "title": "Možnost 2: Vrelo Bosne",
-      "text": "Za bolj umirjeno naravno izkušnjo se odpravita do izvirov reke Bosne pod Igmanom. Park zaznamujejo izviri, mostički, vodni kanali in visoka drevesa, do njega pa vodi znameniti drevored Velika aleja.",
-      "links": [
-        {
-          "icon": "📍",
-          "label": "Google Maps",
-          "url": "https://maps.google.com/?q=Vrelo+Bosne"
-        }
-      ]
-    },
-    {
-      "type": "walk",
-      "icon": "🛍️",
-      "title": "Počasno popoldne v mestu",
-      "text": "Popoldne namenita Sarajevu brez seznama obveznih znamenitosti. Sprehodita se po Ferhadiji, zavijta v galerijo ali manjšo trgovino, poiščita spominke in se še enkrat prepustita mestnemu utripu."
-    },
-    {
-      "type": "food",
-      "icon": "☕",
-      "title": "Sarajevska kavna kultura",
-      "text": "Vzemita si čas za bosansko kavo in sladico. Kava v Sarajevu ni le pijača, temveč počasen družabni obred, pri katerem so pomembni džezva, fildžan in čas za pogovor."
-    },
-    {
-      "type": "evening",
-      "icon": "🌙",
-      "title": "Zadnji večer v Sarajevu",
-      "text": "Za zadnji večer izberita večerjo na Baščaršiji, v sodobnejšem delu mesta ali na lokaciji z razgledom. Dan zaključita brez hitenja."
-    }
-  ],
-
-  "stay": {
-    "name": "Apartma Sarajevo",
-    "text": "Tretja in zadnja noč v Sarajevu.",
-    "url": "host/sarajevo.html",
-    "link_label": "Odpri kartico nastanitve"
-  },
-
-  "food": {
-    "breakfast": {
-      "place": "Sarajevo",
-      "text": "Zajtrk v apartmaju, bližnji pekarni ali lokalu po izbiri."
-    },
-    "lunch": {
-      "place": "Sarajevo ali na izletu",
-      "text": "Kosilo prilagodita izbrani dopoldanski aktivnosti. Primeren je lažji obrok ali nekaj iz nahrbtnika."
-    },
-    "dinner": {
-      "place": "Sarajevo",
-      "text": "Zadnja večerja v mestu po enem izmed priporočil v kulinaričnem delu Roadbooka.",
-      "links": [
-        {
-          "icon": "🍽️",
-          "label": "Kulinarika v Roadbooku",
-          "url": "food.html"
-        }
-      ]
-    }
-  },
-
-  "practical": [
-    "Dopoldne izberita Trebević ali Vrelo Bosne; vključitev obeh ni potrebna.",
-    "Trebević je primernejši ob jasnem vremenu in dobri vidljivosti.",
-    "Za sprehod po bob stezi in okolici so priporočljivi udobni čevlji.",
-    "Vrelo Bosne je boljša izbira za miren dan v senci in zelenju.",
-    "Zvečer pripravita prtljago za jutranji odhod iz Sarajeva."
-  ],
-
-  "journal": {
-    "enabled": true,
-    "text": ""
-  }
-},
-{
-  "id": "day07",
-  "day": 7,
-  "date": "2026-08-07",
-  "title": "Od Drine do črnogorskih gora",
-  "subtitle": "Višegrad, most Mehmed paše Sokolovića in prihod v Durmitor",
-  "countries": ["BA", "ME"],
-  "hero_image": "../../../images/roadbooks/balkan-2026/days/hero07.jpg",
-
-  "quick_links": {
-    "google_maps": "https://maps.app.goo.gl/5JqLyuUsUss7G9s26",
-    "host": "host/zabljak.html",
-    "weather": {
-      "location": "Žabljak",
-      "lat": 43.1555,
-      "lon": 19.1236
-    }
-  },
-
-  "summary": {
-    "intro": "Pred vama je najdaljši dan vožnje na celotnem potovanju. Po odhodu iz Sarajeva sledi postanek v Višegradu ob znamenitem mostu na Drini, nato pa ena najlepših panoramskih voženj na Balkanu proti narodnemu parku Durmitor.",
-
-    "badges": [
-      {
-        "icon": "🌉",
-        "text": "Višegrad"
-      },
-      {
-        "icon": "📖",
-        "text": "Most na Drini"
-      },
-      {
-        "icon": "🏔️",
-        "text": "Durmitor"
-      },
-      {
-        "icon": "🇲🇪",
-        "text": "Črna gora"
-      }
-    ],
-
-    "notice": {
-      "type": "important",
-      "title": "Najdaljši dan vožnje",
-      "text": "Čeprav je predvidenih skoraj šest ur vožnje, pot razbije prijeten postanek v Višegradu. Po prihodu na Žabljak priporočava miren večer in zgodnejši počitek."
-    },
-
-    "cards": [
-      {
-        "icon": "🛣️",
-        "label": "Razdalja",
-        "value": "približno 250 km"
-      },
-      {
-        "icon": "🕒",
-        "label": "Vožnja",
-        "value": "6–7 ur"
-      },
-      {
-        "icon": "🌉",
-        "label": "Glavni postanek",
-        "value": "Višegrad"
-      },
-      {
-        "icon": "🛏️",
-        "label": "Nočitev",
-        "value": "Žabljak"
-      }
-    ]
-  },
-
-  "program": [
-    {
-      "type": "departure",
-      "icon": "🚗",
-      "title": "Odhod iz Sarajeva",
-      "duration": "do 11.00",
-      "text": "Po odjavi iz apartmaja se odpravita proti vzhodni Bosni in reki Drini."
-    },
-    {
-      "type": "visit",
-      "icon": "🌉",
-      "title": "Višegrad",
-      "duration": "2–3 ure",
-      "text": "Višegrad slovi po znamenitem Mostu Mehmed paše Sokolovića, ki je pod Unescovo zaščito in ga je v romanu Most na Drini ovekovečil nobelovec Ivo Andrić. Sprehodita se čez most, ob reki Drini in obiščita tudi bližnji Andrićgrad, kamnito mestno četrt, posvečeno pisatelju.",
-      "links": [
-        {
-          "icon": "📍",
-          "label": "Google Maps",
-          "url": "https://maps.app.goo.gl/5JqLyuUsUss7G9s26"
-        }
-      ]
-    },
-    {
-      "type": "food",
-      "icon": "🐟",
-      "title": "Kosilo ob Drini",
-      "text": "Roadbook priporoča Hotel Višegrad, kjer pripravljajo postrv iz Drine, jedi izpod sača in druge lokalne specialitete v prijetnem okolju ob reki.",
-      "links": [
-        {
-          "icon": "📍",
-          "label": "Hotel Višegrad",
-          "url": "https://maps.app.goo.gl/5JqLyuUsUss7G9s26"
-        }
-      ]
-    },
-    {
-      "type": "drive",
-      "icon": "🏔️",
-      "title": "Vožnja proti Žabljaku",
-      "duration": "3,5–4 ure",
-      "text": "Sledi ena najlepših cest na celotnem potovanju. Pokrajina se postopoma spreminja iz gozdov in rečnih dolin v visokogorski svet Durmitorja."
-    },
-    {
-      "type": "arrival",
-      "icon": "🛏️",
-      "title": "Prihod na Žabljak",
-      "text": "Po prijavi v nastanitev si privoščita sproščen večer. Naslednji dnevi bodo namenjeni raziskovanju narodnega parka Durmitor."
-    }
-  ],
-
-  "stay": {
-    "name": "Žabljak",
-    "text": "Prva od treh noči v osrčju Durmitorja.",
-    "url": "host/zabljak.html",
-    "link_label": "Odpri kartico nastanitve"
-  },
-
-  "food": {
-    "breakfast": {
-      "place": "Sarajevo",
-      "text": "Zajtrk pred odhodom."
-    },
-    "lunch": {
-      "place": "Hotel Višegrad",
-      "text": "Roadbook izbor: drinska postrv, jedi izpod sača in kosilo ob reki Drini."
-    },
-    "dinner": {
-      "place": "Žabljak",
-      "text": "Po prihodu priporočava mirno večerjo v bližini nastanitve."
-    }
-  },
-
-  "practical": [
-    "Check-out v Sarajevu do 11.00.",
-    "Na pot se odpravita z dovolj goriva, saj je med kraji manj bencinskih servisov.",
-    "Za prihod na Žabljak računajta na pozno popoldne ali zgodnji večer.",
-    "V gorah je lahko tudi poleti občutno hladneje kot v Sarajevu."
-  ],
-
-  "journal": {
-    "enabled": true,
-    "text": ""
-  }
-},
-{
-  "id": "day08",
-  "day": 8,
-  "date": "2026-08-08",
-  "title": "Durmitor v počasnem ritmu",
-  "subtitle": "Črno jezero, gozdovi in prvi stik z narodnim parkom",
-  "countries": ["ME"],
-  "hero_image": "../../../images/roadbooks/balkan-2026/days/hero08.jpg",
-
-  "quick_links": {
-    "host": "host/zabljak.html",
-    "weather": {
-      "location": "Žabljak",
-      "lat": 43.1555,
-      "lon": 19.1236
-    }
-  },
-
-  "summary": {
-    "intro": "Po najdaljšem dnevu vožnje je danes čas za počasnejši ritem. Durmitor je najbolje spoznavati brez naglice – ob jezeru, med iglastimi gozdovi in na poteh, kjer je narava pomembnejša od kilometrov.",
-
-    "badges": [
-      {
-        "icon": "🏞️",
-        "text": "Črno jezero"
-      },
-      {
-        "icon": "🥾",
-        "text": "Lahek pohod"
-      },
-      {
-        "icon": "🌲",
-        "text": "Narodni park"
-      },
-      {
-        "icon": "🧘",
-        "text": "Slow day"
-      }
-    ],
-
-    "notice": {
-      "type": "tip",
-      "title": "Dan za regeneracijo",
-      "text": "Ne načrtujta preveč aktivnosti. Namen dneva je uživati v naravi, si odpočiti po dolgi vožnji in nabrati moči za bolj aktiven jutri."
-    },
-
-    "cards": [
-      {
-        "icon": "🥾",
-        "label": "Glavna aktivnost",
-        "value": "Črno jezero"
-      },
-      {
-        "icon": "⏱️",
-        "label": "Tempo",
-        "value": "Počasen"
-      },
-      {
-        "icon": "🧺",
-        "label": "Kosilo",
-        "value": "Iz nahrbtnika"
-      },
-      {
-        "icon": "🛏️",
-        "label": "Nočitev",
-        "value": "Žabljak"
-      }
-    ]
-  },
-
-  "program": [
-    {
-      "type": "activity",
-      "icon": "🏞️",
-      "title": "Črno jezero",
-      "text": "Najbolj znana in najlažje dostopna naravna znamenitost narodnega parka Durmitor. Sprehod okoli jezera vodi skozi goste smrekove gozdove in ponuja čudovite razglede na vrhove masiva. Pot je nezahtevna in primerna za sproščeno raziskovanje.",
-      "link": {
-        "type": "activity",
-        "label": "Odpri vodič za Črno jezero",
-        "url": "templates/guide.html?guide=durmitor-hiking-black-lake"
-      }
-    },
-    {
-      "type": "relax",
-      "icon": "🌲",
-      "title": "Popoldne v naravi",
-      "text": "Po pohodu si vzemita čas za počitek ob jezeru, fotografiranje ali sproščen sprehod po gozdu. Durmitor je eden tistih krajev, kjer je največ vredno prav to, da nikamor ne hitita."
-    }
-  ],
-
-  "stay": {
-    "name": "Žabljak",
-    "text": "Druga noč v osrčju narodnega parka Durmitor.",
-    "url": "host/zabljak.html",
-    "link_label": "Odpri kartico nastanitve"
-  },
-
-  "food": {
-    "breakfast": {
-      "place": "Nastanitev",
-      "text": "Miren zajtrk v apartmaju pred odhodom v narodni park."
-    },
-    "lunch": {
-      "place": "Narodni park Durmitor",
-      "text": "Priporočava piknik oziroma kosilo iz nahrbtnika na eni izmed urejenih počivališč ob Črnem jezeru."
-    },
-    "dinner": {
-      "place": "Žabljak",
-      "text": "Večerjo izberita po priporočilih v kulinaričnem delu Roadbooka.",
-      "links": [
-        {
-          "icon": "🍽️",
-          "label": "Roadbook Food Guide",
-          "url": "food.html"
-        }
-      ]
-    }
-  },
-
-  "practical": [
-    "Za sprehod okoli Črnega jezera zadoščajo običajni pohodni čevlji.",
-    "S seboj vzemita dovolj vode in zaščito pred soncem.",
-    "Če bo vreme lepo, si za ogled rezervirajta več časa in preprosto uživajta v naravi."
-  ],
-
-  "journal": {
-    "enabled": true,
-    "text": ""
-  }
-},
-{
-  "id": "day09",
-  "day": 9,
-  "date": "2026-08-09",
-  "title": "Kanjon Tare in razgledi",
-  "subtitle": "Most Đurđevića Tara, panorame in možnosti za adrenalinska doživetja",
-  "countries": ["ME"],
-  "hero_image": "../../../images/roadbooks/balkan-2026/days/hero09.jpg",
-
-  "quick_links": {
-    "host": "host/zabljak.html",
-    "weather": {
-      "location": "Žabljak",
-      "lat": 43.1555,
-      "lon": 19.1236
-    }
-  },
-
-  "summary": {
-    "intro": "Današnji dan je posvečen enemu največjih naravnih čudes Balkana. Kanjon reke Tare navdušuje z globokimi prepadi, razgledi in smaragdno reko, hkrati pa ponuja tudi nekaj najbolj priljubljenih adrenalinskih doživetij v Črni gori.",
-
-    "badges": [
-      {
-        "icon": "🌉",
-        "text": "Most Đurđevića Tara"
-      },
-      {
-        "icon": "🏞️",
-        "text": "Kanjon Tare"
-      },
-      {
-        "icon": "🚣",
-        "text": "Rafting"
-      },
-      {
-        "icon": "🪂",
-        "text": "Zipline"
-      }
-    ],
-
-    "notice": {
-      "type": "tip",
-      "title": "Izberita svoj tempo",
-      "text": "Dan lahko preživita povsem umirjeno z razgledi in kratkimi sprehodi ali pa ga spremenita v pravo adrenalinsko dogodivščino z raftingom ali ziplinom."
-    },
-
-    "cards": [
-      {
-        "icon": "🏞️",
-        "label": "Glavna znamenitost",
-        "value": "Kanjon Tare"
-      },
-      {
-        "icon": "🌉",
-        "label": "Razgled",
-        "value": "Most Đurđevića Tara"
-      },
-      {
-        "icon": "🚣",
-        "label": "Možnost",
-        "value": "Rafting"
-      },
-      {
-        "icon": "🛏️",
-        "label": "Nočitev",
-        "value": "Žabljak"
-      }
-    ]
-  },
-
-  "program": [
-    {
-      "type": "activity",
-      "icon": "🌉",
-      "title": "Most Đurđevića Tara",
-      "text": "Ikonični most velja za eno najbolj prepoznavnih razglednih točk v Črni gori. Sprehod čez most ponuja osupljive poglede na skoraj 150 metrov globok kanjon reke Tare in okoliške gozdove Durmitorja."
-    },
-    {
-      "type": "activity",
-      "icon": "🏞️",
-      "title": "Razgledne točke kanjona",
-      "text": "Ob cesti je več krajših postankov z razglednimi točkami, kjer se odpirajo panoramski pogledi na kanjon. To so odlična mesta za fotografiranje in krajše sprehode."
-    },
-    {
-      "type": "activity",
-      "icon": "🚣",
-      "title": "Rafting ali zipline",
-      "text": "Če si želita bolj aktivnega dne, je Tara ena najboljših destinacij na Balkanu za rafting. Ob mostu deluje tudi več ponudnikov zipline spustov čez kanjon.",
-      "link": {
-        "type": "activity",
-        "label": "Odpri vodič po kanjonu Tare",
-        "url": "templates/guide.html?guide=tara-river-valley"
-      }
-    }
-  ],
-
-  "stay": {
-    "name": "Žabljak",
-    "text": "Zadnja noč v narodnem parku Durmitor.",
-    "url": "host/zabljak.html",
-    "link_label": "Odpri kartico nastanitve"
-  },
-
-  "food": {
-    "breakfast": {
-      "place": "Žabljak",
-      "text": "Zajtrk v nastanitvi ali bližnji pekarni."
-    },
-    "lunch": {
-      "place": "Most Đurđevića Tara",
-      "text": "Kosilo v eni izmed restavracij ob mostu ali po priporočilih v vodiču."
-    },
-    "dinner": {
-      "place": "Žabljak",
-      "text": "Zadnja večerja v Durmitorju po priporočilih Roadbooka.",
-      "links": [
-        {
-          "icon": "🍽️",
-          "label": "Roadbook Food Guide",
-          "url": "food.html"
-        }
-      ]
-    }
-  },
-
-  "practical": [
-    "Za razglede in fotografiranje si vzemita dovolj časa.",
-    "Če načrtujeta rafting, rezervacijo uredita vnaprej.",
-    "Za zipline priporočava športna oblačila in zaprto obutev.",
-    "Po aktivnosti pripravita prtljago za jutrišnji odhod proti Boki Kotorski."
-  ],
-
-  "journal": {
-    "enabled": true,
-    "text": ""
-  }
-},
-{
-  "id": "day10",
-  "day": 10,
-  "date": "2026-08-10",
-  "title": "Od gora do Boke Kotorske",
-  "subtitle": "Panoramska vožnja skozi Durmitor in prvi večer ob morju",
-  "countries": ["ME"],
-  "hero_image": "../../../images/roadbooks/balkan-2026/days/hero10.jpg",
-
-  "quick_links": {
-    "google_maps": "https://maps.app.goo.gl/2s8YMj3998esKX1b6",
-    "host": "host/perast.html",
-    "weather": {
-      "location": "Perast",
-      "lat": 42.4865,
-      "lon": 18.6988
-    }
-  },
-
-  "summary": {
-    "intro": "Danes se pokrajina popolnoma spremeni. Po panoramski vožnji skozi Durmitor se cesta začne spuščati proti Jadranskemu morju, kjer se odpre eden najlepših pogledov na Boko Kotorsko. Po prihodu v Perast oziroma Kotor se potovanje prvič zares prevesi v sproščen mediteranski ritem.",
-
-    "badges": [
-      {
-        "icon": "🏔️",
-        "text": "Durmitor Ring"
-      },
-      {
-        "icon": "🌊",
-        "text": "Boka Kotorska"
-      },
-      {
-        "icon": "🏰",
-        "text": "Kotor"
-      },
-      {
-        "icon": "🍸",
-        "text": "Mediteranski večer"
-      }
-    ],
-
-    "notice": {
-      "type": "tip",
-      "title": "Najlepša panoramska vožnja",
-      "text": "Ne hitita. Današnja cesta je sama po sebi doživetje, zato si vzemita čas za postanke in razglede."
-    },
-
-    "cards": [
-      {
-        "icon": "🚗",
-        "label": "Roadtrip",
-        "value": "5–6 ur"
-      },
-      {
-        "icon": "📍",
-        "label": "Postaje",
-        "value": "9"
-      },
-      {
-        "icon": "🏖️",
-        "label": "Popoldne",
-        "value": "Kotor in morje"
-      },
-      {
-        "icon": "🛏️",
-        "label": "Nočitev",
-        "value": "Perast"
-      }
-    ]
-  },
-
-  "program": [
-    {
-      "type": "roadtrip",
-      "icon": "🏔️",
-      "title": "Durmitor Ring → Perast",
-      "text": "Pred odhodom proti morju opravita še panoramski krog po Durmitorju. Ena najlepših cest na Balkanu vodi mimo visokogorskih planot, razglednih sedel in spektakularnih pogledov, nato pa se začne dolg spust proti Boki Kotorski.",
-      "link": {
-        "type": "activity",
-        "label": "Odpri Roadtrip vodič",
-        "url": "templates/guide.html?guide=durmitor-panorama-zabljak-perast"
-      }
-    },
-    {
-      "type": "food",
-      "icon": "🍽️",
-      "title": "Kosilo na poti",
-      "text": "Za kosilo izberita eno izmed restavracij ob poti skozi Črno goro. Današnji poudarek naj bo na vožnji in razgledih."
-    },
-    {
-      "type": "arrival",
-      "icon": "🛏️",
-      "title": "Prihod v Boko Kotorsko",
-      "text": "Po prihodu sledi prijava v nastanitev. Check-in je mogoč med 14.00 in 22.00."
-    },
-    {
-      "type": "activity",
-      "icon": "🏰",
-      "title": "Prvi sprehod po Kotorju",
-      "text": "Popoldne namenita raziskovanju starega mestnega jedra. Če bo ostalo dovolj časa in energije, se povzpnita do prve razgledne točke ali dela mestnega obzidja."
-    },
-    {
-      "type": "relax",
-      "icon": "🌊",
-      "title": "Morje in večerni utrip",
-      "text": "Če bo vreme lepo, si privoščita prvo kopanje v Boki Kotorski, nato pa večer zaključita ob marini ali na obali s koktajlom in pogledom na zaliv."
-    }
-  ],
-
-  "stay": {
-    "name": "Vista Montis · Perast · Bluemarine Rooms & Apartments",
-    "text": "Prva od dveh noči ob Boki Kotorski.",
-    "url": "host/perast.html",
-    "link_label": "Odpri kartico nastanitve"
-  },
-
-  "food": {
-    "breakfast": {
-      "place": "Žabljak",
-      "text": "Zajtrk pred odhodom."
-    },
-    "lunch": {
-      "place": "Na poti",
-      "text": "Kosilo med panoramsko vožnjo proti Boki Kotorski."
-    },
-    "dinner": {
-      "place": "Kotor ali Perast",
-      "text": "Za večerjo izberita eno izmed priporočil v kulinaričnem delu Roadbooka.",
-      "links": [
-        {
-          "icon": "🍽️",
-          "label": "Roadbook Food Guide",
-          "url": "food.html"
-        }
-      ]
-    }
-  },
-
-  "practical": [
-    "Panoramska cesta vsebuje veliko ovinkov in razglednih postankov.",
-    "Na cilj ne hitita – današnja vožnja je del doživetja.",
-    "Po prihodu preverita možnost večernega kopanja, saj je morje običajno najtoplejše pozno popoldne."
-  ],
-
-  "journal": {
-    "enabled": true,
-    "text": ""
-  }
-},
-{
-  "id": "day11",
-  "day": 11,
-  "date": "2026-08-11",
-  "title": "Boka Kotorska po svoje",
-  "subtitle": "Perast, Kotor, morje in ladjica – prilagodljiv dan brez avtomobila",
-  "countries": ["ME"],
-  "hero_image": "../../../images/roadbooks/balkan-2026/days/hero11.jpg",
-
-  "quick_links": {
-    "host": "host/perast.html",
-    "weather": {
-      "location": "Kotor",
-      "lat": 42.4247,
-      "lon": 18.7712
-    }
-  },
-
-  "summary": {
-    "intro": "Danes ni enega pravilnega načrta. Glede na vreme, energijo in razpoloženje lahko združita jutranji vzpon nad Kotor, ogled starega mesta, izlet z ladjico po Boki Kotorski ali sproščeno poležavanje ob morju.",
-
-    "badges": [
-      {
-        "icon": "🏰",
-        "text": "Kotor"
-      },
-      {
-        "icon": "⛵",
-        "text": "Boka Kotorska"
-      },
-      {
-        "icon": "🏖️",
-        "text": "Morje"
-      },
-      {
-        "icon": "🚶",
-        "text": "Dan brez avta"
-      }
-    ],
-
-    "notice": {
-      "type": "tip",
-      "title": "Dan brez strogega urnika",
-      "text": "Ni treba vključiti vsega. Izberita tisto, kar vama bo tisti dan najbolj ustrezalo: zgodnji pohod, Kotor, ladjico, kopanje ali počasno raziskovanje Perasta."
-    },
-
-    "cards": [
-      {
-        "icon": "🌅",
-        "label": "Jutro",
-        "value": "Vzpon nad Kotor"
-      },
-      {
-        "icon": "🏰",
-        "label": "Mesto",
-        "value": "Kotor"
-      },
-      {
-        "icon": "⛵",
-        "label": "Možnost",
-        "value": "Izlet z ladjico"
-      },
-      {
-        "icon": "🛏️",
-        "label": "Nočitev",
-        "value": "Perast"
-      }
-    ]
-  },
-
-  "program": [
-    {
-      "type": "option",
-      "icon": "🌅",
-      "title": "Jutranji vzpon nad Kotor",
-      "duration": "približno 1–1,5 ure",
-      "text": "Če želita Kotor videti iz najlepše perspektive, se na razgledno točko odpravita zgodaj zjutraj, še preden postane prevroče. Izbirata lahko med brezplačno panoramsko potjo in plačljivo potjo proti trdnjavi Svetega Ivana.",
-      "links": [
-        {
-          "icon": "🥾",
-          "label": "Brezplačna panoramska pot",
-          "url": "https://maps.app.goo.gl/S8jrKbBWZ8SVtEwX7"
+          "icon": "🕖",
+          "text": "Štart 7.00"
         },
         {
           "icon": "🏰",
-          "label": "Pot do trdnjave",
-          "url": "https://maps.app.goo.gl/oQMce6fYcWw4rVzQ6"
+          "text": "Frankopani"
         },
         {
-          "icon": "🗺️",
-          "label": "Zemljevid poti",
-          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1eMaVfbP-5PMBxKqT_1hvBPJq3TKTJBc"
+          "icon": "💧",
+          "text": "Rastoke"
+        }
+      ],
+      "notice": {
+        "type": "tip",
+        "title": "Najin namig",
+        "text": "V Rastoke je priporočljivo prispeti dovolj zgodaj, da ostane čas za sproščen sprehod skozi vas. Večerna svetloba med slapovi in lesenimi mostovi je ena najlepših za fotografiranje."
+      },
+      "cards": [
+        {
+          "icon": "🛣️",
+          "label": "Razdalja",
+          "value": "280 km"
+        },
+        {
+          "icon": "🕒",
+          "label": "Čas vožnje",
+          "value": "3–4 ure"
+        },
+        {
+          "icon": "🛏️",
+          "label": "Nočitev",
+          "value": "Guesthouse Pod rastočkim krovom"
+        },
+        {
+          "icon": "🕓",
+          "label": "Check-in",
+          "value": "16.00–20.00"
         }
       ]
     },
-    {
-      "type": "activity",
-      "icon": "🏰",
-      "title": "Ogled starega mesta Kotor",
-      "text": "Kotor raziščita po pripravljenem sprehajalnem vodiču, ki vodi skozi mestna vrata, trge, cerkve, palače in ozke kamnite ulice enega najbolje ohranjenih srednjeveških mest ob Jadranu.",
-      "link": {
-        "type": "activity",
-        "label": "Odpri vodič po Kotorju",
-        "url": "templates/guide.html?guide=kotor-old-town-walk"
-      }
-    },
-    {
-      "type": "option",
-      "icon": "⛵",
-      "title": "Izlet z ladjico po Boki Kotorski",
-      "text": "Iz Perasta ali Kotorja se lahko odpravita na izlet z ladjico po zalivu. Iz Perasta je najlažje obiskati otoček Gospa od Škrpjela, iz Kotorja pa so na voljo tudi daljši panoramski izleti po Boki.",
-      "link": {
-        "type": "activity",
-        "label": "Odpri vodič za izlet z ladjico",
-        "url": "templates/guide.html?guide=boka-kotorska-boat-trip"
-      }
-    },
-    {
-      "type": "option",
-      "icon": "🏖️",
-      "title": "Sproščen dan ob morju",
-      "text": "Če si bosta zaželela počasnejšega dne, lahko ostaneta v Perastu ali se odpravita proti Dobroti. Dan namenita kopanju, kavicam, sprehodom ob obali in razgledom na zaliv."
-    },
-    {
-      "type": "evening",
-      "icon": "🌙",
-      "title": "Večer ob morju ali nad Boko",
-      "text": "Za večerjo lahko ostaneta ob obali ali se odpravita v eno izmed vasi nad zalivom, kjer strežejo tradicionalne črnogorske jedi v mirnejšem podeželskem okolju."
-    }
-  ],
-
-  "stay": {
-    "name": "Vista Montis · Perast · Bluemarine Rooms & Apartments",
-    "text": "Druga in zadnja noč ob Boki Kotorski.",
-    "url": "host/perast.html",
-    "link_label": "Odpri kartico nastanitve"
-  },
-
-  "food": {
-    "breakfast": {
-      "place": "Perast",
-      "text": "Zajtrk v nastanitvi ali enem izmed lokalov ob obali."
-    },
-    "lunch": {
-      "place": "Kotor, Perast ali na izletu",
-      "text": "Kosilo prilagodita izbranemu programu. Primeren je lažji obrok ob morju ali nekaj na poti."
-    },
-    "dinner": {
-      "place": "Obala ali Restoran Nadoveza",
-      "text": "Večerjata lahko ob morju ali v Restoranu Nadoveza, kjer pripravljajo tradicionalno črnogorsko kuhinjo.",
-      "links": [
-        {
-          "icon": "📍",
-          "label": "Restoran Nadoveza",
-          "url": "https://maps.app.goo.gl/6WjrC3KEVv7x2EZC7"
-        },
-        {
-          "icon": "🍽️",
-          "label": "Kulinarika v Roadbooku",
-          "url": "food.html"
-        }
-      ]
-    }
-  },
-
-  "practical": [
-    "Na vzpon nad Kotor se odpravita zgodaj zjutraj zaradi vročine in manjše gneče.",
-    "Brezplačna panoramska pot je dolga približno 2 kilometra in ima okoli 208 metrov vzpona.",
-    "Plačljiva pot do trdnjave je krajša, vendar vključuje strme kamnite stopnice.",
-    "Preverita urnike in izhodišča ladjic v Perastu in Kotorju.",
-    "Program naj ostane prilagodljiv; ni treba vključiti vseh predlaganih aktivnosti."
-  ],
-
-  "journal": {
-    "enabled": true,
-    "text": ""
-  }
-},
-{
-  "id": "day12",
-  "day": 12,
-  "date": "2026-08-12",
-  "title": "Iz Boke v Hercegovino",
-  "subtitle": "Trebinje, izvir Bune in večer pod Starim mostom",
-  "countries": ["ME", "BA"],
-  "hero_image": "../../../images/roadbooks/balkan-2026/days/hero12.jpg",
-
-  "quick_links": {
-    "google_maps": "https://maps.app.goo.gl/4T6hE8JXxv5Y7K6bA",
-    "host": "host/mostar.html",
-    "weather": {
-      "location": "Mostar",
-      "lat": 43.3438,
-      "lon": 17.8078
-    }
-  },
-
-  "summary": {
-    "intro": "Danes zapustita Boko Kotorsko in se odpravita proti Hercegovini. Pot vodi skozi slikovito Trebinje, mimo izvira Bune v Blagaju do Mostarja, kjer se dan zaključi med kamnitimi ulicami in ob znamenitem Starem mostu.",
-
-    "badges": [
+    "program": [
       {
-        "icon": "🌳",
-        "text": "Trebinje"
+        "type": "drive",
+        "icon": "🚗",
+        "title": "Odhod iz Sežane",
+        "duration": "7.00",
+        "text": "Začetek balkanske dogodivščine. Pred odhodom še enkrat preveri dokumente, rezervacije, gotovino, napolnjenost telefonov in fotoaparatov ter poskrbi, da bo vse potrebno pri roki."
       },
       {
-        "icon": "💧",
-        "text": "Blagaj"
+        "type": "stop",
+        "icon": "☕",
+        "title": "Postanek na Primskovem",
+        "text": "Kratek obisk kolegice in prijeten odmor od vožnje."
       },
       {
-        "icon": "🌉",
-        "text": "Mostar"
-      },
-      {
+        "type": "photo",
         "icon": "📷",
-        "text": "Fotografski dan"
+        "title": "Žužemberk (po želji)",
+        "text": "Če bo čas dopuščal, se lahko na poti ustavita pri gradu Žužemberk. Grad stoji na mogočni skali nad reko Krko in predstavlja lepo priložnost za kratek fotografski postanek."
+      },
+      {
+        "type": "visit",
+        "icon": "🏰",
+        "title": "Ogulin – mesto Frankopanov in pravljic",
+        "text": "Ogulin leži ob vznožju gore Klek, ki je po ljudskem izročilu dom čarovnic in velikanov. Prav tukaj je odraščala Ivana Brlić-Mažuranić, ena najpomembnejših hrvaških pisateljic in avtorica znamenitih Prič iz davnine. Nad mestom stoji renesančni grad Frankopanov iz začetka 16. stoletja, zgrajen kot obramba pred Osmanskim cesarstvom. Frankopani so bili ena najvplivnejših hrvaških plemiških rodbin, grad pa danes gosti domoznanski muzej. Ob njem se nahaja tudi znameniti Đulin ponor, kjer reka Dobra izgine v podzemlje."
+      },
+      {
+        "type": "arrival",
+        "icon": "🛏️",
+        "title": "Prihod v Rastoke",
+        "text": "Po prijavi v nastanitev pustita avtomobil pri Guesthouse Pod rastočkim krovom in se peš odpravita raziskovat vas."
+      },
+      {
+        "type": "walk",
+        "icon": "💧",
+        "title": "Sprehod skozi Rastoke",
+        "text": "Rastoke veljajo za eno najlepših zgodovinskih vodnih naselij na Hrvaškem. Tukaj se reka Slunjčica v številnih slapovih izliva v Korano in ustvarja mrežo lesenih mostov, otočkov in brzic, med katerimi že stoletja stojijo mlini ter hiše. Zaradi številnih slapov jih pogosto imenujejo tudi 'male Plitvice', vendar imajo povsem svoj miren značaj. Sprehod med slapovi in starimi mlini je najlepši v večernih urah, ko se večina dnevnih obiskovalcev že odpravi domov."
+      },
+      {
+        "type": "evening",
+        "icon": "🌅",
+        "title": "Večer ob reki",
+        "text": "Večerjo lahko uživata kar v Guesthouse Pod rastočkim krovom, nato pa dan zaključita z mirnim sprehodom ob šumenju vode. Pred večerom oziroma ob prihodu v Slunj se ustavita še v trgovini in kupita zajtrk ter pijačo za naslednje jutro, saj nastanitev ne ponuja zajtrka."
       }
     ],
-
-    "notice": {
-      "type": "important",
-      "title": "Zgodnji odhod se izplača",
-      "text": "Iz Perasta priporočava odhod že okoli 7. ure zjutraj. Tako se izogneta prometnim zastojem in čakanju na mejnih prehodih ter si zagotovita več časa za postanke."
+    "stay": {
+      "name": "Guesthouse Pod rastočkim krovom",
+      "text": "Prijetna nastanitev tik ob vodi in odlično izhodišče za večerni ter jutranji ogled Rastok.",
+      "url": "host/rastoke.html",
+      "link_label": "Odpri kartico nastanitve"
     },
-
-    "cards": [
-      {
-        "icon": "🚗",
-        "label": "Pot",
-        "value": "Perast → Mostar"
+    "food": {
+      "breakfast": {
+        "place": "Doma",
+        "text": "Pred odhodom si privoščita miren zajtrk."
       },
-      {
-        "icon": "📍",
-        "label": "Glavna postanka",
-        "value": "Trebinje in Blagaj"
+      "coffee": {
+        "place": "Avto",
+        "text": "Prigrizki in pijača za pot."
       },
-      {
-        "icon": "🛏️",
-        "label": "Nočitev",
-        "value": "Pansion Villa Nur"
+      "lunch": {
+        "place": "Ogulin",
+        "text": "Kosilo med ogledom mesta."
       },
-      {
-        "icon": "🕐",
-        "label": "Check-in",
-        "value": "13.00–21.30"
+      "dinner": {
+        "place": "Guesthouse Pod rastočkim krovom",
+        "text": "Večerja na terasi ob reki brez dodatne vožnje."
       }
-    ]
-  },
-
-  "program": [
-    {
-      "type": "departure",
-      "icon": "🚗",
-      "title": "Odhod iz Perasta",
-      "duration": "priporočeno okoli 7.00",
-      "text": "Po zgodnji odjavi iz nastanitve se odpravita proti Hercegovini. Zaradi turistične sezone in mejnih prehodov priporočava čim zgodnejši odhod."
     },
-    {
-      "type": "visit",
-      "icon": "🌳",
-      "title": "Trebinje",
-      "duration": "1–2 uri",
-      "text": "Trebinje je eno najlepših hercegovskih mest z umirjenim sredozemskim vzdušjem. Sprehodita se skozi staro mestno jedro, obiščita Trg pesnikov, obzidje in senco mogočnih platan ob reki Trebišnjici. Mesto je odlična priložnost za krajši postanek in prve fotografije Hercegovine."
-    },
-    {
-      "type": "visit",
-      "icon": "💧",
-      "title": "Tekija Blagaj",
-      "duration": "1–1,5 ure",
-      "text": "Ob vznožju visokih kraških sten izvira reka Buna, ob njenem izviru pa stoji znamenita derviška tekija iz 16. stoletja. Blagaj velja za eno najbolj fotogeničnih krajev v Bosni in Hercegovini ter ponuja prijetno senco tudi v poletni vročini."
-    },
-    {
-      "type": "food",
-      "icon": "🐟",
-      "title": "Kosilo ob Buni",
-      "text": "Če vama čas dopušča, si v Blagaju privoščita kosilo v eni izmed restavracij ob reki. Najbolj znana lokalna specialiteta je sveža postrv iz Bune."
-    },
-    {
-      "type": "arrival",
-      "icon": "🛏️",
-      "title": "Prihod v Mostar",
-      "text": "Po prijavi v nastanitev se peš odpravita proti staremu mestnemu jedru in znamenitemu Staremu mostu."
-    },
-    {
-      "type": "activity",
-      "icon": "🌉",
-      "title": "Ogled Mostarja",
-      "text": "Mostar raziščita po pripravljenem Roadbook vodiču, ki vključuje najpomembnejše znamenitosti starega mesta, razgledne točke in zanimivosti ob Neretvi.",
-      "link": {
-        "type": "activity",
-        "label": "Odpri vodič po Mostarju",
-        "url": "templates/guide.html?guide=mostar-walk"
-      }
+    "practical": [
+      "Odhod iz Sežane najkasneje ob 7.00.",
+      "Navigacija: https://maps.app.goo.gl/GV4KQpP3SEBY9tUn7",
+      "Check-in je mogoč med 16.00 in 20.00.",
+      "Avtomobil po prihodu pustita pri nastanitvi in Rastoke raziščita peš.",
+      "Za večerni sprehod ob vodi priporočava lahko jopico.",
+      "Nastanitev ne ponuja zajtrka; še ta dan v trgovini kupita hrano za zajtrk in nekaj za s seboj na Plitvice.",
+      "Naslednje jutro imata vstopnico za Plitviška jezera za Vhod 2 ob 8.00, zato mora biti vse za zgodnji odhod pripravljeno že zvečer."
+    ],
+    "journal": {
+      "enabled": true,
+      "text": ""
     }
-  ],
-
-  "stay": {
-    "name": "Pansion Villa Nur",
-    "text": "Nastanitev tik ob zgodovinskem jedru Mostarja.",
-    "url": "host/mostar.html",
-    "link_label": "Odpri kartico nastanitve"
   },
-
-  "food": {
-    "breakfast": {
-      "place": "Perast",
-      "text": "Zajtrk pred zgodnjim odhodom."
+  {
+    "id": "day02",
+    "day": 2,
+    "date": "2026-08-02",
+    "title": "Dan med slapovi in podzemljem",
+    "subtitle": "Plitviška jezera in Baraćeve špilje – dve mojstrovini kraške narave",
+    "countries": [
+      "HR"
+    ],
+    "hero_image": "../../../images/roadbooks/balkan-2026/days/hero02.jpg",
+    "quick_links": {
+      "google_maps": "https://maps.app.goo.gl/F3MxGFQSDohvtg7M6",
+      "host": "host/rastoke.html",
+      "weather": {
+        "location": "Plitvička Jezera",
+        "lat": 44.8806,
+        "lon": 15.616
+      }
     },
-    "lunch": {
-      "place": "Blagaj",
-      "text": "Priporočava kosilo ob izviru Bune. Lokalna posebnost je postrv, pripravljena na različne tradicionalne načine."
-    },
-    "dinner": {
-      "place": "Urban – Taste of Orient",
-      "text": "Dan zaključita v eni najbolj priljubljenih restavracij v Mostarju, kjer združujejo hercegovsko in orientalsko kulinariko v prijetnem ambientu s pogledom na staro mestno jedro.",
-      "links": [
+    "summary": {
+      "intro": "Drugi dan je namenjen raziskovanju enega najbolj znamenitih narodnih parkov v Evropi in manj znanega kraškega bisera v njegovi bližini. Dopoldne bosta raziskovala Plitviška jezera po eni najlepših krožnih poti, popoldne pa se podala še v Baraćeve špilje, kjer se pod površjem skriva povsem drugačen svet kapnikov, podzemnih dvoran in ostankov jamskega medveda.",
+      "badges": [
         {
-          "icon": "📍",
-          "label": "Urban – Taste of Orient",
-          "url": "https://maps.app.goo.gl/5fXAG4G3LPCjCbuu5"
+          "icon": "🌊",
+          "text": "Plitviška jezera"
         },
         {
-          "icon": "🍽️",
-          "label": "Kulinarika v Roadbooku",
-          "url": "food.html"
-        }
-      ]
-    }
-  },
-
-  "practical": [
-    "Check-out v Perastu med 8.00 in 10.00.",
-    "Zaradi prometa in mejnih prehodov priporočava odhod okoli 7. ure.",
-    "V Blagaju imejta s seboj nekaj gotovine za manjše lokale ali parkirišča.",
-    "Mostar je poleti zelo vroč, zato imejta s seboj dovolj vode in pokrivalo."
-  ],
-
-  "journal": {
-    "enabled": true,
-    "text": ""
-  }
-},
-{
-  "id": "day13",
-  "day": 13,
-  "date": "2026-08-13",
-  "title": "Od Hercegovine do Dalmacije",
-  "subtitle": "Stolac, antična Narona in prihod v Split",
-  "countries": ["BA", "HR"],
-  "hero_image": "../../../images/roadbooks/balkan-2026/days/hero13.jpg",
-
-  "quick_links": {
-    "google_maps": "https://maps.app.goo.gl/vCkU4drsKqjfMy4b9",
-    "host": "host/split.html",
-    "weather": {
-      "location": "Split",
-      "lat": 43.5081,
-      "lon": 16.4402
-    }
-  },
-
-  "summary": {
-    "intro": "Po odhodu iz Mostarja se odpravita proti Hrvaški. Pot vodi skozi zgodovinski Stolac, mimo antične Narone in nato ob dolini Neretve do Splita, kjer se po aktivnih dneh znova začne bolj sproščen mediteranski utrip.",
-
-    "badges": [
-      {
-        "icon": "🏛️",
-        "text": "Stolac"
-      },
-      {
-        "icon": "🏺",
-        "text": "Narona"
-      },
-      {
-        "icon": "🇭🇷",
-        "text": "Hrvaška"
-      },
-      {
-        "icon": "🌊",
-        "text": "Split"
-      }
-    ],
-
-    "notice": {
-      "type": "tip",
-      "title": "Dan zgodovine",
-      "text": "Čeprav gre predvsem za potovalni dan, si za Stolac in Narono vzemita dovolj časa. Obe lokaciji sodita med najbolj zanimive zgodovinske postanke na celotnem potovanju."
-    },
-
-    "cards": [
-      {
-        "icon": "🚗",
-        "label": "Razdalja",
-        "value": "231 km"
-      },
-      {
-        "icon": "🕒",
-        "label": "Vožnja",
-        "value": "3 h 26 min"
-      },
-      {
-        "icon": "🏛️",
-        "label": "Glavna postanka",
-        "value": "Stolac in Narona"
-      },
-      {
-        "icon": "🛏️",
-        "label": "Nočitev",
-        "value": "Split"
-      }
-    ]
-  },
-
-  "program": [
-    {
-      "type": "departure",
-      "icon": "🚗",
-      "title": "Odhod iz Mostarja",
-      "text": "Po zajtrku zapustita Mostar in se odpravita proti jugu Hercegovine ter hrvaški meji."
-    },
-    {
-      "type": "visit",
-      "icon": "🏛️",
-      "title": "Stolac",
-      "duration": "1–2 uri",
-      "text": "Stolac velja za eno najstarejših neprekinjeno naseljenih mest v Bosni in Hercegovini. Sprehodita se skozi staro mestno jedro, obiščita ostanke srednjeveškega Vidoškega gradu ter se sprehodita ob reki Bregavi, ki mestu daje poseben mediteranski značaj."
-    },
-    {
-  "icon": "💦",
-  "title": "Slapovi Kravica — fakultativno",
-  "duration": "po želji",
-  "type": "optional",
-  "text": "Če bo dovolj časa, lahko po Stocu narediva še ovinek do slapov Kravica na reki Trebižat. Kratek postanek za pogled na slapove, fotografije ali zadnjo osvežitev v Hercegovini pred nadaljevanjem proti meji in Naroni.",
-  "links": [
-    {
-      "url": "https://maps.app.goo.gl/9rJZ7fdF5mZdhPe6A",
-      "label": "Slapovi Kravica · Google Maps",
-      "type": "map",
-      "icon": "📍"
-    }
-  ]
-},
-    {
-  "type": "drive",
-  "icon": "🇭🇷",
-  "title": "Prehod meje",
-  "text": "Po odhodu iz Stoca kmalu prečkata mejo med Bosno in Hercegovino ter Hrvaško. Takoj za mejnim prehodom se nahaja naslednji postanek – antična Narona."
-},
-{
-  "type": "visit",
-  "icon": "🏺",
-  "title": "Arheološki muzej Narona",
-  "duration": "1–1,5 ure",
-  "text": "Narona je bila eno najpomembnejših rimskih mest na vzhodni obali Jadrana. Arheološki muzej je zgrajen neposredno nad ostanki rimskega templja (Augusteuma), kjer je na ogled izjemna zbirka kipov rimskih cesarjev in drugih arheoloških najdb. Gre za enega najpomembnejših muzejev antične dediščine na Hrvaškem.",
-  "links": [
-    {
-      "icon": "🌐",
-      "label": "Informacije in cenik",
-      "url": "https://www.a-m-narona.hr/cjenik/"
-    }
-  ]
-},
-{
-  "type": "drive",
-  "icon": "🚗",
-  "title": "Vožnja proti Splitu",
-  "text": "Iz Narone nadaljujta skozi dolino Neretve proti Splitu, kjer sledi prijava v nastanitev in prvi večerni sprehod po Rivi."
-}
-  ],
-
-  "stay": {
-    "name": "Split Inn",
-    "text": "Prva od treh noči v Splitu.",
-    "url": "host/split.html",
-    "link_label": "Odpri kartico nastanitve"
-  },
-
-  "food": {
-    "breakfast": {
-      "place": "Mostar",
-      "text": "Zajtrk pred odhodom."
-    },
-    "lunch": {
-      "place": "Na poti",
-      "text": "Kosilo priporočava med ogledom Stoca ali po obisku Narone, odvisno od poteka dneva."
-    },
-    "dinner": {
-      "place": "Split",
-      "text": "Večer zaključita na splitski Rivi ali po priporočilih v kulinaričnem delu Roadbooka.",
-      "links": [
+          "icon": "🥾",
+          "text": "Program H"
+        },
         {
-          "icon": "🍽️",
-          "label": "Kulinarika v Roadbooku",
-          "url": "food.html"
+          "icon": "🦇",
+          "text": "Baraćeve špilje"
+        },
+        {
+          "icon": "💧",
+          "text": "Rastoke"
+        }
+      ],
+      "notice": {
+        "type": "important",
+        "title": "Vstopnica kupljena · Vhod 2 ob 8.00",
+        "text": "Vstopnici za Plitviška jezera sta kupljeni za Vhod 2 ob 8.00. Iz Rastok odrinita priporočeno okoli 7.15 in najkasneje ob 7.30. Vstop je mogoč samo na izbranem vhodu; zamuda je dovoljena največ eno uro."
+      },
+      "cards": [
+        {
+          "icon": "🎟️",
+          "label": "Vstop",
+          "value": "Vhod 2 · 8.00"
+        },
+        {
+          "icon": "🚶",
+          "label": "Dolžina poti",
+          "value": "8,9 km"
+        },
+        {
+          "icon": "🕒",
+          "label": "Program H",
+          "value": "4–6 ur"
+        },
+        {
+          "icon": "🛏️",
+          "label": "Nočitev",
+          "value": "Guesthouse Pod rastočkim krovom"
         }
       ]
-    }
-  },
-
-  "practical": [
-    "Na meji med Bosno in Hercegovino ter Hrvaško so poleti možni zastoji.",
-    "Za obisk Narone si rezervirajta vsaj eno uro.",
-    "Po prihodu v Split priporočava, da avto pustita parkiran in mesto raziskujeta peš.",
-    "Naslednja dva dneva bosta namenjena predvsem Splitu in okolici."
-  ],
-
-  "journal": {
-    "enabled": true,
-    "text": ""
-  }
-},
-{
-  "id": "day14",
-  "day": 14,
-  "date": "2026-08-14",
-  "title": "Srce Dioklecijanove palače",
-  "subtitle": "Rimski vrhunec potovanja in sproščeno popoldne ob morju",
-  "countries": ["HR"],
-  "hero_image": "../../../images/roadbooks/balkan-2026/days/hero14.jpg",
-
-  "quick_links": {
-    "host": "host/split.html",
-    "weather": {
-      "location": "Split",
-      "lat": 43.5081,
-      "lon": 16.4402
-    }
-  },
-
-  "summary": {
-    "intro": "Današnji dan je namenjen raziskovanju enega najbolje ohranjenih rimskih cesarskih kompleksov na svetu. Dioklecijanova palača je srce Splita že več kot 1700 let in predstavlja enega vrhuncev celotnega potovanja. Po ogledu si privoščita sproščeno popoldne ob morju ali v senci ozkih kamnitih ulic.",
-
-    "badges": [
-      {
-        "icon": "🏛️",
-        "text": "UNESCO"
-      },
-      {
-        "icon": "🏺",
-        "text": "Dioklecijan"
-      },
-      {
-        "icon": "🌊",
-        "text": "Kopanje"
-      },
-      {
-        "icon": "🚶",
-        "text": "Peš ogled"
-      }
-    ],
-
-    "notice": {
-      "type": "tip",
-      "title": "Najlepše dopoldne",
-      "text": "Staro mestno jedro si oglejta že dopoldne, ko je manj gneče in prijetnejše temperature. Popoldne namenita morju ali sproščenemu raziskovanju mestnih ulic."
     },
-
-    "cards": [
+    "program": [
       {
-        "icon": "🏛️",
-        "label": "Glavna znamenitost",
-        "value": "Dioklecijanova palača"
+        "type": "drive",
+        "icon": "🚗",
+        "title": "Odhod proti Plitviškim jezerom",
+        "text": "Po zajtrku v nastanitvi se odpeljita proti Vhodu 2 Narodnega parka Plitviška jezera. Vstopnici sta kupljeni za 8.00. Ker je treba parkirati, priti do vhoda in aktivirati vstopnici, je priporočljiv odhod okoli 7.15; najkasneje ob 7.30.",
+        "duration": "priporočeno 7.15 · najkasneje 7.30"
       },
       {
-        "icon": "🚶",
-        "label": "Ogled",
-        "value": "Peš"
-      },
-      {
-        "icon": "🌊",
-        "label": "Popoldne",
-        "value": "Morje ali sprostitev"
-      },
-      {
-        "icon": "🛏️",
-        "label": "Nočitev",
-        "value": "Split"
-      }
-    ]
-  },
-
-  "program": [
-    {
-      "type": "activity",
-      "icon": "🏛️",
-      "title": "Dioklecijanova palača",
-      "duration": "2–3 ure",
-      "text": "Po pripravljenem Roadbook vodiču raziščita najpomembnejše dele nekdanje cesarske palače, ki danes tvori zgodovinsko jedro Splita.",
-      "link": {
         "type": "activity",
-        "label": "Odpri vodič po Splitu",
-        "url": "templates/guide.html?guide=split-diocletian-walk"
-      }
-    },
-    {
-      "type": "highlight",
-      "icon": "🏺",
-      "title": "Podzemni prostori palače",
-      "text": "Najbolje ohranjeni rimski podkletni prostori na svetu omogočajo vpogled v prvotno zasnovo Dioklecijanove rezidence."
-    },
-    {
-      "type": "highlight",
-      "icon": "🏛️",
-      "title": "Peristil",
-      "text": "Osrednji trg palače je bil nekoč prostor cesarskih sprejemov, danes pa predstavlja najbolj prepoznavno razglednico Splita."
-    },
-    {
-      "type": "highlight",
-      "icon": "🪨",
-      "title": "Rimske ulice",
-      "text": "Sprehodita se po ulicah, ki že skoraj dva tisoč let sledijo prvotnemu rimskemu tlorisu palače."
-    },
-    {
-      "type": "highlight",
-      "icon": "⛪",
-      "title": "Katedrala svetega Dujma",
-      "text": "Nekdanji Dioklecijanov mavzolej je danes ena najstarejših katedral na svetu, ki še vedno opravlja svojo prvotno versko funkcijo."
-    },
-    {
-      "type": "option",
-      "icon": "🌊",
-      "title": "Popoldne ob morju",
-      "text": "Po ogledu mesta si privoščita kopanje, sprostitev na plaži ali osvežilno pijačo ob morju."
-    },
-    {
-      "type": "evening",
-      "icon": "🌅",
-      "title": "Večer na Rivi",
-      "text": "Dan zaključita s sprehodom po splitski Rivi, opazovanjem sončnega zahoda in živahnim večernim utripom mesta."
-    }
-  ],
-
-  "stay": {
-    "name": "Split Inn",
-    "text": "Druga od treh noči v Splitu.",
-    "url": "host/split.html",
-    "link_label": "Odpri kartico nastanitve"
-  },
-
-  "food": {
-    "breakfast": {
-      "place": "Split",
-      "text": "Zajtrk v nastanitvi ali eni izmed kavarn v starem mestnem jedru."
-    },
-    "lunch": {
-      "place": "Staro mestno jedro",
-      "text": "Kosilo med raziskovanjem palače ali po priporočilih v Roadbooku."
-    },
-    "dinner": {
-      "place": "Split",
-      "text": "Večerjo si privoščita ob Rivi ali v eni izmed konob znotraj Dioklecijanove palače.",
-      "links": [
-        {
-          "icon": "🍽️",
-          "label": "Kulinarika v Roadbooku",
-          "url": "food.html"
-        }
-      ]
-    }
-  },
-
-  "practical": [
-    "Večina znamenitosti je dosegljiva peš.",
-    "Za obisk podzemnih prostorov in katedrale preverita odpiralni čas.",
-    "Poleti so temperature v mestu visoke, zato imejta s seboj dovolj vode.",
-    "Popoldansko kopanje je prijetna osvežitev po ogledu mesta."
-  ],
-
-  "journal": {
-    "enabled": true,
-    "text": ""
-  }
-},
-{
-  "id": "day15",
-  "day": 15,
-  "date": "2026-08-15",
-  "title": "Dan po izbiri",
-  "subtitle": "Trije odlični izleti iz Splita – zgodovina, morje ali narava",
-  "countries": ["HR"],
-  "hero_image": "../../../images/roadbooks/balkan-2026/days/hero15.jpg",
-
-  "quick_links": {
-    "host": "host/split.html",
-    "weather": {
-      "location": "Split",
-      "lat": 43.5081,
-      "lon": 16.4402
-    }
-  },
-
-  "summary": {
-    "intro": "Današnji dan je namenjen raziskovanju okolice Splita. Roadbook ponuja tri različne izlete, ki ustrezajo različnim željam – od zgodovinskih mest in rimskih ostalin do slapov Narodnega parka Krka. Izberita tistega, ki vama bo najbolj pisan na kožo.",
-
-    "badges": [
-      {
-        "icon": "🏛️",
-        "text": "Zgodovina"
-      },
-      {
         "icon": "🌊",
-        "text": "Morje"
+        "title": "Plitviška jezera – Program H",
+        "duration": "4–6 ur",
+        "text": "Vstopita na Vhodu 2, za katerega sta kupljeni vstopnici ob 8.00. Program H vodi skozi Zgornja jezera, čez jezero Kozjak in naprej do Spodnjih jezer ter Velikega slapu, povratek pa poteka s panoramskim vozilom. Vstopnico imejta shranjeno na telefonu ali natisnjeno in jo ob vstopu validirajta.",
+        "link": {
+          "type": "activity",
+          "label": "Odpri vodič Programa H",
+          "url": "templates/guide.html?guide=plitvice-program-h"
+        }
       },
       {
-        "icon": "🌿",
-        "text": "Narava"
+        "type": "visit",
+        "icon": "🦇",
+        "title": "Baraćeve špilje",
+        "text": "Le približno 20 minut vožnje od Plitvic leži eden najlepših kraških biserov osrednje Hrvaške. Obisk poteka z vodnikom in traja približno eno uro. V jami je vse leto okoli 9 °C, zato priporočava lažji pulover ali vetrovko.",
+        "links": [
+          {
+            "icon": "📍",
+            "label": "Google Maps",
+            "url": "https://maps.app.goo.gl/ZP9TzkX9q3KBrhoZ8"
+          },
+          {
+            "icon": "🌐",
+            "label": "Uradna spletna stran",
+            "url": "https://baraceve-spilje.hr/posjeti-spilju/"
+          }
+        ]
       },
       {
+        "type": "drive",
         "icon": "🚗",
-        "text": "Enodnevni izlet"
+        "title": "Povratek v Rastoke",
+        "text": "Po ogledu Baraćevih špilj sledi kratka vožnja nazaj v Slunj."
+      },
+      {
+        "type": "evening",
+        "icon": "🌅",
+        "title": "Večer ob vodi",
+        "text": "Večer izkoristita za sproščen sprehod med slapovi Rastok ali večerjo ob reki Korani."
       }
     ],
-
-    "notice": {
-      "type": "tip",
-      "title": "Tri odlične možnosti",
-      "text": "Vse tri poti sta preizkušeni in primerni za enodnevni izlet iz Splita. Več podrobnosti najdeta na strani z izleti ali v posameznih vodičih."
+    "stay": {
+      "name": "Guesthouse Pod rastočkim krovom",
+      "text": "Druga noč v prijetni nastanitvi ob vodi.",
+      "url": "host/rastoke.html",
+      "link_label": "Odpri kartico nastanitve"
     },
-
-    "cards": [
+    "food": {
+      "breakfast": {
+        "place": "Nastanitev · iz trgovine",
+        "text": "Guesthouse Pod rastočkim krovom ne ponuja zajtrka. Hrano kupita že prejšnji dan in zajtrkujta v nastanitvi pred zgodnjim odhodom."
+      },
+      "lunch": {
+        "place": "Plitviška jezera",
+        "text": "Kosilo prilagodita poteku Programa H. Pri Vhodu 2 je Black River – Steak & Pasta House; med ponudbo parka je tudi tradicionalna Lička kuća. Za hitrejši tempo lahko vzameta tudi prigrizek oziroma del kosila s seboj."
+      },
+      "dinner": {
+        "place": "Rastoke",
+        "text": "Večerja ob reki ali v nastanitvi."
+      }
+    },
+    "practical": [
+      "Vstopnici sta kupljeni za 2. avgust 2026, Vhod 2 ob 8.00.",
+      "Priporočen odhod iz Rastok je okoli 7.15, najkasneje ob 7.30.",
+      "Vstop je mogoč samo na Vhodu 2; pred navedenim časom vstop ni mogoč, zamuda pa je dovoljena največ eno uro.",
+      "Vstopnico shranita na telefon ali jo natisnita ter jo ob prihodu validirajta na uradnem vhodu.",
+      "Nastanitev ne ponuja zajtrka, zato hrano kupita že prejšnji večer.",
+      "Program H traja približno 4–6 ur; obujta udobno pohodniško obutev ter vzemita dovolj vode in zaščito pred soncem.",
+      "V Baraćevih špiljah je temperatura okoli 9 °C, zato imejta s seboj lažji pulover ali vetrovko.",
+      "Zadnji vodeni ogled Baraćevih špilj je približno 30 minut pred zaprtjem."
+    ],
+    "journal": {
+      "enabled": true,
+      "text": ""
+    }
+  },
+  {
+    "id": "day03",
+    "day": 3,
+    "date": "2026-08-03",
+    "title": "Ob smaragdni Uni do kraljevskega mesta",
+    "subtitle": "Bihać, reka Una in prihod v zgodovinsko Jajce",
+    "countries": [
+      "HR",
+      "BA"
+    ],
+    "hero_image": "../../../images/roadbooks/balkan-2026/days/hero03.jpg",
+    "quick_links": {
+      "google_maps": "https://maps.app.goo.gl/qPeJuR7WgAPWBdq66",
+      "host": "host/jajce.html",
+      "weather": {
+        "location": "Jajce",
+        "lat": 44.3422,
+        "lon": 17.2708
+      }
+    },
+    "summary": {
+      "intro": "Danes zapustita Hrvaško in prvič vstopita v Bosno in Hercegovino. Po prehodu meje sledi postanek v Bihaću ob smaragdni reki Uni, nato pa vožnja proti enemu najlepših zgodovinskih mest v državi – kraljevskemu Jajcu.",
+      "badges": [
+        {
+          "icon": "🇧🇦",
+          "text": "Bosna in Hercegovina"
+        },
+        {
+          "icon": "💚",
+          "text": "Reka Una"
+        },
+        {
+          "icon": "👑",
+          "text": "Kraljevsko mesto"
+        },
+        {
+          "icon": "🌊",
+          "text": "Slapovi Plive"
+        }
+      ],
+      "notice": {
+        "type": "tip",
+        "title": "Najin namig",
+        "text": "Iz Rastok odpotujta najkasneje ob 9.00. Iz Bihaća priporočava odhod najkasneje ob 11.00, da bosta pravočasno prispela na kosilo ob Plivskih jezerih in nato na prijavo v nastanitev."
+      },
+      "cards": [
+        {
+          "icon": "🛣️",
+          "label": "Razdalja",
+          "value": "208 km"
+        },
+        {
+          "icon": "🕒",
+          "label": "Vožnja",
+          "value": "3 h 20 min"
+        },
+        {
+          "icon": "🛏️",
+          "label": "Nočitev",
+          "value": "Apartma Jelena"
+        },
+        {
+          "icon": "🕓",
+          "label": "Check-in",
+          "value": "15.00–23.00"
+        }
+      ]
+    },
+    "program": [
       {
-        "icon": "🥇",
-        "label": "Priporočilo",
-        "value": "Trogir in Kaštela"
+        "type": "departure",
+        "icon": "🚗",
+        "title": "Odhod iz Rastok",
+        "duration": "9.00",
+        "text": "Po zajtrku zapustita Rastoke in se odpravita proti Bosni in Hercegovini."
       },
       {
+        "type": "visit",
+        "icon": "💚",
+        "title": "Bihać",
+        "text": "Bihać leži ob smaragdni reki Uni in je že stoletja pomembno mesto na stičišču kultur. V srednjem veku je bil ena najpomembnejših utrdb Ogrskega kraljestva, pozneje pa je imel pomembno vlogo v času Osmanskega cesarstva. Danes je prijetno mesto za kratek sprehod ob Uni, ogled Kapetanove kule, mestnega jedra in mostov, ki povezujejo oba bregova reke.",
+        "links": [
+          {
+            "icon": "📍",
+            "label": "Google Maps",
+            "url": "https://maps.app.goo.gl/qPeJuR7WgAPWBdq66"
+          }
+        ]
+      },
+      {
+        "type": "drive",
+        "icon": "🚗",
+        "title": "Vožnja proti Jajcu",
+        "duration": "približno 2 uri",
+        "text": "Iz Bihaća krenita najkasneje ob 11.00, da ostane dovolj časa za kosilo in popoldanski ogled Jajca."
+      },
+      {
+        "type": "food",
+        "icon": "🐟",
+        "title": "Kosilo ob Plivskih jezerih",
+        "text": "Če bo odprta, priporočava Konobo Slapovi tik ob Plivskih jezerih. Njihova specialiteta je pastrmka na kraljevski način.",
+        "links": [
+          {
+            "icon": "📍",
+            "label": "Konoba Slapovi",
+            "url": "https://maps.app.goo.gl/ZtGJgiJMxzQMwBVX9"
+          }
+        ]
+      },
+      {
+        "type": "arrival",
+        "icon": "🛏️",
+        "title": "Prihod v Jajce",
+        "text": "Po kosilu sledi prijava v nastanitev Jelena. Check-in je mogoč med 15.00 in 23.00."
+      },
+      {
+        "type": "activity",
+        "icon": "👑",
+        "title": "Popoldanski ogled Jajca",
+        "text": "Jajce je eno najpomembnejših zgodovinskih mest Bosne in Hercegovine. Tukaj so kronali zadnje bosanske kralje, danes pa mesto navdušuje z mogočnim slapom, srednjeveško trdnjavo in bogato zgodovino.",
+        "link": {
+          "type": "activity",
+          "label": "Odpri vodič po Jajcu",
+          "url": "templates/guide.html?guide=jajce-kings-waterfall-avnoj"
+        }
+      }
+    ],
+    "stay": {
+      "name": "Apartma Jelena",
+      "text": "Nastanitev v neposredni bližini starega mestnega jedra Jajca.",
+      "url": "host/jajce.html",
+      "link_label": "Odpri kartico nastanitve"
+    },
+    "food": {
+      "breakfast": {
+        "place": "Rastoke",
+        "text": "Zajtrk pred odhodom proti Bosni in Hercegovini."
+      },
+      "lunch": {
+        "place": "Konoba Slapovi",
+        "text": "Roadbook priporočilo je pastrmka na kraljevski način, pripravljena iz sveže postrvi iz Plive."
+      },
+      "story": {
+        "title": "Food Story: Pastrmka na kraljevski način",
+        "text": "Jajce je bilo stoletja sedež bosanskih kraljev. Lokalna jed 'pastrmka na kraljevski način' združuje postrv iz Plive, tradicionalno pripravo s kajmakom ter zgodovino kraljevskega mesta."
+      },
+      "recommendations": [
+        {
+          "name": "Konoba Slapovi",
+          "search": "pastrmka na kraljevski način",
+          "status": "⭐ Roadbook izbor",
+          "map": "https://maps.app.goo.gl/ZtGJgiJMxzQMwBVX9"
+        }
+      ],
+      "dinner": {
+        "place": "Jajce",
+        "text": "Večerja v starem mestnem jedru."
+      }
+    },
+    "practical": [
+      "Odhod iz Rastok najkasneje ob 9.00.",
+      "Iz Bihaća krenita najkasneje ob 11.00.",
+      "V Bosni in Hercegovini velja konvertibilna marka (BAM).",
+      "Check-in v nastanitev je mogoč med 15.00 in 23.00."
+    ],
+    "journal": {
+      "enabled": true,
+      "text": ""
+    }
+  },
+  {
+    "id": "day04",
+    "day": 4,
+    "date": "2026-08-04",
+    "title": "Od vezirskega mesta do Sarajeva",
+    "subtitle": "Travnik, Vlašić in prvi večer na Baščaršiji",
+    "countries": [
+      "BA"
+    ],
+    "hero_image": "../../../images/roadbooks/balkan-2026/days/hero04.jpg",
+    "quick_links": {
+      "google_maps": "https://maps.app.goo.gl/vXzPJV4n7tXVrfiD7",
+      "host": "host/sarajevo.html",
+      "weather": {
+        "location": "Vlašić",
+        "lat": 44.3138,
+        "lon": 17.5707
+      }
+    },
+    "summary": {
+      "intro": "Po jutranjem odhodu iz Jajca se odpravita proti Travniku, nekdanjemu sedežu bosanskih vezirjev. Pot nato vodi čez planino Vlašić z lepimi razgledi, dan pa se zaključi v Sarajevu, kjer bosta prvi večer namenila sproščenemu raziskovanju Baščaršije.",
+      "badges": [
+        {
+          "icon": "🏰",
+          "text": "Travnik"
+        },
+        {
+          "icon": "⛰️",
+          "text": "Vlašić"
+        },
+        {
+          "icon": "🕌",
+          "text": "Sarajevo"
+        },
+        {
+          "icon": "🌆",
+          "text": "Baščaršija"
+        }
+      ],
+      "notice": {
+        "type": "tip",
+        "title": "Najin namig",
+        "text": "Če bo zajtrk v Jajcu bolj obilen, lahko kosilo prestavita na Vlašić ali pa si privoščita piknik iz nahrbtnika z razgledom na bosanske planine."
+      },
+      "cards": [
+        {
+          "icon": "🛣️",
+          "label": "Razdalja",
+          "value": "198 km"
+        },
+        {
+          "icon": "🕒",
+          "label": "Vožnja",
+          "value": "3 h 35 min"
+        },
+        {
+          "icon": "🛏️",
+          "label": "Nočitev",
+          "value": "Sarajevo"
+        },
+        {
+          "icon": "🕓",
+          "label": "Check-in",
+          "value": "14.00–22.00"
+        }
+      ]
+    },
+    "program": [
+      {
+        "type": "departure",
+        "icon": "🚗",
+        "title": "Odhod iz Jajca",
+        "duration": "najkasneje ob 10.00",
+        "text": "Po zajtrku in odjavi iz nastanitve se odpravita proti Travniku."
+      },
+      {
+        "type": "visit",
+        "icon": "🏰",
+        "title": "Travnik",
+        "duration": "približno 2 uri",
+        "text": "Travnik je bil skoraj 150 let sedež osmanskih vezirjev v Bosni. Mesto slovi po mogočni trdnjavi, slikovitem starem jedru, številnih mošejah in modrem izviru Plave vode. Sprehod skozi staro mestno jedro lepo pokaže preplet osmanske in srednjeevropske zgodovine.",
+        "links": [
+          {
+            "icon": "📍",
+            "label": "Google Maps",
+            "url": "https://maps.app.goo.gl/vXzPJV4n7tXVrfiD7"
+          }
+        ]
+      },
+      {
+        "type": "drive",
+        "icon": "⛰️",
+        "title": "Planina Vlašić",
+        "duration": "približno 1 ura",
+        "text": "Po asfaltirani cesti se lahko povzpneta do razglednih točk na planini Vlašić. Planota je znana po pašnikih, planinskih kočah in znamenitem vlašičkem siru. Že krajši postanek ponuja čudovite razglede na osrednjo Bosno.",
+        "links": [
+          {
+            "icon": "🌐",
+            "label": "Več o Vlašiću",
+            "url": "https://en.wikipedia.org/wiki/Vla%C5%A1i%C4%87_(Bosnia_and_Herzegovina)"
+          }
+        ]
+      },
+      {
+        "type": "arrival",
+        "icon": "🛏️",
+        "title": "Prihod v Sarajevo",
+        "text": "Po prihodu sledi prijava v nastanitev. Apartma je odlično izhodišče za raziskovanje starega mestnega jedra."
+      },
+      {
+        "type": "walk",
+        "icon": "🕌",
+        "title": "Večerni sprehod po Baščaršiji",
+        "text": "Prvi večer je namenjen sproščenemu spoznavanju Sarajeva. Sprehodita se med kamnitimi ulicami Baščaršije, obiščita Sebilj in uživajta v večernem utripu enega najbolj živahnih zgodovinskih jeder na Balkanu."
+      }
+    ],
+    "stay": {
+      "name": "Apartma Sarajevo",
+      "text": "Tri noči v središču Sarajeva.",
+      "url": "host/sarajevo.html",
+      "link_label": "Odpri kartico nastanitve"
+    },
+    "food": {
+      "breakfast": {
+        "place": "Jajce",
+        "text": "Zajtrk pred odhodom."
+      },
+      "lunch": {
+        "place": "Travnik ali Vlašić",
+        "text": "Kosilo v Travniku ali, če bo zajtrk dovolj obilen, piknik oziroma prigrizek na Vlašiću."
+      },
+      "dinner": {
+        "place": "Baščaršija",
+        "text": "Za večerjo izberita eno izmed priporočil v Roadbook vodiču po kulinariki Sarajeva.",
+        "links": [
+          {
+            "icon": "🍽️",
+            "label": "Roadbook Food Guide",
+            "url": "food.html"
+          }
+        ]
+      }
+    },
+    "practical": [
+      "Check-out v Jajcu med 8.00 in 10.00.",
+      "Odhod najkasneje ob 10.00.",
+      "Na Vlašiću je lahko občutno hladneje kot v dolini.",
+      "Check-in v Sarajevu je mogoč med 14.00 in 22.00."
+    ],
+    "journal": {
+      "enabled": true,
+      "text": ""
+    }
+  },
+  {
+    "id": "day05",
+    "day": 5,
+    "date": "2026-08-05",
+    "title": "Sarajevo – zgodovina in plasti mesta",
+    "subtitle": "Dan za raziskovanje Baščaršije, zgodovinskih četrti in zgodb sodobnega Sarajeva",
+    "countries": [
+      "BA"
+    ],
+    "hero_image": "../../../images/roadbooks/balkan-2026/days/hero05.jpg",
+    "quick_links": {
+      "host": "host/sarajevo.html",
+      "weather": {
+        "location": "Sarajevo",
+        "lat": 43.8563,
+        "lon": 18.4131
+      }
+    },
+    "summary": {
+      "intro": "Današnji dan je namenjen počasnemu raziskovanju Sarajeva. Sprehod skozi staro mestno jedro razkriva več kot pet stoletij zgodovine, opoldne pa se pridružita vodenemu ogledu, ki pokaže tudi manj znane zgodbe mesta in njegove nedavne preteklosti.",
+      "badges": [
+        {
+          "icon": "🚶",
+          "text": "Heritage Walk"
+        },
+        {
+          "icon": "🎙️",
+          "text": "GuruWalk"
+        },
+        {
+          "icon": "🕌",
+          "text": "Baščaršija"
+        },
+        {
+          "icon": "🏛️",
+          "text": "Sarajevo"
+        }
+      ],
+      "notice": {
+        "type": "important",
+        "title": "Rezerviran ogled",
+        "text": "Ob 12.30 imata rezerviran ogled »War Scars & Sarajevo Today Free Tour with Neno & Merima«. Na zbirno mesto pridita vsaj 10–15 minut prej."
+      },
+      "cards": [
+        {
+          "icon": "🚶",
+          "label": "Ogled",
+          "value": "Cel dan peš"
+        },
+        {
+          "icon": "🕧",
+          "label": "GuruWalk",
+          "value": "12.30"
+        },
+        {
+          "icon": "🛏️",
+          "label": "Nočitev",
+          "value": "Sarajevo"
+        },
+        {
+          "icon": "📍",
+          "label": "Zbirno mesto",
+          "value": "Narodno pozorište"
+        }
+      ]
+    },
+    "program": [
+      {
+        "type": "activity",
+        "icon": "🚶",
+        "title": "Sarajevo Heritage Walk",
+        "text": "Dan začnita z raziskovanjem Sarajeva po Roadbook vodiču. Pot vodi skozi najpomembnejše zgodovinske točke mesta – od Baščaršije in Sebilja do mest, kjer se stikajo različna obdobja, kulture in vere.",
+        "link": {
+          "type": "activity",
+          "label": "Odpri vodič po Sarajevu",
+          "url": "templates/guide.html?guide=sarajevo-heritage-walk"
+        }
+      },
+      {
+        "type": "tour",
+        "icon": "🎙️",
+        "title": "War Scars & Sarajevo Today Free Tour",
+        "duration": "12.30",
+        "text": "Vodeni ogled z lokalnima vodnikoma Nenom in Merimo predstavi Sarajevo skozi zgodbe obleganja, povojne obnove in današnjega življenja. To je eden najbolje ocenjenih brezplačnih ogledov mesta.",
+        "links": [
+          {
+            "icon": "📍",
+            "label": "Meeting point",
+            "url": "https://maps.app.goo.gl/RA34A7fDzUB1RfHK7"
+          },
+          {
+            "icon": "🌐",
+            "label": "GuruWalk rezervacija",
+            "url": "https://www.guruwalk.com/users/bookings?utm_source=mktauto&utm_medium=email&utm_campaign=booking_confirmed"
+          }
+        ]
+      },
+      {
+        "type": "walk",
+        "icon": "🌆",
+        "title": "Popoldne in večer v Sarajevu",
+        "text": "Po ogledu si vzemita čas za raziskovanje ulic Baščaršije, obisk trgovinic, pokušino lokalnih dobrot ali sproščeno posedanje ob bosanski kavi."
+      }
+    ],
+    "stay": {
+      "name": "Apartma Sarajevo",
+      "text": "Druga noč v Sarajevu.",
+      "url": "host/sarajevo.html",
+      "link_label": "Odpri kartico nastanitve"
+    },
+    "food": {
+      "breakfast": {
+        "place": "Slastičarna Egipat",
+        "text": "Če ne bosta zajtrkovala v apartmaju, priporočava obisk Slastičarne Egipat, znane po tradicionalnih sladicah, kot je tufahija.",
+        "links": [
+          {
+            "icon": "🍰",
+            "label": "Google Maps",
+            "url": "https://maps.google.com/?q=Slastičarna+Egipat+Sarajevo"
+          }
+        ]
+      },
+      "lunch": {
+        "place": "Baščaršija",
+        "text": "Na poti priporočava burek ali drugo pito v eni izmed tradicionalnih sarajevskih buregdžinic."
+      },
+      "dinner": {
+        "place": "Sarajevo",
+        "text": "Za večerjo izberita eno izmed priporočil v Roadbook vodiču po kulinariki Sarajeva.",
+        "links": [
+          {
+            "icon": "🍽️",
+            "label": "Roadbook Food Guide",
+            "url": "food.html"
+          }
+        ]
+      }
+    },
+    "practical": [
+      "Do zbirnega mesta pridita 10–15 minut pred začetkom ogleda.",
+      "Celoten dan poteka peš.",
+      "V poletnih mesecih imejta s seboj dovolj vode in zaščito pred soncem."
+    ],
+    "journal": {
+      "enabled": true,
+      "text": ""
+    }
+  },
+  {
+    "id": "day06",
+    "day": 6,
+    "date": "2026-08-06",
+    "title": "Mestni utrip in narava",
+    "subtitle": "Sproščen dan za razglede, zelenje in sodobni ritem Sarajeva",
+    "countries": [
+      "BA"
+    ],
+    "hero_image": "../../../images/roadbooks/balkan-2026/days/hero06.jpg",
+    "quick_links": {
+      "host": "host/sarajevo.html",
+      "weather": {
+        "location": "Sarajevo",
+        "lat": 43.8563,
+        "lon": 18.4131
+      }
+    },
+    "summary": {
+      "intro": "Zadnji cel dan v Sarajevu je namenoma manj načrtovan. Izberita eno večjo dopoldansko aktivnost, nato pa dan nadaljujta počasi – z galerijami, sprehodom po mestu, kavo, sladicami in zadnjim sarajevskim večerom.",
+      "badges": [
+        {
+          "icon": "🚠",
+          "text": "Trebević"
+        },
+        {
+          "icon": "🌿",
+          "text": "Vrelo Bosne"
+        },
+        {
+          "icon": "☕",
+          "text": "Kavna kultura"
+        },
+        {
+          "icon": "🛍️",
+          "text": "Počasen mestni dan"
+        }
+      ],
+      "notice": {
+        "type": "tip",
+        "title": "Dan brez strogega načrta",
+        "text": "Trebević in Vrelo Bosne sta dve različni možnosti za dopoldne. Izberita glede na vreme in razpoloženje; ni treba vključiti obeh."
+      },
+      "cards": [
+        {
+          "icon": "🗓️",
+          "label": "Ritem",
+          "value": "Sproščeno"
+        },
+        {
+          "icon": "🌄",
+          "label": "Glavna izbira",
+          "value": "Trebević ali Vrelo Bosne"
+        },
+        {
+          "icon": "🚶",
+          "label": "Popoldne",
+          "value": "Mesto in galerije"
+        },
+        {
+          "icon": "🛏️",
+          "label": "Nočitev",
+          "value": "Sarajevo"
+        }
+      ]
+    },
+    "program": [
+      {
+        "type": "activity",
+        "icon": "🚠",
+        "title": "Možnost 1: Trebević",
+        "text": "Z žičnico se povzpnita nad Sarajevo in si oglejta mesto z drugačne perspektive. Trebević združuje naravo, razglede in olimpijsko zgodovino. Od zgornje postaje se lahko sprehodita do zapuščene bob steze, enega najbolj prepoznavnih ostankov zimskih olimpijskih iger leta 1984.",
+        "links": [
+          {
+            "icon": "📍",
+            "label": "Google Maps",
+            "url": "https://maps.google.com/?q=Sarajevo+Cable+Car"
+          }
+        ]
+      },
+      {
+        "type": "activity",
+        "icon": "🌿",
+        "title": "Možnost 2: Vrelo Bosne",
+        "text": "Za bolj umirjeno naravno izkušnjo se odpravita do izvirov reke Bosne pod Igmanom. Park zaznamujejo izviri, mostički, vodni kanali in visoka drevesa, do njega pa vodi znameniti drevored Velika aleja.",
+        "links": [
+          {
+            "icon": "📍",
+            "label": "Google Maps",
+            "url": "https://maps.google.com/?q=Vrelo+Bosne"
+          }
+        ]
+      },
+      {
+        "type": "walk",
+        "icon": "🛍️",
+        "title": "Počasno popoldne v mestu",
+        "text": "Popoldne namenita Sarajevu brez seznama obveznih znamenitosti. Sprehodita se po Ferhadiji, zavijta v galerijo ali manjšo trgovino, poiščita spominke in se še enkrat prepustita mestnemu utripu."
+      },
+      {
+        "type": "food",
+        "icon": "☕",
+        "title": "Sarajevska kavna kultura",
+        "text": "Vzemita si čas za bosansko kavo in sladico. Kava v Sarajevu ni le pijača, temveč počasen družabni obred, pri katerem so pomembni džezva, fildžan in čas za pogovor."
+      },
+      {
+        "type": "evening",
+        "icon": "🌙",
+        "title": "Zadnji večer v Sarajevu",
+        "text": "Za zadnji večer izberita večerjo na Baščaršiji, v sodobnejšem delu mesta ali na lokaciji z razgledom. Dan zaključita brez hitenja."
+      }
+    ],
+    "stay": {
+      "name": "Apartma Sarajevo",
+      "text": "Tretja in zadnja noč v Sarajevu.",
+      "url": "host/sarajevo.html",
+      "link_label": "Odpri kartico nastanitve"
+    },
+    "food": {
+      "breakfast": {
+        "place": "Sarajevo",
+        "text": "Zajtrk v apartmaju, bližnji pekarni ali lokalu po izbiri."
+      },
+      "lunch": {
+        "place": "Sarajevo ali na izletu",
+        "text": "Kosilo prilagodita izbrani dopoldanski aktivnosti. Primeren je lažji obrok ali nekaj iz nahrbtnika."
+      },
+      "dinner": {
+        "place": "Sarajevo",
+        "text": "Zadnja večerja v mestu po enem izmed priporočil v kulinaričnem delu Roadbooka.",
+        "links": [
+          {
+            "icon": "🍽️",
+            "label": "Kulinarika v Roadbooku",
+            "url": "food.html"
+          }
+        ]
+      }
+    },
+    "practical": [
+      "Dopoldne izberita Trebević ali Vrelo Bosne; vključitev obeh ni potrebna.",
+      "Trebević je primernejši ob jasnem vremenu in dobri vidljivosti.",
+      "Za sprehod po bob stezi in okolici so priporočljivi udobni čevlji.",
+      "Vrelo Bosne je boljša izbira za miren dan v senci in zelenju.",
+      "Zvečer pripravita prtljago za jutranji odhod iz Sarajeva."
+    ],
+    "journal": {
+      "enabled": true,
+      "text": ""
+    }
+  },
+  {
+    "id": "day07",
+    "day": 7,
+    "date": "2026-08-07",
+    "title": "Od Drine do črnogorskih gora",
+    "subtitle": "Višegrad, most Mehmed paše Sokolovića in prihod v Durmitor",
+    "countries": [
+      "BA",
+      "ME"
+    ],
+    "hero_image": "../../../images/roadbooks/balkan-2026/days/hero07.jpg",
+    "quick_links": {
+      "google_maps": "https://maps.app.goo.gl/5JqLyuUsUss7G9s26",
+      "host": "host/zabljak.html",
+      "weather": {
+        "location": "Žabljak",
+        "lat": 43.1555,
+        "lon": 19.1236
+      }
+    },
+    "summary": {
+      "intro": "Pred vama je najdaljši dan vožnje na celotnem potovanju. Po odhodu iz Sarajeva sledi postanek v Višegradu ob znamenitem mostu na Drini, nato pa ena najlepših panoramskih voženj na Balkanu proti narodnemu parku Durmitor.",
+      "badges": [
+        {
+          "icon": "🌉",
+          "text": "Višegrad"
+        },
+        {
+          "icon": "📖",
+          "text": "Most na Drini"
+        },
+        {
+          "icon": "🏔️",
+          "text": "Durmitor"
+        },
+        {
+          "icon": "🇲🇪",
+          "text": "Črna gora"
+        }
+      ],
+      "notice": {
+        "type": "important",
+        "title": "Najdaljši dan vožnje",
+        "text": "Čeprav je predvidenih skoraj šest ur vožnje, pot razbije prijeten postanek v Višegradu. Po prihodu na Žabljak priporočava miren večer in zgodnejši počitek."
+      },
+      "cards": [
+        {
+          "icon": "🛣️",
+          "label": "Razdalja",
+          "value": "približno 250 km"
+        },
+        {
+          "icon": "🕒",
+          "label": "Vožnja",
+          "value": "6–7 ur"
+        },
+        {
+          "icon": "🌉",
+          "label": "Glavni postanek",
+          "value": "Višegrad"
+        },
+        {
+          "icon": "🛏️",
+          "label": "Nočitev",
+          "value": "Žabljak"
+        }
+      ]
+    },
+    "program": [
+      {
+        "type": "departure",
+        "icon": "🚗",
+        "title": "Odhod iz Sarajeva",
+        "duration": "do 11.00",
+        "text": "Po odjavi iz apartmaja se odpravita proti vzhodni Bosni in reki Drini."
+      },
+      {
+        "type": "visit",
+        "icon": "🌉",
+        "title": "Višegrad",
+        "duration": "2–3 ure",
+        "text": "Višegrad slovi po znamenitem Mostu Mehmed paše Sokolovića, ki je pod Unescovo zaščito in ga je v romanu Most na Drini ovekovečil nobelovec Ivo Andrić. Sprehodita se čez most, ob reki Drini in obiščita tudi bližnji Andrićgrad, kamnito mestno četrt, posvečeno pisatelju.",
+        "links": [
+          {
+            "icon": "📍",
+            "label": "Google Maps",
+            "url": "https://maps.app.goo.gl/5JqLyuUsUss7G9s26"
+          }
+        ]
+      },
+      {
+        "type": "food",
+        "icon": "🐟",
+        "title": "Kosilo ob Drini",
+        "text": "Roadbook priporoča Hotel Višegrad, kjer pripravljajo postrv iz Drine, jedi izpod sača in druge lokalne specialitete v prijetnem okolju ob reki.",
+        "links": [
+          {
+            "icon": "📍",
+            "label": "Hotel Višegrad",
+            "url": "https://maps.app.goo.gl/5JqLyuUsUss7G9s26"
+          }
+        ]
+      },
+      {
+        "type": "drive",
+        "icon": "🏔️",
+        "title": "Vožnja proti Žabljaku",
+        "duration": "3,5–4 ure",
+        "text": "Sledi ena najlepših cest na celotnem potovanju. Pokrajina se postopoma spreminja iz gozdov in rečnih dolin v visokogorski svet Durmitorja."
+      },
+      {
+        "type": "arrival",
+        "icon": "🛏️",
+        "title": "Prihod na Žabljak",
+        "text": "Po prijavi v nastanitev si privoščita sproščen večer. Naslednji dnevi bodo namenjeni raziskovanju narodnega parka Durmitor."
+      }
+    ],
+    "stay": {
+      "name": "Žabljak",
+      "text": "Prva od treh noči v osrčju Durmitorja.",
+      "url": "host/zabljak.html",
+      "link_label": "Odpri kartico nastanitve"
+    },
+    "food": {
+      "breakfast": {
+        "place": "Sarajevo",
+        "text": "Zajtrk pred odhodom."
+      },
+      "lunch": {
+        "place": "Hotel Višegrad",
+        "text": "Roadbook izbor: drinska postrv, jedi izpod sača in kosilo ob reki Drini."
+      },
+      "dinner": {
+        "place": "Žabljak",
+        "text": "Po prihodu priporočava mirno večerjo v bližini nastanitve."
+      }
+    },
+    "practical": [
+      "Check-out v Sarajevu do 11.00.",
+      "Na pot se odpravita z dovolj goriva, saj je med kraji manj bencinskih servisov.",
+      "Za prihod na Žabljak računajta na pozno popoldne ali zgodnji večer.",
+      "V gorah je lahko tudi poleti občutno hladneje kot v Sarajevu."
+    ],
+    "journal": {
+      "enabled": true,
+      "text": ""
+    }
+  },
+  {
+    "id": "day08",
+    "day": 8,
+    "date": "2026-08-08",
+    "title": "Durmitor v počasnem ritmu",
+    "subtitle": "Črno jezero, gozdovi in prvi stik z narodnim parkom",
+    "countries": [
+      "ME"
+    ],
+    "hero_image": "../../../images/roadbooks/balkan-2026/days/hero08.jpg",
+    "quick_links": {
+      "host": "host/zabljak.html",
+      "weather": {
+        "location": "Žabljak",
+        "lat": 43.1555,
+        "lon": 19.1236
+      }
+    },
+    "summary": {
+      "intro": "Po najdaljšem dnevu vožnje je danes čas za počasnejši ritem. Durmitor je najbolje spoznavati brez naglice – ob jezeru, med iglastimi gozdovi in na poteh, kjer je narava pomembnejša od kilometrov.",
+      "badges": [
+        {
+          "icon": "🏞️",
+          "text": "Črno jezero"
+        },
+        {
+          "icon": "🥾",
+          "text": "Lahek pohod"
+        },
+        {
+          "icon": "🌲",
+          "text": "Narodni park"
+        },
+        {
+          "icon": "🧘",
+          "text": "Slow day"
+        }
+      ],
+      "notice": {
+        "type": "tip",
+        "title": "Dan za regeneracijo",
+        "text": "Ne načrtujta preveč aktivnosti. Namen dneva je uživati v naravi, si odpočiti po dolgi vožnji in nabrati moči za bolj aktiven jutri."
+      },
+      "cards": [
+        {
+          "icon": "🥾",
+          "label": "Glavna aktivnost",
+          "value": "Črno jezero"
+        },
+        {
+          "icon": "⏱️",
+          "label": "Tempo",
+          "value": "Počasen"
+        },
+        {
+          "icon": "🧺",
+          "label": "Kosilo",
+          "value": "Iz nahrbtnika"
+        },
+        {
+          "icon": "🛏️",
+          "label": "Nočitev",
+          "value": "Žabljak"
+        }
+      ]
+    },
+    "program": [
+      {
+        "type": "activity",
+        "icon": "🏞️",
+        "title": "Črno jezero",
+        "text": "Najbolj znana in najlažje dostopna naravna znamenitost narodnega parka Durmitor. Sprehod okoli jezera vodi skozi goste smrekove gozdove in ponuja čudovite razglede na vrhove masiva. Pot je nezahtevna in primerna za sproščeno raziskovanje.",
+        "link": {
+          "type": "activity",
+          "label": "Odpri vodič za Črno jezero",
+          "url": "templates/guide.html?guide=durmitor-hiking-black-lake"
+        }
+      },
+      {
+        "type": "relax",
+        "icon": "🌲",
+        "title": "Popoldne v naravi",
+        "text": "Po pohodu si vzemita čas za počitek ob jezeru, fotografiranje ali sproščen sprehod po gozdu. Durmitor je eden tistih krajev, kjer je največ vredno prav to, da nikamor ne hitita."
+      }
+    ],
+    "stay": {
+      "name": "Žabljak",
+      "text": "Druga noč v osrčju narodnega parka Durmitor.",
+      "url": "host/zabljak.html",
+      "link_label": "Odpri kartico nastanitve"
+    },
+    "food": {
+      "breakfast": {
+        "place": "Nastanitev",
+        "text": "Miren zajtrk v apartmaju pred odhodom v narodni park."
+      },
+      "lunch": {
+        "place": "Narodni park Durmitor",
+        "text": "Priporočava piknik oziroma kosilo iz nahrbtnika na eni izmed urejenih počivališč ob Črnem jezeru."
+      },
+      "dinner": {
+        "place": "Žabljak",
+        "text": "Večerjo izberita po priporočilih v kulinaričnem delu Roadbooka.",
+        "links": [
+          {
+            "icon": "🍽️",
+            "label": "Roadbook Food Guide",
+            "url": "food.html"
+          }
+        ]
+      }
+    },
+    "practical": [
+      "Za sprehod okoli Črnega jezera zadoščajo običajni pohodni čevlji.",
+      "S seboj vzemita dovolj vode in zaščito pred soncem.",
+      "Če bo vreme lepo, si za ogled rezervirajta več časa in preprosto uživajta v naravi."
+    ],
+    "journal": {
+      "enabled": true,
+      "text": ""
+    }
+  },
+  {
+    "id": "day09",
+    "day": 9,
+    "date": "2026-08-09",
+    "title": "Kanjon Tare in razgledi",
+    "subtitle": "Most Đurđevića Tara, panorame in možnosti za adrenalinska doživetja",
+    "countries": [
+      "ME"
+    ],
+    "hero_image": "../../../images/roadbooks/balkan-2026/days/hero09.jpg",
+    "quick_links": {
+      "host": "host/zabljak.html",
+      "weather": {
+        "location": "Žabljak",
+        "lat": 43.1555,
+        "lon": 19.1236
+      }
+    },
+    "summary": {
+      "intro": "Današnji dan je posvečen enemu največjih naravnih čudes Balkana. Kanjon reke Tare navdušuje z globokimi prepadi, razgledi in smaragdno reko, hkrati pa ponuja tudi nekaj najbolj priljubljenih adrenalinskih doživetij v Črni gori.",
+      "badges": [
+        {
+          "icon": "🌉",
+          "text": "Most Đurđevića Tara"
+        },
+        {
+          "icon": "🏞️",
+          "text": "Kanjon Tare"
+        },
+        {
+          "icon": "🚣",
+          "text": "Rafting"
+        },
+        {
+          "icon": "🪂",
+          "text": "Zipline"
+        }
+      ],
+      "notice": {
+        "type": "tip",
+        "title": "Izberita svoj tempo",
+        "text": "Dan lahko preživita povsem umirjeno z razgledi in kratkimi sprehodi ali pa ga spremenita v pravo adrenalinsko dogodivščino z raftingom ali ziplinom."
+      },
+      "cards": [
+        {
+          "icon": "🏞️",
+          "label": "Glavna znamenitost",
+          "value": "Kanjon Tare"
+        },
+        {
+          "icon": "🌉",
+          "label": "Razgled",
+          "value": "Most Đurđevića Tara"
+        },
+        {
+          "icon": "🚣",
+          "label": "Možnost",
+          "value": "Rafting"
+        },
+        {
+          "icon": "🛏️",
+          "label": "Nočitev",
+          "value": "Žabljak"
+        }
+      ]
+    },
+    "program": [
+      {
+        "type": "activity",
+        "icon": "🌉",
+        "title": "Most Đurđevića Tara",
+        "text": "Ikonični most velja za eno najbolj prepoznavnih razglednih točk v Črni gori. Sprehod čez most ponuja osupljive poglede na skoraj 150 metrov globok kanjon reke Tare in okoliške gozdove Durmitorja."
+      },
+      {
+        "type": "activity",
+        "icon": "🏞️",
+        "title": "Razgledne točke kanjona",
+        "text": "Ob cesti je več krajših postankov z razglednimi točkami, kjer se odpirajo panoramski pogledi na kanjon. To so odlična mesta za fotografiranje in krajše sprehode."
+      },
+      {
+        "type": "activity",
+        "icon": "🚣",
+        "title": "Rafting ali zipline",
+        "text": "Če si želita bolj aktivnega dne, je Tara ena najboljših destinacij na Balkanu za rafting. Ob mostu deluje tudi več ponudnikov zipline spustov čez kanjon.",
+        "link": {
+          "type": "activity",
+          "label": "Odpri vodič po kanjonu Tare",
+          "url": "templates/guide.html?guide=tara-river-valley"
+        }
+      }
+    ],
+    "stay": {
+      "name": "Žabljak",
+      "text": "Zadnja noč v narodnem parku Durmitor.",
+      "url": "host/zabljak.html",
+      "link_label": "Odpri kartico nastanitve"
+    },
+    "food": {
+      "breakfast": {
+        "place": "Žabljak",
+        "text": "Zajtrk v nastanitvi ali bližnji pekarni."
+      },
+      "lunch": {
+        "place": "Most Đurđevića Tara",
+        "text": "Kosilo v eni izmed restavracij ob mostu ali po priporočilih v vodiču."
+      },
+      "dinner": {
+        "place": "Žabljak",
+        "text": "Zadnja večerja v Durmitorju po priporočilih Roadbooka.",
+        "links": [
+          {
+            "icon": "🍽️",
+            "label": "Roadbook Food Guide",
+            "url": "food.html"
+          }
+        ]
+      }
+    },
+    "practical": [
+      "Za razglede in fotografiranje si vzemita dovolj časa.",
+      "Če načrtujeta rafting, rezervacijo uredita vnaprej.",
+      "Za zipline priporočava športna oblačila in zaprto obutev.",
+      "Po aktivnosti pripravita prtljago za jutrišnji odhod proti Boki Kotorski."
+    ],
+    "journal": {
+      "enabled": true,
+      "text": ""
+    }
+  },
+  {
+    "id": "day10",
+    "day": 10,
+    "date": "2026-08-10",
+    "title": "Od gora do Boke Kotorske",
+    "subtitle": "Panoramska vožnja skozi Durmitor in prvi večer ob morju",
+    "countries": [
+      "ME"
+    ],
+    "hero_image": "../../../images/roadbooks/balkan-2026/days/hero10.jpg",
+    "quick_links": {
+      "google_maps": "https://maps.app.goo.gl/2s8YMj3998esKX1b6",
+      "host": "host/perast.html",
+      "weather": {
+        "location": "Perast",
+        "lat": 42.4865,
+        "lon": 18.6988
+      }
+    },
+    "summary": {
+      "intro": "Danes se pokrajina popolnoma spremeni. Po panoramski vožnji skozi Durmitor se cesta začne spuščati proti Jadranskemu morju, kjer se odpre eden najlepših pogledov na Boko Kotorsko. Po prihodu v Perast oziroma Kotor se potovanje prvič zares prevesi v sproščen mediteranski ritem.",
+      "badges": [
+        {
+          "icon": "🏔️",
+          "text": "Durmitor Ring"
+        },
+        {
+          "icon": "🌊",
+          "text": "Boka Kotorska"
+        },
+        {
+          "icon": "🏰",
+          "text": "Kotor"
+        },
+        {
+          "icon": "🍸",
+          "text": "Mediteranski večer"
+        }
+      ],
+      "notice": {
+        "type": "tip",
+        "title": "Najlepša panoramska vožnja",
+        "text": "Ne hitita. Današnja cesta je sama po sebi doživetje, zato si vzemita čas za postanke in razglede."
+      },
+      "cards": [
+        {
+          "icon": "🚗",
+          "label": "Roadtrip",
+          "value": "5–6 ur"
+        },
+        {
+          "icon": "📍",
+          "label": "Postaje",
+          "value": "9"
+        },
+        {
+          "icon": "🏖️",
+          "label": "Popoldne",
+          "value": "Kotor in morje"
+        },
+        {
+          "icon": "🛏️",
+          "label": "Nočitev",
+          "value": "Perast"
+        }
+      ]
+    },
+    "program": [
+      {
+        "type": "roadtrip",
+        "icon": "🏔️",
+        "title": "Durmitor Ring → Perast",
+        "text": "Pred odhodom proti morju opravita še panoramski krog po Durmitorju. Ena najlepših cest na Balkanu vodi mimo visokogorskih planot, razglednih sedel in spektakularnih pogledov, nato pa se začne dolg spust proti Boki Kotorski.",
+        "link": {
+          "type": "activity",
+          "label": "Odpri Roadtrip vodič",
+          "url": "templates/guide.html?guide=durmitor-panorama-zabljak-perast"
+        }
+      },
+      {
+        "type": "food",
+        "icon": "🍽️",
+        "title": "Kosilo na poti",
+        "text": "Za kosilo izberita eno izmed restavracij ob poti skozi Črno goro. Današnji poudarek naj bo na vožnji in razgledih."
+      },
+      {
+        "type": "arrival",
+        "icon": "🛏️",
+        "title": "Prihod v Boko Kotorsko",
+        "text": "Po prihodu sledi prijava v nastanitev. Check-in je mogoč med 14.00 in 22.00."
+      },
+      {
+        "type": "activity",
+        "icon": "🏰",
+        "title": "Prvi sprehod po Kotorju",
+        "text": "Popoldne namenita raziskovanju starega mestnega jedra. Če bo ostalo dovolj časa in energije, se povzpnita do prve razgledne točke ali dela mestnega obzidja."
+      },
+      {
+        "type": "relax",
+        "icon": "🌊",
+        "title": "Morje in večerni utrip",
+        "text": "Če bo vreme lepo, si privoščita prvo kopanje v Boki Kotorski, nato pa večer zaključita ob marini ali na obali s koktajlom in pogledom na zaliv."
+      }
+    ],
+    "stay": {
+      "name": "Vista Montis · Perast · Bluemarine Rooms & Apartments",
+      "text": "Prva od dveh noči ob Boki Kotorski.",
+      "url": "host/perast.html",
+      "link_label": "Odpri kartico nastanitve"
+    },
+    "food": {
+      "breakfast": {
+        "place": "Žabljak",
+        "text": "Zajtrk pred odhodom."
+      },
+      "lunch": {
+        "place": "Na poti",
+        "text": "Kosilo med panoramsko vožnjo proti Boki Kotorski."
+      },
+      "dinner": {
+        "place": "Kotor ali Perast",
+        "text": "Za večerjo izberita eno izmed priporočil v kulinaričnem delu Roadbooka.",
+        "links": [
+          {
+            "icon": "🍽️",
+            "label": "Roadbook Food Guide",
+            "url": "food.html"
+          }
+        ]
+      }
+    },
+    "practical": [
+      "Panoramska cesta vsebuje veliko ovinkov in razglednih postankov.",
+      "Na cilj ne hitita – današnja vožnja je del doživetja.",
+      "Po prihodu preverita možnost večernega kopanja, saj je morje običajno najtoplejše pozno popoldne."
+    ],
+    "journal": {
+      "enabled": true,
+      "text": ""
+    }
+  },
+  {
+    "id": "day11",
+    "day": 11,
+    "date": "2026-08-11",
+    "title": "Boka Kotorska po svoje",
+    "subtitle": "Perast, Kotor, morje in ladjica – prilagodljiv dan brez avtomobila",
+    "countries": [
+      "ME"
+    ],
+    "hero_image": "../../../images/roadbooks/balkan-2026/days/hero11.jpg",
+    "quick_links": {
+      "host": "host/perast.html",
+      "weather": {
+        "location": "Kotor",
+        "lat": 42.4247,
+        "lon": 18.7712
+      }
+    },
+    "summary": {
+      "intro": "Danes ni enega pravilnega načrta. Glede na vreme, energijo in razpoloženje lahko združita jutranji vzpon nad Kotor, ogled starega mesta, izlet z ladjico po Boki Kotorski ali sproščeno poležavanje ob morju.",
+      "badges": [
+        {
+          "icon": "🏰",
+          "text": "Kotor"
+        },
+        {
+          "icon": "⛵",
+          "text": "Boka Kotorska"
+        },
+        {
+          "icon": "🏖️",
+          "text": "Morje"
+        },
+        {
+          "icon": "🚶",
+          "text": "Dan brez avta"
+        }
+      ],
+      "notice": {
+        "type": "tip",
+        "title": "Dan brez strogega urnika",
+        "text": "Ni treba vključiti vsega. Izberita tisto, kar vama bo tisti dan najbolj ustrezalo: zgodnji pohod, Kotor, ladjico, kopanje ali počasno raziskovanje Perasta."
+      },
+      "cards": [
+        {
+          "icon": "🌅",
+          "label": "Jutro",
+          "value": "Vzpon nad Kotor"
+        },
+        {
+          "icon": "🏰",
+          "label": "Mesto",
+          "value": "Kotor"
+        },
+        {
+          "icon": "⛵",
+          "label": "Možnost",
+          "value": "Izlet z ladjico"
+        },
+        {
+          "icon": "🛏️",
+          "label": "Nočitev",
+          "value": "Perast"
+        }
+      ]
+    },
+    "program": [
+      {
+        "type": "option",
+        "icon": "🌅",
+        "title": "Jutranji vzpon nad Kotor",
+        "duration": "približno 1–1,5 ure",
+        "text": "Če želita Kotor videti iz najlepše perspektive, se na razgledno točko odpravita zgodaj zjutraj, še preden postane prevroče. Izbirata lahko med brezplačno panoramsko potjo in plačljivo potjo proti trdnjavi Svetega Ivana.",
+        "links": [
+          {
+            "icon": "🥾",
+            "label": "Brezplačna panoramska pot",
+            "url": "https://maps.app.goo.gl/S8jrKbBWZ8SVtEwX7"
+          },
+          {
+            "icon": "🏰",
+            "label": "Pot do trdnjave",
+            "url": "https://maps.app.goo.gl/oQMce6fYcWw4rVzQ6"
+          },
+          {
+            "icon": "🗺️",
+            "label": "Zemljevid poti",
+            "url": "https://www.google.com/maps/d/u/0/viewer?mid=1eMaVfbP-5PMBxKqT_1hvBPJq3TKTJBc"
+          }
+        ]
+      },
+      {
+        "type": "activity",
+        "icon": "🏰",
+        "title": "Ogled starega mesta Kotor",
+        "text": "Kotor raziščita po pripravljenem sprehajalnem vodiču, ki vodi skozi mestna vrata, trge, cerkve, palače in ozke kamnite ulice enega najbolje ohranjenih srednjeveških mest ob Jadranu.",
+        "link": {
+          "type": "activity",
+          "label": "Odpri vodič po Kotorju",
+          "url": "templates/guide.html?guide=kotor-old-town-walk"
+        }
+      },
+      {
+        "type": "option",
+        "icon": "⛵",
+        "title": "Izlet z ladjico po Boki Kotorski",
+        "text": "Iz Perasta ali Kotorja se lahko odpravita na izlet z ladjico po zalivu. Iz Perasta je najlažje obiskati otoček Gospa od Škrpjela, iz Kotorja pa so na voljo tudi daljši panoramski izleti po Boki.",
+        "link": {
+          "type": "activity",
+          "label": "Odpri vodič za izlet z ladjico",
+          "url": "templates/guide.html?guide=boka-kotorska-boat-trip"
+        }
+      },
+      {
+        "type": "option",
+        "icon": "🏖️",
+        "title": "Sproščen dan ob morju",
+        "text": "Če si bosta zaželela počasnejšega dne, lahko ostaneta v Perastu ali se odpravita proti Dobroti. Dan namenita kopanju, kavicam, sprehodom ob obali in razgledom na zaliv."
+      },
+      {
+        "type": "evening",
+        "icon": "🌙",
+        "title": "Večer ob morju ali nad Boko",
+        "text": "Za večerjo lahko ostaneta ob obali ali se odpravita v eno izmed vasi nad zalivom, kjer strežejo tradicionalne črnogorske jedi v mirnejšem podeželskem okolju."
+      }
+    ],
+    "stay": {
+      "name": "Vista Montis · Perast · Bluemarine Rooms & Apartments",
+      "text": "Druga in zadnja noč ob Boki Kotorski.",
+      "url": "host/perast.html",
+      "link_label": "Odpri kartico nastanitve"
+    },
+    "food": {
+      "breakfast": {
+        "place": "Perast",
+        "text": "Zajtrk v nastanitvi ali enem izmed lokalov ob obali."
+      },
+      "lunch": {
+        "place": "Kotor, Perast ali na izletu",
+        "text": "Kosilo prilagodita izbranemu programu. Primeren je lažji obrok ob morju ali nekaj na poti."
+      },
+      "dinner": {
+        "place": "Obala ali Restoran Nadoveza",
+        "text": "Večerjata lahko ob morju ali v Restoranu Nadoveza, kjer pripravljajo tradicionalno črnogorsko kuhinjo.",
+        "links": [
+          {
+            "icon": "📍",
+            "label": "Restoran Nadoveza",
+            "url": "https://maps.app.goo.gl/6WjrC3KEVv7x2EZC7"
+          },
+          {
+            "icon": "🍽️",
+            "label": "Kulinarika v Roadbooku",
+            "url": "food.html"
+          }
+        ]
+      }
+    },
+    "practical": [
+      "Na vzpon nad Kotor se odpravita zgodaj zjutraj zaradi vročine in manjše gneče.",
+      "Brezplačna panoramska pot je dolga približno 2 kilometra in ima okoli 208 metrov vzpona.",
+      "Plačljiva pot do trdnjave je krajša, vendar vključuje strme kamnite stopnice.",
+      "Preverita urnike in izhodišča ladjic v Perastu in Kotorju.",
+      "Program naj ostane prilagodljiv; ni treba vključiti vseh predlaganih aktivnosti."
+    ],
+    "journal": {
+      "enabled": true,
+      "text": ""
+    }
+  },
+  {
+    "id": "day12",
+    "day": 12,
+    "date": "2026-08-12",
+    "title": "Iz Boke v Hercegovino",
+    "subtitle": "Trebinje, izvir Bune in večer pod Starim mostom",
+    "countries": [
+      "ME",
+      "BA"
+    ],
+    "hero_image": "../../../images/roadbooks/balkan-2026/days/hero12.jpg",
+    "quick_links": {
+      "google_maps": "https://maps.app.goo.gl/4T6hE8JXxv5Y7K6bA",
+      "host": "host/mostar.html",
+      "weather": {
+        "location": "Mostar",
+        "lat": 43.3438,
+        "lon": 17.8078
+      }
+    },
+    "summary": {
+      "intro": "Danes zapustita Boko Kotorsko in se odpravita proti Hercegovini. Pot vodi skozi slikovito Trebinje, mimo izvira Bune v Blagaju do Mostarja, kjer se dan zaključi med kamnitimi ulicami in ob znamenitem Starem mostu.",
+      "badges": [
+        {
+          "icon": "🌳",
+          "text": "Trebinje"
+        },
+        {
+          "icon": "💧",
+          "text": "Blagaj"
+        },
+        {
+          "icon": "🌉",
+          "text": "Mostar"
+        },
+        {
+          "icon": "📷",
+          "text": "Fotografski dan"
+        }
+      ],
+      "notice": {
+        "type": "important",
+        "title": "Zgodnji odhod se izplača",
+        "text": "Iz Perasta priporočava odhod že okoli 7. ure zjutraj. Tako se izogneta prometnim zastojem in čakanju na mejnih prehodih ter si zagotovita več časa za postanke."
+      },
+      "cards": [
+        {
+          "icon": "🚗",
+          "label": "Pot",
+          "value": "Perast → Mostar"
+        },
+        {
+          "icon": "📍",
+          "label": "Glavna postanka",
+          "value": "Trebinje in Blagaj"
+        },
+        {
+          "icon": "🛏️",
+          "label": "Nočitev",
+          "value": "Pansion Villa Nur"
+        },
+        {
+          "icon": "🕐",
+          "label": "Check-in",
+          "value": "13.00–21.30"
+        }
+      ]
+    },
+    "program": [
+      {
+        "type": "departure",
+        "icon": "🚗",
+        "title": "Odhod iz Perasta",
+        "duration": "priporočeno okoli 7.00",
+        "text": "Po zgodnji odjavi iz nastanitve se odpravita proti Hercegovini. Zaradi turistične sezone in mejnih prehodov priporočava čim zgodnejši odhod."
+      },
+      {
+        "type": "visit",
+        "icon": "🌳",
+        "title": "Trebinje",
+        "duration": "1–2 uri",
+        "text": "Trebinje je eno najlepših hercegovskih mest z umirjenim sredozemskim vzdušjem. Sprehodita se skozi staro mestno jedro, obiščita Trg pesnikov, obzidje in senco mogočnih platan ob reki Trebišnjici. Mesto je odlična priložnost za krajši postanek in prve fotografije Hercegovine."
+      },
+      {
+        "type": "visit",
+        "icon": "💧",
+        "title": "Tekija Blagaj",
+        "duration": "1–1,5 ure",
+        "text": "Ob vznožju visokih kraških sten izvira reka Buna, ob njenem izviru pa stoji znamenita derviška tekija iz 16. stoletja. Blagaj velja za eno najbolj fotogeničnih krajev v Bosni in Hercegovini ter ponuja prijetno senco tudi v poletni vročini."
+      },
+      {
+        "type": "food",
+        "icon": "🐟",
+        "title": "Kosilo ob Buni",
+        "text": "Če vama čas dopušča, si v Blagaju privoščita kosilo v eni izmed restavracij ob reki. Najbolj znana lokalna specialiteta je sveža postrv iz Bune."
+      },
+      {
+        "type": "arrival",
+        "icon": "🛏️",
+        "title": "Prihod v Mostar",
+        "text": "Po prijavi v nastanitev se peš odpravita proti staremu mestnemu jedru in znamenitemu Staremu mostu."
+      },
+      {
+        "type": "activity",
+        "icon": "🌉",
+        "title": "Ogled Mostarja",
+        "text": "Mostar raziščita po pripravljenem Roadbook vodiču, ki vključuje najpomembnejše znamenitosti starega mesta, razgledne točke in zanimivosti ob Neretvi.",
+        "link": {
+          "type": "activity",
+          "label": "Odpri vodič po Mostarju",
+          "url": "templates/guide.html?guide=mostar-walk"
+        }
+      }
+    ],
+    "stay": {
+      "name": "Pansion Villa Nur",
+      "text": "Nastanitev tik ob zgodovinskem jedru Mostarja.",
+      "url": "host/mostar.html",
+      "link_label": "Odpri kartico nastanitve"
+    },
+    "food": {
+      "breakfast": {
+        "place": "Perast",
+        "text": "Zajtrk pred zgodnjim odhodom."
+      },
+      "lunch": {
+        "place": "Blagaj",
+        "text": "Priporočava kosilo ob izviru Bune. Lokalna posebnost je postrv, pripravljena na različne tradicionalne načine."
+      },
+      "dinner": {
+        "place": "Urban – Taste of Orient",
+        "text": "Dan zaključita v eni najbolj priljubljenih restavracij v Mostarju, kjer združujejo hercegovsko in orientalsko kulinariko v prijetnem ambientu s pogledom na staro mestno jedro.",
+        "links": [
+          {
+            "icon": "📍",
+            "label": "Urban – Taste of Orient",
+            "url": "https://maps.app.goo.gl/5fXAG4G3LPCjCbuu5"
+          },
+          {
+            "icon": "🍽️",
+            "label": "Kulinarika v Roadbooku",
+            "url": "food.html"
+          }
+        ]
+      }
+    },
+    "practical": [
+      "Check-out v Perastu med 8.00 in 10.00.",
+      "Zaradi prometa in mejnih prehodov priporočava odhod okoli 7. ure.",
+      "V Blagaju imejta s seboj nekaj gotovine za manjše lokale ali parkirišča.",
+      "Mostar je poleti zelo vroč, zato imejta s seboj dovolj vode in pokrivalo."
+    ],
+    "journal": {
+      "enabled": true,
+      "text": ""
+    }
+  },
+  {
+    "id": "day13",
+    "day": 13,
+    "date": "2026-08-13",
+    "title": "Od Hercegovine do Dalmacije",
+    "subtitle": "Stolac, antična Narona in prihod v Split",
+    "countries": [
+      "BA",
+      "HR"
+    ],
+    "hero_image": "../../../images/roadbooks/balkan-2026/days/hero13.jpg",
+    "quick_links": {
+      "google_maps": "https://maps.app.goo.gl/vCkU4drsKqjfMy4b9",
+      "host": "host/split.html",
+      "weather": {
+        "location": "Split",
+        "lat": 43.5081,
+        "lon": 16.4402
+      }
+    },
+    "summary": {
+      "intro": "Po odhodu iz Mostarja se odpravita proti Hrvaški. Pot vodi skozi zgodovinski Stolac, mimo antične Narone in nato ob dolini Neretve do Splita, kjer se po aktivnih dneh znova začne bolj sproščen mediteranski utrip.",
+      "badges": [
+        {
+          "icon": "🏛️",
+          "text": "Stolac"
+        },
+        {
+          "icon": "🏺",
+          "text": "Narona"
+        },
+        {
+          "icon": "🇭🇷",
+          "text": "Hrvaška"
+        },
+        {
+          "icon": "🌊",
+          "text": "Split"
+        }
+      ],
+      "notice": {
+        "type": "tip",
+        "title": "Dan zgodovine",
+        "text": "Čeprav gre predvsem za potovalni dan, si za Stolac in Narono vzemita dovolj časa. Obe lokaciji sodita med najbolj zanimive zgodovinske postanke na celotnem potovanju."
+      },
+      "cards": [
+        {
+          "icon": "🚗",
+          "label": "Razdalja",
+          "value": "231 km"
+        },
+        {
+          "icon": "🕒",
+          "label": "Vožnja",
+          "value": "3 h 26 min"
+        },
+        {
+          "icon": "🏛️",
+          "label": "Glavna postanka",
+          "value": "Stolac in Narona"
+        },
+        {
+          "icon": "🛏️",
+          "label": "Nočitev",
+          "value": "Split"
+        }
+      ]
+    },
+    "program": [
+      {
+        "type": "departure",
+        "icon": "🚗",
+        "title": "Odhod iz Mostarja",
+        "text": "Po zajtrku zapustita Mostar in se odpravita proti jugu Hercegovine ter hrvaški meji."
+      },
+      {
+        "type": "visit",
         "icon": "🏛️",
-        "label": "Alternativa",
-        "value": "Salona in Klis"
+        "title": "Stolac",
+        "duration": "1–2 uri",
+        "text": "Stolac velja za eno najstarejših neprekinjeno naseljenih mest v Bosni in Hercegovini. Sprehodita se skozi staro mestno jedro, obiščita ostanke srednjeveškega Vidoškega gradu ter se sprehodita ob reki Bregavi, ki mestu daje poseben mediteranski značaj."
       },
       {
         "icon": "💦",
-        "label": "Narava",
-        "value": "NP Krka"
+        "title": "Slapovi Kravica — fakultativno",
+        "duration": "po želji",
+        "type": "optional",
+        "text": "Če bo dovolj časa, lahko po Stocu narediva še ovinek do slapov Kravica na reki Trebižat. Kratek postanek za pogled na slapove, fotografije ali zadnjo osvežitev v Hercegovini pred nadaljevanjem proti meji in Naroni.",
+        "links": [
+          {
+            "url": "https://maps.app.goo.gl/9rJZ7fdF5mZdhPe6A",
+            "label": "Slapovi Kravica · Google Maps",
+            "type": "map",
+            "icon": "📍"
+          }
+        ]
       },
       {
-        "icon": "🛏️",
-        "label": "Nočitev",
-        "value": "Split"
-      }
-    ]
-  },
-
-  "program": [
-    {
-      "type": "activity",
-      "icon": "🗺️",
-      "title": "Vsi predlagani izleti",
-      "text": "Na enem mestu so zbrani vsi enodnevni izleti iz Splita, med katerimi lahko izbereta tistega, ki vama najbolj ustreza.",
-      "link": {
-        "type": "activity",
-        "label": "Odpri stran z izleti",
-        "url": "trips.html"
-      }
-    },
-    {
-      "type": "option",
-      "icon": "🥇",
-      "title": "Trogir in Kaštela",
-      "text": "Najbolj uravnotežen izlet združuje zgodovino, morje in sproščen mediteranski utrip. Sprehodita se po UNESCO starem mestnem jedru Trogirja, obiščita katedralo sv. Lovre, uživajta na obmorski promenadi, nato pa popoldne zaključita s kopanjem v Kaštelih.",
-      "link": {
-        "type": "activity",
-        "label": "Odpri vodič",
-        "url": "templates/guide.html?guide=optional-trogir-kastela"
-      }
-    },
-    {
-      "type": "option",
-      "icon": "🏛️",
-      "title": "Salona in Klis",
-      "text": "Če vaju najbolj navdušuje zgodovina, je to odlična izbira. Salona je bila največje rimsko mesto v Dalmaciji, Klis pa ponuja eno najlepših razglednih točk nad Splitom in okolico.",
-      "link": {
-        "type": "activity",
-        "label": "Odpri vodič",
-        "url": "templates/guide.html?guide=optional-salona-klis"
-      }
-    },
-    {
-      "type": "option",
-      "icon": "💦",
-      "title": "Narodni park Krka",
-      "text": "Dan preživita med slapovi, lesenimi potmi in bujnim zelenjem enega najlepših narodnih parkov na Hrvaškem. Popolna izbira za nekoliko bolj umirjen dan v naravi.",
-      "link": {
-        "type": "activity",
-        "label": "Odpri vodič",
-        "url": "templates/guide.html?guide=optional-krka"
-      }
-    },
-    {
-      "type": "evening",
-      "icon": "🌅",
-      "title": "Zadnji večer v Splitu",
-      "text": "Ne glede na izbrani izlet dan zaključita s sprehodom po Rivi ali večerjo v starem mestnem jedru ter uživajta v zadnjem večeru na dalmatinski obali."
-    }
-  ],
-
-  "stay": {
-    "name": "Split Inn",
-    "text": "Zadnja noč v Splitu.",
-    "url": "host/split.html",
-    "link_label": "Odpri kartico nastanitve"
-  },
-
-  "food": {
-    "breakfast": {
-      "place": "Split",
-      "text": "Zajtrk pred odhodom na izlet."
-    },
-    "lunch": {
-      "place": "Na izletu",
-      "text": "Kosilo prilagodita izbranemu izletu – ob morju v Trogirju, v okolici Salone ali v bližini Narodnega parka Krka."
-    },
-    "dinner": {
-      "place": "Split",
-      "text": "Za zadnji večer v Splitu si privoščita večerjo po priporočilih v kulinaričnem delu Roadbooka.",
-      "links": [
-        {
-          "icon": "🍽️",
-          "label": "Kulinarika v Roadbooku",
-          "url": "food.html"
-        }
-      ]
-    }
-  },
-
-  "practical": [
-    "Vse tri možnosti so primerne kot enodnevni izlet iz Splita.",
-    "Če želita kombinacijo zgodovine, morja in sproščenega vzdušja, priporočava Trogir in Kaštela.",
-    "Za ljubitelje rimske zgodovine je najboljša izbira Salona in Klis.",
-    "V vročih poletnih dneh je Narodni park Krka prijetna izbira zaradi več sence in narave."
-  ],
-
-  "journal": {
-    "enabled": true,
-    "text": ""
-  }
-},
-{
-  "id": "day16",
-  "day": 16,
-  "date": "2026-08-16",
-  "title": "Domov ob Jadranu",
-  "subtitle": "Zadar kot zadnji postanek in zaključek balkanskega roadtripa",
-  "countries": ["HR", "SI"],
-  "hero_image": "../../../images/roadbooks/balkan-2026/days/hero16.jpg",
-
-  "quick_links": {
-    "weather": {
-      "location": "Zadar",
-      "lat": 44.1194,
-      "lon": 15.2314
-    }
-  },
-
-  "summary": {
-    "intro": "Zadnji dan potovanja ponuja dva različna zaključka. Če se želita čim prej vrniti domov, izberita avtocesto. Če pa želita potovanje zaključiti bolj sproščeno, se odpravita po Jadranski magistrali, kjer se ponujajo številni razgledi in še zadnja priložnost za kopanje.",
-
-    "badges": [
-      {
-        "icon": "🌊",
-        "text": "Jadranska obala"
+        "type": "drive",
+        "icon": "🇭🇷",
+        "title": "Prehod meje",
+        "text": "Po odhodu iz Stoca kmalu prečkata mejo med Bosno in Hercegovino ter Hrvaško. Takoj za mejnim prehodom se nahaja naslednji postanek – antična Narona."
       },
       {
-        "icon": "🏛️",
-        "text": "Zadar"
+        "type": "visit",
+        "icon": "🏺",
+        "title": "Arheološki muzej Narona",
+        "duration": "1–1,5 ure",
+        "text": "Narona je bila eno najpomembnejših rimskih mest na vzhodni obali Jadrana. Arheološki muzej je zgrajen neposredno nad ostanki rimskega templja (Augusteuma), kjer je na ogled izjemna zbirka kipov rimskih cesarjev in drugih arheoloških najdb. Gre za enega najpomembnejših muzejev antične dediščine na Hrvaškem.",
+        "links": [
+          {
+            "icon": "🌐",
+            "label": "Informacije in cenik",
+            "url": "https://www.a-m-narona.hr/cjenik/"
+          }
+        ]
       },
       {
+        "type": "drive",
         "icon": "🚗",
-        "text": "Povratek"
-      },
-      {
-        "icon": "🇸🇮",
-        "text": "Domov"
+        "title": "Vožnja proti Splitu",
+        "text": "Iz Narone nadaljujta skozi dolino Neretve proti Splitu, kjer sledi prijava v nastanitev in prvi večerni sprehod po Rivi."
       }
     ],
-
-    "notice": {
-      "type": "tip",
-      "title": "Dva različna zaključka",
-      "text": "Če nista časovno omejena, priporočava vožnjo po Jadranski magistrali. Pot je daljša, vendar precej lepša in ponuja še zadnje razglede na morje."
+    "stay": {
+      "name": "Split Inn",
+      "text": "Prva od treh noči v Splitu.",
+      "url": "host/split.html",
+      "link_label": "Odpri kartico nastanitve"
     },
-
-    "cards": [
-      {
-        "icon": "🚗",
-        "label": "Najhitrejša pot",
-        "value": "5 h 49 min"
+    "food": {
+      "breakfast": {
+        "place": "Mostar",
+        "text": "Zajtrk pred odhodom."
       },
-      {
-        "icon": "🌊",
-        "label": "Magistrala",
-        "value": "6 h 51 min"
+      "lunch": {
+        "place": "Na poti",
+        "text": "Kosilo priporočava med ogledom Stoca ali po obisku Narone, odvisno od poteka dneva."
       },
-      {
-        "icon": "🏛️",
-        "label": "Postanek",
-        "value": "Zadar"
-      },
-      {
-        "icon": "🏁",
-        "label": "Cilj",
-        "value": "Sežana"
+      "dinner": {
+        "place": "Split",
+        "text": "Večer zaključita na splitski Rivi ali po priporočilih v kulinaričnem delu Roadbooka.",
+        "links": [
+          {
+            "icon": "🍽️",
+            "label": "Kulinarika v Roadbooku",
+            "url": "food.html"
+          }
+        ]
       }
-    ]
-  },
-
-  "program": [
-    {
-      "type": "departure",
-      "icon": "🚗",
-      "title": "Odhod iz Splita",
-      "duration": "do 9.00",
-      "text": "Po odjavi iz nastanitve se odpravita proti Zadru. Do tja potrebujeta približno dve uri vožnje."
     },
-    {
-      "type": "activity",
-      "icon": "🏛️",
-      "title": "Zadar Express Walk",
-      "duration": "2–2,5 ure",
-      "text": "Pred odhodom domov se sprehodita po zgodovinskem jedru Zadra. Vodič vključuje devet najpomembnejših postaj, med njimi Rimski forum, cerkev sv. Donata, Morske orgle in Pozdrav Soncu.",
-      "link": {
+    "practical": [
+      "Na meji med Bosno in Hercegovino ter Hrvaško so poleti možni zastoji.",
+      "Za obisk Narone si rezervirajta vsaj eno uro.",
+      "Po prihodu v Split priporočava, da avto pustita parkiran in mesto raziskujeta peš.",
+      "Naslednja dva dneva bosta namenjena predvsem Splitu in okolici."
+    ],
+    "journal": {
+      "enabled": true,
+      "text": ""
+    }
+  },
+  {
+    "id": "day14",
+    "day": 14,
+    "date": "2026-08-14",
+    "title": "Srce Dioklecijanove palače",
+    "subtitle": "Rimski vrhunec potovanja in sproščeno popoldne ob morju",
+    "countries": [
+      "HR"
+    ],
+    "hero_image": "../../../images/roadbooks/balkan-2026/days/hero14.jpg",
+    "quick_links": {
+      "host": "host/split.html",
+      "weather": {
+        "location": "Split",
+        "lat": 43.5081,
+        "lon": 16.4402
+      }
+    },
+    "summary": {
+      "intro": "Današnji dan je namenjen raziskovanju enega najbolje ohranjenih rimskih cesarskih kompleksov na svetu. Dioklecijanova palača je srce Splita že več kot 1700 let in predstavlja enega vrhuncev celotnega potovanja. Po ogledu si privoščita sproščeno popoldne ob morju ali v senci ozkih kamnitih ulic.",
+      "badges": [
+        {
+          "icon": "🏛️",
+          "text": "UNESCO"
+        },
+        {
+          "icon": "🏺",
+          "text": "Dioklecijan"
+        },
+        {
+          "icon": "🌊",
+          "text": "Kopanje"
+        },
+        {
+          "icon": "🚶",
+          "text": "Peš ogled"
+        }
+      ],
+      "notice": {
+        "type": "tip",
+        "title": "Najlepše dopoldne",
+        "text": "Staro mestno jedro si oglejta že dopoldne, ko je manj gneče in prijetnejše temperature. Popoldne namenita morju ali sproščenemu raziskovanju mestnih ulic."
+      },
+      "cards": [
+        {
+          "icon": "🏛️",
+          "label": "Glavna znamenitost",
+          "value": "Dioklecijanova palača"
+        },
+        {
+          "icon": "🚶",
+          "label": "Ogled",
+          "value": "Peš"
+        },
+        {
+          "icon": "🌊",
+          "label": "Popoldne",
+          "value": "Morje ali sprostitev"
+        },
+        {
+          "icon": "🛏️",
+          "label": "Nočitev",
+          "value": "Split"
+        }
+      ]
+    },
+    "program": [
+      {
         "type": "activity",
-        "label": "Odpri vodič po Zadru",
-        "url": "templates/guide.html?guide=zadar-express-walk"
+        "icon": "🏛️",
+        "title": "Dioklecijanova palača",
+        "duration": "2–3 ure",
+        "text": "Po pripravljenem Roadbook vodiču raziščita najpomembnejše dele nekdanje cesarske palače, ki danes tvori zgodovinsko jedro Splita.",
+        "link": {
+          "type": "activity",
+          "label": "Odpri vodič po Splitu",
+          "url": "templates/guide.html?guide=split-diocletian-walk"
+        }
+      },
+      {
+        "type": "highlight",
+        "icon": "🏺",
+        "title": "Podzemni prostori palače",
+        "text": "Najbolje ohranjeni rimski podkletni prostori na svetu omogočajo vpogled v prvotno zasnovo Dioklecijanove rezidence."
+      },
+      {
+        "type": "highlight",
+        "icon": "🏛️",
+        "title": "Peristil",
+        "text": "Osrednji trg palače je bil nekoč prostor cesarskih sprejemov, danes pa predstavlja najbolj prepoznavno razglednico Splita."
+      },
+      {
+        "type": "highlight",
+        "icon": "🪨",
+        "title": "Rimske ulice",
+        "text": "Sprehodita se po ulicah, ki že skoraj dva tisoč let sledijo prvotnemu rimskemu tlorisu palače."
+      },
+      {
+        "type": "highlight",
+        "icon": "⛪",
+        "title": "Katedrala svetega Dujma",
+        "text": "Nekdanji Dioklecijanov mavzolej je danes ena najstarejših katedral na svetu, ki še vedno opravlja svojo prvotno versko funkcijo."
+      },
+      {
+        "type": "option",
+        "icon": "🌊",
+        "title": "Popoldne ob morju",
+        "text": "Po ogledu mesta si privoščita kopanje, sprostitev na plaži ali osvežilno pijačo ob morju."
+      },
+      {
+        "type": "evening",
+        "icon": "🌅",
+        "title": "Večer na Rivi",
+        "text": "Dan zaključita s sprehodom po splitski Rivi, opazovanjem sončnega zahoda in živahnim večernim utripom mesta."
+      }
+    ],
+    "stay": {
+      "name": "Split Inn",
+      "text": "Druga od treh noči v Splitu.",
+      "url": "host/split.html",
+      "link_label": "Odpri kartico nastanitve"
+    },
+    "food": {
+      "breakfast": {
+        "place": "Split",
+        "text": "Zajtrk v nastanitvi ali eni izmed kavarn v starem mestnem jedru."
+      },
+      "lunch": {
+        "place": "Staro mestno jedro",
+        "text": "Kosilo med raziskovanjem palače ali po priporočilih v Roadbooku."
+      },
+      "dinner": {
+        "place": "Split",
+        "text": "Večerjo si privoščita ob Rivi ali v eni izmed konob znotraj Dioklecijanove palače.",
+        "links": [
+          {
+            "icon": "🍽️",
+            "label": "Kulinarika v Roadbooku",
+            "url": "food.html"
+          }
+        ]
       }
     },
-    {
-      "type": "option",
-      "icon": "🌊",
-      "title": "Možnost A – Jadranska magistrala",
-      "text": "Če želita potovanje zaključiti v počasnejšem ritmu, nadaljujta po Jadranski magistrali. Pot ponuja čudovite razglede na morje, številne manjše zalive in še zadnjo priložnost za kopanje. Od Zadra do Sežane je približno 4 ure in 47 minut vožnje."
-    },
-    {
-      "type": "option",
-      "icon": "🛣️",
-      "title": "Možnost B – Avtocesta",
-      "text": "Če se želita čim prej vrniti domov, izberita avtocesto. Od Zadra do Sežane potrebujeta približno 3 ure in 53 minut."
-    },
-    {
-      "type": "highlight",
-      "icon": "🏖️",
-      "title": "Še zadnje kopanje",
-      "text": "Če bo vreme naklonjeno in si bosta želela še zadnjega skoka v morje, si na poti po magistrali vzemita čas za krajši postanek na eni izmed plaž severne Dalmacije ali Kvarnerja."
-    },
-    {
-      "type": "arrival",
-      "icon": "🏁",
-      "title": "Prihod domov",
-      "text": "Po približno dveh tednih raziskovanja Balkana se potovanje zaključi z vrnitvijo v Sežano in obilico novih doživetij."
-    }
-  ],
-
-  "food": {
-    "breakfast": {
-      "place": "Split",
-      "text": "Zajtrk pred odhodom."
-    },
-    "lunch": {
-      "place": "Zadar",
-      "text": "Kosilo med ogledom starega mestnega jedra ali ob zadarski rivi."
-    },
-    "dinner": {
-      "place": "Na poti ali doma",
-      "text": "Odvisno od izbrane poti lahko večerjata ob morju ali po prihodu domov."
+    "practical": [
+      "Večina znamenitosti je dosegljiva peš.",
+      "Za obisk podzemnih prostorov in katedrale preverita odpiralni čas.",
+      "Poleti so temperature v mestu visoke, zato imejta s seboj dovolj vode.",
+      "Popoldansko kopanje je prijetna osvežitev po ogledu mesta."
+    ],
+    "journal": {
+      "enabled": true,
+      "text": ""
     }
   },
-
-  "practical": [
-    "Check-out iz nastanitve je do 9.00.",
-    "Od Splita do Zadra je približno 2 uri in 15 minut vožnje.",
-    "Če izbereta Jadransko magistralo, računajta na počasnejšo vožnjo, vendar precej lepše razglede.",
-    "Poleti so na avtocesti proti Sloveniji možni zastoji, predvsem na mejnih prehodih."
-  ],
-
-  "journal": {
-    "enabled": true,
-    "text": "Kateri trenutek s potovanja si bom najbolj zapomnil? Kaj bi naslednjič naredil drugače in kam bi se najraje še vrnil?"
+  {
+    "id": "day15",
+    "day": 15,
+    "date": "2026-08-15",
+    "title": "Dan po izbiri",
+    "subtitle": "Trije odlični izleti iz Splita – zgodovina, morje ali narava",
+    "countries": [
+      "HR"
+    ],
+    "hero_image": "../../../images/roadbooks/balkan-2026/days/hero15.jpg",
+    "quick_links": {
+      "host": "host/split.html",
+      "weather": {
+        "location": "Split",
+        "lat": 43.5081,
+        "lon": 16.4402
+      }
+    },
+    "summary": {
+      "intro": "Današnji dan je namenjen raziskovanju okolice Splita. Roadbook ponuja tri različne izlete, ki ustrezajo različnim željam – od zgodovinskih mest in rimskih ostalin do slapov Narodnega parka Krka. Izberita tistega, ki vama bo najbolj pisan na kožo.",
+      "badges": [
+        {
+          "icon": "🏛️",
+          "text": "Zgodovina"
+        },
+        {
+          "icon": "🌊",
+          "text": "Morje"
+        },
+        {
+          "icon": "🌿",
+          "text": "Narava"
+        },
+        {
+          "icon": "🚗",
+          "text": "Enodnevni izlet"
+        }
+      ],
+      "notice": {
+        "type": "tip",
+        "title": "Tri odlične možnosti",
+        "text": "Vse tri poti sta preizkušeni in primerni za enodnevni izlet iz Splita. Več podrobnosti najdeta na strani z izleti ali v posameznih vodičih."
+      },
+      "cards": [
+        {
+          "icon": "🥇",
+          "label": "Priporočilo",
+          "value": "Trogir in Kaštela"
+        },
+        {
+          "icon": "🏛️",
+          "label": "Alternativa",
+          "value": "Salona in Klis"
+        },
+        {
+          "icon": "💦",
+          "label": "Narava",
+          "value": "NP Krka"
+        },
+        {
+          "icon": "🛏️",
+          "label": "Nočitev",
+          "value": "Split"
+        }
+      ]
+    },
+    "program": [
+      {
+        "type": "activity",
+        "icon": "🗺️",
+        "title": "Vsi predlagani izleti",
+        "text": "Na enem mestu so zbrani vsi enodnevni izleti iz Splita, med katerimi lahko izbereta tistega, ki vama najbolj ustreza.",
+        "link": {
+          "type": "activity",
+          "label": "Odpri stran z izleti",
+          "url": "trips.html"
+        }
+      },
+      {
+        "type": "option",
+        "icon": "🥇",
+        "title": "Trogir in Kaštela",
+        "text": "Najbolj uravnotežen izlet združuje zgodovino, morje in sproščen mediteranski utrip. Sprehodita se po UNESCO starem mestnem jedru Trogirja, obiščita katedralo sv. Lovre, uživajta na obmorski promenadi, nato pa popoldne zaključita s kopanjem v Kaštelih.",
+        "link": {
+          "type": "activity",
+          "label": "Odpri vodič",
+          "url": "templates/guide.html?guide=optional-trogir-kastela"
+        }
+      },
+      {
+        "type": "option",
+        "icon": "🏛️",
+        "title": "Salona in Klis",
+        "text": "Če vaju najbolj navdušuje zgodovina, je to odlična izbira. Salona je bila največje rimsko mesto v Dalmaciji, Klis pa ponuja eno najlepših razglednih točk nad Splitom in okolico.",
+        "link": {
+          "type": "activity",
+          "label": "Odpri vodič",
+          "url": "templates/guide.html?guide=optional-salona-klis"
+        }
+      },
+      {
+        "type": "option",
+        "icon": "💦",
+        "title": "Narodni park Krka",
+        "text": "Dan preživita med slapovi, lesenimi potmi in bujnim zelenjem enega najlepših narodnih parkov na Hrvaškem. Popolna izbira za nekoliko bolj umirjen dan v naravi.",
+        "link": {
+          "type": "activity",
+          "label": "Odpri vodič",
+          "url": "templates/guide.html?guide=optional-krka"
+        }
+      },
+      {
+        "type": "evening",
+        "icon": "🌅",
+        "title": "Zadnji večer v Splitu",
+        "text": "Ne glede na izbrani izlet dan zaključita s sprehodom po Rivi ali večerjo v starem mestnem jedru ter uživajta v zadnjem večeru na dalmatinski obali."
+      }
+    ],
+    "stay": {
+      "name": "Split Inn",
+      "text": "Zadnja noč v Splitu.",
+      "url": "host/split.html",
+      "link_label": "Odpri kartico nastanitve"
+    },
+    "food": {
+      "breakfast": {
+        "place": "Split",
+        "text": "Zajtrk pred odhodom na izlet."
+      },
+      "lunch": {
+        "place": "Na izletu",
+        "text": "Kosilo prilagodita izbranemu izletu – ob morju v Trogirju, v okolici Salone ali v bližini Narodnega parka Krka."
+      },
+      "dinner": {
+        "place": "Split",
+        "text": "Za zadnji večer v Splitu si privoščita večerjo po priporočilih v kulinaričnem delu Roadbooka.",
+        "links": [
+          {
+            "icon": "🍽️",
+            "label": "Kulinarika v Roadbooku",
+            "url": "food.html"
+          }
+        ]
+      }
+    },
+    "practical": [
+      "Vse tri možnosti so primerne kot enodnevni izlet iz Splita.",
+      "Če želita kombinacijo zgodovine, morja in sproščenega vzdušja, priporočava Trogir in Kaštela.",
+      "Za ljubitelje rimske zgodovine je najboljša izbira Salona in Klis.",
+      "V vročih poletnih dneh je Narodni park Krka prijetna izbira zaradi več sence in narave."
+    ],
+    "journal": {
+      "enabled": true,
+      "text": ""
+    }
+  },
+  {
+    "id": "day16",
+    "day": 16,
+    "date": "2026-08-16",
+    "title": "Domov ob Jadranu",
+    "subtitle": "Zadar kot zadnji postanek in zaključek balkanskega roadtripa",
+    "countries": [
+      "HR",
+      "SI"
+    ],
+    "hero_image": "../../../images/roadbooks/balkan-2026/days/hero16.jpg",
+    "quick_links": {
+      "weather": {
+        "location": "Zadar",
+        "lat": 44.1194,
+        "lon": 15.2314
+      }
+    },
+    "summary": {
+      "intro": "Zadnji dan potovanja ponuja dva različna zaključka. Če se želita čim prej vrniti domov, izberita avtocesto. Če pa želita potovanje zaključiti bolj sproščeno, se odpravita po Jadranski magistrali, kjer se ponujajo številni razgledi in še zadnja priložnost za kopanje.",
+      "badges": [
+        {
+          "icon": "🌊",
+          "text": "Jadranska obala"
+        },
+        {
+          "icon": "🏛️",
+          "text": "Zadar"
+        },
+        {
+          "icon": "🚗",
+          "text": "Povratek"
+        },
+        {
+          "icon": "🇸🇮",
+          "text": "Domov"
+        }
+      ],
+      "notice": {
+        "type": "tip",
+        "title": "Dva različna zaključka",
+        "text": "Če nista časovno omejena, priporočava vožnjo po Jadranski magistrali. Pot je daljša, vendar precej lepša in ponuja še zadnje razglede na morje."
+      },
+      "cards": [
+        {
+          "icon": "🚗",
+          "label": "Najhitrejša pot",
+          "value": "5 h 49 min"
+        },
+        {
+          "icon": "🌊",
+          "label": "Magistrala",
+          "value": "6 h 51 min"
+        },
+        {
+          "icon": "🏛️",
+          "label": "Postanek",
+          "value": "Zadar"
+        },
+        {
+          "icon": "🏁",
+          "label": "Cilj",
+          "value": "Sežana"
+        }
+      ]
+    },
+    "program": [
+      {
+        "type": "departure",
+        "icon": "🚗",
+        "title": "Odhod iz Splita",
+        "duration": "do 9.00",
+        "text": "Po odjavi iz nastanitve se odpravita proti Zadru. Do tja potrebujeta približno dve uri vožnje."
+      },
+      {
+        "type": "activity",
+        "icon": "🏛️",
+        "title": "Zadar Express Walk",
+        "duration": "2–2,5 ure",
+        "text": "Pred odhodom domov se sprehodita po zgodovinskem jedru Zadra. Vodič vključuje devet najpomembnejših postaj, med njimi Rimski forum, cerkev sv. Donata, Morske orgle in Pozdrav Soncu.",
+        "link": {
+          "type": "activity",
+          "label": "Odpri vodič po Zadru",
+          "url": "templates/guide.html?guide=zadar-express-walk"
+        }
+      },
+      {
+        "type": "option",
+        "icon": "🌊",
+        "title": "Možnost A – Jadranska magistrala",
+        "text": "Če želita potovanje zaključiti v počasnejšem ritmu, nadaljujta po Jadranski magistrali. Pot ponuja čudovite razglede na morje, številne manjše zalive in še zadnjo priložnost za kopanje. Od Zadra do Sežane je približno 4 ure in 47 minut vožnje."
+      },
+      {
+        "type": "option",
+        "icon": "🛣️",
+        "title": "Možnost B – Avtocesta",
+        "text": "Če se želita čim prej vrniti domov, izberita avtocesto. Od Zadra do Sežane potrebujeta približno 3 ure in 53 minut."
+      },
+      {
+        "type": "highlight",
+        "icon": "🏖️",
+        "title": "Še zadnje kopanje",
+        "text": "Če bo vreme naklonjeno in si bosta želela še zadnjega skoka v morje, si na poti po magistrali vzemita čas za krajši postanek na eni izmed plaž severne Dalmacije ali Kvarnerja."
+      },
+      {
+        "type": "arrival",
+        "icon": "🏁",
+        "title": "Prihod domov",
+        "text": "Po približno dveh tednih raziskovanja Balkana se potovanje zaključi z vrnitvijo v Sežano in obilico novih doživetij."
+      }
+    ],
+    "food": {
+      "breakfast": {
+        "place": "Split",
+        "text": "Zajtrk pred odhodom."
+      },
+      "lunch": {
+        "place": "Zadar",
+        "text": "Kosilo med ogledom starega mestnega jedra ali ob zadarski rivi."
+      },
+      "dinner": {
+        "place": "Na poti ali doma",
+        "text": "Odvisno od izbrane poti lahko večerjata ob morju ali po prihodu domov."
+      }
+    },
+    "practical": [
+      "Check-out iz nastanitve je do 9.00.",
+      "Od Splita do Zadra je približno 2 uri in 15 minut vožnje.",
+      "Če izbereta Jadransko magistralo, računajta na počasnejšo vožnjo, vendar precej lepše razglede.",
+      "Poleti so na avtocesti proti Sloveniji možni zastoji, predvsem na mejnih prehodih."
+    ],
+    "journal": {
+      "enabled": true,
+      "text": "Kateri trenutek s potovanja si bom najbolj zapomnil? Kaj bi naslednjič naredil drugače in kam bi se najraje še vrnil?"
+    }
   }
-}
-
 ]
-
